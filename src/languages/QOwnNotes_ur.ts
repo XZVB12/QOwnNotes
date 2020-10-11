@@ -67,32 +67,32 @@
       <translation>داخل کرنے کے لیے فائل منتخب کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/attachmentdialog.cpp" line="140"/>
+      <location filename="../dialogs/attachmentdialog.cpp" line="142"/>
       <source>Download error</source>
       <translation>ڈاؤن لوڈ میں خرابی۔</translation>
     </message>
     <message>
-      <location filename="../dialogs/attachmentdialog.cpp" line="141"/>
+      <location filename="../dialogs/attachmentdialog.cpp" line="143"/>
       <source>Error while downloading:
 %1</source>
       <translation>ڈاؤن لوڈ کرتے وقت خامی:
 1%</translation>
     </message>
     <message>
-      <location filename="../dialogs/attachmentdialog.cpp" line="169"/>
-      <location filename="../dialogs/attachmentdialog.cpp" line="193"/>
+      <location filename="../dialogs/attachmentdialog.cpp" line="171"/>
+      <location filename="../dialogs/attachmentdialog.cpp" line="195"/>
       <source>File error</source>
       <translation>فائل کی خرابی۔</translation>
     </message>
     <message>
-      <location filename="../dialogs/attachmentdialog.cpp" line="170"/>
+      <location filename="../dialogs/attachmentdialog.cpp" line="172"/>
       <source>Could not open temporary file:
 %1</source>
       <translation>عارضی فائل نہیں کھول سکا:
 1%</translation>
     </message>
     <message>
-      <location filename="../dialogs/attachmentdialog.cpp" line="194"/>
+      <location filename="../dialogs/attachmentdialog.cpp" line="196"/>
       <source>Could not store downloaded file:
 %1</source>
       <translation>ڈاؤن لوڈ فائل کو محفوظ نہیں کیا جاسکا۔
@@ -678,32 +678,32 @@
       <translation>زولو</translation>
     </message>
     <message>
-      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="292"/>
+      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="294"/>
       <source>Download error</source>
       <translation>ڈاؤن لوڈ میں خرابی۔</translation>
     </message>
     <message>
-      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="293"/>
+      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="295"/>
       <source>Error while downloading:
 %1</source>
       <translation>ڈاؤن لوڈ کرتے وقت خامی:
 1%</translation>
     </message>
     <message>
-      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="309"/>
-      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="421"/>
+      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="311"/>
+      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="423"/>
       <source>File error</source>
       <translation>فائل کی خرابی</translation>
     </message>
     <message>
-      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="310"/>
+      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="312"/>
       <source>Could not store downloaded file:
 %1</source>
       <translation>ڈاؤن لوڈ فائل کو محفوظ نہیں کیا جاسکا۔
 1%</translation>
     </message>
     <message>
-      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="422"/>
+      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="424"/>
       <source>Could not remove dictionary file:
 %1</source>
       <translation>لغت کی فائل کو نہیں ہٹایا جاسکا:
@@ -1778,7 +1778,7 @@
     <message>
       <location filename="../mainwindow.ui" line="411"/>
       <location filename="../mainwindow.ui" line="911"/>
-      <location filename="../mainwindow.cpp" line="804"/>
+      <location filename="../mainwindow.cpp" line="821"/>
       <source>Navigation</source>
       <translation>نیویگینش</translation>
     </message>
@@ -1789,7 +1789,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="696"/>
-      <location filename="../mainwindow.cpp" line="8687"/>
+      <location filename="../mainwindow.cpp" line="8727"/>
       <source>Add a tag to the current note</source>
       <translation>موجودہ نوٹ میں ایک ٹیگ شامل کریں۔</translation>
     </message>
@@ -1825,7 +1825,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1238"/>
-      <location filename="../mainwindow.cpp" line="6669"/>
+      <location filename="../mainwindow.cpp" line="6694"/>
       <source>Custom actions</source>
       <translation>اختیاری اعمال</translation>
     </message>
@@ -1906,13 +1906,13 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1445"/>
-      <location filename="../mainwindow.cpp" line="10381"/>
+      <location filename="../mainwindow.cpp" line="10427"/>
       <source>Select &amp;all notes</source>
       <translation>&amp;تمام نوٹس منتخب کریں</translation>
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1454"/>
-      <location filename="../mainwindow.cpp" line="6580"/>
+      <location filename="../mainwindow.cpp" line="6605"/>
       <source>Insert &amp;link</source>
       <translation>&amp;لنک داخل کریں</translation>
     </message>
@@ -1967,7 +1967,7 @@
       <translation>نوٹ تلاش یا تخلیق کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8688"/>
+      <location filename="../mainwindow.cpp" line="8728"/>
       <source>Add a tag to the selected notes</source>
       <translation>منتخب کردہ نوٹ میں ٹیگ شامل کریں۔</translation>
     </message>
@@ -1978,7 +1978,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="886"/>
-      <location filename="../mainwindow.cpp" line="6631"/>
+      <location filename="../mainwindow.cpp" line="6656"/>
       <source>Export</source>
       <translation>برآمد کرنا</translation>
     </message>
@@ -1989,7 +1989,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="928"/>
-      <location filename="../mainwindow.cpp" line="6612"/>
+      <location filename="../mainwindow.cpp" line="6637"/>
       <source>Print</source>
       <translation>پرنٹ</translation>
     </message>
@@ -2060,7 +2060,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1159"/>
-      <location filename="../mainwindow.cpp" line="732"/>
+      <location filename="../mainwindow.cpp" line="749"/>
       <source>Workspaces</source>
       <translation>ورک سپیس</translation>
     </message>
@@ -2212,16 +2212,6 @@
       <translation>&amp;کوڈ بلاک داخل کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.ui" line="1704"/>
-      <source>Next note</source>
-      <translation>اگلا نوٹ</translation>
-    </message>
-    <message>
-      <location filename="../mainwindow.ui" line="1716"/>
-      <source>Previous note</source>
-      <translation>پچھلا نوٹ</translation>
-    </message>
-    <message>
       <location filename="../mainwindow.ui" line="1728"/>
       <source>&amp;Distraction free mode</source>
       <translation>&amp;توجہ ہٹانے سے آزاد موڈ</translation>
@@ -2362,7 +2352,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2244"/>
-      <location filename="../mainwindow.cpp" line="11496"/>
+      <location filename="../mainwindow.cpp" line="11542"/>
       <source>Remove current workspace</source>
       <translation>موجودہ ورک سپیس ہٹا دیں</translation>
     </message>
@@ -2404,7 +2394,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2318"/>
-      <location filename="../mainwindow.cpp" line="6589"/>
+      <location filename="../mainwindow.cpp" line="6614"/>
       <source>Insert block &amp;quote</source>
       <translation>بلاک &amp;کوٹ داخل کریں</translation>
     </message>
@@ -2431,7 +2421,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2365"/>
-      <location filename="../mainwindow.cpp" line="10357"/>
+      <location filename="../mainwindow.cpp" line="10403"/>
       <source>Open note in different window</source>
       <translation>نوٹ کو مختلف ونڈو میں کھولیں</translation>
     </message>
@@ -2452,7 +2442,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2405"/>
-      <location filename="../mainwindow.cpp" line="10365"/>
+      <location filename="../mainwindow.cpp" line="10411"/>
       <source>Show note git versions</source>
       <translation>نوٹ کا گٹ ورژن دکھائیں</translation>
     </message>
@@ -2535,7 +2525,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2567"/>
-      <location filename="../mainwindow.cpp" line="12423"/>
+      <location filename="../mainwindow.cpp" line="12466"/>
       <source>Automatically detect</source>
       <translation>خود بخود پتہ لگائیں</translation>
     </message>
@@ -2659,6 +2649,16 @@
       <translation>&amp;پرنٹ نوٹ (پیش نظر)</translation>
     </message>
     <message>
+      <location filename="../mainwindow.ui" line="1704"/>
+      <source>Move down in note list</source>
+      <translation type="unfinished">Move down in note list</translation>
+    </message>
+    <message>
+      <location filename="../mainwindow.ui" line="1716"/>
+      <source>Move up in note list</source>
+      <translation type="unfinished">Move up in note list</translation>
+    </message>
+    <message>
       <location filename="../mainwindow.ui" line="2002"/>
       <source>Insert headline from note filename</source>
       <translation>نوٹ فائل نام سے شہ سرخی داخل کریں</translation>
@@ -2720,22 +2720,22 @@
       <translation>Evernote سے نوٹس درآمد کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2845"/>
+      <location filename="../mainwindow.cpp" line="2862"/>
       <source>Note was removed externally!</source>
       <translation>نوٹ کو بیرونی طور پر ہٹا دیا گیا تھا!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2846"/>
+      <location filename="../mainwindow.cpp" line="2863"/>
       <source>Current note was removed outside of this application!
 Restore current note?</source>
       <translation>موجودہ نوٹ اس اپلیکیشن کے باہر سے مٹایا گیا تھا!
 موجودہ نوٹ بحال کریں؟</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5441"/>
-      <location filename="../mainwindow.cpp" line="5464"/>
-      <location filename="../mainwindow.cpp" line="7074"/>
-      <location filename="../mainwindow.cpp" line="10447"/>
+      <location filename="../mainwindow.cpp" line="5460"/>
+      <location filename="../mainwindow.cpp" line="5483"/>
+      <location filename="../mainwindow.cpp" line="7099"/>
+      <location filename="../mainwindow.cpp" line="10493"/>
       <source>&amp;Cancel</source>
       <translation>&amp;منسوخ کریں</translation>
     </message>
@@ -2747,47 +2747,47 @@ Restore current note?</source>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3082"/>
+      <location filename="../mainwindow.cpp" line="3099"/>
       <source>new version %1 available</source>
       <translation>نیا ورژن %1 دستیاب ہے</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3199"/>
+      <location filename="../mainwindow.cpp" line="3216"/>
       <source>Abort</source>
       <translation>منسوخ کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3199"/>
+      <location filename="../mainwindow.cpp" line="3216"/>
       <source>Loading notes…</source>
       <translation>نوٹ لوڈ ہو رہا ہے…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3413"/>
+      <location filename="../mainwindow.cpp" line="3430"/>
       <source>Removed duplicate conflicted database: %1</source>
       <translation>متلعل متضاد ڈیٹا بیس کو ہٹا دیا گیا: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3414"/>
+      <location filename="../mainwindow.cpp" line="3431"/>
       <source>Could not remove duplicate conflicted database: %1</source>
       <translation>ضم شدہ متضاد ڈیٹا بیس کو نہیں ہٹا سکا: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3420"/>
+      <location filename="../mainwindow.cpp" line="3437"/>
       <source>Removed merged conflicted database: %1</source>
       <translation>ضم شدہ متضاد ڈیٹا بیس کو ہٹا دیا گیا: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3421"/>
+      <location filename="../mainwindow.cpp" line="3438"/>
       <source>Could not remove merged conflicted database: %1</source>
       <translation>ضم شدہ متضاد ڈیٹا بیس کو نہیں ہٹا سکا: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3436"/>
+      <location filename="../mainwindow.cpp" line="3453"/>
       <source>Delete conflicted database copies</source>
       <translation>متضاد ڈیٹا بیس کاپیاں حذف کریں۔</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="3459"/>
+      <location filename="../mainwindow.cpp" line="3476"/>
       <source>Removed %n conflicted database copies</source>
       <translation>
         <numerusform>%n متنازعہ ڈیٹا بیس کاپی کو ہٹا دیا گیا</numerusform>
@@ -2795,62 +2795,62 @@ Restore current note?</source>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3623"/>
+      <location filename="../mainwindow.cpp" line="3640"/>
       <source>Please select the folder where your notes will get stored</source>
       <translation>برائے مہربانی وہ فولڈر منتخب کریں جہاں پہ آپکے نوٹس محفوظ ہوں گے</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3649"/>
+      <location filename="../mainwindow.cpp" line="3666"/>
       <source>No folder was selected</source>
       <translation>کوئی بھی فولڈر منتخب نہیں کیا گیا تھا</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3651"/>
+      <location filename="../mainwindow.cpp" line="3668"/>
       <source>You have to select your ownCloud notes folder to make this software work!</source>
       <translation>آپ کواس سافٹ ویئرکو کام میں لانے کے لۓ اپنے ownCloud نوٹس فولڈر کو منتخب کرنا ہوگا!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3653"/>
+      <location filename="../mainwindow.cpp" line="3670"/>
       <source>&amp;Retry</source>
       <translation>&amp;دوبار کوشش</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3653"/>
+      <location filename="../mainwindow.cpp" line="3670"/>
       <source>&amp;Exit</source>
       <translation>&amp;باہر نکلیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3961"/>
+      <location filename="../mainwindow.cpp" line="3978"/>
       <source>Remove current note</source>
       <translation>موجودہ نوٹ ہٹائیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3962"/>
+      <location filename="../mainwindow.cpp" line="3979"/>
       <source>Remove current note: &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>موجودہ نوٹ ہٹائیں &lt;strong&gt;%1&lt;/strong&gt;؟</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4319"/>
+      <location filename="../mainwindow.cpp" line="4338"/>
       <source>Please enter the &lt;strong&gt;password&lt;/strong&gt; of this encrypted note.</source>
       <translation>برائے مہربانی اس خفیہ نوٹ کا &lt;strong&gt;پاسورڈ&lt;/strong&gt; داخل کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4342"/>
+      <location filename="../mainwindow.cpp" line="4361"/>
       <source>Note can't be decrypted!</source>
       <translation>خفیہ نوٹ کو اصل حالت میں نہیں لایا جا سکتا!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4343"/>
+      <location filename="../mainwindow.cpp" line="4362"/>
       <source>It seems that your password is not valid!</source>
       <translation>ایسا لگتا ہے کہ آپ کا پاسورڈ ٹھیک نہیں ہے!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4511"/>
+      <location filename="../mainwindow.cpp" line="4530"/>
       <source>Remove selected notes</source>
       <translation>منتخب کردہ نوٹس کو ہٹا دیں</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4513"/>
+      <location filename="../mainwindow.cpp" line="4532"/>
       <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected note(s)?
 
 If the trash is enabled on your ownCloud server you should be able to restore them from there.</source>
@@ -2862,13 +2862,13 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4601"/>
-      <location filename="../mainwindow.cpp" line="10664"/>
+      <location filename="../mainwindow.cpp" line="4620"/>
+      <location filename="../mainwindow.cpp" line="10710"/>
       <source>Remove selected folders</source>
       <translation>منتخب کردہ نوٹس ہٹا دیں</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4602"/>
+      <location filename="../mainwindow.cpp" line="4621"/>
       <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected folder(s)?&lt;ul&gt;&lt;li&gt;%1&lt;/li&gt;&lt;/ul&gt;All files and folders in these folders will be removed as well!</source>
       <translation>
         <numerusform>منتخب کردہ &lt;strong&gt;%n&lt;/strong&gt; فولڈر(ز) ہٹا دیں؟&lt;ul&gt;&lt;li&gt;%1&lt;/li&gt;&lt;/ul&gt;اسی طرح ان فولڈرز میں موجود تمام فائلیں اور فولڈرز بھی ہٹا دیے جائیں گے!</numerusform>
@@ -2876,17 +2876,17 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4613"/>
+      <location filename="../mainwindow.cpp" line="4632"/>
       <source>Removed note subfolder: %1</source>
       <translation>ہٹا دیا گیا نوٹ ذیلی فولڈر: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4633"/>
+      <location filename="../mainwindow.cpp" line="4652"/>
       <source>Remove selected tags</source>
       <translation>منتخب ٹیگز کو ہٹا دیں۔</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4634"/>
+      <location filename="../mainwindow.cpp" line="4653"/>
       <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected tag(s)? No notes will be removed in this process.</source>
       <translation>
         <numerusform>&lt;strong&gt;%n&lt;/strong&gt;منتخب کردہ ٹیگ کو ہٹا دیں؟ اس عمل میں کوئی نوٹ نہیں ہٹایا جائے گا۔.</numerusform>
@@ -2894,13 +2894,13 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4686"/>
-      <location filename="../mainwindow.cpp" line="9473"/>
+      <location filename="../mainwindow.cpp" line="4705"/>
+      <location filename="../mainwindow.cpp" line="9513"/>
       <source>Move selected notes</source>
       <translation>منتخب کردہ نوٹ منتقل کریں۔</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4687"/>
+      <location filename="../mainwindow.cpp" line="4706"/>
       <source>Move %n selected note(s) to &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>%n منتخب کردہ نوٹ کو منتقل کریں &lt;strong&gt;%2&lt;/strong&gt;?</numerusform>
@@ -2908,13 +2908,13 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4790"/>
-      <location filename="../mainwindow.cpp" line="9581"/>
+      <location filename="../mainwindow.cpp" line="4809"/>
+      <location filename="../mainwindow.cpp" line="9622"/>
       <source>Copy selected notes</source>
       <translation>منتخب کردہ نوٹ کاپی کریں۔</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4791"/>
+      <location filename="../mainwindow.cpp" line="4810"/>
       <source>Copy %n selected note(s) to &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>منتخب کردہ %n نوٹ کو کاپی کریں &lt;strong&gt;%2&lt;/strong&gt;?</numerusform>
@@ -2922,13 +2922,13 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4821"/>
-      <location filename="../mainwindow.cpp" line="4970"/>
+      <location filename="../mainwindow.cpp" line="4840"/>
+      <location filename="../mainwindow.cpp" line="4989"/>
       <source>Done</source>
       <translation>ہو گیا</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4822"/>
+      <location filename="../mainwindow.cpp" line="4841"/>
       <source>%n note(s) were copied to &lt;strong&gt;%2&lt;/strong&gt;.</source>
       <translation>
         <numerusform>%n نوٹ کو &lt;strong&gt;%2&lt;/strong&gt; پر کاپی کیا گیا تھا۔.</numerusform>
@@ -2936,12 +2936,12 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4835"/>
+      <location filename="../mainwindow.cpp" line="4854"/>
       <source>Tag selected notes</source>
       <translation>منتخب کردہ نوٹوں کو ٹیگ کریں۔</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4836"/>
+      <location filename="../mainwindow.cpp" line="4855"/>
       <source>Tag %n selected note(s) with &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>%n منتخب نوٹ کو&lt;strong&gt;%2&lt;/strong&gt; کے ساتھ ٹیگ کریں?</numerusform>
@@ -2949,37 +2949,37 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5109"/>
+      <location filename="../mainwindow.cpp" line="5128"/>
       <source>Restart application</source>
       <translation>درخواست دوبارہ شروع کریں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5115"/>
+      <location filename="../mainwindow.cpp" line="5134"/>
       <source>You may need to restart the application manually to let the changes take effect.</source>
       <translation>آپ کو تبدیلیاں لاگو ہونے کے لئے درخواست دستی طور پر دوبارہ شروع کرنے کی ضرورت پڑسکتی ہے۔.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5120"/>
+      <location filename="../mainwindow.cpp" line="5139"/>
       <source>You may need to restart the application to let the changes take effect.</source>
       <translation>تبدیلیوں کو اثر انداز ہونے دینے کے لئے آپ کو ایپلی کیشن کو دوبارہ شروع کرنے کی ضرورت پڑسکتی ہے۔.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5122"/>
+      <location filename="../mainwindow.cpp" line="5141"/>
       <source>Restart</source>
       <translation>دوبارہ شروع کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5353"/>
+      <location filename="../mainwindow.cpp" line="5372"/>
       <source>PDF files</source>
       <translation>پی ڈی ایف فائلیں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5437"/>
+      <location filename="../mainwindow.cpp" line="5456"/>
       <source>Todo lists disabled!</source>
       <translation>ٹوڈو کی فہرستیں غیر فعال!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5438"/>
+      <location filename="../mainwindow.cpp" line="5457"/>
       <source>You have disabled the todo lists.&lt;br /&gt;Please check your &lt;strong&gt;Todo&lt;/strong&gt; configuration in the settings!</source>
       <translation>آپ نے ٹوڈو فہرستوں کو غیر فعال کردیا ہے۔
 &lt;br /&gt;
@@ -2988,7 +2988,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
 ترتیبات میں ترتیب!</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="5681"/>
+      <location filename="../mainwindow.cpp" line="5705"/>
       <source>Found &lt;strong&gt;%n&lt;/strong&gt; occurrence(s) of any term of &lt;strong&gt;%1&lt;/strong&gt;</source>
       <translation>
         <numerusform>&lt;strong&gt;%1&lt;/strong&gt; کی کسی بھی اصطلاح کی &lt;strong&gt;%n&lt;/strong&gt; موجودگی ملی</numerusform>
@@ -2996,101 +2996,101 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6229"/>
+      <location filename="../mainwindow.cpp" line="6254"/>
       <source>Note was not found</source>
       <translation>نوٹ نہیں ملا۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6230"/>
+      <location filename="../mainwindow.cpp" line="6255"/>
       <source>Note was not found, create new note &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>نوٹ نہیں ملا ، نیا نوٹ &lt;strong&gt;%1&lt;/strong&gt; بنائیں?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6393"/>
+      <location filename="../mainwindow.cpp" line="6418"/>
       <source>Note folders</source>
       <translation>نوٹ فولڈرز</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6516"/>
+      <location filename="../mainwindow.cpp" line="6541"/>
       <source>Note versions are currently loaded from your ownCloud server</source>
       <translation>نوٹ ورژن فی الحال آپ کے اپنے کلاؤڈ سرور سے بھری ہوئی ہیں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6533"/>
+      <location filename="../mainwindow.cpp" line="6558"/>
       <source>Trashed notes are currently loaded from your ownCloud server</source>
       <translation>کوڑے دان کے نوٹ فی الحال آپ کے اپنے کلاؤڈ سرور سے بھری ہوئی ہیں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6599"/>
+      <location filename="../mainwindow.cpp" line="6624"/>
       <source>Copy code block</source>
       <translation>کوڈ بلاک کاپی کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6620"/>
+      <location filename="../mainwindow.cpp" line="6645"/>
       <source>Print selected text</source>
       <translation>منتخب کردہ متن پرنٹ کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6626"/>
+      <location filename="../mainwindow.cpp" line="6651"/>
       <source>Print selected text (preview)</source>
       <translation>منتخب کردہ متن پرنٹ کریں (پیش نظارہ)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6644"/>
+      <location filename="../mainwindow.cpp" line="6669"/>
       <source>Export selected text as PDF</source>
       <translation>منتخب متن کو بطور پی ڈی ایف برآمد کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6650"/>
+      <location filename="../mainwindow.cpp" line="6675"/>
       <source>Export selected text as PDF (preview)</source>
       <translation>منتخب متن کو بطور پی ڈی ایف برآمد کریں (پیش نظارہ)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7070"/>
+      <location filename="../mainwindow.cpp" line="7095"/>
       <source>Your note will be decrypted and stored as plain text again. Keep in mind that the unencrypted note will possibly be synced to your server and sensitive text may be exposed!&lt;br /&gt;Do you want to decrypt your note?</source>
       <translation>آپ کا نوٹ ڈکرپٹ ہوجائے گا اور دوبارہ سادہ متن کے طور پر اسٹور کیا جائے گا۔ یہ ذہن میں رکھیں کہ بغیر خفیہ کردہ نوٹ کو ممکنہ طور پر آپ کے سرور کے ساتھ ہم آہنگ کیا جائے گا اور حساس متن کو بے نقاب کیا جاسکتا ہے!
 &lt;br /&gt;
 کیا آپ اپنا نوٹ ڈکرائیٹ کرنا چاہتے ہیں؟</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7167"/>
+      <location filename="../mainwindow.cpp" line="7192"/>
       <source>Markdown files</source>
       <translation>مارک ڈاون فائلیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7223"/>
+      <location filename="../mainwindow.cpp" line="7247"/>
       <source>Bookmarked note position at slot %1</source>
       <translation>سلاٹ ٪1 پر بک مارک نوٹ پوزیشن</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7238"/>
+      <location filename="../mainwindow.cpp" line="7262"/>
       <source>Jumped to bookmark position at slot %1</source>
       <translation>سلاٹ ٪1 پر بک مارک پوزیشن پر گئے</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7466"/>
-      <location filename="../mainwindow.cpp" line="7535"/>
+      <location filename="../mainwindow.cpp" line="7490"/>
+      <location filename="../mainwindow.cpp" line="7559"/>
       <source>Inserting image</source>
       <translation>تصویر داخل کرنا</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7471"/>
-      <location filename="../mainwindow.cpp" line="7539"/>
+      <location filename="../mainwindow.cpp" line="7495"/>
+      <location filename="../mainwindow.cpp" line="7563"/>
       <source>Done inserting image</source>
       <translation>تصویر ڈالنے کا کام مکمل ہوگیا۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7473"/>
+      <location filename="../mainwindow.cpp" line="7497"/>
       <source>Inserting attachment</source>
       <translation>لگاؤ ڈالنا۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7478"/>
+      <location filename="../mainwindow.cpp" line="7502"/>
       <source>Done inserting attachment</source>
       <translation>لگاؤ ڈالنے کا کام ہوگیا۔</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="7490"/>
+      <location filename="../mainwindow.cpp" line="7514"/>
       <source>Copied %n note(s) to %1</source>
       <translation>
         <numerusform>%n نوٹ کو %1 میں کاپی کیا</numerusform>
@@ -3098,7 +3098,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="7499"/>
+      <location filename="../mainwindow.cpp" line="7523"/>
       <source>Failed to copy %n note(s) (most likely already existing)</source>
       <translation>
         <numerusform>%n نوٹ کی کاپی کرنے میں ناکام (شاید پہلے ہی موجود ہے)</numerusform>
@@ -3106,7 +3106,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="7509"/>
+      <location filename="../mainwindow.cpp" line="7533"/>
       <source>Skipped copying of %n note(s) (no markdown or text file or not readable)</source>
       <translation>
         <numerusform>%n نوٹ کی کاپی چھوڑ دی گئی (کوئی مارک ڈاون یا ٹیکسٹ فائل یا پڑھنے کے قابل نہیں)</numerusform>
@@ -3114,226 +3114,226 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7522"/>
+      <location filename="../mainwindow.cpp" line="7546"/>
       <source>Saving temporary image</source>
       <translation>عارضی تصویر کی بچت۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7541"/>
+      <location filename="../mainwindow.cpp" line="7565"/>
       <source>Temporary file can't be opened</source>
       <translation>عارضی فائل نہیں کھولی جاسکتی ہے۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7584"/>
+      <location filename="../mainwindow.cpp" line="7608"/>
       <source>Downloading %1</source>
       <translation>ڈاؤن لوڈ ہو رہا ہے ٪1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7774"/>
+      <location filename="../mainwindow.cpp" line="7798"/>
       <source>Reset font size to %1 pt</source>
       <comment>Will be shown after the font size is reset by 'Reset note text size'</comment>
       <translation>فونٹ کا سائز ٪1 pt پر دوبارہ ترتیب دیں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8733"/>
+      <location filename="../mainwindow.cpp" line="8773"/>
       <source>Remove tag '%1' from the current note</source>
       <translation>موجودہ نوٹ سے '٪1' ٹیگ کو ہٹا دیں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8734"/>
+      <location filename="../mainwindow.cpp" line="8774"/>
       <source>Remove tag '%1' from the selected notes</source>
       <translation>منتخب کردہ نوٹوں سے '٪1' ٹیگ کو ہٹا دیں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8965"/>
+      <location filename="../mainwindow.cpp" line="9005"/>
       <source>Rename tag</source>
       <translation>ٹیگ کا نام تبدیل کریں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8966"/>
+      <location filename="../mainwindow.cpp" line="9006"/>
       <source>Assign color</source>
       <translation>رنگ تفویض کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8967"/>
+      <location filename="../mainwindow.cpp" line="9007"/>
       <source>Disable color</source>
       <translation>رنگ غیر فعال کریں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8971"/>
+      <location filename="../mainwindow.cpp" line="9011"/>
       <source>&amp;Move tags to…</source>
       <translation>&amp;ٹیگز کو اس میں منتقل کریں…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9182"/>
+      <location filename="../mainwindow.cpp" line="9222"/>
       <source>Move to the root</source>
       <comment>to move a tag to the current tag in the tag context menu</comment>
       <translation>جڑ میں منتقل کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9747"/>
+      <location filename="../mainwindow.cpp" line="9789"/>
       <source>An url was opened at the current cursor position</source>
       <translation>یوزر کو موجودہ کرسر پوزیشن پر کھولا گیا تھا۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9851"/>
+      <location filename="../mainwindow.cpp" line="9892"/>
       <source>No equation was found in front of the cursor</source>
       <translation>کرسر کے سامنے کوئی مساوات نہیں ملی۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9868"/>
+      <location filename="../mainwindow.cpp" line="9912"/>
       <source>Result for equation: %1 = %2</source>
       <translation>مساوات کا نتیجہ: ٪1 =٪2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9973"/>
+      <location filename="../mainwindow.cpp" line="10017"/>
       <source>The scripting engine was reloaded</source>
       <translation>اسکرپٹنگ انجن دوبارہ لوڈ ہوا</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10007"/>
+      <location filename="../mainwindow.cpp" line="10051"/>
       <source>HTML files</source>
       <translation>HTML فائلیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10293"/>
+      <location filename="../mainwindow.cpp" line="10339"/>
       <source>Jump to the note's subfolder</source>
       <translation>نوٹ کے سب فولڈر پر جائیں
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10350"/>
+      <location filename="../mainwindow.cpp" line="10396"/>
       <source>Open note in tab</source>
       <translation>ٹیب میں نوٹ کھولیں
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12016"/>
+      <location filename="../mainwindow.cpp" line="12059"/>
       <source>A script update was found!</source>
       <translation>اسکرپٹ اپ ڈیٹ مل گیا!
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12022"/>
+      <location filename="../mainwindow.cpp" line="12065"/>
       <source>Script updates</source>
       <translation>اسکرپٹ اپ ڈیٹ
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12023"/>
+      <location filename="../mainwindow.cpp" line="12066"/>
       <source>Updates to your scripts were found in the script repository! Do you want to update them?</source>
       <translation>آپ کے اسکرپٹ میں تازہ کارییں اسکرپٹ اسٹوریج میں پائی گئیں! کیا آپ ان کو اپ ڈیٹ کرنا چاہتے ہیں؟
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12038"/>
+      <location filename="../mainwindow.cpp" line="12081"/>
       <source>No script updates were found</source>
       <translation>کوئی اسکرپٹ اپ ڈیٹ نہیں ملا
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12654"/>
+      <location filename="../mainwindow.cpp" line="12697"/>
       <source>Toggle note stickiness</source>
       <translation>نوٹ اسٹیکنی ٹوگل کریں
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12660"/>
+      <location filename="../mainwindow.cpp" line="12703"/>
       <source>Close other note tabs</source>
       <translation>نوٹ کے دیگر ٹیبز کو بند کریں
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10237"/>
-      <location filename="../mainwindow.cpp" line="10431"/>
+      <location filename="../mainwindow.cpp" line="10283"/>
+      <location filename="../mainwindow.cpp" line="10477"/>
       <source>Rename note</source>
       <translation>نوٹ کا نام تبدیل کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10239"/>
+      <location filename="../mainwindow.cpp" line="10285"/>
       <source>Allows you to rename the filename of the note</source>
       <translation>آپ کو نوٹ کا فائل نام تبدیل کرنے کی اجازت دیتا ہے</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10253"/>
+      <location filename="../mainwindow.cpp" line="10299"/>
       <source>&amp;Move notes to…</source>
       <translation>&amp;نوٹ کو اس میں منتقل کریں…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10254"/>
+      <location filename="../mainwindow.cpp" line="10300"/>
       <source>&amp;Copy notes to…</source>
       <translation>&amp;نوٹ کو کاپی کریں…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10297"/>
+      <location filename="../mainwindow.cpp" line="10343"/>
       <source>Move notes to subfolder…</source>
       <translation>نوٹوں کو سب فولڈر میں منتقل کریں…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10301"/>
+      <location filename="../mainwindow.cpp" line="10347"/>
       <source>Copy notes to subfolder…</source>
       <translation>نوٹوں کو سب فولڈر میں کاپی کریں…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10309"/>
+      <location filename="../mainwindow.cpp" line="10355"/>
       <source>&amp;Tag selected notes with…</source>
       <translation>&amp;منتخب کردہ نوٹوں کے ساتھ ٹیگ کریں…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10333"/>
+      <location filename="../mainwindow.cpp" line="10379"/>
       <source>&amp;Remove tag from selected notes…</source>
       <translation>&amp;منتخب کردہ نوٹوں سے ٹیگ کو ہٹا دیں…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10431"/>
+      <location filename="../mainwindow.cpp" line="10477"/>
       <source>Name:</source>
       <translation>نام:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10443"/>
+      <location filename="../mainwindow.cpp" line="10489"/>
       <source>Note renaming not enabled!</source>
       <translation>نوٹ کا نام تبدیل کرنا اہل نہیں ہے!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10663"/>
+      <location filename="../mainwindow.cpp" line="10709"/>
       <source>Rename subfolder</source>
       <translation>سب فولڈر کو نیا نام دیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11267"/>
+      <location filename="../mainwindow.cpp" line="11313"/>
       <source>Create new workspace</source>
       <translation>نئی ورک سپیس بنائیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11268"/>
-      <location filename="../mainwindow.cpp" line="11538"/>
+      <location filename="../mainwindow.cpp" line="11314"/>
+      <location filename="../mainwindow.cpp" line="11584"/>
       <source>Workspace name:</source>
       <translation>ورک سپیس کا نام:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11393"/>
+      <location filename="../mainwindow.cpp" line="11439"/>
       <source>full</source>
       <comment>full workspace</comment>
       <translation>مکمل</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11400"/>
+      <location filename="../mainwindow.cpp" line="11446"/>
       <source>minimal</source>
       <comment>minimal workspace</comment>
       <translation>کم سے کم</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11497"/>
+      <location filename="../mainwindow.cpp" line="11543"/>
       <source>Remove the current workspace?</source>
       <translation>موجودہ ورک سپیس ہٹا دیں؟</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11537"/>
+      <location filename="../mainwindow.cpp" line="11583"/>
       <source>Rename workspace</source>
       <translation>ورک سپیس کو دوبارہ نام دیں</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="11683"/>
+      <location filename="../mainwindow.cpp" line="11729"/>
       <source>%n chars</source>
       <comment>characters</comment>
       <translation>
@@ -3342,42 +3342,42 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11955"/>
+      <location filename="../mainwindow.cpp" line="11998"/>
       <source>Disallow all note editing</source>
       <translation>تمام نوٹ ترمیم کی اجازت نہ دیں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12171"/>
+      <location filename="../mainwindow.cpp" line="12214"/>
       <source>Select text files to import</source>
       <translation>درآمد کرنے کے لئے ٹیکسٹ فائلوں کو منتخب کریں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12201"/>
+      <location filename="../mainwindow.cpp" line="12244"/>
       <source>Importing: %1</source>
       <translation>درآمد: ٪1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12266"/>
+      <location filename="../mainwindow.cpp" line="12309"/>
       <source>Note headline '%1' was copied to the clipboard</source>
       <translation>نوٹ کی سرخی '٪1' کلپ بورڈ میں کاپی کی گئی تھی</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12360"/>
+      <location filename="../mainwindow.cpp" line="12403"/>
       <source>Leave full-screen mode</source>
       <translation>فل سکرین وضع چھوڑیں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12541"/>
+      <location filename="../mainwindow.cpp" line="12584"/>
       <source>Custom editor width</source>
       <translation>کسٹم ایڈیٹر کی چوڑائی</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12541"/>
+      <location filename="../mainwindow.cpp" line="12584"/>
       <source>Characters:</source>
       <translation>کردار:</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="8707"/>
+      <location filename="../mainwindow.cpp" line="8747"/>
       <source>%n notes selected</source>
       <translation>
         <numerusform>%n نوٹ منتخب کیا گیا</numerusform>
@@ -3386,7 +3386,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2450"/>
-      <location filename="../mainwindow.cpp" line="11956"/>
+      <location filename="../mainwindow.cpp" line="11999"/>
       <source>Allow all note editing</source>
       <translation>تمام نوٹ میں ترمیم کی اجازت دیں۔</translation>
     </message>
@@ -3396,12 +3396,12 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       <translation>&amp;ٹیگ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4910"/>
+      <location filename="../mainwindow.cpp" line="4929"/>
       <source>Remove tag from selected notes</source>
       <translation>منتخب کردہ نوٹس میں سے ٹیگ ہٹا دیں</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4911"/>
+      <location filename="../mainwindow.cpp" line="4930"/>
       <source>Remove tag &lt;strong&gt;%1&lt;/strong&gt; from %n selected note(s)?</source>
       <translation>
         <numerusform>منتخب کردہ n% نوٹس میں سے &lt;strong&gt;%1&lt;/strong&gt; ٹیگ ہٹا دیں؟</numerusform>
@@ -3409,7 +3409,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4971"/>
+      <location filename="../mainwindow.cpp" line="4990"/>
       <source>Tag &lt;strong&gt;%1&lt;/strong&gt; was removed from %n note(s)</source>
       <translation>
         <numerusform>&lt;strong&gt;%1&lt;/strong&gt; ٹیگ %n نوٹس میں سے ہٹا دیا گیا تھا</numerusform>
@@ -3417,132 +3417,132 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5016"/>
+      <location filename="../mainwindow.cpp" line="5035"/>
       <source>Current notes folder: </source>
       <translation>موجودہ نوٹس فولڈر: </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5019"/>
+      <location filename="../mainwindow.cpp" line="5038"/>
       <source>Set the notes folder. Current notes folder: </source>
       <translation>نوٹس فولڈر سیٹ کریں. موجودہ نوٹس فولڈر: </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5221"/>
+      <location filename="../mainwindow.cpp" line="5240"/>
       <source>Print note</source>
       <translation>نوٹ پرنٹ کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5296"/>
+      <location filename="../mainwindow.cpp" line="5315"/>
       <source>Letter</source>
       <translation>خط۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5326"/>
+      <location filename="../mainwindow.cpp" line="5345"/>
       <source>Portrait</source>
       <translation>پورٹریٹ۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5326"/>
+      <location filename="../mainwindow.cpp" line="5345"/>
       <source>Landscape</source>
       <translation>زمین کی تزئین</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5331"/>
+      <location filename="../mainwindow.cpp" line="5350"/>
       <source>Orientation</source>
       <translation>واقفیت</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5331"/>
+      <location filename="../mainwindow.cpp" line="5350"/>
       <source>Orientation:</source>
       <translation>واقفیت:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5354"/>
+      <location filename="../mainwindow.cpp" line="5373"/>
       <source>Export current note as PDF</source>
       <translation>موجودہ نوٹ کو بطور پی ڈی ایف ایکسپورٹ کریں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5461"/>
+      <location filename="../mainwindow.cpp" line="5480"/>
       <source>You have not selected any todo lists.&lt;br /&gt;Please check your &lt;strong&gt;Todo&lt;/strong&gt; configuration in the settings!</source>
       <translation>آپ نے کوئی بھی فہرست فہرست منتخب نہیں کی ہے۔&lt;br /&gt; براہ کرم ترتیبات میں اپنی &lt;strong&gt; ٹوڈو&lt;/strong&gt; کی تشکیل دیکھیں۔!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6375"/>
+      <location filename="../mainwindow.cpp" line="6400"/>
       <source>Open QOwnNotes</source>
       <translation>QOwnNotes کھولیں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6038"/>
-      <location filename="../mainwindow.cpp" line="6425"/>
-      <location filename="../mainwindow.cpp" line="10233"/>
-      <location filename="../mainwindow.cpp" line="10661"/>
+      <location filename="../mainwindow.cpp" line="6063"/>
+      <location filename="../mainwindow.cpp" line="6450"/>
+      <location filename="../mainwindow.cpp" line="10279"/>
+      <location filename="../mainwindow.cpp" line="10707"/>
       <source>New note</source>
       <translation>نیا نوٹ۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6442"/>
+      <location filename="../mainwindow.cpp" line="6467"/>
       <source>Recent notes</source>
       <translation>حالیہ نوٹ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6458"/>
+      <location filename="../mainwindow.cpp" line="6483"/>
       <source>Show todo lists</source>
       <translation>ٹوڈو فہرستیں دکھائیں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6470"/>
+      <location filename="../mainwindow.cpp" line="6495"/>
       <source>Recent tasks</source>
       <translation>حالیہ کام</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6491"/>
+      <location filename="../mainwindow.cpp" line="6516"/>
       <source>Quit</source>
       <translation>چھوڑو</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7947"/>
+      <location filename="../mainwindow.cpp" line="7966"/>
       <source>show notes from all note subfolders (%1)</source>
       <translation>تمام نوٹ ذیلی فولڈرز سے نوٹ دکھائیں (%1)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7970"/>
+      <location filename="../mainwindow.cpp" line="7989"/>
       <source>show notes in note root folder (%1)</source>
       <translation>نوٹ جڑ فولڈر میں نوٹ دکھائیں (%1)</translation>
     </message>
     <message>
       <location filename="../mainwindow.ui" line="316"/>
-      <location filename="../mainwindow.cpp" line="776"/>
-      <location filename="../mainwindow.cpp" line="2095"/>
-      <location filename="../mainwindow.cpp" line="7982"/>
+      <location filename="../mainwindow.cpp" line="793"/>
+      <location filename="../mainwindow.cpp" line="2112"/>
+      <location filename="../mainwindow.cpp" line="8001"/>
       <source>Note folder</source>
       <translation>نوٹ فولڈر۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9354"/>
-      <location filename="../mainwindow.cpp" line="9421"/>
+      <location filename="../mainwindow.cpp" line="9394"/>
+      <location filename="../mainwindow.cpp" line="9461"/>
       <source>Copy to note folder</source>
       <translation>نوٹ فولڈر میں کاپی کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9354"/>
-      <location filename="../mainwindow.cpp" line="9422"/>
+      <location filename="../mainwindow.cpp" line="9394"/>
+      <location filename="../mainwindow.cpp" line="9462"/>
       <source>Move to note folder</source>
       <translation>نوٹ فولڈر میں منتقل کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9355"/>
-      <location filename="../mainwindow.cpp" line="9423"/>
+      <location filename="../mainwindow.cpp" line="9395"/>
+      <location filename="../mainwindow.cpp" line="9463"/>
       <source>Copy to this subfolder</source>
       <translation>اس سب فولڈر میں کاپی کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9356"/>
-      <location filename="../mainwindow.cpp" line="9424"/>
+      <location filename="../mainwindow.cpp" line="9396"/>
+      <location filename="../mainwindow.cpp" line="9464"/>
       <source>Move to this subfolder</source>
       <translation>اس ذیلی فولڈر میں منتقل کریں</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9468"/>
+      <location filename="../mainwindow.cpp" line="9508"/>
       <source>Move %n selected note(s) to note subfolder &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>ذیلی فولڈر کو نوٹ کرنے کے لئے %n منتخب کردہ نوٹ منتقل کریں&lt;strong&gt;%2&lt;/strong&gt;?</numerusform>
@@ -3550,13 +3550,13 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5122"/>
-      <location filename="../mainwindow.cpp" line="12185"/>
+      <location filename="../mainwindow.cpp" line="5141"/>
+      <location filename="../mainwindow.cpp" line="12228"/>
       <source>Cancel</source>
       <translation>منسوخ کریں</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9552"/>
+      <location filename="../mainwindow.cpp" line="9593"/>
       <source>%n note(s) were moved to note subfolder "%2"</source>
       <translation>
         <numerusform>%n نوٹ منتقل کیا گیا تھا ذیلی فولڈر نوٹ کرنا "%2"</numerusform>
@@ -3564,7 +3564,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9576"/>
+      <location filename="../mainwindow.cpp" line="9617"/>
       <source>Copy %n selected note(s) to note subfolder &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>سب فولڈر &lt;strong&gt;%2&lt;/strong&gt; نوٹ کرنے کے لئے %n منتخب کردہ نوٹ کاپی کریں?</numerusform>
@@ -3572,7 +3572,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9643"/>
+      <location filename="../mainwindow.cpp" line="9685"/>
       <source>%n note(s) were copied to note subfolder "%2"</source>
       <translation>
         <numerusform>سب فولڈر "%2" کو نوٹ کرنے کے لئے٪ n نوٹ کاپی کیا گیا تھا</numerusform>
@@ -3580,118 +3580,118 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10355"/>
+      <location filename="../mainwindow.cpp" line="10401"/>
       <source>Open note in external editor</source>
       <translation>بیرونی ایڈیٹر میں نوٹ کھولیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10359"/>
+      <location filename="../mainwindow.cpp" line="10405"/>
       <source>Show note in file manager</source>
       <translation>فائل مینیجر میں نوٹ دکھائیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10444"/>
+      <location filename="../mainwindow.cpp" line="10490"/>
       <source>If you want to rename your note you have to enable the option to allow the note filename to be different from the headline.</source>
       <translation>اگر آپ اپنے نوٹ کا نام تبدیل کرنا چاہتے ہیں تو آپ کو نوٹ کے فائل کا نام ہیڈلائن سے مختلف ہونے کی اجازت دینے کا آپشن اہل بنانا ہوگا۔.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10662"/>
+      <location filename="../mainwindow.cpp" line="10708"/>
       <source>New subfolder</source>
       <translation>نیا ذیلی فولڈر</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10666"/>
+      <location filename="../mainwindow.cpp" line="10712"/>
       <source>Show folder in file manager</source>
       <translation>فائل مینیجر میں فولڈر دکھائیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10711"/>
+      <location filename="../mainwindow.cpp" line="10757"/>
       <source>Create a new folder</source>
       <translation>ایک نیا فولڈر بنائیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10712"/>
+      <location filename="../mainwindow.cpp" line="10758"/>
       <source>Folder name:</source>
       <translation>فولڈر کا نام:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7906"/>
+      <location filename="../mainwindow.cpp" line="7925"/>
       <source>show all untagged notes (%1)</source>
       <translation>تمام غیر تبدیل شدہ نوٹ دکھائیں (٪1)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7908"/>
+      <location filename="../mainwindow.cpp" line="7927"/>
       <source>Untagged notes</source>
       <translation>غیر نوٹ شدہ نوٹ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10008"/>
+      <location filename="../mainwindow.cpp" line="10052"/>
       <source>Export current note as HTML file</source>
       <translation>موجودہ نوٹ کو HTML فائل کے طور پر ایکسپورٹ کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5305"/>
+      <location filename="../mainwindow.cpp" line="5324"/>
       <source>Page size</source>
       <translation>صفحے کا سائز</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1148"/>
+      <location filename="../mainwindow.cpp" line="1165"/>
       <source>quit toolbar</source>
       <translation>ٹول بار چھوڑ دیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5305"/>
+      <location filename="../mainwindow.cpp" line="5324"/>
       <source>Page size:</source>
       <translation>صفحے کا سائز:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5422"/>
+      <location filename="../mainwindow.cpp" line="5441"/>
       <source>QOwnNotes will track anonymous usage data, that helps to decide what parts of QOwnNotes to improve next and to find and fix bugs. You can disable that behaviour in the settings.</source>
       <translation>QOwnNotes گمنام استعمال کے اعداد و شمار کو ٹریک کرے گا ، جو QOwnNotes کے اگلے حصے کو بہتر بنانے اور کیڑے ڈھونڈنے اور ٹھیک کرنے میں مدد کرنے میں مدد کرتا ہے۔ آپ ترتیبات میں اس طرز عمل کو غیر فعال کرسکتے ہیں.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5426"/>
+      <location filename="../mainwindow.cpp" line="5445"/>
       <source>&amp;Ok</source>
       <translation>&amp;اوکے</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10243"/>
+      <location filename="../mainwindow.cpp" line="10289"/>
       <source>&amp;Remove notes</source>
       <translation>&amp;نوٹ ہٹائیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6580"/>
+      <location filename="../mainwindow.cpp" line="6605"/>
       <source>&amp;Link selected text</source>
       <translation>&amp;منتخب متن کو لنک کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1074"/>
+      <location filename="../mainwindow.cpp" line="1091"/>
       <source>Your tasks are being loaded from your server</source>
       <translation>آپ کے کاموں کو آپ کے سرور سے بھرا جارہا ہے</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2776"/>
+      <location filename="../mainwindow.cpp" line="2793"/>
       <source>Current note was modified externally</source>
       <translation>موجودہ نوٹ میں بیرونی ترمیم کی گئی تھی</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2859"/>
-      <location filename="../mainwindow.cpp" line="5976"/>
+      <location filename="../mainwindow.cpp" line="2876"/>
+      <location filename="../mainwindow.cpp" line="6001"/>
       <source>Stored current note to disk</source>
       <translation>موجودہ نوٹ کو ڈسک پر اسٹور کیا</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2877"/>
+      <location filename="../mainwindow.cpp" line="2894"/>
       <source>Note was modified externally: %1</source>
       <translation>نوٹ کو بیرونی طور پر تبدیل کیا گیا: ٪1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2899"/>
+      <location filename="../mainwindow.cpp" line="2916"/>
       <source>Notes directory was modified externally</source>
       <translation>نوٹس ڈائرکٹری میں بیرونی ترمیم کی گئی تھی</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="2960"/>
+      <location filename="../mainwindow.cpp" line="2977"/>
       <source>Stored %n note(s) to disk</source>
       <translation>
         <numerusform>ڈسک پر %n نوٹ اسٹور کیا گیا</numerusform>
@@ -3699,215 +3699,215 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7873"/>
+      <location filename="../mainwindow.cpp" line="7892"/>
       <source>show all notes (%1)</source>
       <translation>تمام نوٹ دکھائیں (٪1)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7876"/>
-      <location filename="../mainwindow.cpp" line="7950"/>
+      <location filename="../mainwindow.cpp" line="7895"/>
+      <location filename="../mainwindow.cpp" line="7969"/>
       <source>All notes</source>
       <translation>تمام نوٹ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8957"/>
+      <location filename="../mainwindow.cpp" line="8997"/>
       <source>&amp;Add tag</source>
       <translation>&amp;ٹیگ کا اضافہ کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9005"/>
+      <location filename="../mainwindow.cpp" line="9045"/>
       <source>Tag could not be created!</source>
       <translation>ٹیگ تخلیق نہیں ہوسکا!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9184"/>
+      <location filename="../mainwindow.cpp" line="9224"/>
       <source>Move to this tag</source>
       <translation>اس ٹیگ پر منتقل کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9219"/>
+      <location filename="../mainwindow.cpp" line="9259"/>
       <source>Tag this</source>
       <translation>اسے ٹیگ کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9244"/>
+      <location filename="../mainwindow.cpp" line="9284"/>
       <source>Cannot move tag '%1' to this tag</source>
       <translation>اس ٹیگ پر '٪1' ٹیگ منتقل نہیں کیا جاسکتا</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9293"/>
+      <location filename="../mainwindow.cpp" line="9333"/>
       <source>Moved tag '%1' to new tag</source>
       <translation>'1%' ٹیگ کو نئے ٹیگ میں منتقل کردیا</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8207"/>
+      <location filename="../mainwindow.cpp" line="8239"/>
       <source>show all notes tagged with '%1' (%2)</source>
       <translation>'٪ 1' (٪ 2) کے ساتھ ٹیگ کردہ تمام نوٹ دکھائیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8968"/>
+      <location filename="../mainwindow.cpp" line="9008"/>
       <source>&amp;Remove tags</source>
       <translation>&amp;ٹیگز کو ہٹا دیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5460"/>
+      <location filename="../mainwindow.cpp" line="5479"/>
       <source>No selected todo lists!</source>
       <translation>کوئی منتخب شدہ فہرست نہیں!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="745"/>
+      <location filename="../mainwindow.cpp" line="762"/>
       <source>Subfolders</source>
       <translation>ذیلی فولڈرز</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="757"/>
+      <location filename="../mainwindow.cpp" line="774"/>
       <source>Tags</source>
       <translation>ٹیگز</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="766"/>
+      <location filename="../mainwindow.cpp" line="783"/>
       <source>Note search</source>
       <translation>نوٹ تلاش</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="795"/>
+      <location filename="../mainwindow.cpp" line="812"/>
       <source>Note list</source>
       <translation>نوٹ کی فہرست</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="820"/>
+      <location filename="../mainwindow.cpp" line="837"/>
       <source>Note edit</source>
       <translation>نوٹ میں ترمیم کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="832"/>
+      <location filename="../mainwindow.cpp" line="849"/>
       <source>Note tags</source>
       <translation>نوٹ ٹیگ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="843"/>
+      <location filename="../mainwindow.cpp" line="860"/>
       <source>Note preview</source>
       <translation>نوٹ پیش نظارہ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="851"/>
+      <location filename="../mainwindow.cpp" line="868"/>
       <source>Log</source>
       <translation>لاگ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="860"/>
+      <location filename="../mainwindow.cpp" line="877"/>
       <source>Scripting</source>
       <translation>اسکرپٹنگ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1115"/>
+      <location filename="../mainwindow.cpp" line="1132"/>
       <source>formatting toolbar</source>
       <translation>فارمیٹنگ ٹول بار</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1124"/>
+      <location filename="../mainwindow.cpp" line="1141"/>
       <source>inserting toolbar</source>
       <translation>ٹول بار داخل کرنا</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1131"/>
+      <location filename="../mainwindow.cpp" line="1148"/>
       <source>encryption toolbar</source>
       <translation>خفیہ کاری ٹول بار</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1138"/>
+      <location filename="../mainwindow.cpp" line="1155"/>
       <source>window toolbar</source>
       <translation>ونڈو ٹول بار</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1143"/>
+      <location filename="../mainwindow.cpp" line="1160"/>
       <source>custom action toolbar</source>
       <translation>کسٹم ایکشن ٹول بار</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1163"/>
+      <location filename="../mainwindow.cpp" line="1180"/>
       <source>Workspace selector</source>
       <translation>ورک اسپیس سلیکٹر</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1309"/>
+      <location filename="../mainwindow.cpp" line="1326"/>
       <source>Show %1 panel</source>
       <translation>٪1 پینل دکھائیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1351"/>
+      <location filename="../mainwindow.cpp" line="1368"/>
       <source>Show %1</source>
       <translation>٪ 1 دکھائیں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1674"/>
+      <location filename="../mainwindow.cpp" line="1691"/>
       <source>Leave distraction free mode</source>
       <translation>خلفشار فری وضع چھوڑیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1856"/>
+      <location filename="../mainwindow.cpp" line="1873"/>
       <source>Switch to note folder</source>
       <translation>نوٹ فولڈر میں سوئچ کریں
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2251"/>
+      <location filename="../mainwindow.cpp" line="2268"/>
       <source>show notes in folder '%1' (%2)</source>
       <translation>فولڈر میں نوٹ دکھائیں '%1' (%2)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2290"/>
+      <location filename="../mainwindow.cpp" line="2307"/>
       <source>&lt;strong&gt;%1&lt;/strong&gt;&lt;br /&gt;last modified: %2</source>
       <translation>&lt;strong&gt;%1&lt;/strong&gt;&lt;br /&gt;آخری بار ترمیم شدہ: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2295"/>
+      <location filename="../mainwindow.cpp" line="2312"/>
       <source>&lt;br /&gt;path: %1</source>
       <translation>&lt;br/&gt;راہ: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2497"/>
+      <location filename="../mainwindow.cpp" line="2514"/>
       <source>Toolbar could not be loaded without name</source>
       <translation>ٹول بار کو نام کے بغیر لوڈ نہیں کیا جاسکتا</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2803"/>
+      <location filename="../mainwindow.cpp" line="2820"/>
       <source>Overwriting external changes of: %1</source>
       <translation>بیرونی تبدیلیوں کو اوور رائٹنگ: ٪1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2824"/>
+      <location filename="../mainwindow.cpp" line="2841"/>
       <source>Loading external changes from: %1</source>
       <translation>بیرونی تبدیلیوں کو یہاں سے لوڈ کیا جارہا ہے:٪1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2860"/>
-      <location filename="../mainwindow.cpp" line="5977"/>
+      <location filename="../mainwindow.cpp" line="2877"/>
+      <location filename="../mainwindow.cpp" line="6002"/>
       <source>Current note could not be stored to disk</source>
       <translation>موجودہ نوٹ کو ڈسک میں محفوظ نہیں کیا جاسکا</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3039"/>
+      <location filename="../mainwindow.cpp" line="3056"/>
       <source>Read-only</source>
       <translation>صرف پڑھو</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3041"/>
+      <location filename="../mainwindow.cpp" line="3058"/>
       <source>Note editing is disabled, click to enable</source>
       <translation>نوٹ ترمیم غیر فعال ہے ، قابل بننے کے لئے دبائیں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3058"/>
+      <location filename="../mainwindow.cpp" line="3075"/>
       <source>Line numbers</source>
       <translation>لائن نمبر</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3068"/>
+      <location filename="../mainwindow.cpp" line="3085"/>
       <source>Click here to see what has changed and to be able to update to the latest version</source>
       <translation>کیا تبدیل ہوا ہے اسے دیکھنے اور تازہ ترین ورژن میں تازہ کاری کرنے کے قابل ہونے کے لئے یہاں کلک کریں</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="3438"/>
+      <location filename="../mainwindow.cpp" line="3455"/>
       <source>Proceed with automatic deletion of &lt;strong&gt;%n&lt;/strong&gt; conflicted database copies that may block your ownCloud sync process?</source>
       <translation>
         <numerusform>&lt;strong&gt;%n&lt;/strong&gt; متنازعہ ڈیٹا بیس کاپی کو خود بخود حذف کرنے کے ساتھ آگے بڑھیں جو آپ کے اپنے کلاؤڈ مطابقت پذیری کے عمل کو روک سکتی ہے?</numerusform>
@@ -3916,7 +3916,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4894"/>
+      <location filename="../mainwindow.cpp" line="4913"/>
       <source>%n note(s) were tagged with "%2"</source>
       <translation>
         <numerusform>%n نوٹ کو "%2" کے ساتھ ٹیگ کیا گیا تھا</numerusform>
@@ -3924,7 +3924,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="5677"/>
+      <location filename="../mainwindow.cpp" line="5701"/>
       <source>Found &lt;strong&gt;%n&lt;/strong&gt; occurrence(s) of &lt;strong&gt;%1&lt;/strong&gt;</source>
       <translation>
         <numerusform>&lt;strong&gt;%1&lt;/strong&gt;
@@ -3933,67 +3933,67 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6038"/>
+      <location filename="../mainwindow.cpp" line="6063"/>
       <source>Note headline</source>
       <translation>نوٹ کی سرخی</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6586"/>
+      <location filename="../mainwindow.cpp" line="6611"/>
       <source>Block &amp;quote selected text</source>
       <comment>Action to apply a block quote formatting to the selected text</comment>
       <translation>اقتباس کو &amp;منتخب کردہ متن کو مسدود کریں</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7596"/>
+      <location filename="../mainwindow.cpp" line="7620"/>
       <source>Downloading images finished</source>
       <translation>تصاویر ڈاؤن لوڈ کرنے کا کام مکمل ہوگیا۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7746"/>
+      <location filename="../mainwindow.cpp" line="7770"/>
       <source>Increased font size to %1 pt</source>
       <translation>فونٹ کا سائز بڑھا کر٪1 pt کردیا گیا</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7763"/>
+      <location filename="../mainwindow.cpp" line="7787"/>
       <source>Decreased font size to %1 pt</source>
       <translation>فونٹ کا سائز کم کرکے٪1 pt</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5426"/>
-      <location filename="../mainwindow.cpp" line="5441"/>
-      <location filename="../mainwindow.cpp" line="5464"/>
-      <location filename="../mainwindow.cpp" line="10447"/>
+      <location filename="../mainwindow.cpp" line="5445"/>
+      <location filename="../mainwindow.cpp" line="5460"/>
+      <location filename="../mainwindow.cpp" line="5483"/>
+      <location filename="../mainwindow.cpp" line="10493"/>
       <source>Open &amp;settings</source>
       <translation>کھلی تر&amp;تیبات</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1671"/>
-      <location filename="../mainwindow.cpp" line="12337"/>
+      <location filename="../mainwindow.cpp" line="1688"/>
+      <location filename="../mainwindow.cpp" line="12380"/>
       <source>leave</source>
       <translation>چھوڑ دو</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7013"/>
+      <location filename="../mainwindow.cpp" line="7038"/>
       <source>Please enter your &lt;strong&gt;password&lt;/strong&gt; to encrypt the note.&lt;br /&gt;Keep in mind that you have to &lt;strong&gt;remember&lt;/strong&gt; your password to read the content of the note&lt;br /&gt; and that you can &lt;strong&gt;only&lt;/strong&gt; do that &lt;strong&gt;in QOwnNotes&lt;/strong&gt;!</source>
       <translation>براہ کرم نوٹ کو خفیہ کرنے کے لئے اپنا &lt;strong&gt; پاس ورڈ &lt;/ strong&gt; درج کریں۔ &lt;br /&gt; یاد رکھیں کہ آپ کو نوٹ کے مندرجات کو پڑھنے کے لئے اپنا پاس ورڈ &lt;strong&gt; یاد &lt;/ strong&gt; میں کرنا پڑے گا۔ &lt;br /&gt; اور وہ آپ &lt;strong&gt; صرف &lt;/ strong&gt; &lt;strong&gt; QOwnotes &lt;/strong&gt; میں ہی کر سکتے ہیں!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7069"/>
+      <location filename="../mainwindow.cpp" line="7094"/>
       <source>Decrypt note and store it as plain text</source>
       <translation>نوٹ کو ڈیریکٹ کریں اور اسے سیدھے متن کے طور پر اسٹور کریں۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7074"/>
+      <location filename="../mainwindow.cpp" line="7099"/>
       <source>&amp;Decrypt</source>
       <translation>&amp;ڈکرپٹ۔</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7099"/>
+      <location filename="../mainwindow.cpp" line="7124"/>
       <source>&lt;br /&gt;You will be able to edit your encrypted note.</source>
       <translation>&lt;br/&gt; آپ اپنے خفیہ کردہ نوٹ میں ترمیم کرسکیں گے۔.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7168"/>
+      <location filename="../mainwindow.cpp" line="7193"/>
       <source>Export current note as Markdown file</source>
       <translation>موجودہ نوٹ کو مارک ڈاؤن فائل کے طور پر ایکسپورٹ کریں۔</translation>
     </message>
@@ -4254,12 +4254,12 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       <translation>براہ کرم اپنے QOwnNotesAPI ایپ کو اپنے سرور پر اپ ڈیٹ کرنے پر غور کریں ، آپ کے ایپ کا ورژن٪ 1 بہت کم ہے اور QOwnNotes میں پریشانی کا سبب بن سکتا ہے.</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1175"/>
+      <location filename="../services/owncloudservice.cpp" line="1196"/>
       <source>ownCloud server connection error</source>
       <translation>خود کلاؤڈ سرور کنکشن کی خرابی</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1180"/>
+      <location filename="../services/owncloudservice.cpp" line="1201"/>
       <source>ownCloud server error: &lt;strong&gt;%1&lt;/strong&gt;&lt;br /&gt;Please check your ownCloud configuration.</source>
       <translation>خود کلاؤڈ سرور کی خامی:
 &lt;strong&gt;
@@ -4270,73 +4270,73 @@ If the trash is enabled on your ownCloud server you should be able to restore th
  براہ کرم اپنی خود کی کلاؤڈ ترتیب کو چیک کریں۔.</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1200"/>
+      <location filename="../services/owncloudservice.cpp" line="1221"/>
       <source>You need to setup your ownCloud server!</source>
       <translation>آپ کو اپنا اپنا کلاؤڈ سرور ترتیب دینے کی ضرورت ہے!</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1212"/>
+      <location filename="../services/owncloudservice.cpp" line="1233"/>
       <source>Open &amp;settings</source>
       <translation>کھلی تر&amp;تیبات</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1212"/>
+      <location filename="../services/owncloudservice.cpp" line="1233"/>
       <source>&amp;Cancel</source>
       <translation>&amp;منسوخ کریں</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1271"/>
+      <location filename="../services/owncloudservice.cpp" line="1292"/>
       <source>Done with loading note versions</source>
       <translation>نوٹ ورژن لوڈ ہو رہا ہے</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1316"/>
+      <location filename="../services/owncloudservice.cpp" line="1337"/>
       <source>No versions found</source>
       <translation>کوئی ورژن نہیں ملا</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1317"/>
+      <location filename="../services/owncloudservice.cpp" line="1338"/>
       <source>There are no versions for this note or the note wasn't found on the server.</source>
       <translation>اس نوٹ کے لئے کوئی ورژن نہیں ہیں یا سرور پر نوٹ نہیں ملا تھا.</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1337"/>
+      <location filename="../services/owncloudservice.cpp" line="1358"/>
       <source>Done with loading trashed notes</source>
       <translation>ردی کے ٹوٹے ہوئے نوٹ بھری ہوئی</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1382"/>
+      <location filename="../services/owncloudservice.cpp" line="1403"/>
       <source>No trashed notes</source>
       <translation>کوئی کوڑے دان نوٹ نہیں</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1383"/>
+      <location filename="../services/owncloudservice.cpp" line="1404"/>
       <source>No trashed notes were found on the server.</source>
       <translation>سرور پر کوئی کوڑے دان کے نوٹ نہیں ملے.</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1405"/>
-      <location filename="../services/owncloudservice.cpp" line="1432"/>
+      <location filename="../services/owncloudservice.cpp" line="1426"/>
+      <location filename="../services/owncloudservice.cpp" line="1453"/>
       <source>Error while loading todo lists!</source>
       <translation>ٹوڈو فہرستوں کو لوڈ کرتے وقت غلطی!</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1406"/>
+      <location filename="../services/owncloudservice.cpp" line="1427"/>
       <source>Your CalDAV server didn't reply anything!</source>
       <translation>آپ کے CalDAV سرور نے کچھ بھی جواب نہیں دیا!</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1433"/>
+      <location filename="../services/owncloudservice.cpp" line="1454"/>
       <source>Error message from your CalDAV server: &lt;strong&gt;%1&lt;/strong&gt;</source>
       <translation>آپ کے CalDAV سرور کی جانب سے خرابی کا پیغام: &lt;strong&gt;%1&lt;/strong&gt;</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="2110"/>
+      <location filename="../services/owncloudservice.cpp" line="2133"/>
       <source>No bookmarks</source>
       <translation>کوئی بُک مارکس نہیں</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="2111"/>
+      <location filename="../services/owncloudservice.cpp" line="2134"/>
       <source>No bookmarks were found on the server.</source>
       <translation>سرور پر کوئی بُک مارکس نہیں ملے.</translation>
     </message>
@@ -4377,37 +4377,37 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       <translation>پہلے سے طے شدہ</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1266"/>
+      <location filename="../entities/note.cpp" line="1312"/>
       <source>Could not store note file: %1 - Error message: %2</source>
       <translation>نوٹ فائل کو محفوظ نہیں کیا جا سکا: ٪1 - خرابی کا پیغام: ٪2</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1344"/>
+      <location filename="../entities/note.cpp" line="1390"/>
       <source>Renamed note-file was removed: %1</source>
       <translation>نام تبدیل شدہ نوٹ فائل کو ہٹا دیا گیا: ٪1</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1352"/>
+      <location filename="../entities/note.cpp" line="1398"/>
       <source>Could not remove renamed note-file: %1 - Error message: %2</source>
       <translation>نامزد نوٹ فائل کو نہیں ہٹا سکا:٪1 - غلطی کا پیغام:٪2</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1498"/>
+      <location filename="../entities/note.cpp" line="1544"/>
       <source>Note</source>
       <translation>میونسپل آفس</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="2546"/>
+      <location filename="../entities/note.cpp" line="2592"/>
       <source>Could not read image file: %1</source>
       <translation>تصویری فائل نہیں پڑھ سکا:٪1</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="3147"/>
+      <location filename="../entities/note.cpp" line="3201"/>
       <source>Note file path changed</source>
       <translation>نوٹ فائل کا راستہ تبدیل کر دیا گیا</translation>
     </message>
     <message numerus="yes">
-      <location filename="../entities/note.cpp" line="3148"/>
+      <location filename="../entities/note.cpp" line="3202"/>
       <source>A change of the note path was detected. Would you like to replace all occurrences of &lt;strong&gt;%1&lt;/strong&gt; links with &lt;strong&gt;%2&lt;/strong&gt; and links with filename &lt;strong&gt;%3&lt;/strong&gt; with &lt;strong&gt;%4&lt;/strong&gt; in &lt;strong&gt;%n&lt;/strong&gt; note file(s)?</source>
       <translation>
         <numerusform>نوٹ کے راستے میں تبدیلی کا پتہ چلا۔
@@ -4427,7 +4427,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../entities/note.cpp" line="3693"/>
+      <location filename="../entities/note.cpp" line="3747"/>
       <source>…and %n more note(s)</source>
       <translation>
         <numerusform>… اور %n اور نوٹ</numerusform>
@@ -4478,7 +4478,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       <translation>&lt;code&gt;%1 &lt;/code&gt; کمانڈ ناکام ہوگیا!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4219"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4220"/>
       <source>New connection</source>
       <translation>نیا رابطہ</translation>
     </message>
@@ -4503,20 +4503,20 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       <translation>براہ کرم وہ فولڈر منتخب کریں جہاں آپ کے نوٹ محفوظ ہوجائیں گے</translation>
     </message>
     <message>
-      <location filename="../entities/notesubfolder.cpp" line="556"/>
-      <location filename="../entities/notesubfolder.cpp" line="581"/>
+      <location filename="../entities/notesubfolder.cpp" line="550"/>
+      <location filename="../entities/notesubfolder.cpp" line="575"/>
       <source>Folder will be hidden!</source>
       <translation>فولڈر پوشیدہ ہوگا!
 </translation>
     </message>
     <message>
-      <location filename="../entities/notesubfolder.cpp" line="557"/>
+      <location filename="../entities/notesubfolder.cpp" line="551"/>
       <source>Folder with name &lt;b&gt;%1&lt;/b&gt; can't be created, because it's internally used by the application!</source>
       <translation>&lt;b&gt;%1 &lt;/b&gt; نام والا فولڈر تخلیق نہیں کیا جاسکتا ، کیونکہ یہ اطلاق کے ذریعہ داخلی طور پر استعمال ہوتا ہے!
 </translation>
     </message>
     <message>
-      <location filename="../entities/notesubfolder.cpp" line="582"/>
+      <location filename="../entities/notesubfolder.cpp" line="576"/>
       <source>Folder with name &lt;b&gt;%1&lt;/b&gt; can't be created, because it's on the list of ignored subfolders! You can change that in the &lt;i&gt;Panels settings&lt;/i&gt;.</source>
       <translation>&lt;b&gt;%1 &lt;/b&gt; نام والا فولڈر تخلیق نہیں کیا جاسکتا ، کیوں کہ یہ نظر انداز کیے جانے والے ذیلی فولڈروں کی فہرست میں ہے! آپ &lt;i&gt; پینل کی ترتیبات &lt;/ i&gt; میں اسے تبدیل کرسکتے ہیں۔
 </translation>
@@ -4778,14 +4778,14 @@ Are the folder and the file writeable?</source>
     </message>
     <message>
       <location filename="../dialogs/scriptrepositorydialog.ui" line="278"/>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="413"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="420"/>
       <source>Installs the script</source>
       <translation>اسکرپٹ انسٹال کرتا ہے</translation>
     </message>
     <message>
       <location filename="../dialogs/scriptrepositorydialog.ui" line="281"/>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="412"/>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="475"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="419"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="482"/>
       <source>Install</source>
       <translation>انسٹال کریں</translation>
     </message>
@@ -4835,94 +4835,94 @@ Are the folder and the file writeable?</source>
       <translation>سبھی اسکرپٹ تازہ ترین ہیں.</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="382"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="389"/>
       <source>Authors</source>
       <translation>مصنفین</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="382"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="389"/>
       <source>Author</source>
       <translation>Author</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="386"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="393"/>
       <source>Supported platforms</source>
       <translation>تائید شدہ پلیٹ فارم</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="387"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="394"/>
       <source>Supported platform</source>
       <translation>تائید شدہ پلیٹ فارم۔</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="391"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="398"/>
       <source>Open repository</source>
       <translation>کھولیں ذخیرہ</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="401"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="408"/>
       <source>Update</source>
       <translation>اپ ڈیٹ</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="402"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="409"/>
       <source>Updates the script</source>
       <translation>اسکرپٹ کو اپ ڈیٹ کرتا ہے</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="404"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="411"/>
       <source>Reinstall</source>
       <translation>انسٹال کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="405"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="412"/>
       <source>Reinstalls the script</source>
       <translation>اسکرپٹ کو دوبارہ انسٹال کرتا ہے</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="472"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="479"/>
       <source>Platform not supported!</source>
       <translation>پلیٹ فارم کی سہولت نہیں ہے!</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="473"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="480"/>
       <source>Your platform is not supported by this script!
 Do you want to install it anyway?</source>
       <translation>آپ کا پلیٹ فارم اس اسکرپٹ کے ذریعہ تعاون یافتہ نہیں ہے!
 کیا آپ اسے ابھی بھی انسٹال کرنا چاہتے ہیں؟</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="475"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="482"/>
       <source>Cancel</source>
       <translation>منسوخ کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="482"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="489"/>
       <source>Update app</source>
       <translation>اپلی کیشن کو اپ ڈیٹ کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="483"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="490"/>
       <source>Please don't forget to update your installation of QOwnNotes to make this script work!</source>
       <translation>براہ کرم اس اسکرپٹ کو کام کرنے کیلئے اپنی QOwnNotes کی انسٹالیشن کو اپ ڈیٹ کرنا نہ بھولیں!</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="551"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="558"/>
       <source>Install successful</source>
       <translation>انسٹال کامیاب</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="552"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="559"/>
       <source>The script was successfully installed!</source>
       <translation>اسکرپٹ کامیابی کے ساتھ انسٹال ہوگ!</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="559"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="566"/>
       <source>Download failed</source>
       <translation>ڈاؤن لوڈ ناکام۔</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="560"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="567"/>
       <source>The script could not be downloaded!</source>
       <translation>اسکرپٹ ڈاؤن لوڈ نہیں ہوسکا!</translation>
     </message>
@@ -5307,11 +5307,6 @@ QOwnNotesAPI
       <translation>بیرونی نوٹ کے فولڈر میں ہونے والی تمام تبدیلیوں کو نظرانداز کریں۔</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4412"/>
-      <source>No two spaces to do a line break are added here if checked</source>
-      <translation>اگر چیک کیا گیا تو لائن بریک کرنے کے لئے کوئی دو جگہیں شامل نہیں کی گئیں۔</translation>
-    </message>
-    <message>
       <location filename="../dialogs/settingsdialog.ui" line="4415"/>
       <source>Use GitHub line breaks</source>
       <translation>گٹ ہب لائن بریک کا استعمال کریں</translation>
@@ -5350,18 +5345,6 @@ QOwnNotesAPI
       <location filename="../dialogs/settingsdialog.ui" line="2310"/>
       <source>Spanish</source>
       <translation>ہسپانوی</translation>
-    </message>
-    <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2140"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If you want to help to translate QOwnNotes or update an existing translation please read: &lt;a href="http://www.qownnotes.org/Knowledge-base/How-can-I-help-to-translate-QOwnNotes"&gt;How can I help to translate QOwnNotes?&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;
-
-اگر آپ QOwnNotes کا ترجمہ کرنے یا کسی موجودہ ترجمے کو اپ ڈیٹ کرنے میں مدد کرنا چاہتے ہیں تو براہ کرم پڑھیں: &lt;a href="http://www.qownnotes.org/Knowledge-base/How-can-I-help-to-translate-QOwnNotes"&gt;
-میں QOwnNotes کا ترجمہ کرنے میں کس طرح مدد کرسکتا ہوں؟
-&lt;/a&gt;
-&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="2942"/>
@@ -5464,8 +5447,8 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="4316"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="2274"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="2282"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2275"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2283"/>
       <source>Database</source>
       <translation>ڈیٹا بیس</translation>
     </message>
@@ -5486,7 +5469,7 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="4271"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="2346"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2347"/>
       <source>Clear app data and exit</source>
       <translation>ایپ کا ڈیٹا صاف کریں اور باہر نکلیں</translation>
     </message>
@@ -6078,20 +6061,20 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="4100"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3959"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3960"/>
       <source>Reset message boxes</source>
       <translation>پیغام خانوں کو دوبارہ ترتیب دیں</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="4293"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4025"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4049"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4026"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4050"/>
       <source>Import settings</source>
       <translation>درآمد کی ترتیبات</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="4300"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3991"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3992"/>
       <source>Export settings</source>
       <translation>ترتیبات برآمد کریں</translation>
     </message>
@@ -6167,6 +6150,11 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>مالائی</translation>
     </message>
     <message>
+      <location filename="../dialogs/settingsdialog.ui" line="2140"/>
+      <source>If you want to help to translate QOwnNotes or update an existing translation please read: &lt;a href="%1"&gt;How can I help to translate QOwnNotes?&lt;/a&gt;</source>
+      <translation type="unfinished">If you want to help to translate QOwnNotes or update an existing translation please read: &lt;a href="%1"&gt;How can I help to translate QOwnNotes?&lt;/a&gt;</translation>
+    </message>
+    <message>
       <location filename="../dialogs/settingsdialog.ui" line="2497"/>
       <source>Khmer</source>
       <translation>خمیر</translation>
@@ -6235,6 +6223,11 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <location filename="../dialogs/settingsdialog.ui" line="3882"/>
       <source>Open last accessed note at application startup</source>
       <translation>درخواست کے آغاز پر آخری بار حاصل شدہ نوٹ کھولیں</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/settingsdialog.ui" line="4412"/>
+      <source>GitHub doesn't need two spaces at the end of the line to do a line break</source>
+      <translation>لائن بریک کرنے کیلئے گٹ ہب کو لائن کے آخر میں دو جگہوں کی ضرورت نہیں ہے</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="4435"/>
@@ -6330,7 +6323,7 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="5750"/>
       <source>Hide 'Note count' with tags (increases performance)</source>
-      <translation type="unfinished">Hide 'Note count' with tags (increases performance)</translation>
+      <translation>ٹیگ کے ساتھ 'نوٹ کی گنتی' چھپا دیں (یہ کارکردگی کو بڑھاتی ہے)</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="5786"/>
@@ -6649,7 +6642,7 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>پورے درخت کے بطور نوٹ ذیلی فولڈرز دکھائیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2875"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2876"/>
       <source>Search script repository</source>
       <translation>اسکرپٹ ذخیرہ کو تلاش کریں</translation>
     </message>
@@ -7107,8 +7100,8 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="4373"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="2293"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4268"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2294"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4269"/>
       <source>Debug information</source>
       <translation>ڈیبگ کی معلومات</translation>
     </message>
@@ -7142,43 +7135,43 @@ with QOwnNotes. Data that is too sensitive is hidden in this information.
       <translation>&amp;ڈیبگ کی معلومات کو محفوظ کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="497"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="498"/>
       <source>hostname of proxy server</source>
       <translation>پراکسی سرور کا میزبان نام</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="498"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="499"/>
       <source>username for proxy server</source>
       <translation>پراکسی سرور کیلئے صارف نام</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="499"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="500"/>
       <source>password for proxy server</source>
       <translation>پراکسی سرور کے لئے پاس ورڈ</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="501"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="502"/>
       <source>HTTP(S) proxy</source>
       <translation>(HTTP(S
  پراکسی</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="502"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="503"/>
       <source>SOCKS5 proxy</source>
       <translation>SOCKS5 پراکسی</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1482"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1483"/>
       <source>Automatic (needs restart)</source>
       <translation>خودکار (دوبارہ شروع کرنے کی ضرورت ہے)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1793"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1794"/>
       <source>Shortcut already assigned</source>
       <translation>شارٹ کٹ پہلے ہی تفویض کردی گئی ہے</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1996"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1997"/>
       <source>The connection was made successfully!
 Server version: %1
 QOwnNotesAPI version: %2</source>
@@ -7187,7 +7180,7 @@ QOwnNotesAPI version: %2</source>
 QOwnNotesAPI ورژن:٪2</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2009"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2010"/>
       <source>There was an error connecting to the ownCloud Server!
 You also need to have the QOwnNotesAPI app installed and enabled!
 
@@ -7198,69 +7191,69 @@ Connection error message: </source>
 کنکشن میں خرابی کا پیغام: </translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2294"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2295"/>
       <source>Please don't use this in the issue tracker, copy the debug information text directly into the issue.</source>
       <translation>براہ کرم اسے ایشو ٹریکر میں استعمال نہ کریں ، ڈیبگ انفارمیشن ٹیکسٹ کو اس مسئلے میں براہ راست کاپی کریں۔.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2301"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2302"/>
       <source>Markdown files</source>
       <translation>مارک ڈاون فائلیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2327"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2328"/>
       <source>Disable usage tracking</source>
       <translation>استعمال سے باخبر رہنے کو غیر فعال کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2328"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2329"/>
       <source>Anonymous usage data helps to decide what parts of QOwnNotes to improve next and to find and fix bugs.&lt;br /&gt;Please disable it only if you really can't live with it.&lt;br /&gt;&lt;br /&gt;Really disable usage tracking?</source>
       <translation>گمنام استعمال کے اعداد و شمار سے یہ فیصلہ کرنے میں مدد ملتی ہے کہ اگلے کو بہتر بنانے اور کیڑے ڈھونڈنے اور ٹھیک کرنے کے لئے QOwnNotes کے کن حصوں کو بہتر بنانا ہے&lt;br /&gt;
 براہ کرم اسے صرف اس صورت میں غیر فعال کریں اگر آپ واقعتا it اس کے ساتھ نہیں رہ سکتے
 واقعی استعمال سے باخبر رہنے کو غیر فعال کریں؟&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2555"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2556"/>
       <source>new folder</source>
       <translation>نیا فولڈر</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2589"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2590"/>
       <source>Remove note folder</source>
       <translation>نوٹ فولڈر کو ہٹا دیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2590"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2591"/>
       <source>Remove the current note folder &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>موجودہ نوٹ فولڈر &lt;strong&gt; %1 &lt;/strong&gt; کو ہٹائیں?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2664"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2665"/>
       <source>Please select the folder where your notes will get stored to</source>
       <translation>براہ کرم وہ فولڈر منتخب کریں جہاں آپ کے نوٹ محفوظ ہوجائیں گے</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2699"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2700"/>
       <source>Loading folders from server</source>
       <translation>سرور سے فولڈر لوڈ ہورہے ہیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2714"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2715"/>
       <source>No more folders were found in the current folder</source>
       <translation>موجودہ فولڈر میں مزید فولڈر نہیں ملے</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2787"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2788"/>
       <source>Loading folders in '%1' from server</source>
       <translation>سرور سے '٪1' میں فولڈر لوڈ ہورہے ہیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2860"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2861"/>
       <source>Take a look at the &lt;a href="%1"&gt;Scripting documentation&lt;/a&gt; to get started fast.</source>
       <translation>تیزی سے شروع کرنے کے لئے &lt;a href="٪1"&gt; اسکرپٹنگ دستاویزات &lt;/a&gt; پر ایک نگاہ ڈالیں۔.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2864"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2865"/>
       <source>If you need access to a certain functionality in QOwnNotes please open an issue on the &lt;a href="%1"&gt; QOwnNotes issue page&lt;/a&gt;.</source>
       <translation>اگر آپ کو QOwnNotes میں کسی خاص فعالیت تک رسائ کی ضرورت ہے تو ، براہ کرم اس مسئلے کو کھولیں
 &lt;a href="٪1"&gt;
@@ -7268,48 +7261,48 @@ QOwnNotes صفحہ جاری کریں
 &lt;/a&gt;۔.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2886"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2887"/>
       <source>Check for script updates</source>
       <translation>سکرپٹ کی اپڈیٹس کے لیے چیک کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2893"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2894"/>
       <source>Add local script</source>
       <translation>مقامی اسکرپٹ شامل کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2897"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2898"/>
       <source>Add an existing, local script</source>
       <translation>ایک موجودہ ، مقامی اسکرپٹ شامل کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3990"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4048"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3991"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4049"/>
       <source>INI files</source>
       <translation>INI فائلز</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4026"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4027"/>
       <source>Do you really want to import settings? Your current settings will get removed and not every setting may get restored, like the note folder settings and which scripts you were using. You also will need to adjust some settings, especially across platforms, but your notes will stay intact!</source>
       <translation>کیا آپ واقعی میں ترتیبات درآمد کرنا چاہتے ہیں؟ آپ کی موجودہ ترتیبات حذف ہوجائیں گی اور ہر ترتیب کو بحال نہیں کیا جاسکتا ہے ، جیسے نوٹ فولڈر کی ترتیبات اور آپ کون سے اسکرپٹ استعمال کررہے ہیں۔ آپ کو کچھ ترتیبات کو بھی ایڈجسٹ کرنے کی ضرورت ہوگی ، خاص طور پر پلیٹ فارمز میں ، لیکن آپ کے نوٹ برقرار رہیں گے!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4036"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4037"/>
       <source>The application will be quit after the import.</source>
       <translation>درآمد کے بعد درخواست چھوڑ دی جائے گی.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4037"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4038"/>
       <source>The application will be restarted after the import.</source>
       <translation>درآمد کے بعد درخواست دوبارہ شروع کی جائے گی.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4269"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4270"/>
       <source>The debug information was copied to the clipboard.</source>
       <translation>ڈیبگ کی معلومات کلپ بورڈ میں کاپی کی گئیں۔.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2880"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2881"/>
       <source>Find a script in the script repository</source>
       <translation>اسکرپٹ اسٹوریج میں ایک اسکرپٹ تلاش کریں</translation>
     </message>
@@ -7324,141 +7317,141 @@ QOwnNotes صفحہ جاری کریں
       <translation>مینو بار آئٹم دکھائیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1666"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="1718"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1667"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1719"/>
       <source>Undefined shortcut</source>
       <translation>غیر متعینہ شارٹ کٹ
 </translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1670"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="1722"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1671"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1723"/>
       <source>Assign a new shortcut</source>
       <translation>ایک نیا شارٹ کٹ تفویض کریں
 </translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1671"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="1723"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1672"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1724"/>
       <source>Reset to default shortcut</source>
       <translation>پہلے سے طے شدہ شارٹ کٹ کو دوبارہ ترتیب دیں
 </translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1689"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1690"/>
       <source>Clear shortcut</source>
       <translation>شارٹ کٹ صاف کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1794"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1795"/>
       <source>The shortcut &lt;strong&gt;%1&lt;/strong&gt; is already assigned to &lt;strong&gt;%2&lt;/strong&gt;! Do you want to jump to the shortcut?</source>
       <translation>شارٹ کٹ &lt;strong&gt;٪1 &lt;/strong&gt; پہلے ہی &lt;strong&gt;٪2 &lt;/ strong&gt; کو تفویض کردی گئی ہے! کیا آپ شارٹ کٹ کودنا چاہتے ہیں؟</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2973"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2974"/>
       <source>Remove script</source>
       <translation>اسکرپٹ کو ہٹا دیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2974"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2975"/>
       <source>Remove the current script &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>موجودہ اسکرپٹ &lt;strong&gt;٪1 &lt;/strong&gt; کو ہٹائیں؟</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3024"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3025"/>
       <source>QML files</source>
       <translation>QML فائلیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3025"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3026"/>
       <source>Please select your QML file</source>
       <translation>براہ کرم اپنی QML فائل منتخب کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3114"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3115"/>
       <source>Open repository</source>
       <translation>کھولیں ذخیرہ</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3172"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3173"/>
       <source>Your script seems to be valid</source>
       <translation>آپ کا اسکرپٹ درست معلوم ہوتا ہے</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3173"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3174"/>
       <source>There were script errors:
 %1</source>
       <translation>اسکرپٹ میں خرابیاں تھیں:
 1%</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3241"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3242"/>
       <source>File extension</source>
       <translation>فائل کی توسیع</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3241"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3242"/>
       <source>Enter your custom file extension:</source>
       <translation>اپنی کسٹم فائل کی توسیع درج کریں:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3570"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3571"/>
       <source>Calendar cache emptied</source>
       <translation>کیلنڈر کیشے کو خالی کر دیا گیا</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3571"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3572"/>
       <source>Your calendar cache was emptied.</source>
       <translation>آپ کے کیلنڈر کیشے کو خالی کر دیا گیا.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3652"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3653"/>
       <source>Reset toolbars and exit</source>
       <translation>ٹول بار کو دوبارہ ترتیب دیں اور باہر نکلیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3653"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3654"/>
       <source>Do you really want to reset all toolbars? The application will be closed in the process, the default toolbars will be restored when you start it again.</source>
       <translation>کیا آپ واقعی میں تمام ٹول بار کو دوبارہ ترتیب دینا چاہتے ہیں؟ اس عمل کو اطلاق میں بند کردیا جائے گا ، جب آپ اسے دوبارہ شروع کریں گے تو طے شدہ ٹول بار کو بحال کیا جائے گا۔.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3657"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3658"/>
       <source>Reset and &amp;exit</source>
       <translation>دوبارہ ترتیب دیں اور باہر &amp;نکلیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3815"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3816"/>
       <source>Log file cleared</source>
       <translation>لاگ فائل کو صاف کردیا گیا</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3816"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3817"/>
       <source>The log file &lt;strong&gt;%1&lt;/strong&gt; was cleared.</source>
       <translation>لاگ فائل &lt;strong&gt;%1&lt;/strong&gt; صاف ہوگئی تھی۔.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3852"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3853"/>
       <source>Executable files</source>
       <translation>قابل عمل فائلیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3853"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3855"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3854"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3856"/>
       <source>All files</source>
       <translation>تمام فائلیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3863"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3864"/>
       <source>Please select the path of your git executable</source>
       <translation>براہ کرم اپنے گٹ چلانے کا راستہ منتخب کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3960"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3961"/>
       <source>Do you really want to reset the overrides of all message boxes?</source>
       <translation>کیا آپ واقعی میں تمام میسج بکس کی جگہ جگہ ری سیٹ کرنا چاہتے ہیں؟</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2283"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2284"/>
       <source>The Database was reinitialized.</source>
       <translation>ڈیٹا بیس کو دوبارہ سے جوڑ دیا گیا تھا.</translation>
     </message>
@@ -7474,54 +7467,54 @@ QOwnNotes صفحہ جاری کریں
 مضمون بھیجیں۔</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="452"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="453"/>
       <source>enabled</source>
       <translation>فعال</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="452"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="453"/>
       <source>disabled</source>
       <translation>غیر فعال</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="454"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="455"/>
       <source>Portable mode is currently:</source>
       <translation>پورٹ ایبل وضع اس وقت ہے:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="457"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="458"/>
       <source>In portable mode</source>
       <translation>پورٹیبل وضع میں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="458"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="459"/>
       <source>the internal sqlite database and the settings will be stored inside a &lt;code&gt;Data&lt;/code&gt; folder at the binary's location</source>
       <translation>اندرونی اسکیلائٹ ڈیٹا بیس اور ترتیبات بائنری کے مقام پر &lt;code&gt; ڈیٹا &lt;/code&gt; فولڈر میں محفوظ ہوں گی۔</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="461"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="462"/>
       <source>the settings will be stored in an ini file</source>
       <translation>ترتیبات کو کسی ini فائل میں محفوظ کیا جائے گا</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="463"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="464"/>
       <source>the note folders, script paths and path to an external editor will be automatically stored relative to the &lt;code&gt;Data&lt;/code&gt; folder so that the correct note folders, scripts and external editor will be loaded regardless where your QOwnNotes installation is currently located</source>
       <translation>نوٹ فولڈرز ، اسکرپٹ پاتھز اور بیرونی ایڈیٹر کی راہ خود بخود&lt;code&gt; ڈیٹا &lt;/code&gt; فولڈر کے ذخیرہ ہوجائے گی تاکہ صحیح نوٹ فولڈرز ، اسکرپٹ اور بیرونی ایڈیٹر کو اس بات سے قطع نظر لوڈ کیا جا where کہ آپ کی QOwnNotes تنصیب اس وقت موجود ہے۔</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="473"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="474"/>
       <source>It will be activated if you run QOwnNotes with the parameter &lt;code&gt;--portable&lt;/code&gt;.</source>
       <translation>اگر آپ QOwnNotes
 &lt;code&gt; - قابل &lt;/code&gt;
  پیرامیٹر کے ساتھ چلاتے ہیں تو یہ چالو ہوجائے گی۔.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2302"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2303"/>
       <source>Save debug information</source>
       <translation>ڈیبگ کی معلومات کو محفوظ کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2347"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2348"/>
       <source>Do you really want to clear all settings, remove the database and exit QOwnNotes?
 
 Your notes will stay intact!</source>
@@ -7530,36 +7523,36 @@ Your notes will stay intact!</source>
 آپ کے نوٹ برقرار رہیں گے!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2350"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2351"/>
       <source>Clear and &amp;exit</source>
       <translation>صاف اور باہر &amp;نکلیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2278"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="2350"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3657"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2279"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2351"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3658"/>
       <source>&amp;Cancel</source>
       <translation>&amp;منسوخ کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="479"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="480"/>
       <source>You will find a &lt;code&gt;QOwnNotesPortable.bat&lt;/code&gt; in your release path to start QOwnNotes in portable mode.</source>
       <translation>آپ کو ایک مل جائے گا
 &lt;code&gt;QOwnNotesPortable.bat&lt;/code&gt;
 پورٹیبل وضع میں QOwnNotes شروع کرنے کے لئے آپ کی رہائی کے راستے میں۔.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2275"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2276"/>
       <source>Do you really want to clear the local database? This will also remove your configured note folders and your cached todo items!</source>
       <translation>کیا آپ واقعی مقامی ڈیٹا بیس کو صاف کرنا چاہتے ہیں؟ اس سے آپ کے تشکیل شدہ نوٹ فولڈرز اور آپ کے ذخیرے والے ٹوڈو آئٹمز بھی ختم ہوجائیں گے!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2278"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2279"/>
       <source>Clear &amp;database</source>
       <translation>صاف &amp;ڈیٹا بیس</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2461"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2462"/>
       <source>Select editor application</source>
       <translation>ایڈیٹر کی درخواست منتخب کریں</translation>
     </message>
@@ -8253,10 +8246,8 @@ This cannot be undone!</source>
     </message>
     <message>
       <location filename="../dialogs/updatedialog.ui" line="93"/>
-      <source>&lt;a href="http://www.qownnotes.org/Knowledge-base/How-can-I-get-involved-with-QOwnNotes"&gt;Get involved with QOwnNotes&lt;/a&gt;</source>
-      <translation>&lt;a href="http://www.qownnotes.org/Knowledge-base/How-can-I-get-involved-with-QOwnNotes"&gt;
-QOwnNotes کے ساتھ شامل ہوں
-&lt;/a&gt;</translation>
+      <source>&lt;a href="%1"&gt;Get involved with QOwnNotes&lt;/a&gt;</source>
+      <translation type="unfinished">&lt;a href="%1"&gt;Get involved with QOwnNotes&lt;/a&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/updatedialog.ui" line="106"/>
@@ -8264,136 +8255,136 @@ QOwnNotes کے ساتھ شامل ہوں
       <translation>%p% ڈاؤن لوڈ</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="48"/>
+      <location filename="../dialogs/updatedialog.cpp" line="49"/>
       <source>&amp;Update</source>
       <translation>&amp;اپ ڈیٹ</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="59"/>
+      <location filename="../dialogs/updatedialog.cpp" line="60"/>
       <source>&amp;Download latest</source>
       <translation>&amp;تازہ ترین ڈاؤن لوڈ کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="57"/>
+      <location filename="../dialogs/updatedialog.cpp" line="58"/>
       <source>Just download</source>
       <translation>بس ڈاؤن لوڈ کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="72"/>
+      <location filename="../dialogs/updatedialog.cpp" line="73"/>
       <source>&amp;Skip version</source>
       <translation>&amp;ورژن چھوڑ دیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="80"/>
+      <location filename="../dialogs/updatedialog.cpp" line="81"/>
       <source>&amp;Disable dialog</source>
       <translation>&amp;ڈائیلاگ کو غیر فعال کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="81"/>
+      <location filename="../dialogs/updatedialog.cpp" line="82"/>
       <source>Don't show this dialog automatically</source>
       <translation>یہ ڈائیلاگ خود بخود نہ دکھائیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="89"/>
+      <location filename="../dialogs/updatedialog.cpp" line="90"/>
       <source>&amp;Cancel</source>
       <translation>&amp;منسوخ کریں</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="242"/>
+      <location filename="../dialogs/updatedialog.cpp" line="245"/>
       <source>Download error</source>
       <translation>ڈاؤن لوڈ میں خرابی۔</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="243"/>
+      <location filename="../dialogs/updatedialog.cpp" line="246"/>
       <source>Error while downloading:
 %1</source>
       <translation>ڈاؤن لوڈ کرتے وقت خامی:
 1%</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="245"/>
+      <location filename="../dialogs/updatedialog.cpp" line="248"/>
       <source>network error: %1</source>
       <translation>نیٹ ورک کی خامی: %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="267"/>
-      <location filename="../dialogs/updatedialog.cpp" line="288"/>
-      <location filename="../dialogs/updatedialog.cpp" line="382"/>
+      <location filename="../dialogs/updatedialog.cpp" line="270"/>
+      <location filename="../dialogs/updatedialog.cpp" line="291"/>
+      <location filename="../dialogs/updatedialog.cpp" line="385"/>
       <source>File error</source>
       <translation>فائل کی خرابی</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="268"/>
-      <location filename="../dialogs/updatedialog.cpp" line="383"/>
+      <location filename="../dialogs/updatedialog.cpp" line="271"/>
+      <location filename="../dialogs/updatedialog.cpp" line="386"/>
       <source>Could not open temporary file:
 %1</source>
       <translation>عارضی فائل نہیں کھول سکا:
 1%</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="289"/>
+      <location filename="../dialogs/updatedialog.cpp" line="292"/>
       <source>Could not store downloaded file:
 %1</source>
       <translation>ڈاؤن لوڈ فائل کو محفوظ نہیں کیا جاسکا۔
 1%</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="340"/>
+      <location filename="../dialogs/updatedialog.cpp" line="343"/>
       <source>Do you want to update and restart QOwnNotes?</source>
       <translation>کیا آپ QOwnNotes کو اپ ڈیٹ اور دوبارہ شروع کرنا چاہتے ہیں؟</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="356"/>
-      <location filename="../dialogs/updatedialog.cpp" line="441"/>
-      <location filename="../dialogs/updatedialog.cpp" line="449"/>
-      <location filename="../dialogs/updatedialog.cpp" line="458"/>
-      <location filename="../dialogs/updatedialog.cpp" line="467"/>
-      <location filename="../dialogs/updatedialog.cpp" line="477"/>
-      <location filename="../dialogs/updatedialog.cpp" line="486"/>
+      <location filename="../dialogs/updatedialog.cpp" line="359"/>
+      <location filename="../dialogs/updatedialog.cpp" line="444"/>
+      <location filename="../dialogs/updatedialog.cpp" line="452"/>
+      <location filename="../dialogs/updatedialog.cpp" line="461"/>
+      <location filename="../dialogs/updatedialog.cpp" line="470"/>
+      <location filename="../dialogs/updatedialog.cpp" line="480"/>
+      <location filename="../dialogs/updatedialog.cpp" line="489"/>
       <source>Error</source>
       <translation>خرابی</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="357"/>
+      <location filename="../dialogs/updatedialog.cpp" line="360"/>
       <source>Could not find updater file:
 %1</source>
       <translation>اپڈیٹر فائل نہیں مل سکی۔
 ٪1</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="442"/>
+      <location filename="../dialogs/updatedialog.cpp" line="445"/>
       <source>Updater script '%1' doesn't exist!</source>
       <translation>اپڈیٹر اسکرپٹ '٪1' موجود نہیں ہے!</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="450"/>
+      <location filename="../dialogs/updatedialog.cpp" line="453"/>
       <source>Updater unzip executable '%1' doesn't exist!</source>
       <translation>اپڈیٹر ان زپ پر عملدرآمد '٪1' موجود نہیں ہے!</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="459"/>
-      <location filename="../dialogs/updatedialog.cpp" line="468"/>
+      <location filename="../dialogs/updatedialog.cpp" line="462"/>
+      <location filename="../dialogs/updatedialog.cpp" line="471"/>
       <source>Could not copy updater script '%1' to '%2'!</source>
       <translation>اپڈیٹر اسکرپٹ '٪1' کو '٪2' میں کاپی نہیں کرسکے!</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="478"/>
+      <location filename="../dialogs/updatedialog.cpp" line="481"/>
       <source>Couldn't find updater script: %1</source>
       <translation>اپڈیٹر اسکرپٹ نہیں مل سکا:٪1</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="487"/>
+      <location filename="../dialogs/updatedialog.cpp" line="490"/>
       <source>Couldn't find unzip executable: %1</source>
       <translation>ان زپ کو قابل عمل نہیں مل سکا :٪1</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="339"/>
-      <location filename="../dialogs/updatedialog.cpp" line="492"/>
+      <location filename="../dialogs/updatedialog.cpp" line="342"/>
+      <location filename="../dialogs/updatedialog.cpp" line="495"/>
       <source>Proceed with update</source>
       <translation>تازہ کاری کے ساتھ آگے بڑھیں</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="493"/>
+      <location filename="../dialogs/updatedialog.cpp" line="496"/>
       <source>The download is now finished. Do you want to update and restart QOwnNotes?</source>
       <translation>ڈاؤن لوڈ اب مکمل ہوچکا ہے۔ کیا آپ QOwnNotes کو اپ ڈیٹ اور دوبارہ شروع کرنا چاہتے ہیں؟</translation>
     </message>
@@ -8423,12 +8414,12 @@ QOwnNotes کے ساتھ شامل ہوں
       <translation>نیٹ ورک کی درخواست کے اعداد و شمار کی ترجمانی نہیں کی جاسکتی ہے!</translation>
     </message>
     <message>
-      <location filename="../services/updateservice.cpp" line="268"/>
+      <location filename="../services/updateservice.cpp" line="262"/>
       <source>No updates</source>
       <translation>کوئی اپ ڈیٹ نہیں ہے</translation>
     </message>
     <message>
-      <location filename="../services/updateservice.cpp" line="269"/>
+      <location filename="../services/updateservice.cpp" line="263"/>
       <source>There are no updates available.&lt;br /&gt;&lt;strong&gt;%1&lt;/strong&gt; is the latest version.</source>
       <translation>کوئی تازہ کاری دستیاب نہیں ہے &lt;br /&gt;&lt;strong&gt;%1&lt;/strong&gt;تازہ ترین ورژن ہے.</translation>
     </message>

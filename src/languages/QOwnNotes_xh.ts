@@ -67,32 +67,32 @@
       <translation>Khetha ifayile oza kuyifaka</translation>
     </message>
     <message>
-      <location filename="../dialogs/attachmentdialog.cpp" line="140"/>
+      <location filename="../dialogs/attachmentdialog.cpp" line="142"/>
       <source>Download error</source>
       <translation>Khuphela impazamo</translation>
     </message>
     <message>
-      <location filename="../dialogs/attachmentdialog.cpp" line="141"/>
+      <location filename="../dialogs/attachmentdialog.cpp" line="143"/>
       <source>Error while downloading:
 %1</source>
       <translation>Impazamo ngexesha lokukhuphela:
 %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/attachmentdialog.cpp" line="169"/>
-      <location filename="../dialogs/attachmentdialog.cpp" line="193"/>
+      <location filename="../dialogs/attachmentdialog.cpp" line="171"/>
+      <location filename="../dialogs/attachmentdialog.cpp" line="195"/>
       <source>File error</source>
       <translation>Impazamo yefayile</translation>
     </message>
     <message>
-      <location filename="../dialogs/attachmentdialog.cpp" line="170"/>
+      <location filename="../dialogs/attachmentdialog.cpp" line="172"/>
       <source>Could not open temporary file:
 %1</source>
       <translation>Ayikwazanga ukuvula ifayile yethutyana:
 %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/attachmentdialog.cpp" line="194"/>
+      <location filename="../dialogs/attachmentdialog.cpp" line="196"/>
       <source>Could not store downloaded file:
 %1</source>
       <translation>Ayikwazanga ukugcina ifayile ekhutshiweyo:
@@ -678,32 +678,32 @@
       <translation type="unfinished">Zulu</translation>
     </message>
     <message>
-      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="292"/>
+      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="294"/>
       <source>Download error</source>
       <translation>Khuphela impazamo</translation>
     </message>
     <message>
-      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="293"/>
+      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="295"/>
       <source>Error while downloading:
 %1</source>
       <translation>Impazamo ngexesha lokukhuphela:
 %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="309"/>
-      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="421"/>
+      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="311"/>
+      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="423"/>
       <source>File error</source>
       <translation>Impazamo yefayile</translation>
     </message>
     <message>
-      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="310"/>
+      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="312"/>
       <source>Could not store downloaded file:
 %1</source>
       <translation>Ayikwazanga ukugcina ifayile ekhutshiweyo:
 %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="422"/>
+      <location filename="../dialogs/dictionarymanagerdialog.cpp" line="424"/>
       <source>Could not remove dictionary file:
 %1</source>
       <translation>Ayinakususa ifayile yesichazi:
@@ -1778,7 +1778,7 @@
     <message>
       <location filename="../mainwindow.ui" line="411"/>
       <location filename="../mainwindow.ui" line="911"/>
-      <location filename="../mainwindow.cpp" line="804"/>
+      <location filename="../mainwindow.cpp" line="821"/>
       <source>Navigation</source>
       <translation>Ukuhambahamba</translation>
     </message>
@@ -1789,7 +1789,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="696"/>
-      <location filename="../mainwindow.cpp" line="8687"/>
+      <location filename="../mainwindow.cpp" line="8727"/>
       <source>Add a tag to the current note</source>
       <translation>Yongeza ithegi kwinqaku elikhoyo</translation>
     </message>
@@ -1825,7 +1825,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1238"/>
-      <location filename="../mainwindow.cpp" line="6669"/>
+      <location filename="../mainwindow.cpp" line="6694"/>
       <source>Custom actions</source>
       <translation>Ububanzi boMhleli</translation>
     </message>
@@ -1906,13 +1906,13 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1445"/>
-      <location filename="../mainwindow.cpp" line="10381"/>
+      <location filename="../mainwindow.cpp" line="10427"/>
       <source>Select &amp;all notes</source>
       <translation>Khetha &amp;onke amanqaku</translation>
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1454"/>
-      <location filename="../mainwindow.cpp" line="6580"/>
+      <location filename="../mainwindow.cpp" line="6605"/>
       <source>Insert &amp;link</source>
       <translation>Faka &amp;ikhonkco</translation>
     </message>
@@ -1967,7 +1967,7 @@
       <translation>Khangela okanye wenze inqaku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8688"/>
+      <location filename="../mainwindow.cpp" line="8728"/>
       <source>Add a tag to the selected notes</source>
       <translation>Yongeza ithegi kumanqaku akhethiweyo</translation>
     </message>
@@ -1978,7 +1978,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="886"/>
-      <location filename="../mainwindow.cpp" line="6631"/>
+      <location filename="../mainwindow.cpp" line="6656"/>
       <source>Export</source>
       <translation>Thumela ngaphandle</translation>
     </message>
@@ -1989,7 +1989,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="928"/>
-      <location filename="../mainwindow.cpp" line="6612"/>
+      <location filename="../mainwindow.cpp" line="6637"/>
       <source>Print</source>
       <translation>Shicilela</translation>
     </message>
@@ -2060,7 +2060,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1159"/>
-      <location filename="../mainwindow.cpp" line="732"/>
+      <location filename="../mainwindow.cpp" line="749"/>
       <source>Workspaces</source>
       <translation>Indawo yokusebenza</translation>
     </message>
@@ -2212,16 +2212,6 @@
       <translation>Faka &amp;ikhowudi yebhloko</translation>
     </message>
     <message>
-      <location filename="../mainwindow.ui" line="1704"/>
-      <source>Next note</source>
-      <translation>Inqaku elilandelayo</translation>
-    </message>
-    <message>
-      <location filename="../mainwindow.ui" line="1716"/>
-      <source>Previous note</source>
-      <translation>Inqaku elidlulileyo</translation>
-    </message>
-    <message>
       <location filename="../mainwindow.ui" line="1728"/>
       <source>&amp;Distraction free mode</source>
       <translation>&amp;Imo yasimahla yokuphazamiseka</translation>
@@ -2362,7 +2352,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2244"/>
-      <location filename="../mainwindow.cpp" line="11496"/>
+      <location filename="../mainwindow.cpp" line="11542"/>
       <source>Remove current workspace</source>
       <translation>Susa indawo yokusebenza yangoku</translation>
     </message>
@@ -2404,7 +2394,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2318"/>
-      <location filename="../mainwindow.cpp" line="6589"/>
+      <location filename="../mainwindow.cpp" line="6614"/>
       <source>Insert block &amp;quote</source>
       <translation>Faka ibhlokhi &amp;yebhloko</translation>
     </message>
@@ -2431,7 +2421,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2365"/>
-      <location filename="../mainwindow.cpp" line="10357"/>
+      <location filename="../mainwindow.cpp" line="10403"/>
       <source>Open note in different window</source>
       <translation>Vula inqaku kwifestile eyahlukileyo</translation>
     </message>
@@ -2452,7 +2442,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2405"/>
-      <location filename="../mainwindow.cpp" line="10365"/>
+      <location filename="../mainwindow.cpp" line="10411"/>
       <source>Show note git versions</source>
       <translation>Bonisa iinguqulelo ze-git yenqaku</translation>
     </message>
@@ -2535,7 +2525,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2567"/>
-      <location filename="../mainwindow.cpp" line="12423"/>
+      <location filename="../mainwindow.cpp" line="12466"/>
       <source>Automatically detect</source>
       <translation>Khangela ngokuzenzekelayo</translation>
     </message>
@@ -2653,6 +2643,17 @@
       <translation>&amp;Shicilela note (preview)</translation>
     </message>
     <message>
+      <location filename="../mainwindow.ui" line="1704"/>
+      <source>Move down in note list</source>
+      <translation>Hambisa phantsi kuluhlu lwamanqaku
+</translation>
+    </message>
+    <message>
+      <location filename="../mainwindow.ui" line="1716"/>
+      <source>Move up in note list</source>
+      <translation>Hambisa kuluhlu lwenqaku</translation>
+    </message>
+    <message>
       <location filename="../mainwindow.ui" line="2002"/>
       <source>Insert headline from note filename</source>
       <translation>Faka isihloko sentloko kwifayile yenqaku</translation>
@@ -2714,22 +2715,22 @@
       <translation>Ngenisa amanqaku kwi-Evernote</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2845"/>
+      <location filename="../mainwindow.cpp" line="2862"/>
       <source>Note was removed externally!</source>
       <translation>Inqaku lisuswe ngaphandle!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2846"/>
+      <location filename="../mainwindow.cpp" line="2863"/>
       <source>Current note was removed outside of this application!
 Restore current note?</source>
       <translation>Inqaku langoku lisuswe ngaphandle kwesi sicelo!
 Buyisela inqaku langoku?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5441"/>
-      <location filename="../mainwindow.cpp" line="5464"/>
-      <location filename="../mainwindow.cpp" line="7074"/>
-      <location filename="../mainwindow.cpp" line="10447"/>
+      <location filename="../mainwindow.cpp" line="5460"/>
+      <location filename="../mainwindow.cpp" line="5483"/>
+      <location filename="../mainwindow.cpp" line="7099"/>
+      <location filename="../mainwindow.cpp" line="10493"/>
       <source>&amp;Cancel</source>
       <translation>&amp;Rhoxisa</translation>
     </message>
@@ -2741,47 +2742,47 @@ Buyisela inqaku langoku?</translation>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3082"/>
+      <location filename="../mainwindow.cpp" line="3099"/>
       <source>new version %1 available</source>
       <translation>Inguqulelo entsha %1 ekhoyo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3199"/>
+      <location filename="../mainwindow.cpp" line="3216"/>
       <source>Abort</source>
       <translation>Lahla</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3199"/>
+      <location filename="../mainwindow.cpp" line="3216"/>
       <source>Loading notes…</source>
       <translation>Ifaka amanqaku…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3413"/>
+      <location filename="../mainwindow.cpp" line="3430"/>
       <source>Removed duplicate conflicted database: %1</source>
       <translation>Isusile isiseko sedatha ephikisanayo: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3414"/>
+      <location filename="../mainwindow.cpp" line="3431"/>
       <source>Could not remove duplicate conflicted database: %1</source>
       <translation>Ayikwazanga kususa impinda yedatha ephikisanayo: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3420"/>
+      <location filename="../mainwindow.cpp" line="3437"/>
       <source>Removed merged conflicted database: %1</source>
       <translation>Isusile kwisiseko sedatha edibeneyo: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3421"/>
+      <location filename="../mainwindow.cpp" line="3438"/>
       <source>Could not remove merged conflicted database: %1</source>
       <translation>Ayinakususa udibaniso oluhlanganisiweyo: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3436"/>
+      <location filename="../mainwindow.cpp" line="3453"/>
       <source>Delete conflicted database copies</source>
       <translation>Cima iikopi zedatha ezichaseneyo</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="3459"/>
+      <location filename="../mainwindow.cpp" line="3476"/>
       <source>Removed %n conflicted database copies</source>
       <translation>
         <numerusform>Isuswe ikopi ye-%n ephikisanayo</numerusform>
@@ -2789,62 +2790,62 @@ Buyisela inqaku langoku?</translation>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3623"/>
+      <location filename="../mainwindow.cpp" line="3640"/>
       <source>Please select the folder where your notes will get stored</source>
       <translation>Nceda ukhethe ifolda apho amanqaku akho aya kugcinwa khona</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3649"/>
+      <location filename="../mainwindow.cpp" line="3666"/>
       <source>No folder was selected</source>
       <translation>Akukho ncwadi ikhethiwe</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3651"/>
+      <location filename="../mainwindow.cpp" line="3668"/>
       <source>You have to select your ownCloud notes folder to make this software work!</source>
       <translation>Kuya kufuneka ukhethe eyakho incwadi eneenkcukachaCloud ukuze wenze le software isebenze!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3653"/>
+      <location filename="../mainwindow.cpp" line="3670"/>
       <source>&amp;Retry</source>
       <translation>&amp;Phinda uzame</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3653"/>
+      <location filename="../mainwindow.cpp" line="3670"/>
       <source>&amp;Exit</source>
       <translation>&amp;Phuma</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3961"/>
+      <location filename="../mainwindow.cpp" line="3978"/>
       <source>Remove current note</source>
       <translation>Susa inqaku langoku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3962"/>
+      <location filename="../mainwindow.cpp" line="3979"/>
       <source>Remove current note: &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>Susa inqaku langoku: &lt;strong&gt;%1&lt;/strong&gt;?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4319"/>
+      <location filename="../mainwindow.cpp" line="4338"/>
       <source>Please enter the &lt;strong&gt;password&lt;/strong&gt; of this encrypted note.</source>
       <translation>Nceda ufake &lt;strong&gt;i-password ye &lt;/strong&gt; le nqaku efihliweyo.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4342"/>
+      <location filename="../mainwindow.cpp" line="4361"/>
       <source>Note can't be decrypted!</source>
       <translation>Inqaku alinakuchazwa!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4343"/>
+      <location filename="../mainwindow.cpp" line="4362"/>
       <source>It seems that your password is not valid!</source>
       <translation>Kubonakala ngathi iphasiwedi yakho ayisebenzi!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4511"/>
+      <location filename="../mainwindow.cpp" line="4530"/>
       <source>Remove selected notes</source>
       <translation>Susa amanqaku</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4513"/>
+      <location filename="../mainwindow.cpp" line="4532"/>
       <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected note(s)?
 
 If the trash is enabled on your ownCloud server you should be able to restore them from there.</source>
@@ -2858,13 +2859,13 @@ Ukuba inkunkuma inikwe amandla kwiserver yakho ownCloud kuya kufuneka ukwazi uku
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4601"/>
-      <location filename="../mainwindow.cpp" line="10664"/>
+      <location filename="../mainwindow.cpp" line="4620"/>
+      <location filename="../mainwindow.cpp" line="10710"/>
       <source>Remove selected folders</source>
       <translation>Susa iifolda ezikhethiweyo</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4602"/>
+      <location filename="../mainwindow.cpp" line="4621"/>
       <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected folder(s)?&lt;ul&gt;&lt;li&gt;%1&lt;/li&gt;&lt;/ul&gt;All files and folders in these folders will be removed as well!</source>
       <translation>
         <numerusform>Susa ii-&lt;strong&gt;%n&lt;/strong&gt; zikhethiwe?
@@ -2876,17 +2877,17 @@ Zonke iifayile kunye neefolda kwezi folda ziya kususwa nazo!</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4613"/>
+      <location filename="../mainwindow.cpp" line="4632"/>
       <source>Removed note subfolder: %1</source>
       <translation>Ifolda yenqaku esisusiweyo: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4633"/>
+      <location filename="../mainwindow.cpp" line="4652"/>
       <source>Remove selected tags</source>
       <translation>Susa iithegi ezikhethiweyo</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4634"/>
+      <location filename="../mainwindow.cpp" line="4653"/>
       <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected tag(s)? No notes will be removed in this process.</source>
       <translation>
         <numerusform>Susa i-&lt;strong&gt;%n&lt;/strong&gt; ithegi ekhethiweyo? Akukho manqaku aza kususwa kule nkqubo.</numerusform>
@@ -2894,13 +2895,13 @@ Zonke iifayile kunye neefolda kwezi folda ziya kususwa nazo!</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4686"/>
-      <location filename="../mainwindow.cpp" line="9473"/>
+      <location filename="../mainwindow.cpp" line="4705"/>
+      <location filename="../mainwindow.cpp" line="9513"/>
       <source>Move selected notes</source>
       <translation>Hambisa iinowuthi ezikhethiweyo</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4687"/>
+      <location filename="../mainwindow.cpp" line="4706"/>
       <source>Move %n selected note(s) to &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>Hambisa %n inqaku elikhethiweyo ukuya kwi &lt;strong&gt;%2&lt;/strong&gt;?</numerusform>
@@ -2908,13 +2909,13 @@ Zonke iifayile kunye neefolda kwezi folda ziya kususwa nazo!</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4790"/>
-      <location filename="../mainwindow.cpp" line="9581"/>
+      <location filename="../mainwindow.cpp" line="4809"/>
+      <location filename="../mainwindow.cpp" line="9622"/>
       <source>Copy selected notes</source>
       <translation>Khuphela amanqaku abekiweyo</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4791"/>
+      <location filename="../mainwindow.cpp" line="4810"/>
       <source>Copy %n selected note(s) to &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>Khuphela %n inqaku elikhethiweyo ukuya e &lt;strong&gt;%2 &lt;/strong&gt;?</numerusform>
@@ -2922,13 +2923,13 @@ Zonke iifayile kunye neefolda kwezi folda ziya kususwa nazo!</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4821"/>
-      <location filename="../mainwindow.cpp" line="4970"/>
+      <location filename="../mainwindow.cpp" line="4840"/>
+      <location filename="../mainwindow.cpp" line="4989"/>
       <source>Done</source>
       <translation>Kwenziwe</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4822"/>
+      <location filename="../mainwindow.cpp" line="4841"/>
       <source>%n note(s) were copied to &lt;strong&gt;%2&lt;/strong&gt;.</source>
       <translation>
         <numerusform>I-%n inqaku ikhutshelwe ku &lt;strong&gt;% 2 &lt;/strong&gt;.</numerusform>
@@ -2936,12 +2937,12 @@ Zonke iifayile kunye neefolda kwezi folda ziya kususwa nazo!</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4835"/>
+      <location filename="../mainwindow.cpp" line="4854"/>
       <source>Tag selected notes</source>
       <translation>Amanqaku akhegiweyo akhethiweyo</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4836"/>
+      <location filename="../mainwindow.cpp" line="4855"/>
       <source>Tag %n selected note(s) with &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>Ithegi %n inqaku elikhethiweyo kunye no &lt;strong&gt;%2&lt;/strong&gt;?</numerusform>
@@ -2949,43 +2950,43 @@ Zonke iifayile kunye neefolda kwezi folda ziya kususwa nazo!</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5109"/>
+      <location filename="../mainwindow.cpp" line="5128"/>
       <source>Restart application</source>
       <translation>Qala kwakhona isicelo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5115"/>
+      <location filename="../mainwindow.cpp" line="5134"/>
       <source>You may need to restart the application manually to let the changes take effect.</source>
       <translation>Kuya kufuneka uyisungule kwakhona isicelo ukuze uvumele utshintsho luqale ukusebenza.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5120"/>
+      <location filename="../mainwindow.cpp" line="5139"/>
       <source>You may need to restart the application to let the changes take effect.</source>
       <translation>Kuya kufuneka uqale kwakhona isicelo ukuze iinguqulelo zisebenze.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5122"/>
+      <location filename="../mainwindow.cpp" line="5141"/>
       <source>Restart</source>
       <translation>Phinda Uqalele</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5353"/>
+      <location filename="../mainwindow.cpp" line="5372"/>
       <source>PDF files</source>
       <translation>Iifayile zePDF</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5437"/>
+      <location filename="../mainwindow.cpp" line="5456"/>
       <source>Todo lists disabled!</source>
       <translation>Uluhlu lweTodo lukhubazekile!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5438"/>
+      <location filename="../mainwindow.cpp" line="5457"/>
       <source>You have disabled the todo lists.&lt;br /&gt;Please check your &lt;strong&gt;Todo&lt;/strong&gt; configuration in the settings!</source>
       <translation>Ukhubaze uluhlu lwe-todo. &lt;br /&gt;
 Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="5681"/>
+      <location filename="../mainwindow.cpp" line="5705"/>
       <source>Found &lt;strong&gt;%n&lt;/strong&gt; occurrence(s) of any term of &lt;strong&gt;%1&lt;/strong&gt;</source>
       <translation>
         <numerusform>Ifunyenwe i &lt;strong&gt;%n&lt;/strong&gt; naliphi na ixesha lika &lt;strong&gt;%1&lt;/strong&gt;</numerusform>
@@ -2993,101 +2994,101 @@ Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6229"/>
+      <location filename="../mainwindow.cpp" line="6254"/>
       <source>Note was not found</source>
       <translation>Inqaku alifumanekanga</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6230"/>
+      <location filename="../mainwindow.cpp" line="6255"/>
       <source>Note was not found, create new note &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>Inqaku alifumanekanga, yenza inqaku elitsha &lt;strong&gt;%1&lt;/strong&gt;?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6393"/>
+      <location filename="../mainwindow.cpp" line="6418"/>
       <source>Note folders</source>
       <translation>Qaphela iifolda</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6516"/>
+      <location filename="../mainwindow.cpp" line="6541"/>
       <source>Note versions are currently loaded from your ownCloud server</source>
       <translation>Iinguqulelo zamanqaku ngoku zilayishwe kwiseva yakho ownCloud</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6533"/>
+      <location filename="../mainwindow.cpp" line="6558"/>
       <source>Trashed notes are currently loaded from your ownCloud server</source>
       <translation>Amanqaku alahliweyo okwangoku avela kwiserver yakho ownCloud</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6599"/>
+      <location filename="../mainwindow.cpp" line="6624"/>
       <source>Copy code block</source>
       <translation>Khuphela ikhowudi yebhloko</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6620"/>
+      <location filename="../mainwindow.cpp" line="6645"/>
       <source>Print selected text</source>
       <translation>Printa isicatshulwa esikhethiweyo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6626"/>
+      <location filename="../mainwindow.cpp" line="6651"/>
       <source>Print selected text (preview)</source>
       <translation>Printa okubhaliweyo okukhethiweyo (imbonakalo)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6644"/>
+      <location filename="../mainwindow.cpp" line="6669"/>
       <source>Export selected text as PDF</source>
       <translation>Thumela ngaphandle isicatshulwa esikhethiweyo njengePDF</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6650"/>
+      <location filename="../mainwindow.cpp" line="6675"/>
       <source>Export selected text as PDF (preview)</source>
       <translation>Thumela ngaphandle isicatshulwa esikhethiweyo njengePDF (preview)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7070"/>
+      <location filename="../mainwindow.cpp" line="7095"/>
       <source>Your note will be decrypted and stored as plain text again. Keep in mind that the unencrypted note will possibly be synced to your server and sensitive text may be exposed!&lt;br /&gt;Do you want to decrypt your note?</source>
       <translation>Inqaku lakho liya kwenziwa licinywe kwaye ligcinwe njengombhalo ocacileyo kwakhona. Gcina ukhumbula ukuba inowuthi engabhalwanga inokulungelelaniswa neseva yakho kwaye kunye nesicatshulwa esibuthathaka sinokuvezwa!
 &lt;br /&gt;
 Ngaba ufuna ukuphelisa inqaku lakho?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7167"/>
+      <location filename="../mainwindow.cpp" line="7192"/>
       <source>Markdown files</source>
       <translation>Iifayile eziphawulweyo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7223"/>
+      <location filename="../mainwindow.cpp" line="7247"/>
       <source>Bookmarked note position at slot %1</source>
       <translation>Inqaku lencwadi ebhalwe uphawu kwindawo slot %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7238"/>
+      <location filename="../mainwindow.cpp" line="7262"/>
       <source>Jumped to bookmark position at slot %1</source>
       <translation>Yatsibela kwindawo yokubekisa kwindawo eselide %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7466"/>
-      <location filename="../mainwindow.cpp" line="7535"/>
+      <location filename="../mainwindow.cpp" line="7490"/>
+      <location filename="../mainwindow.cpp" line="7559"/>
       <source>Inserting image</source>
       <translation>Ukufaka umfanekiso</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7471"/>
-      <location filename="../mainwindow.cpp" line="7539"/>
+      <location filename="../mainwindow.cpp" line="7495"/>
+      <location filename="../mainwindow.cpp" line="7563"/>
       <source>Done inserting image</source>
       <translation>Kwenziwe ukufaka umfanekiso</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7473"/>
+      <location filename="../mainwindow.cpp" line="7497"/>
       <source>Inserting attachment</source>
       <translation>Ukufaka isinamathiselo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7478"/>
+      <location filename="../mainwindow.cpp" line="7502"/>
       <source>Done inserting attachment</source>
       <translation>Igqityiwe ukufakwa</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="7490"/>
+      <location filename="../mainwindow.cpp" line="7514"/>
       <source>Copied %n note(s) to %1</source>
       <translation>
         <numerusform>Ikhutshelwe %n inqaku kwi %1</numerusform>
@@ -3095,7 +3096,7 @@ Ngaba ufuna ukuphelisa inqaku lakho?</translation>
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="7499"/>
+      <location filename="../mainwindow.cpp" line="7523"/>
       <source>Failed to copy %n note(s) (most likely already existing)</source>
       <translation>
         <numerusform>Ayiphumelelanga ukukopa %n inqaku (uninzi lwazo sele lukhona)</numerusform>
@@ -3103,7 +3104,7 @@ Ngaba ufuna ukuphelisa inqaku lakho?</translation>
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="7509"/>
+      <location filename="../mainwindow.cpp" line="7533"/>
       <source>Skipped copying of %n note(s) (no markdown or text file or not readable)</source>
       <translation>
         <numerusform>Ukukhuphela ikopi ye-%n inqaku (akukho phawu luphawu okanye ifayile yombhalo okanye engafundekiyo)</numerusform>
@@ -3111,218 +3112,218 @@ Ngaba ufuna ukuphelisa inqaku lakho?</translation>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7522"/>
+      <location filename="../mainwindow.cpp" line="7546"/>
       <source>Saving temporary image</source>
       <translation>Gcina umfanekiso okwethutyana</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7541"/>
+      <location filename="../mainwindow.cpp" line="7565"/>
       <source>Temporary file can't be opened</source>
       <translation>Ifayile yexeshana ayinakuvulwa</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7584"/>
+      <location filename="../mainwindow.cpp" line="7608"/>
       <source>Downloading %1</source>
       <translation>Ukukhuphela %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7774"/>
+      <location filename="../mainwindow.cpp" line="7798"/>
       <source>Reset font size to %1 pt</source>
       <comment>Will be shown after the font size is reset by 'Reset note text size'</comment>
       <translation>Hlela ubungakanani befonti ku %1 pt</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8733"/>
+      <location filename="../mainwindow.cpp" line="8773"/>
       <source>Remove tag '%1' from the current note</source>
       <translation>Susa i-tag '%1' kwinqaku langoku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8734"/>
+      <location filename="../mainwindow.cpp" line="8774"/>
       <source>Remove tag '%1' from the selected notes</source>
       <translation>Susa i-tag '%1' kumanqaku akhethiweyo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8965"/>
+      <location filename="../mainwindow.cpp" line="9005"/>
       <source>Rename tag</source>
       <translation>Qamba igama lefayile</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8966"/>
+      <location filename="../mainwindow.cpp" line="9006"/>
       <source>Assign color</source>
       <translation>Nika umbala</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8967"/>
+      <location filename="../mainwindow.cpp" line="9007"/>
       <source>Disable color</source>
       <translation>Khubaza umbala</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8971"/>
+      <location filename="../mainwindow.cpp" line="9011"/>
       <source>&amp;Move tags to…</source>
       <translation>&amp;Hambisa iithegi ku…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9182"/>
+      <location filename="../mainwindow.cpp" line="9222"/>
       <source>Move to the root</source>
       <comment>to move a tag to the current tag in the tag context menu</comment>
       <translation>Yiya kwiingcambu</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9747"/>
+      <location filename="../mainwindow.cpp" line="9789"/>
       <source>An url was opened at the current cursor position</source>
       <translation>I-url yavulwa kwindawo yangoku yesalathisi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9851"/>
+      <location filename="../mainwindow.cpp" line="9892"/>
       <source>No equation was found in front of the cursor</source>
       <translation>Akukho zibalo zifunyenwe phambi kwesikhombisi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9868"/>
+      <location filename="../mainwindow.cpp" line="9912"/>
       <source>Result for equation: %1 = %2</source>
       <translation>Iziphumo zokulingana: %1 = %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9973"/>
+      <location filename="../mainwindow.cpp" line="10017"/>
       <source>The scripting engine was reloaded</source>
       <translation>I-injini yokubhala iphinde yalayishwa</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10007"/>
+      <location filename="../mainwindow.cpp" line="10051"/>
       <source>HTML files</source>
       <translation>Iifayile ze-HTML</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10293"/>
+      <location filename="../mainwindow.cpp" line="10339"/>
       <source>Jump to the note's subfolder</source>
       <translation>Tsiba kwifolda yenqaku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10350"/>
+      <location filename="../mainwindow.cpp" line="10396"/>
       <source>Open note in tab</source>
       <translation>Vula inqaku kwithebhu</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12016"/>
+      <location filename="../mainwindow.cpp" line="12059"/>
       <source>A script update was found!</source>
       <translation>Ukuhlaziywa kweskripthi kufunyenwe!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12022"/>
+      <location filename="../mainwindow.cpp" line="12065"/>
       <source>Script updates</source>
       <translation>Uhlaziyo lweSkripthi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12023"/>
+      <location filename="../mainwindow.cpp" line="12066"/>
       <source>Updates to your scripts were found in the script repository! Do you want to update them?</source>
       <translation>Uhlaziyo kwizikripthi zakho lufunyenwe kwindawo ebhaliweyo! Ngaba uyafuna ukuzihlaziya?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12038"/>
+      <location filename="../mainwindow.cpp" line="12081"/>
       <source>No script updates were found</source>
       <translation>Akukho zihlaziyo zescript ezifunyenweyo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12654"/>
+      <location filename="../mainwindow.cpp" line="12697"/>
       <source>Toggle note stickiness</source>
       <translation>Guqula ukubambelela kokubhaliweyo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12660"/>
+      <location filename="../mainwindow.cpp" line="12703"/>
       <source>Close other note tabs</source>
-      <translation type="unfinished">Close other note tabs</translation>
+      <translation>Vala ezinye iithebhu zamanqaku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10237"/>
-      <location filename="../mainwindow.cpp" line="10431"/>
+      <location filename="../mainwindow.cpp" line="10283"/>
+      <location filename="../mainwindow.cpp" line="10477"/>
       <source>Rename note</source>
       <translation>Qamba kwakhona inqaku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10239"/>
+      <location filename="../mainwindow.cpp" line="10285"/>
       <source>Allows you to rename the filename of the note</source>
       <translation>Ikuvumela ukuba uphinde igama lefayile yenqaku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10253"/>
+      <location filename="../mainwindow.cpp" line="10299"/>
       <source>&amp;Move notes to…</source>
       <translation>&amp;Hambisa amanqaku ku…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10254"/>
+      <location filename="../mainwindow.cpp" line="10300"/>
       <source>&amp;Copy notes to…</source>
       <translation>&amp;Khuphela amanqaku ku-…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10297"/>
+      <location filename="../mainwindow.cpp" line="10343"/>
       <source>Move notes to subfolder…</source>
       <translation>Hambisa amanqaku kwifolda encinci…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10301"/>
+      <location filename="../mainwindow.cpp" line="10347"/>
       <source>Copy notes to subfolder…</source>
       <translation>Khuphela amanqaku kwinqakwana elingezantsi...</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10309"/>
+      <location filename="../mainwindow.cpp" line="10355"/>
       <source>&amp;Tag selected notes with…</source>
       <translation>&amp;Thumela amanqaku akhethiweyo nge…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10333"/>
+      <location filename="../mainwindow.cpp" line="10379"/>
       <source>&amp;Remove tag from selected notes…</source>
       <translation>&amp;Remove tag from selected notes…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10431"/>
+      <location filename="../mainwindow.cpp" line="10477"/>
       <source>Name:</source>
       <translation>Igama:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10443"/>
+      <location filename="../mainwindow.cpp" line="10489"/>
       <source>Note renaming not enabled!</source>
       <translation>Qaphela ukuba igama kwakhona alwenziwanga!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10663"/>
+      <location filename="../mainwindow.cpp" line="10709"/>
       <source>Rename subfolder</source>
       <translation>Qamba igama lefolda</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11267"/>
+      <location filename="../mainwindow.cpp" line="11313"/>
       <source>Create new workspace</source>
       <translation>Yenza indawo yokusebenza entsha</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11268"/>
-      <location filename="../mainwindow.cpp" line="11538"/>
+      <location filename="../mainwindow.cpp" line="11314"/>
+      <location filename="../mainwindow.cpp" line="11584"/>
       <source>Workspace name:</source>
       <translation>Indawo yokusebenzela:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11393"/>
+      <location filename="../mainwindow.cpp" line="11439"/>
       <source>full</source>
       <comment>full workspace</comment>
       <translation>igcwele</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11400"/>
+      <location filename="../mainwindow.cpp" line="11446"/>
       <source>minimal</source>
       <comment>minimal workspace</comment>
       <translation>ubuncinci</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11497"/>
+      <location filename="../mainwindow.cpp" line="11543"/>
       <source>Remove the current workspace?</source>
       <translation>Susa indawo yokusebenza yangoku?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11537"/>
+      <location filename="../mainwindow.cpp" line="11583"/>
       <source>Rename workspace</source>
       <translation>Qamba indawo yomsebenzi</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="11683"/>
+      <location filename="../mainwindow.cpp" line="11729"/>
       <source>%n chars</source>
       <comment>characters</comment>
       <translation type="unfinished">
@@ -3331,42 +3332,42 @@ Ngaba ufuna ukuphelisa inqaku lakho?</translation>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11955"/>
+      <location filename="../mainwindow.cpp" line="11998"/>
       <source>Disallow all note editing</source>
       <translation>Ungavumeli konke ukuhlelwa kwengcaciso</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12171"/>
+      <location filename="../mainwindow.cpp" line="12214"/>
       <source>Select text files to import</source>
       <translation>Khetha iifayile zokungenisa</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12201"/>
+      <location filename="../mainwindow.cpp" line="12244"/>
       <source>Importing: %1</source>
       <translation>Ukungenisa: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12266"/>
+      <location filename="../mainwindow.cpp" line="12309"/>
       <source>Note headline '%1' was copied to the clipboard</source>
       <translation>Inqaku lesihloko '%1' lalikhutshelwe kwibhodi eqhotyoshwayo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12360"/>
+      <location filename="../mainwindow.cpp" line="12403"/>
       <source>Leave full-screen mode</source>
       <translation>Shiya imowudi epheleleyo yesikrini</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12541"/>
+      <location filename="../mainwindow.cpp" line="12584"/>
       <source>Custom editor width</source>
       <translation>Ububanzi bomhleli wesiko</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12541"/>
+      <location filename="../mainwindow.cpp" line="12584"/>
       <source>Characters:</source>
       <translation>Abalinganiswa:</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="8707"/>
+      <location filename="../mainwindow.cpp" line="8747"/>
       <source>%n notes selected</source>
       <translation>
         <numerusform>Inqaku eli-%n likhethiwe</numerusform>
@@ -3375,7 +3376,7 @@ Ngaba ufuna ukuphelisa inqaku lakho?</translation>
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2450"/>
-      <location filename="../mainwindow.cpp" line="11956"/>
+      <location filename="../mainwindow.cpp" line="11999"/>
       <source>Allow all note editing</source>
       <translation>Vumela konke ukuhlelwa kwenqaku</translation>
     </message>
@@ -3385,12 +3386,12 @@ Ngaba ufuna ukuphelisa inqaku lakho?</translation>
       <translation>&amp;I-Tag</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4910"/>
+      <location filename="../mainwindow.cpp" line="4929"/>
       <source>Remove tag from selected notes</source>
       <translation>Susa umaki kumanqaku akhethiweyo</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4911"/>
+      <location filename="../mainwindow.cpp" line="4930"/>
       <source>Remove tag &lt;strong&gt;%1&lt;/strong&gt; from %n selected note(s)?</source>
       <translation>
         <numerusform>Ngaba ususa iithegi &lt;strong&gt;%1&lt;/strong&gt; kwi %n inqaku elikhethiweyo?</numerusform>
@@ -3398,7 +3399,7 @@ Ngaba ufuna ukuphelisa inqaku lakho?</translation>
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4971"/>
+      <location filename="../mainwindow.cpp" line="4990"/>
       <source>Tag &lt;strong&gt;%1&lt;/strong&gt; was removed from %n note(s)</source>
       <translation>
         <numerusform>I-Tag &lt;strong&gt;%1&lt;/strong&gt; isuswe kwi %n inqaku</numerusform>
@@ -3406,133 +3407,133 @@ Ngaba ufuna ukuphelisa inqaku lakho?</translation>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5016"/>
+      <location filename="../mainwindow.cpp" line="5035"/>
       <source>Current notes folder: </source>
       <translation>Ifolda yamanqaku yangoku:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5019"/>
+      <location filename="../mainwindow.cpp" line="5038"/>
       <source>Set the notes folder. Current notes folder: </source>
       <translation>Misela uluhlu lweenowuthsi. Ifolda yamanqaku yangoku:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5221"/>
+      <location filename="../mainwindow.cpp" line="5240"/>
       <source>Print note</source>
       <translation>Shicilela inqaku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5296"/>
+      <location filename="../mainwindow.cpp" line="5315"/>
       <source>Letter</source>
       <translation>Ileta</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5326"/>
+      <location filename="../mainwindow.cpp" line="5345"/>
       <source>Portrait</source>
       <translation>Umzobo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5326"/>
+      <location filename="../mainwindow.cpp" line="5345"/>
       <source>Landscape</source>
       <translation>Landscape</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5331"/>
+      <location filename="../mainwindow.cpp" line="5350"/>
       <source>Orientation</source>
       <translation>Ukuziqhelanisa</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5331"/>
+      <location filename="../mainwindow.cpp" line="5350"/>
       <source>Orientation:</source>
       <translation>Ukuziqhelanisa:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5354"/>
+      <location filename="../mainwindow.cpp" line="5373"/>
       <source>Export current note as PDF</source>
       <translation>Thumela inqaku langoku njengePDP</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5461"/>
+      <location filename="../mainwindow.cpp" line="5480"/>
       <source>You have not selected any todo lists.&lt;br /&gt;Please check your &lt;strong&gt;Todo&lt;/strong&gt; configuration in the settings!</source>
       <translation>Awukhethanga naluphi na uluhlu lwe-todo. &lt;br /&gt;
 Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6375"/>
+      <location filename="../mainwindow.cpp" line="6400"/>
       <source>Open QOwnNotes</source>
       <translation>Vula i-QOwnNotes</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6038"/>
-      <location filename="../mainwindow.cpp" line="6425"/>
-      <location filename="../mainwindow.cpp" line="10233"/>
-      <location filename="../mainwindow.cpp" line="10661"/>
+      <location filename="../mainwindow.cpp" line="6063"/>
+      <location filename="../mainwindow.cpp" line="6450"/>
+      <location filename="../mainwindow.cpp" line="10279"/>
+      <location filename="../mainwindow.cpp" line="10707"/>
       <source>New note</source>
       <translation>Inqaku elitsha</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6442"/>
+      <location filename="../mainwindow.cpp" line="6467"/>
       <source>Recent notes</source>
       <translation>Amanqaku akutshanje</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6458"/>
+      <location filename="../mainwindow.cpp" line="6483"/>
       <source>Show todo lists</source>
       <translation>Bonisa uluhlu lweTodo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6470"/>
+      <location filename="../mainwindow.cpp" line="6495"/>
       <source>Recent tasks</source>
       <translation>Imisebenzi yamva nje</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6491"/>
+      <location filename="../mainwindow.cpp" line="6516"/>
       <source>Quit</source>
       <translation>Yeka</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7947"/>
+      <location filename="../mainwindow.cpp" line="7966"/>
       <source>show notes from all note subfolders (%1)</source>
       <translation>bonisa amanqaku kuwo onke amafolda encwadi (%1)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7970"/>
+      <location filename="../mainwindow.cpp" line="7989"/>
       <source>show notes in note root folder (%1)</source>
       <translation>bonisa amanqaku kwinqwelwana yengcambu yenqaku (%1)</translation>
     </message>
     <message>
       <location filename="../mainwindow.ui" line="316"/>
-      <location filename="../mainwindow.cpp" line="776"/>
-      <location filename="../mainwindow.cpp" line="2095"/>
-      <location filename="../mainwindow.cpp" line="7982"/>
+      <location filename="../mainwindow.cpp" line="793"/>
+      <location filename="../mainwindow.cpp" line="2112"/>
+      <location filename="../mainwindow.cpp" line="8001"/>
       <source>Note folder</source>
       <translation>Ifolda yenqaku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9354"/>
-      <location filename="../mainwindow.cpp" line="9421"/>
+      <location filename="../mainwindow.cpp" line="9394"/>
+      <location filename="../mainwindow.cpp" line="9461"/>
       <source>Copy to note folder</source>
       <translation>Khuphela kwifowulda</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9354"/>
-      <location filename="../mainwindow.cpp" line="9422"/>
+      <location filename="../mainwindow.cpp" line="9394"/>
+      <location filename="../mainwindow.cpp" line="9462"/>
       <source>Move to note folder</source>
       <translation>Yiya kwifolda yenqaku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9355"/>
-      <location filename="../mainwindow.cpp" line="9423"/>
+      <location filename="../mainwindow.cpp" line="9395"/>
+      <location filename="../mainwindow.cpp" line="9463"/>
       <source>Copy to this subfolder</source>
       <translation>Khuphela kule folda ingezantsi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9356"/>
-      <location filename="../mainwindow.cpp" line="9424"/>
+      <location filename="../mainwindow.cpp" line="9396"/>
+      <location filename="../mainwindow.cpp" line="9464"/>
       <source>Move to this subfolder</source>
       <translation>Yiya kule folda ingezantsi</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9468"/>
+      <location filename="../mainwindow.cpp" line="9508"/>
       <source>Move %n selected note(s) to note subfolder &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>Hambisa inqaku eli-%n elikhethiweyo ukuqaphela ifolda engezantsi &lt;strong&gt;%2&lt;/strong&gt;?</numerusform>
@@ -3540,13 +3541,13 @@ Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5122"/>
-      <location filename="../mainwindow.cpp" line="12185"/>
+      <location filename="../mainwindow.cpp" line="5141"/>
+      <location filename="../mainwindow.cpp" line="12228"/>
       <source>Cancel</source>
       <translation>Rhoxisa</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9552"/>
+      <location filename="../mainwindow.cpp" line="9593"/>
       <source>%n note(s) were moved to note subfolder "%2"</source>
       <translation>
         <numerusform>%n inqaku lishukunyiselwe ukuqaphela ifolda engaphantsi "%2"</numerusform>
@@ -3554,7 +3555,7 @@ Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9576"/>
+      <location filename="../mainwindow.cpp" line="9617"/>
       <source>Copy %n selected note(s) to note subfolder &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>Khuphela%n inqaku elikhethiweyo ukuphawula ifolda esezantsi &lt;strong&gt;%2&lt;/strong&gt;?</numerusform>
@@ -3562,7 +3563,7 @@ Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9643"/>
+      <location filename="../mainwindow.cpp" line="9685"/>
       <source>%n note(s) were copied to note subfolder "%2"</source>
       <translation>
         <numerusform>Khuphela inqaku eli-%n elikhethiweyo ukuqaphela ifolda esezantsi &lt;strong&gt;%2&lt;/strong&gt;?</numerusform>
@@ -3570,118 +3571,118 @@ Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10355"/>
+      <location filename="../mainwindow.cpp" line="10401"/>
       <source>Open note in external editor</source>
       <translation>Vula inqaku kumhleli wangaphandle</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10359"/>
+      <location filename="../mainwindow.cpp" line="10405"/>
       <source>Show note in file manager</source>
       <translation>Yenza inqaku kumlawuli wefayile</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10444"/>
+      <location filename="../mainwindow.cpp" line="10490"/>
       <source>If you want to rename your note you have to enable the option to allow the note filename to be different from the headline.</source>
       <translation>Ukuba ufuna ukuyila igama kwakhona kufuneka unike ithuba lokuvumela igama lefayile ukuba lahluke kwintloko.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10662"/>
+      <location filename="../mainwindow.cpp" line="10708"/>
       <source>New subfolder</source>
       <translation>Ifolda entsha</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10666"/>
+      <location filename="../mainwindow.cpp" line="10712"/>
       <source>Show folder in file manager</source>
       <translation>Bonisa ifolda kumlawuli wefayile</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10711"/>
+      <location filename="../mainwindow.cpp" line="10757"/>
       <source>Create a new folder</source>
       <translation>Yenza incwadi entsha</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10712"/>
+      <location filename="../mainwindow.cpp" line="10758"/>
       <source>Folder name:</source>
       <translation>Igama lefolda:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7906"/>
+      <location filename="../mainwindow.cpp" line="7925"/>
       <source>show all untagged notes (%1)</source>
       <translation>bonisa onke amanqaku angafundiswanga (%1)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7908"/>
+      <location filename="../mainwindow.cpp" line="7927"/>
       <source>Untagged notes</source>
       <translation>Amanqaku angafakwanga</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10008"/>
+      <location filename="../mainwindow.cpp" line="10052"/>
       <source>Export current note as HTML file</source>
       <translation>Thumela inqaku langoku njengefayile ye-HTML</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5305"/>
+      <location filename="../mainwindow.cpp" line="5324"/>
       <source>Page size</source>
       <translation>Ubungakanani bephepha</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1148"/>
+      <location filename="../mainwindow.cpp" line="1165"/>
       <source>quit toolbar</source>
       <translation>yeka izixhobo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5305"/>
+      <location filename="../mainwindow.cpp" line="5324"/>
       <source>Page size:</source>
       <translation>Ubungakanani bephepha:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5422"/>
+      <location filename="../mainwindow.cpp" line="5441"/>
       <source>QOwnNotes will track anonymous usage data, that helps to decide what parts of QOwnNotes to improve next and to find and fix bugs. You can disable that behaviour in the settings.</source>
       <translation>I-QOwnNotes iyakukhangela idatha engasetyenziswanga, enceda ekuthatheni isigqibo sokuba zeziphi iinxalenye ze-QOwnNotes zokuphucula elandelayo kunye nokufumana nokulungisa iibugs. Unokukhubaza oko kuziphatha kwizakhelo.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5426"/>
+      <location filename="../mainwindow.cpp" line="5445"/>
       <source>&amp;Ok</source>
       <translation>&amp;Kulungile</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10243"/>
+      <location filename="../mainwindow.cpp" line="10289"/>
       <source>&amp;Remove notes</source>
       <translation type="unfinished">&amp;Remove notes</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6580"/>
+      <location filename="../mainwindow.cpp" line="6605"/>
       <source>&amp;Link selected text</source>
       <translation type="unfinished">&amp;Link selected text</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1074"/>
+      <location filename="../mainwindow.cpp" line="1091"/>
       <source>Your tasks are being loaded from your server</source>
       <translation>Imisebenzi yakho iyalayishwa kwiseva yakho</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2776"/>
+      <location filename="../mainwindow.cpp" line="2793"/>
       <source>Current note was modified externally</source>
       <translation>Inqaku langoku laguqulwa langaphandle</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2859"/>
-      <location filename="../mainwindow.cpp" line="5976"/>
+      <location filename="../mainwindow.cpp" line="2876"/>
+      <location filename="../mainwindow.cpp" line="6001"/>
       <source>Stored current note to disk</source>
       <translation>Inqaku eligcinwe kungoku nje kwidiski</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2877"/>
+      <location filename="../mainwindow.cpp" line="2894"/>
       <source>Note was modified externally: %1</source>
       <translation>Inqaku laguqulwa langaphandle: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2899"/>
+      <location filename="../mainwindow.cpp" line="2916"/>
       <source>Notes directory was modified externally</source>
       <translation>Isalathiso samanqaku siye salungiswa ngaphandle</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="2960"/>
+      <location filename="../mainwindow.cpp" line="2977"/>
       <source>Stored %n note(s) to disk</source>
       <translation type="unfinished">
         <numerusform>Stored %n note(s) to disk</numerusform>
@@ -3689,214 +3690,214 @@ Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7873"/>
+      <location filename="../mainwindow.cpp" line="7892"/>
       <source>show all notes (%1)</source>
       <translation>bonisa onke amanqaku (%1)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7876"/>
-      <location filename="../mainwindow.cpp" line="7950"/>
+      <location filename="../mainwindow.cpp" line="7895"/>
+      <location filename="../mainwindow.cpp" line="7969"/>
       <source>All notes</source>
       <translation>Onke amanqaku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8957"/>
+      <location filename="../mainwindow.cpp" line="8997"/>
       <source>&amp;Add tag</source>
       <translation type="unfinished">&amp;Add tag</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9005"/>
+      <location filename="../mainwindow.cpp" line="9045"/>
       <source>Tag could not be created!</source>
       <translation>I-tag ayinakwenziwa!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9184"/>
+      <location filename="../mainwindow.cpp" line="9224"/>
       <source>Move to this tag</source>
       <translation>Hambisa kule thegi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9219"/>
+      <location filename="../mainwindow.cpp" line="9259"/>
       <source>Tag this</source>
       <translation>Yenza oku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9244"/>
+      <location filename="../mainwindow.cpp" line="9284"/>
       <source>Cannot move tag '%1' to this tag</source>
       <translation>Ayinakuhambisa ithegi '%1' kule thegi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9293"/>
+      <location filename="../mainwindow.cpp" line="9333"/>
       <source>Moved tag '%1' to new tag</source>
       <translation>Ithegi yokuhambisa '%1' kwithegi entsha</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8207"/>
+      <location filename="../mainwindow.cpp" line="8239"/>
       <source>show all notes tagged with '%1' (%2)</source>
       <translation>bonisa onke amanqaku amakishwe ngo '%1' (%2)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8968"/>
+      <location filename="../mainwindow.cpp" line="9008"/>
       <source>&amp;Remove tags</source>
       <translation type="unfinished">&amp;Remove tags</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5460"/>
+      <location filename="../mainwindow.cpp" line="5479"/>
       <source>No selected todo lists!</source>
       <translation>Akukho zintlu zikhethiweyo zeTodo!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="745"/>
+      <location filename="../mainwindow.cpp" line="762"/>
       <source>Subfolders</source>
       <translation>Kwaye zintlu zikhethiweyo zeTodo!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="757"/>
+      <location filename="../mainwindow.cpp" line="774"/>
       <source>Tags</source>
       <translation>Limpawu</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="766"/>
+      <location filename="../mainwindow.cpp" line="783"/>
       <source>Note search</source>
       <translation>Qaphela ukukhangela</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="795"/>
+      <location filename="../mainwindow.cpp" line="812"/>
       <source>Note list</source>
       <translation>Uluhlu lwamanqaku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="820"/>
+      <location filename="../mainwindow.cpp" line="837"/>
       <source>Note edit</source>
       <translation>Inqaku lokuhlela</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="832"/>
+      <location filename="../mainwindow.cpp" line="849"/>
       <source>Note tags</source>
       <translation>Iimpawu zamanqaku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="843"/>
+      <location filename="../mainwindow.cpp" line="860"/>
       <source>Note preview</source>
       <translation>Jonga kuqala</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="851"/>
+      <location filename="../mainwindow.cpp" line="868"/>
       <source>Log</source>
       <translation>Log</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="860"/>
+      <location filename="../mainwindow.cpp" line="877"/>
       <source>Scripting</source>
       <translation>Ukushicilela</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1115"/>
+      <location filename="../mainwindow.cpp" line="1132"/>
       <source>formatting toolbar</source>
       <translation>isixhobo sekhowudi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1124"/>
+      <location filename="../mainwindow.cpp" line="1141"/>
       <source>inserting toolbar</source>
       <translation>Ukufaka izixhobo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1131"/>
+      <location filename="../mainwindow.cpp" line="1148"/>
       <source>encryption toolbar</source>
       <translation>i-thulbha eyenziwa ngumsebenzisi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1138"/>
+      <location filename="../mainwindow.cpp" line="1155"/>
       <source>window toolbar</source>
       <translation>i-thulbha yosetyenziso</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1143"/>
+      <location filename="../mainwindow.cpp" line="1160"/>
       <source>custom action toolbar</source>
       <translation>i-thulbha eyenziwa ngumsebenzisi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1163"/>
+      <location filename="../mainwindow.cpp" line="1180"/>
       <source>Workspace selector</source>
       <translation>Isikhethi sendawo yokusebenza</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1309"/>
+      <location filename="../mainwindow.cpp" line="1326"/>
       <source>Show %1 panel</source>
       <translation>Bonisa iphaneli ye-%1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1351"/>
+      <location filename="../mainwindow.cpp" line="1368"/>
       <source>Show %1</source>
       <translation>Veza %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1674"/>
+      <location filename="../mainwindow.cpp" line="1691"/>
       <source>Leave distraction free mode</source>
       <translation>Shiya isiphazamiso simahla</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1856"/>
+      <location filename="../mainwindow.cpp" line="1873"/>
       <source>Switch to note folder</source>
       <translation>Tshintshela kwifolda yenqaku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2251"/>
+      <location filename="../mainwindow.cpp" line="2268"/>
       <source>show notes in folder '%1' (%2)</source>
       <translation>bonisa amanqaku kwincwadi eneenkcukacha '%1' (%2)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2290"/>
+      <location filename="../mainwindow.cpp" line="2307"/>
       <source>&lt;strong&gt;%1&lt;/strong&gt;&lt;br /&gt;last modified: %2</source>
       <translation>&lt;strong&gt;%1 &lt;/strong&gt; &lt;br /&gt; iguqulwe okokugqibela: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2295"/>
+      <location filename="../mainwindow.cpp" line="2312"/>
       <source>&lt;br /&gt;path: %1</source>
       <translation>&lt;br /&gt; indlela: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2497"/>
+      <location filename="../mainwindow.cpp" line="2514"/>
       <source>Toolbar could not be loaded without name</source>
       <translation>Ibar yesixhobo ayinakulayishwa ngaphandle kwegama</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2803"/>
+      <location filename="../mainwindow.cpp" line="2820"/>
       <source>Overwriting external changes of: %1</source>
       <translation>Ubhala utshintsho lwangaphandle: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2824"/>
+      <location filename="../mainwindow.cpp" line="2841"/>
       <source>Loading external changes from: %1</source>
       <translation>Thumela utshintsho lwangaphandle ukusuka: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2860"/>
-      <location filename="../mainwindow.cpp" line="5977"/>
+      <location filename="../mainwindow.cpp" line="2877"/>
+      <location filename="../mainwindow.cpp" line="6002"/>
       <source>Current note could not be stored to disk</source>
       <translation>Inqaku langoku alikwazanga kugcinwa kwi-disk</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3039"/>
+      <location filename="../mainwindow.cpp" line="3056"/>
       <source>Read-only</source>
       <translation>Funda uqhubeleke</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3041"/>
+      <location filename="../mainwindow.cpp" line="3058"/>
       <source>Note editing is disabled, click to enable</source>
       <translation>Ukuhlela inqaku kukhubazekile, cofa ukuze usebenze</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3058"/>
+      <location filename="../mainwindow.cpp" line="3075"/>
       <source>Line numbers</source>
       <translation>Amanani emigca</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3068"/>
+      <location filename="../mainwindow.cpp" line="3085"/>
       <source>Click here to see what has changed and to be able to update to the latest version</source>
       <translation>Cofa apha ukubona ukuba yintoni etshintshileyo kwaye ukwazi ukuvuselela kuhlobo lwakutshanje</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="3438"/>
+      <location filename="../mainwindow.cpp" line="3455"/>
       <source>Proceed with automatic deletion of &lt;strong&gt;%n&lt;/strong&gt; conflicted database copies that may block your ownCloud sync process?</source>
       <translation>
         <numerusform>Qhubeka nokucima ngokuzenzekelayo kwe &lt;strong&gt;%n &lt;/strong&gt; iikopi zedatha ezichaseneyo ezinokuthi zithintele inkqubo yakho yokuvumelanisa ownCloud?</numerusform>
@@ -3904,7 +3905,7 @@ Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4894"/>
+      <location filename="../mainwindow.cpp" line="4913"/>
       <source>%n note(s) were tagged with "%2"</source>
       <translation>
         <numerusform>Inqaku elingu-%n lalimakishwe "%2"
@@ -3913,7 +3914,7 @@ Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="5677"/>
+      <location filename="../mainwindow.cpp" line="5701"/>
       <source>Found &lt;strong&gt;%n&lt;/strong&gt; occurrence(s) of &lt;strong&gt;%1&lt;/strong&gt;</source>
       <translation>
         <numerusform>Ifunyenwe i &lt;strong&gt;%n &lt;/strong&gt; kwenzeka ye &lt;strong&gt;%1&lt;/strong&gt;</numerusform>
@@ -3921,67 +3922,67 @@ Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6038"/>
+      <location filename="../mainwindow.cpp" line="6063"/>
       <source>Note headline</source>
       <translation>Inqaku lesihloko</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6586"/>
+      <location filename="../mainwindow.cpp" line="6611"/>
       <source>Block &amp;quote selected text</source>
       <comment>Action to apply a block quote formatting to the selected text</comment>
       <translation>Vimba &amp;ucaphule isicatshulwa esikhethiweyo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7596"/>
+      <location filename="../mainwindow.cpp" line="7620"/>
       <source>Downloading images finished</source>
       <translation>Ukukhuphela imifanekiso kugqityiwe</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7746"/>
+      <location filename="../mainwindow.cpp" line="7770"/>
       <source>Increased font size to %1 pt</source>
       <translation>Ukunyusa ubungakanani befonti ku %1 pt</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7763"/>
+      <location filename="../mainwindow.cpp" line="7787"/>
       <source>Decreased font size to %1 pt</source>
       <translation>Ubungakanani bomgca bokwehla bube %1 pt</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5426"/>
-      <location filename="../mainwindow.cpp" line="5441"/>
-      <location filename="../mainwindow.cpp" line="5464"/>
-      <location filename="../mainwindow.cpp" line="10447"/>
+      <location filename="../mainwindow.cpp" line="5445"/>
+      <location filename="../mainwindow.cpp" line="5460"/>
+      <location filename="../mainwindow.cpp" line="5483"/>
+      <location filename="../mainwindow.cpp" line="10493"/>
       <source>Open &amp;settings</source>
       <translation>Vula &amp;useto</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1671"/>
-      <location filename="../mainwindow.cpp" line="12337"/>
+      <location filename="../mainwindow.cpp" line="1688"/>
+      <location filename="../mainwindow.cpp" line="12380"/>
       <source>leave</source>
       <translation>mka</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7013"/>
+      <location filename="../mainwindow.cpp" line="7038"/>
       <source>Please enter your &lt;strong&gt;password&lt;/strong&gt; to encrypt the note.&lt;br /&gt;Keep in mind that you have to &lt;strong&gt;remember&lt;/strong&gt; your password to read the content of the note&lt;br /&gt; and that you can &lt;strong&gt;only&lt;/strong&gt; do that &lt;strong&gt;in QOwnNotes&lt;/strong&gt;!</source>
       <translation>Please enter your &lt;strong&gt;password&lt;/strong&gt; to encrypt the note.&lt;br /&gt;Keep in mind that you have to &lt;strong&gt;remember&lt;/strong&gt; your password to read the content of the note&lt;br /&gt; and that you can &lt;strong&gt;only&lt;/strong&gt; do that &lt;strong&gt;in QOwnNotes&lt;/strong&gt;!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7069"/>
+      <location filename="../mainwindow.cpp" line="7094"/>
       <source>Decrypt note and store it as plain text</source>
       <translation>Phawula inqaku kwaye uligcine njengombhalo ocacileyo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7074"/>
+      <location filename="../mainwindow.cpp" line="7099"/>
       <source>&amp;Decrypt</source>
       <translation>&amp;Ukuthambisa</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7099"/>
+      <location filename="../mainwindow.cpp" line="7124"/>
       <source>&lt;br /&gt;You will be able to edit your encrypted note.</source>
       <translation>&lt;br /&gt;Uya kuba nakho ukuhlela inqaku lakho elibhaliweyo.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7168"/>
+      <location filename="../mainwindow.cpp" line="7193"/>
       <source>Export current note as Markdown file</source>
       <translation>Thumela inqaku langoku njengefayile ye-Markdown</translation>
     </message>
@@ -4238,83 +4239,83 @@ Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</
       <translation>Nceda uqaphele ukuhlaziya i-QOwnNotesAPI yakho kwiseva yakho, uguqulelo lwakho lwe %1 lusezantsi kakhulu kwaye lunokubangela iingxaki kwi-QOwnNotes.</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1175"/>
+      <location filename="../services/owncloudservice.cpp" line="1196"/>
       <source>ownCloud server connection error</source>
       <translation>Impazamo yokunxibelelana komncedisi wakho</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1180"/>
+      <location filename="../services/owncloudservice.cpp" line="1201"/>
       <source>ownCloud server error: &lt;strong&gt;%1&lt;/strong&gt;&lt;br /&gt;Please check your ownCloud configuration.</source>
       <translation>Impazamo yeseva yakho yeCloud: &lt;strong&gt;%1&lt;/strong&gt; &lt;br /&gt; Nceda ujonge uqwalaselo lwakho ownCloud.</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1200"/>
+      <location filename="../services/owncloudservice.cpp" line="1221"/>
       <source>You need to setup your ownCloud server!</source>
       <translation>Kufuneka ucwangcise iiseva ownCloud!</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1212"/>
+      <location filename="../services/owncloudservice.cpp" line="1233"/>
       <source>Open &amp;settings</source>
       <translation>Vula &amp;useto</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1212"/>
+      <location filename="../services/owncloudservice.cpp" line="1233"/>
       <source>&amp;Cancel</source>
       <translation>&amp;Rhoxisa</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1271"/>
+      <location filename="../services/owncloudservice.cpp" line="1292"/>
       <source>Done with loading note versions</source>
       <translation>Yenziwe ngokulayisha inqaku</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1316"/>
+      <location filename="../services/owncloudservice.cpp" line="1337"/>
       <source>No versions found</source>
       <translation>Akukho ziinguqulelo zifunyenweyo</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1317"/>
+      <location filename="../services/owncloudservice.cpp" line="1338"/>
       <source>There are no versions for this note or the note wasn't found on the server.</source>
       <translation>Akukho ziinguqulelo zeli nqaku okanye inqaku alifumanekanga kwiserver.</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1337"/>
+      <location filename="../services/owncloudservice.cpp" line="1358"/>
       <source>Done with loading trashed notes</source>
       <translation>Kwenziwe ngokulayisha amanqaku</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1382"/>
+      <location filename="../services/owncloudservice.cpp" line="1403"/>
       <source>No trashed notes</source>
       <translation>Akukho manqaku alahliweyo</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1383"/>
+      <location filename="../services/owncloudservice.cpp" line="1404"/>
       <source>No trashed notes were found on the server.</source>
       <translation>Akukho manqaku alahliweyo afunyenweyo kwiseva.</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1405"/>
-      <location filename="../services/owncloudservice.cpp" line="1432"/>
+      <location filename="../services/owncloudservice.cpp" line="1426"/>
+      <location filename="../services/owncloudservice.cpp" line="1453"/>
       <source>Error while loading todo lists!</source>
       <translation>Impazamo ngelixa kulayishwa uluhlu lwe-todo!</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1406"/>
+      <location filename="../services/owncloudservice.cpp" line="1427"/>
       <source>Your CalDAV server didn't reply anything!</source>
       <translation>Umncedisi wakho weCalDAV akaphendulanga nto!</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="1433"/>
+      <location filename="../services/owncloudservice.cpp" line="1454"/>
       <source>Error message from your CalDAV server: &lt;strong&gt;%1&lt;/strong&gt;</source>
       <translation>Umyalezo wemposiso ovela kwiseva yeCalDAV: &lt;strong&gt;%1 &lt;/strong&gt;</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="2110"/>
+      <location filename="../services/owncloudservice.cpp" line="2133"/>
       <source>No bookmarks</source>
       <translation>Akukho bhukumaki</translation>
     </message>
     <message>
-      <location filename="../services/owncloudservice.cpp" line="2111"/>
+      <location filename="../services/owncloudservice.cpp" line="2134"/>
       <source>No bookmarks were found on the server.</source>
       <translation>Akukho bhukumaki lufunyenweyo kwiseva.</translation>
     </message>
@@ -4355,37 +4356,37 @@ Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</
       <translation>okungagqibekanga</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1266"/>
+      <location filename="../entities/note.cpp" line="1312"/>
       <source>Could not store note file: %1 - Error message: %2</source>
       <translation>Ayikwazanga ukugcina ifayile yenqaku: %1 - Umyalezo wemposiso: %2</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1344"/>
+      <location filename="../entities/note.cpp" line="1390"/>
       <source>Renamed note-file was removed: %1</source>
       <translation>Ifayile yenqaku-ebizwa kabusha yasuswa: %1</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1352"/>
+      <location filename="../entities/note.cpp" line="1398"/>
       <source>Could not remove renamed note-file: %1 - Error message: %2</source>
       <translation>Ayinakuyisusa ifayile-inqaku ebizwa kabusha: %1 - Umyalezo wemposiso: %2</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1498"/>
+      <location filename="../entities/note.cpp" line="1544"/>
       <source>Note</source>
-      <translation type="unfinished">Note</translation>
+      <translation>Phawula</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="2546"/>
+      <location filename="../entities/note.cpp" line="2592"/>
       <source>Could not read image file: %1</source>
       <translation>Ayinakufunda ifayile yomfanekiso: %1</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="3147"/>
+      <location filename="../entities/note.cpp" line="3201"/>
       <source>Note file path changed</source>
       <translation>Indlela yefayile yenqaku etshintshiwe</translation>
     </message>
     <message numerus="yes">
-      <location filename="../entities/note.cpp" line="3148"/>
+      <location filename="../entities/note.cpp" line="3202"/>
       <source>A change of the note path was detected. Would you like to replace all occurrences of &lt;strong&gt;%1&lt;/strong&gt; links with &lt;strong&gt;%2&lt;/strong&gt; and links with filename &lt;strong&gt;%3&lt;/strong&gt; with &lt;strong&gt;%4&lt;/strong&gt; in &lt;strong&gt;%n&lt;/strong&gt; note file(s)?</source>
       <translation>
         <numerusform>Utshintsho lwendlela yenqaku luye lwafunyanwa. Ngaba ungathanda ukubuyisela endaweni yonke into evele ku &lt;strong&gt;%1&lt;/strong&gt; amakhonkco ane &lt;strong&gt;%2 &lt;/strong&gt; kwaye unxibelelana negama lefayile &lt;strong&gt;%3&lt;/strong&gt; nge &lt;strong&gt;%4 &lt;/strong&gt; &gt; kwi &lt;strong&gt;%n&lt;/strong&gt; inqaku le fayile?</numerusform>
@@ -4393,7 +4394,7 @@ Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../entities/note.cpp" line="3693"/>
+      <location filename="../entities/note.cpp" line="3747"/>
       <source>…and %n more note(s)</source>
       <translation>
         <numerusform>... kunye %n qaphela ngaphezulu</numerusform>
@@ -4442,7 +4443,7 @@ Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</
       <translation>Umyalelo &lt;code&gt;%1&lt;/code&gt; uhlulekile!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4219"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4220"/>
       <source>New connection</source>
       <translation>Unxibelelwano olutsha</translation>
     </message>
@@ -4467,18 +4468,18 @@ Nceda ujonge uqwalaselo lwakho lwe &lt;strong&gt; Todo &lt;/strong&gt; kuseto!</
       <translation>Nceda ukhethe ifolda apho amanqaku akho aya kugcinwa khona</translation>
     </message>
     <message>
-      <location filename="../entities/notesubfolder.cpp" line="556"/>
-      <location filename="../entities/notesubfolder.cpp" line="581"/>
+      <location filename="../entities/notesubfolder.cpp" line="550"/>
+      <location filename="../entities/notesubfolder.cpp" line="575"/>
       <source>Folder will be hidden!</source>
       <translation>Ifolda iya kufihlwa!</translation>
     </message>
     <message>
-      <location filename="../entities/notesubfolder.cpp" line="557"/>
+      <location filename="../entities/notesubfolder.cpp" line="551"/>
       <source>Folder with name &lt;b&gt;%1&lt;/b&gt; can't be created, because it's internally used by the application!</source>
       <translation>Ifolda enegama &lt;b&gt;%1&lt;/b&gt; ayinakwenziwa, kuba isetyenziselwa ngaphakathi!</translation>
     </message>
     <message>
-      <location filename="../entities/notesubfolder.cpp" line="582"/>
+      <location filename="../entities/notesubfolder.cpp" line="576"/>
       <source>Folder with name &lt;b&gt;%1&lt;/b&gt; can't be created, because it's on the list of ignored subfolders! You can change that in the &lt;i&gt;Panels settings&lt;/i&gt;.</source>
       <translation>Ifolda enegama &lt;b&gt;%1 &lt;/b&gt; ayinakwenziwa, kuba kuluhlu lwabasebenzi abancinci abangahoywanga! Ungayitshintsha leyo kwi &lt;i&gt; Useto lwepaneli &lt;/i&gt;.</translation>
     </message>
@@ -4739,14 +4740,14 @@ Ngaba ifolda kunye nefayile zibhaliwe?</translation>
     </message>
     <message>
       <location filename="../dialogs/scriptrepositorydialog.ui" line="278"/>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="413"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="420"/>
       <source>Installs the script</source>
       <translation>Ukufaka iskripthi</translation>
     </message>
     <message>
       <location filename="../dialogs/scriptrepositorydialog.ui" line="281"/>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="412"/>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="475"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="419"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="482"/>
       <source>Install</source>
       <translation>Faka</translation>
     </message>
@@ -4796,94 +4797,94 @@ Ngaba ifolda kunye nefayile zibhaliwe?</translation>
       <translation>Zonke izikripthi zihlaziyiwe.</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="382"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="389"/>
       <source>Authors</source>
       <translation>Ababhali</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="382"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="389"/>
       <source>Author</source>
       <translation>Umbhali</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="386"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="393"/>
       <source>Supported platforms</source>
       <translation>Amaqonga axhaswayo</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="387"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="394"/>
       <source>Supported platform</source>
       <translation>Iqonga elixhaswayo</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="391"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="398"/>
       <source>Open repository</source>
       <translation>Vula indawo yogcino</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="401"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="408"/>
       <source>Update</source>
       <translation>Hlaziya</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="402"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="409"/>
       <source>Updates the script</source>
       <translation>Ukuhlaziya iskripthi</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="404"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="411"/>
       <source>Reinstall</source>
       <translation>Faka kwakhona</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="405"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="412"/>
       <source>Reinstalls the script</source>
       <translation>Ibeka kwakhona iscript</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="472"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="479"/>
       <source>Platform not supported!</source>
       <translation>Ipulatifomu ayixhaswanga!</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="473"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="480"/>
       <source>Your platform is not supported by this script!
 Do you want to install it anyway?</source>
       <translation>Iqonga lakho alixhaswanga ngulo mbhalo!
 Ngaba uyafuna ukuyifaka?</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="475"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="482"/>
       <source>Cancel</source>
       <translation>Rhoxisa</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="482"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="489"/>
       <source>Update app</source>
       <translation>Hlaziya iapp</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="483"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="490"/>
       <source>Please don't forget to update your installation of QOwnNotes to make this script work!</source>
       <translation>Nceda ungalibali ukuvuselela ukufakwa kwakho kwe-QOwnNotes ukwenza le script isebenze!</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="551"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="558"/>
       <source>Install successful</source>
       <translation>Faka uphumelele</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="552"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="559"/>
       <source>The script was successfully installed!</source>
       <translation>Iskripthi safakwa ngempumelelo!</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="559"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="566"/>
       <source>Download failed</source>
       <translation>Ukhuphelo aluphumelelanga</translation>
     </message>
     <message>
-      <location filename="../dialogs/scriptrepositorydialog.cpp" line="560"/>
+      <location filename="../dialogs/scriptrepositorydialog.cpp" line="567"/>
       <source>The script could not be downloaded!</source>
       <translation>Isicatshulwa asinakukhutshelwa!</translation>
     </message>
@@ -5248,11 +5249,6 @@ Iifayile ezicinyiweyo &lt;/span&gt; enikwe amandla kwiserver yakho yeCloud (leyo
       <translation>Ungaluhoyi lonke utshintsho lwangaphandle lwencwadi</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4412"/>
-      <source>No two spaces to do a line break are added here if checked</source>
-      <translation>Akukho zithuba zibini zokwenza ikhefu zokudibanisa umgca zongezwa apha ukuba zitsaliwe</translation>
-    </message>
-    <message>
       <location filename="../dialogs/settingsdialog.ui" line="4415"/>
       <source>Use GitHub line breaks</source>
       <translation>Sebenzisa ikhefu lomgca weGitHub</translation>
@@ -5291,11 +5287,6 @@ Iifayile ezicinyiweyo &lt;/span&gt; enikwe amandla kwiserver yakho yeCloud (leyo
       <location filename="../dialogs/settingsdialog.ui" line="2310"/>
       <source>Spanish</source>
       <translation type="unfinished">Spanish</translation>
-    </message>
-    <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2140"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If you want to help to translate QOwnNotes or update an existing translation please read: &lt;a href="http://www.qownnotes.org/Knowledge-base/How-can-I-help-to-translate-QOwnNotes"&gt;How can I help to translate QOwnNotes?&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt; &lt;p&gt; Ukuba ufuna ukunceda ekuguquleleni i-QOwnNotes okanye uhlaziye inguqulelo esele ikhona nceda ufunde: Ndinganceda-to-to-translate-QOwnNotes "&gt; Ndinganceda njani ukuguqulela i-QOwnNotes? &lt;/a&gt; &lt;/p&gt;&lt;/body&gt; &lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="2942"/>
@@ -5389,8 +5380,8 @@ Zivavanye kuphela ukuba ufumanisa ukungqinelana kunye nokuseta ixabiso eliphakam
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="4316"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="2274"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="2282"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2275"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2283"/>
       <source>Database</source>
       <translation>Indawo yedatha</translation>
     </message>
@@ -5411,7 +5402,7 @@ Zivavanye kuphela ukuba ufumanisa ukungqinelana kunye nokuseta ixabiso eliphakam
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="4271"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="2346"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2347"/>
       <source>Clear app data and exit</source>
       <translation>Sula idatha yenkqubo kunye nokuphuma</translation>
     </message>
@@ -5999,20 +5990,20 @@ Zivavanye kuphela ukuba ufumanisa ukungqinelana kunye nokuseta ixabiso eliphakam
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="4100"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3959"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3960"/>
       <source>Reset message boxes</source>
       <translation>Buyisela iibhokisi zemiyalezo</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="4293"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4025"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4049"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4026"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4050"/>
       <source>Import settings</source>
       <translation>Ngenisa useto</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="4300"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3991"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3992"/>
       <source>Export settings</source>
       <translation>Izicwangciso zokuthumela ngaphandle</translation>
     </message>
@@ -6084,6 +6075,11 @@ Eyona ndlela yokuthumela imiba isebenzise umncedisi wemiba ngokucinezela i-span 
       <translation>Malay</translation>
     </message>
     <message>
+      <location filename="../dialogs/settingsdialog.ui" line="2140"/>
+      <source>If you want to help to translate QOwnNotes or update an existing translation please read: &lt;a href="%1"&gt;How can I help to translate QOwnNotes?&lt;/a&gt;</source>
+      <translation type="unfinished">If you want to help to translate QOwnNotes or update an existing translation please read: &lt;a href="%1"&gt;How can I help to translate QOwnNotes?&lt;/a&gt;</translation>
+    </message>
+    <message>
       <location filename="../dialogs/settingsdialog.ui" line="2497"/>
       <source>Khmer</source>
       <translation type="unfinished">Khmer</translation>
@@ -6152,6 +6148,11 @@ Eyona ndlela yokuthumela imiba isebenzise umncedisi wemiba ngokucinezela i-span 
       <location filename="../dialogs/settingsdialog.ui" line="3882"/>
       <source>Open last accessed note at application startup</source>
       <translation>Vula inowuthi yokugqibela yokufikelela</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/settingsdialog.ui" line="4412"/>
+      <source>GitHub doesn't need two spaces at the end of the line to do a line break</source>
+      <translation type="unfinished">GitHub doesn't need two spaces at the end of the line to do a line break</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="4435"/>
@@ -6560,7 +6561,7 @@ Eyona ndlela yokuthumela imiba isebenzise umncedisi wemiba ngokucinezela i-span 
       <translation>Veza iifolda ezincinci njengomthi opheleleyo</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2875"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2876"/>
       <source>Search script repository</source>
       <translation>Khangela indawo yokugcina umbhalo</translation>
     </message>
@@ -7016,8 +7017,8 @@ Eyona ndlela yokuthumela imiba isebenzise umncedisi wemiba ngokucinezela i-span 
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="4373"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="2293"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4268"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2294"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4269"/>
       <source>Debug information</source>
       <translation>Ulwazi lokulungisa</translation>
     </message>
@@ -7032,42 +7033,42 @@ Eyona ndlela yokuthumela imiba isebenzise umncedisi wemiba ngokucinezela i-span 
       <translation>&amp;Gcina ulwazi lokulungisa</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="497"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="498"/>
       <source>hostname of proxy server</source>
       <translation>igama lenginginya leseva lokumela</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="498"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="499"/>
       <source>username for proxy server</source>
       <translation>igama lomsebenzisi lomncedisi wokubambela</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="499"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="500"/>
       <source>password for proxy server</source>
       <translation>igama lokugqitha leseva yommeli</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="501"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="502"/>
       <source>HTTP(S) proxy</source>
       <translation>Ummeli we-HTTP(S)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="502"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="503"/>
       <source>SOCKS5 proxy</source>
       <translation>UMQEQESHI NGOKU-5</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1482"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1483"/>
       <source>Automatic (needs restart)</source>
       <translation>Zenzekelayo (ifuna ukuqalisa)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1793"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1794"/>
       <source>Shortcut already assigned</source>
       <translation>Indlela emfutshane esele yabelwe</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1996"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1997"/>
       <source>The connection was made successfully!
 Server version: %1
 QOwnNotesAPI version: %2</source>
@@ -7076,7 +7077,7 @@ Inguqulelo yomncedisi: %1
 Inguqulelo yeQOwnNotesAPI: %2</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2009"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2010"/>
       <source>There was an error connecting to the ownCloud Server!
 You also need to have the QOwnNotesAPI app installed and enabled!
 
@@ -7087,22 +7088,22 @@ Kuya kufuneka ukuba ube une-QOwnNotesAPI app efakiweyo kwaye yenziwe!
 Umyalezo wemposiso yonxibelelwano:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2294"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2295"/>
       <source>Please don't use this in the issue tracker, copy the debug information text directly into the issue.</source>
       <translation>Nceda ungasebenzisi oku kwi-tracker yemiba, ukhuphele ulwazi lwe-debug ngokuthe ngqo kumcimbi.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2301"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2302"/>
       <source>Markdown files</source>
       <translation>Iifayile eziphawulweyo</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2327"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2328"/>
       <source>Disable usage tracking</source>
       <translation>Khubaza ukulandelela kokusetyenziswa</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2328"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2329"/>
       <source>Anonymous usage data helps to decide what parts of QOwnNotes to improve next and to find and fix bugs.&lt;br /&gt;Please disable it only if you really can't live with it.&lt;br /&gt;&lt;br /&gt;Really disable usage tracking?</source>
       <translation>Idatha yokusetyenziswa engaziwayo inceda ekuthathweni kwesigqibo sokuba zeziphi iinxalenye ze-QOwnNotes zokuphucula elandelayo kunye nokufumana nokulungisa iibugs.
 &lt;br/&gt;
@@ -7111,93 +7112,93 @@ Nceda ukhubaze kuphela xa ungenakuhlala nayo.
 Ngaba ngokwenene ukhubaza umkhondo wokusetyenziswa?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2555"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2556"/>
       <source>new folder</source>
       <translation>ifolda entsha</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2589"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2590"/>
       <source>Remove note folder</source>
       <translation>Susa ifolda yenqaku</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2590"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2591"/>
       <source>Remove the current note folder &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>Ngaba isusa inowuthsi ekhoyo &lt;strong&gt;%1&lt;/strong&gt;?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2664"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2665"/>
       <source>Please select the folder where your notes will get stored to</source>
       <translation>Nceda ukhethe ifolda apho amanqaku akho aya kugcinwa khona</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2699"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2700"/>
       <source>Loading folders from server</source>
       <translation>Ukulayisha iifolda kwiserver</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2714"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2715"/>
       <source>No more folders were found in the current folder</source>
       <translation>Akukho zifolda zifunyenweyo kwifolda yangoku</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2787"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2788"/>
       <source>Loading folders in '%1' from server</source>
       <translation>Ifaka iifolda '%1' kwiserver</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2860"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2861"/>
       <source>Take a look at the &lt;a href="%1"&gt;Scripting documentation&lt;/a&gt; to get started fast.</source>
       <translation>Jonga kwi &lt;a href="%1"&gt;Amaxwebhu oshicilelo &lt;/a&gt; ukuqalisa ngokukhawuleza.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2864"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2865"/>
       <source>If you need access to a certain functionality in QOwnNotes please open an issue on the &lt;a href="%1"&gt; QOwnNotes issue page&lt;/a&gt;.</source>
       <translation>Ukuba ufuna ukufikelela kwintsebenzo ethile kwiQOwnNotes nceda uvule umba ku &lt;a href="anuel1"&gt; Iphepha lokukhutshwa kweQOnnotes &lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2886"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2887"/>
       <source>Check for script updates</source>
       <translation>Jonga uhlaziyo lweskripthi</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2893"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2894"/>
       <source>Add local script</source>
       <translation>Yongeza iskripthi sendawo</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2897"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2898"/>
       <source>Add an existing, local script</source>
       <translation>Yongeza iscript esikhoyo</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3990"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4048"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3991"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4049"/>
       <source>INI files</source>
       <translation>Iifayile ze-INI</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4026"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4027"/>
       <source>Do you really want to import settings? Your current settings will get removed and not every setting may get restored, like the note folder settings and which scripts you were using. You also will need to adjust some settings, especially across platforms, but your notes will stay intact!</source>
       <translation>Ngaba ufuna ngenene ukungenisa useto? Iisetingi zakho ezikhoyo ziya kususwa kwaye ayizizo zonke iisetingi ezinokubuyiselwa, njengeesethingi zencwadi eneenkcukacha kwaye nokuba zeziphi izikripthi owawusisebenzisa. Kuya kufuneka uhlengahlengise ezinye iiseto, ngakumbi kumaqonga onke, kodwa amanqaku akho aya kuhlala eme kakuhle!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4036"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4037"/>
       <source>The application will be quit after the import.</source>
       <translation>Isicelo siyakuyekiswa emva kokungeniswa.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4037"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4038"/>
       <source>The application will be restarted after the import.</source>
       <translation>Isicelo siya kuqaliswa emva kokungenisa.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4269"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4270"/>
       <source>The debug information was copied to the clipboard.</source>
       <translation>Ulwazi lolungiso lwephepha lwakhutshelwa kwibhodi eqhotyoshwayo.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2880"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2881"/>
       <source>Find a script in the script repository</source>
       <translation>Fumana iskripthi kwindawo yokugcina umbhalo</translation>
     </message>
@@ -7212,138 +7213,138 @@ Ngaba ngokwenene ukhubaza umkhondo wokusetyenziswa?</translation>
       <translation>Bonisa umxholo webar yemenyu</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1666"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="1718"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1667"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1719"/>
       <source>Undefined shortcut</source>
       <translation>Isinqumleli esingachazwanga</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1670"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="1722"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1671"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1723"/>
       <source>Assign a new shortcut</source>
       <translation>Yabela indlela emfutshane</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1671"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="1723"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1672"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1724"/>
       <source>Reset to default shortcut</source>
       <translation>Buyisela kwiindlela ezimfutshane</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1689"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1690"/>
       <source>Clear shortcut</source>
       <translation>Sula indlela emfutshane</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="1794"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="1795"/>
       <source>The shortcut &lt;strong&gt;%1&lt;/strong&gt; is already assigned to &lt;strong&gt;%2&lt;/strong&gt;! Do you want to jump to the shortcut?</source>
       <translation>Indlela emfutshane &lt;strong&gt;%1&lt;/strong&gt; sele yabelwe i &lt;strong&gt;%2&lt;/strong&gt;! Ngaba ufuna ukutsibela kwindlela emfutshane?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2973"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2974"/>
       <source>Remove script</source>
       <translation>Susa iskripthi</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2974"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2975"/>
       <source>Remove the current script &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>Susa isicatshulwa esikhoyo &lt;strong&gt;%1&lt;/strong&gt;?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3024"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3025"/>
       <source>QML files</source>
       <translation>Iifayile zeQML</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3025"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3026"/>
       <source>Please select your QML file</source>
       <translation>Nceda ukhethe ifayile yakho ye-QML</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3114"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3115"/>
       <source>Open repository</source>
       <translation>Vula indawo yogcino</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3172"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3173"/>
       <source>Your script seems to be valid</source>
       <translation>Isikripthi sakho sikhangeleka ngathi siyasebenza</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3173"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3174"/>
       <source>There were script errors:
 %1</source>
       <translation>Bekukho iimpazamo zescript:
 %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3241"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3242"/>
       <source>File extension</source>
       <translation>Ulwandiso lwefayile</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3241"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3242"/>
       <source>Enter your custom file extension:</source>
       <translation>Ngenisa ulwandiso lwakho lwefayile:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3570"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3571"/>
       <source>Calendar cache emptied</source>
       <translation>Ikhalenda yekhalenda ayikho</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3571"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3572"/>
       <source>Your calendar cache was emptied.</source>
       <translation>Ikhalenda yakho yekhalenda ibingasebenzi.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3652"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3653"/>
       <source>Reset toolbars and exit</source>
       <translation>Setha kwakhona iibar zesixhobo kwaye uphume</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3653"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3654"/>
       <source>Do you really want to reset all toolbars? The application will be closed in the process, the default toolbars will be restored when you start it again.</source>
       <translation>Ngaba ufuna ngokwenene ukucwangcisa zonke iibar zesixhobo? Isicelo sizakuvalwa kwinkqubo, iibar zesixhobo ezingapheliyo ziya kubuyiselwa xa uqala kwakhona.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3657"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3658"/>
       <source>Reset and &amp;exit</source>
       <translation>Setha kwakhona kwaye &amp;uphume</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3815"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3816"/>
       <source>Log file cleared</source>
       <translation>Ifayile yelog icinyiwe</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3816"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3817"/>
       <source>The log file &lt;strong&gt;%1&lt;/strong&gt; was cleared.</source>
       <translation>Ifayile yelog &lt;strong&gt;%1&lt;/strong&gt; icinyiwe.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3852"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3853"/>
       <source>Executable files</source>
       <translation>Iifayile ezinokwenziwa</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3853"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3855"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3854"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3856"/>
       <source>All files</source>
       <translation>Zonke iifayile</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3863"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3864"/>
       <source>Please select the path of your git executable</source>
       <translation>Nceda ukhethe umendo we-git yakho oya kuphumelela</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3960"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3961"/>
       <source>Do you really want to reset the overrides of all message boxes?</source>
       <translation>Ngaba ufuna ngokwenene ukucwangcisa ukungaphezulu kwebhokisi zemiyalezo?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2283"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2284"/>
       <source>The Database was reinitialized.</source>
       <translation>Indawo yogcino yolwazi yavuselelwa.</translation>
     </message>
@@ -7358,52 +7359,52 @@ Ngaba ngokwenene ukhubaza umkhondo wokusetyenziswa?</translation>
       <translation>Unokukhuphela iklayenti yakho ye-git apha:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="452"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="453"/>
       <source>enabled</source>
       <translation>yenziwe</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="452"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="453"/>
       <source>disabled</source>
       <translation>ukhubazekile</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="454"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="455"/>
       <source>Portable mode is currently:</source>
       <translation>Imodi ephathekayo okwangoku:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="457"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="458"/>
       <source>In portable mode</source>
       <translation>Kwimo ephathekayo</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="458"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="459"/>
       <source>the internal sqlite database and the settings will be stored inside a &lt;code&gt;Data&lt;/code&gt; folder at the binary's location</source>
       <translation>Ugcino lwangaphakathi lwe-sqlite kunye nesethingi ziya kugcinwa ngaphakathi kwifolda ye- "ccode&gt; idatha &lt;/code&gt; kwindawo ye-binary.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="461"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="462"/>
       <source>the settings will be stored in an ini file</source>
       <translation>Izicwangciso ziya kugcinwa kwifayile ye-ini</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="463"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="464"/>
       <source>the note folders, script paths and path to an external editor will be automatically stored relative to the &lt;code&gt;Data&lt;/code&gt; folder so that the correct note folders, scripts and external editor will be loaded regardless where your QOwnNotes installation is currently located</source>
       <translation>iifolda zenqaku, iindlela zesikripthi kunye nendlela eya kumhleli wangaphandle ziya kugcinwa ngokuzenzekelayo kwisihlobo kwi-&lt;code&gt; Idatha &lt;/code&gt; ifolda ukwenzela ukuba iifolda zenqaku ezichanekileyo, izikripthi kunye nomhleli wangaphandle zilayishwe ngaphandle kokufakelwa kwakho kweQOwnNotes okwangoku</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="473"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="474"/>
       <source>It will be activated if you run QOwnNotes with the parameter &lt;code&gt;--portable&lt;/code&gt;.</source>
       <translation>Izakusebenza ukuba uqhuba i-QOwnNotes nge parcel &lt;/code&gt; - ephathekayo &lt;/code&gt;.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2302"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2303"/>
       <source>Save debug information</source>
       <translation>Gcina ulwazi lokulungisa</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2347"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2348"/>
       <source>Do you really want to clear all settings, remove the database and exit QOwnNotes?
 
 Your notes will stay intact!</source>
@@ -7412,34 +7413,34 @@ Your notes will stay intact!</source>
 Amanqaku akho aya kuhlala eme kakuhle!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2350"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2351"/>
       <source>Clear and &amp;exit</source>
       <translation>Cacisa kwaye &amp;uphume</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2278"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="2350"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3657"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2279"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2351"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3658"/>
       <source>&amp;Cancel</source>
       <translation>&amp;Rhoxisa</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="479"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="480"/>
       <source>You will find a &lt;code&gt;QOwnNotesPortable.bat&lt;/code&gt; in your release path to start QOwnNotes in portable mode.</source>
       <translation>Uya kufumana i &lt;code&gt; QOwnNotesPortable.bat &lt;/code&gt; kwindlela yakho yokukhupha ukuqala ii-QOwnNotes kwimodi ephathekayo.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2275"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2276"/>
       <source>Do you really want to clear the local database? This will also remove your configured note folders and your cached todo items!</source>
       <translation>Ufuna ngokwenene ukucima indawo ekugcinwa kuyo? Oku kuyakususa iifolda zakho ezimiselweyo kunye nezinto zakho ze-todo ezigciniweyo!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2278"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2279"/>
       <source>Clear &amp;database</source>
       <translation>Sula &amp;idatha</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2461"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2462"/>
       <source>Select editor application</source>
       <translation>Khetha isicelo somhleli</translation>
     </message>
@@ -8140,8 +8141,8 @@ Unokuhlala uyibuyisela inqaku kunye neenguqulelo zalo kamva. &lt;/p&gt;</transla
     </message>
     <message>
       <location filename="../dialogs/updatedialog.ui" line="93"/>
-      <source>&lt;a href="http://www.qownnotes.org/Knowledge-base/How-can-I-get-involved-with-QOwnNotes"&gt;Get involved with QOwnNotes&lt;/a&gt;</source>
-      <translation>&lt;a href="http://www.qownnotes.org/Knowledge-base/How-can-I-get-involved-with-QOwnNotes"&gt;Yiba nenxaxheba kwiQOwnNotes &lt;/a&gt;</translation>
+      <source>&lt;a href="%1"&gt;Get involved with QOwnNotes&lt;/a&gt;</source>
+      <translation type="unfinished">&lt;a href="%1"&gt;Get involved with QOwnNotes&lt;/a&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/updatedialog.ui" line="106"/>
@@ -8149,136 +8150,136 @@ Unokuhlala uyibuyisela inqaku kunye neenguqulelo zalo kamva. &lt;/p&gt;</transla
       <translation>%p% ukhutshiwe</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="48"/>
+      <location filename="../dialogs/updatedialog.cpp" line="49"/>
       <source>&amp;Update</source>
       <translation>&amp;Hlaziya</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="59"/>
+      <location filename="../dialogs/updatedialog.cpp" line="60"/>
       <source>&amp;Download latest</source>
       <translation>&amp;Khuphela kutshanje</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="57"/>
+      <location filename="../dialogs/updatedialog.cpp" line="58"/>
       <source>Just download</source>
       <translation>Khuphela kutshanje</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="72"/>
+      <location filename="../dialogs/updatedialog.cpp" line="73"/>
       <source>&amp;Skip version</source>
       <translation>&amp;Eqa inguqulelo</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="80"/>
+      <location filename="../dialogs/updatedialog.cpp" line="81"/>
       <source>&amp;Disable dialog</source>
       <translation>&amp;Khubaza incoko yababini</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="81"/>
+      <location filename="../dialogs/updatedialog.cpp" line="82"/>
       <source>Don't show this dialog automatically</source>
       <translation>Sukubonisa le dialog ngokuzenzekelayo</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="89"/>
+      <location filename="../dialogs/updatedialog.cpp" line="90"/>
       <source>&amp;Cancel</source>
       <translation>&amp;Rhoxisa</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="242"/>
+      <location filename="../dialogs/updatedialog.cpp" line="245"/>
       <source>Download error</source>
       <translation>Khuphela impazamo</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="243"/>
+      <location filename="../dialogs/updatedialog.cpp" line="246"/>
       <source>Error while downloading:
 %1</source>
       <translation>Impazamo ngexesha lokukhuphela:
 %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="245"/>
+      <location filename="../dialogs/updatedialog.cpp" line="248"/>
       <source>network error: %1</source>
       <translation>Impazamo yenethiwekhi: %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="267"/>
-      <location filename="../dialogs/updatedialog.cpp" line="288"/>
-      <location filename="../dialogs/updatedialog.cpp" line="382"/>
+      <location filename="../dialogs/updatedialog.cpp" line="270"/>
+      <location filename="../dialogs/updatedialog.cpp" line="291"/>
+      <location filename="../dialogs/updatedialog.cpp" line="385"/>
       <source>File error</source>
       <translation>Impazamo yefayile</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="268"/>
-      <location filename="../dialogs/updatedialog.cpp" line="383"/>
+      <location filename="../dialogs/updatedialog.cpp" line="271"/>
+      <location filename="../dialogs/updatedialog.cpp" line="386"/>
       <source>Could not open temporary file:
 %1</source>
       <translation>Ayikwazanga ukuvula ifayile yethutyana:
 %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="289"/>
+      <location filename="../dialogs/updatedialog.cpp" line="292"/>
       <source>Could not store downloaded file:
 %1</source>
       <translation>Ayikwazanga ukugcina ifayile ekhutshiweyo:
 %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="340"/>
+      <location filename="../dialogs/updatedialog.cpp" line="343"/>
       <source>Do you want to update and restart QOwnNotes?</source>
       <translation>Ngaba uyafuna ukuhlaziya kunye nokuqala kwakhona ii-QOwnNotes?</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="356"/>
-      <location filename="../dialogs/updatedialog.cpp" line="441"/>
-      <location filename="../dialogs/updatedialog.cpp" line="449"/>
-      <location filename="../dialogs/updatedialog.cpp" line="458"/>
-      <location filename="../dialogs/updatedialog.cpp" line="467"/>
-      <location filename="../dialogs/updatedialog.cpp" line="477"/>
-      <location filename="../dialogs/updatedialog.cpp" line="486"/>
+      <location filename="../dialogs/updatedialog.cpp" line="359"/>
+      <location filename="../dialogs/updatedialog.cpp" line="444"/>
+      <location filename="../dialogs/updatedialog.cpp" line="452"/>
+      <location filename="../dialogs/updatedialog.cpp" line="461"/>
+      <location filename="../dialogs/updatedialog.cpp" line="470"/>
+      <location filename="../dialogs/updatedialog.cpp" line="480"/>
+      <location filename="../dialogs/updatedialog.cpp" line="489"/>
       <source>Error</source>
       <translation>Impazamo</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="357"/>
+      <location filename="../dialogs/updatedialog.cpp" line="360"/>
       <source>Could not find updater file:
 %1</source>
       <translation>Ayinakufumana fayile yokuhlaziya:
 %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="442"/>
+      <location filename="../dialogs/updatedialog.cpp" line="445"/>
       <source>Updater script '%1' doesn't exist!</source>
       <translation>Iskripthi sokuhlaziya '%1' asikho!</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="450"/>
+      <location filename="../dialogs/updatedialog.cpp" line="453"/>
       <source>Updater unzip executable '%1' doesn't exist!</source>
       <translation>Uhlaziyo olwenziweyo '%1' alukho!</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="459"/>
-      <location filename="../dialogs/updatedialog.cpp" line="468"/>
+      <location filename="../dialogs/updatedialog.cpp" line="462"/>
+      <location filename="../dialogs/updatedialog.cpp" line="471"/>
       <source>Could not copy updater script '%1' to '%2'!</source>
       <translation>Ayinakukopa umbhalo wokuhlaziya '%1' ukuya '%2'!</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="478"/>
+      <location filename="../dialogs/updatedialog.cpp" line="481"/>
       <source>Couldn't find updater script: %1</source>
       <translation>Ayikwazanga kufumana iskripthi sokuhlaziya: %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="487"/>
+      <location filename="../dialogs/updatedialog.cpp" line="490"/>
       <source>Couldn't find unzip executable: %1</source>
       <translation>Ayifumaneki iphumeze unzip: %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="339"/>
-      <location filename="../dialogs/updatedialog.cpp" line="492"/>
+      <location filename="../dialogs/updatedialog.cpp" line="342"/>
+      <location filename="../dialogs/updatedialog.cpp" line="495"/>
       <source>Proceed with update</source>
       <translation>Qhubeka uhlaziyo</translation>
     </message>
     <message>
-      <location filename="../dialogs/updatedialog.cpp" line="493"/>
+      <location filename="../dialogs/updatedialog.cpp" line="496"/>
       <source>The download is now finished. Do you want to update and restart QOwnNotes?</source>
       <translation>Ukukhuphela sele kugqityiwe. Ngaba uyafuna ukuhlaziya kunye nokuqala kwakhona ii-QOwnNotes?</translation>
     </message>
@@ -8308,12 +8309,12 @@ Unokuhlala uyibuyisela inqaku kunye neenguqulelo zalo kamva. &lt;/p&gt;</transla
       <translation>Idatha yesicelo senethiwekhi ayinakutolikwa!</translation>
     </message>
     <message>
-      <location filename="../services/updateservice.cpp" line="268"/>
+      <location filename="../services/updateservice.cpp" line="262"/>
       <source>No updates</source>
       <translation>Akukho zihlaziyo</translation>
     </message>
     <message>
-      <location filename="../services/updateservice.cpp" line="269"/>
+      <location filename="../services/updateservice.cpp" line="263"/>
       <source>There are no updates available.&lt;br /&gt;&lt;strong&gt;%1&lt;/strong&gt; is the latest version.</source>
       <translation>Akukho zihlaziyo zikhoyo. &lt;br /&gt; &lt;strong&gt;%1 &lt;/strong&gt; yinguqulelo yamva nje.</translation>
     </message>

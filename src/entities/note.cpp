@@ -26,13 +26,6 @@
 #include "entities/bookmark.h"
 #include "helpers/codetohtmlconverter.h"
 
-#ifdef USE_SYSTEM_BOTAN
-#include <botan/exceptn.h>
-#include <botan/secmem.h>
-#else
-#include <botan.h>
-#endif
-
 #include <botanwrapper.h>
 
 #include "libraries/md4c/md2html/render_html.h"
@@ -49,10 +42,10 @@
 #endif
 
 Note::Note()
-    : _fileSize{0},
-      _cryptoKey{0},
-      _id{0},
+      : _id{0},
       _noteSubFolderId{0},
+      _cryptoKey{0},
+      _fileSize{0},
       _shareId{0},
       _sharePermissions{0},
       _hasDirtyData{false} {}
@@ -86,7 +79,7 @@ unsigned int Note::getSharePermissions() const {
  */
 bool Note::isShareEditAllowed() const { return _sharePermissions & 2; }
 
-qint64 Note::getFileSize() const { return this->_fileSize; }
+int Note::getFileSize() const { return this->_fileSize; }
 
 bool Note::isShared() const { return this->_shareId > 0; }
 
@@ -534,6 +527,32 @@ Note Note::fetchByName(const QString &name,
     return fetchByName(name, noteSubFolderId);
 }
 
+int Note::fetchNoteIdByName(const QString &name, int noteSubFolderId)
+{
+    const QSqlDatabase db = QSqlDatabase::database(QStringLiteral("memory"));
+    QSqlQuery query(db);
+
+    // get the active note subfolder id if none was set
+    if (noteSubFolderId == -1) {
+        noteSubFolderId = NoteSubFolder::activeNoteSubFolderId();
+    }
+
+    query.prepare(
+        QStringLiteral("SELECT id FROM note WHERE name = :name AND "
+                       "note_sub_folder_id = :note_sub_folder_id"));
+    query.bindValue(QStringLiteral(":name"), name);
+    query.bindValue(QStringLiteral(":note_sub_folder_id"), noteSubFolderId);
+
+    if (!query.exec()) {
+        qWarning() << __func__ << ": " << query.lastError();
+    } else {
+        if (query.first()) {
+            return query.value(QStringLiteral("id")).toInt();
+        }
+    }
+    return -1;
+}
+
 Note Note::fetchByName(const QString &name, int noteSubFolderId) {
     const QSqlDatabase db = QSqlDatabase::database(QStringLiteral("memory"));
     QSqlQuery query(db);
@@ -850,6 +869,15 @@ QVector<QString> Note::searchAsNameList(const QString &text,
     return nameList;
 }
 
+bool Note::isNameSearch(const QString &searchTerm) {
+    return searchTerm.startsWith(QStringLiteral("name:")) ||
+           searchTerm.startsWith(QStringLiteral("n:"));
+}
+
+QString Note::removeNameSearchPrefix(QString searchTerm) {
+    return searchTerm.remove(QRegularExpression("^(name:|n:)"));
+}
+
 /**
  * Searches for text in notes and returns the note ids
  *
@@ -878,7 +906,11 @@ QVector<int> Note::searchInNotes(QString search, bool ignoreNoteSubFolder,
 
     // we want to search for the text in the note text and the filename
     for (int i = 0; i < queryStrings.count(); i++) {
-        sqlList.append(
+        const QString queryString = queryStrings[i];
+
+        // if we just want to search in the name we use different columns
+        sqlList.append(isNameSearch(queryString) ?
+            QStringLiteral("(name LIKE ? OR file_name LIKE ?)") :
             QStringLiteral("(note_text LIKE ? OR file_name LIKE ?)"));
     }
 
@@ -900,13 +932,20 @@ QVector<int> Note::searchInNotes(QString search, bool ignoreNoteSubFolder,
 
     // add the values to the query
     for (int i = 0; i < queryStrings.count(); i++) {
+        QString queryString = queryStrings[i];
+
+        // remove the search prefix if we searched for names only
+        if (isNameSearch(queryString)) {
+            queryString = removeNameSearchPrefix(queryString);
+        }
+
         int pos = i * 2;
         pos = ignoreNoteSubFolder ? pos : pos + 1;
 
-        // bind the values for the note text and the filename
+        // bind the values for the note text (or name) and the filename
         query.bindValue(
-            pos, QStringLiteral("%") + queryStrings[i] + QStringLiteral("%"));
-        query.bindValue(pos + 1, QStringLiteral("%") + queryStrings[i] +
+            pos, QStringLiteral("%") + queryString + QStringLiteral("%"));
+        query.bindValue(pos + 1, QStringLiteral("%") + queryString +
                                      QStringLiteral("%"));
     }
 
@@ -929,7 +968,8 @@ int Note::countSearchTextInNote(const QString &search) const {
  * Builds a string list of a search string
  */
 QStringList Note::buildQueryStringList(QString searchString,
-                                       bool escapeForRegularExpression) {
+                                       bool escapeForRegularExpression,
+                                       bool removeSearchPrefix) {
     auto queryStrings = QStringList();
 
     // check for strings in ""
@@ -955,7 +995,13 @@ QStringList Note::buildQueryStringList(QString searchString,
     const QStringList searchStringList = searchString.split(QChar(' '));
     queryStrings.reserve(searchStringList.size());
     // add the remaining strings
-    for (const QString &text : searchStringList) {
+    for (QString text : searchStringList) {
+        if (removeSearchPrefix) {
+            if (isNameSearch(text)) {
+                text = removeNameSearchPrefix(text);
+            }
+        }
+
         // escape the text so strings like `^ ` don't cause an
         // infinite loop
         queryStrings.append(escapeForRegularExpression
@@ -2121,7 +2167,7 @@ bool Note::removeNoteFile() {
 QString Note::toMarkdownHtml(const QString &notesPath, int maxImageWidth,
                              bool forExport, bool decrypt, bool base64Images) {
     // get the decrypted note text (or the normal note text if there isn't any)
-    const QString str = decrypt ? getDecryptedNoteText() : getNoteText();
+    const QString str = decrypt ? fetchDecryptedNoteText() : getNoteText();
 
     // create a hash of the note text and the parameters
     const QString toHash = str + QString::number(maxImageWidth) +
@@ -2784,15 +2830,11 @@ bool Note::canDecryptNoteText() const {
 
     // check if a hook changed the text
     if (decryptedNoteText.isEmpty()) {
-        try {
             // decrypt the note text with Botan
-            BotanWrapper botanWrapper;
-            botanWrapper.setPassword(_cryptoPassword);
-            botanWrapper.setSalt(QStringLiteral(BOTAN_SALT));
-            decryptedNoteText = botanWrapper.Decrypt(encryptedNoteText);
-        } catch (Botan::Exception &) {
-            return false;
-        }
+        BotanWrapper botanWrapper;
+        botanWrapper.setPassword(_cryptoPassword);
+        botanWrapper.setSalt(QStringLiteral(BOTAN_SALT));
+        decryptedNoteText = botanWrapper.Decrypt(encryptedNoteText);
 
         // fallback to SimpleCrypt
         if (decryptedNoteText.isEmpty()) {
@@ -2814,10 +2856,25 @@ void Note::setCryptoPassword(const QString &password) {
 }
 
 /**
- * Returns decrypted note text if it is encrypted
- * The crypto key has to be set in the object
+ * Returns the decrypted note text
  */
 QString Note::getDecryptedNoteText() const {
+    return _decryptedNoteText;
+}
+
+/**
+ * Fetches the decrypted note text if it is encrypted
+ * The crypto key has to be set in the object
+ */
+QString Note::fetchDecryptedNoteText() const {
+    // if there is "dirty data" it means that the encrypted note was recently
+    // changed, but not stored yet
+    // in that case we want to return the already decrypted text, because that
+    // text is the most current one
+    if (_hasDirtyData) {
+        return _decryptedNoteText;
+    }
+
     QString noteText = getNoteText();
     const QString encryptedNoteText = getEncryptedNoteText();
 
@@ -2833,13 +2890,10 @@ QString Note::getDecryptedNoteText() const {
     // check if a hook changed the text
     if (decryptedNoteText.isEmpty()) {
         // decrypt the note text
-        try {
-            BotanWrapper botanWrapper;
-            botanWrapper.setPassword(_cryptoPassword);
-            botanWrapper.setSalt(QStringLiteral(BOTAN_SALT));
-            decryptedNoteText = botanWrapper.Decrypt(encryptedNoteText);
-        } catch (Botan::Exception &) {
-        }
+        BotanWrapper botanWrapper;
+        botanWrapper.setPassword(_cryptoPassword);
+        botanWrapper.setSalt(QStringLiteral(BOTAN_SALT));
+        decryptedNoteText = botanWrapper.Decrypt(encryptedNoteText);
 
         // fallback to SimpleCrypt
         if (decryptedNoteText.isEmpty()) {

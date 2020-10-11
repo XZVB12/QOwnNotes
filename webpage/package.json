@@ -1,0 +1,29 @@
+{
+  "name": "qownnotes-webpage",
+  "version": "0.0.1",
+  "description": "QOwnNotes is an open source markdown note taking application for Linux, Mac OS X and Windows, that works together with Nextcloud Notes.",
+  "main": "index.js",
+  "authors": {
+    "name": "Patrizio Bekerle",
+    "email": "patrizio@bekerle.com"
+  },
+  "repository": "/qownnotes-webpage",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "cp ../screenshots src/.vuepress/public -R; cp ../CHANGELOG.md src/changelog.md; vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.6.0",
+    "@vuepress/plugin-medium-zoom": "^1.6.0",
+    "vuepress": "^1.6.0",
+    "vuepress-plugin-matomo": "^1.0.2",
+    "vuepress-plugin-mermaidjs": "^1.8.0",
+    "vuepress-plugin-seo": "^0.1.4",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuetify": "^2.3.12"
+  }
+}

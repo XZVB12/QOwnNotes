@@ -56,12 +56,25 @@ parts:
   qownnotes:
     source: .
 #    source: https://github.com/pbek/qownnotes.git
-    # see https://docs.snapcraft.io/reference/plugins/qmake
+    # see https://snapcraft.io/docs/qmake-plugin
     plugin: qmake
     qt-version: qt5
     options:
       - ./src
       - CONFIG+=release
+      - CONFIG+=snapcraft
+    # remove the default desktop file
+    override-build: |
+      export QT_SELECT=qt5
+      cd src
+      rm PBE.QOwnNotes.desktop
+      echo "#define RELEASE \"Snapcraft.io\"" > release.h
+      # qmake INSTALLDIR=/usr
+      lrelease QOwnNotes.pro
+      # make -j $(nproc)
+      # make install
+      cd ..
+      snapcraftctl build
     build-packages:
       - qttools5-dev
       - build-essential

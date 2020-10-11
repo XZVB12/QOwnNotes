@@ -55,9 +55,19 @@ parts:
   qownnotes:
     source: https://download.tuxfamily.org/qownnotes/src/qownnotes-VERSION-STRING.tar.xz
     source-checksum: sha256/ARCHIVE-SHA256
-    # see https://docs.snapcraft.io/reference/plugins/qmake
+    # see https://snapcraft.io/docs/qmake-plugin
     plugin: qmake
     qt-version: qt5
+    options:
+      - CONFIG+=release
+      - CONFIG+=snapcraft
+    override-build: |
+      export QT_SELECT=qt5
+      rm PBE.QOwnNotes.desktop
+      echo "#define RELEASE \"Launchpad Snap\"" > release.h
+      lrelease QOwnNotes.pro
+      cd ..
+      snapcraftctl build
     build-packages:
       - qttools5-dev
       - build-essential

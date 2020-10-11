@@ -62,6 +62,8 @@ class Note {
         const QString &noteSubFolderPathData,
         const QString& pathDataSeparator = QStringLiteral("\n"));
 
+    static int fetchNoteIdByName(const QString &name, int noteSubFolderId = -1);
+
     static QVector<Note> fetchAll(int limit = -1);
 
     static QVector<Note> fetchAllNotTagged(int activeNoteSubFolderId);
@@ -150,6 +152,8 @@ class Note {
 
     QString encryptNoteText();
 
+    QString fetchDecryptedNoteText() const;
+
     QString getDecryptedNoteText() const;
 
     bool hasEncryptedNoteText() const;
@@ -197,7 +201,8 @@ class Note {
     int countSearchTextInNote(const QString &search) const;
 
     static QStringList buildQueryStringList(
-        QString searchString, bool escapeForRegularExpression = false);
+        QString searchString, bool escapeForRegularExpression = false,
+        bool removeSearchPrefix = false);
 
     QString fileBaseName(bool withFullName = false);
 
@@ -246,7 +251,7 @@ class Note {
 
     static Note fetchByShareId(int shareId);
 
-    qint64 getFileSize() const;
+    int getFileSize() const;
 
     static Note updateOrCreateFromFile(QFile &file,
                                        const NoteSubFolder &noteSubFolder,
@@ -349,7 +354,13 @@ class Note {
 
     QString detectNewlineCharacters();
 
+    static bool isNameSearch(const QString &searchTerm);
+
+    static QString removeNameSearchPrefix(QString searchTerm);
+
    protected:
+    int _id;
+    int _noteSubFolderId;
     QString _name;
     QString _fileName;
     QString _noteTextHtml;
@@ -362,10 +373,8 @@ class Note {
     QDateTime _fileLastModified;
     QDateTime _created;
     QDateTime _modified;
-    qint64 _fileSize;
     qint64 _cryptoKey;
-    int _id;
-    int _noteSubFolderId;
+    int _fileSize;
     int _shareId;
     unsigned int _sharePermissions;
     bool _hasDirtyData;

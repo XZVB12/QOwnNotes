@@ -20,8 +20,7 @@
 
 UpdateDialog::UpdateDialog(QWidget *parent, const QString &changesHtml,
                            const QString &releaseUrl,
-                           const QString &releaseVersionString,
-                           int releaseBuildNumber)
+                           const QString &releaseVersionString)
     : MasterDialog(parent), ui(new Ui::UpdateDialog) {
     ui->setupUi(this);
     ui->downloadProgressBar->hide();
@@ -30,6 +29,9 @@ UpdateDialog::UpdateDialog(QWidget *parent, const QString &changesHtml,
     ui->permissionLabel->hide();
 #endif
 
+    ui->getInvolvedLabel->setText(ui->getInvolvedLabel->text().arg(
+        "https://www.qownnotes.org/contributing/get-involved.html"));
+
     // inject some generic CSS styles
     ui->changeLogEdit->document()->setDefaultStyleSheet(
         Utils::Misc::genericCSS());
@@ -37,8 +39,7 @@ UpdateDialog::UpdateDialog(QWidget *parent, const QString &changesHtml,
     //                                 "</style>" + ui->label_4->text());
 
     ui->changeLogEdit->setHtml(changesHtml);
-    ui->versionLabel->setText("Version " + releaseVersionString + " - build " +
-                              QString::number(releaseBuildNumber));
+    ui->versionLabel->setText("Version " + releaseVersionString);
     this->releaseVersionString = releaseVersionString;
     this->releaseUrl = releaseUrl;
 
@@ -188,9 +189,11 @@ void UpdateDialog::dialogButtonClicked(QAbstractButton *button) {
                 QNetworkRequest::FollowRedirectsAttribute, true);
 #endif
 
+#if (QT_VERSION < QT_VERSION_CHECK(5, 15, 0))
             // try to ensure the network is accessible
             _networkManager->setNetworkAccessible(
                 QNetworkAccessManager::Accessible);
+#endif
 
             QNetworkReply *reply = _networkManager->get(networkRequest);
 

@@ -18,9 +18,12 @@ NoteApi* NoteApi::fetch(int id) {
         _noteText = _note.getNoteText();
         _hasDirtyData = _note.getHasDirtyData();
         _noteSubFolderId = _note.getNoteSubFolderId();
-        _decryptedNoteText = _note.getDecryptedNoteText();
         _fileCreated = _note.getFileCreated();
         _fileLastModified = _note.getFileLastModified();
+
+        // we'll try not to fetch the decrypted note text, because it
+        // would be done every time the current note changes
+        _decryptedNoteText = _note.getDecryptedNoteText();
     }
 
     return this;
@@ -45,13 +48,13 @@ QQmlListProperty<TagApi> NoteApi::tags() {
     _tags.clear();
 
     Note note = Note::fetch(_id);
-    QVector<Tag> tags = Tag::fetchAllOfNote(note);
-    QVectorIterator<Tag> itr(tags);
+    QVector<TagHeader> tags = Tag::fetchAllOfNote(note);
+    QVectorIterator<TagHeader> itr(tags);
     while (itr.hasNext()) {
-        Tag tag = itr.next();
+        TagHeader tag = itr.next();
 
         auto* tagApi = new TagApi();
-        tagApi->fetch(tag.getId());
+        tagApi->fetch(tag._id);
         _tags.append(tagApi);
     }
 #if (QT_VERSION < QT_VERSION_CHECK(5, 15, 0))
@@ -67,11 +70,11 @@ QQmlListProperty<TagApi> NoteApi::tags() {
 QStringList NoteApi::tagNames() const {
     QStringList tagNameList;
     Note note = Note::fetch(_id);
-    QVector<Tag> tags = Tag::fetchAllOfNote(note);
-    QVectorIterator<Tag> itr(tags);
+    QVector<TagHeader> tags = Tag::fetchAllOfNote(note);
+    QVectorIterator<TagHeader> itr(tags);
     while (itr.hasNext()) {
-        Tag tag = itr.next();
-        tagNameList.append(tag.getName());
+        TagHeader tag = itr.next();
+        tagNameList.append(tag._name);
     }
 
     return tagNameList;
