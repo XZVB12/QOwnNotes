@@ -1448,6 +1448,22 @@
     </message>
   </context>
   <context>
+    <name>IssueAssistantDialog</name>
+    <message>
+      <location filename="../dialogs/issueassistantdialog.ui" line="201"/>
+      <source>Minimum 8 characters</source>
+      <translation type="unfinished">Minimum 8 characters</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/issueassistantdialog.ui" line="244"/>
+      <location filename="../dialogs/issueassistantdialog.ui" line="260"/>
+      <location filename="../dialogs/issueassistantdialog.ui" line="276"/>
+      <location filename="../dialogs/issueassistantdialog.ui" line="292"/>
+      <source>Minimum 10 characters</source>
+      <translation type="unfinished">Minimum 10 characters</translation>
+    </message>
+  </context>
+  <context>
     <name>LayoutWidget</name>
     <message>
       <location filename="../widgets/layoutwidget.ui" line="97"/>
@@ -1796,7 +1812,7 @@
     <message>
       <location filename="../mainwindow.ui" line="411"/>
       <location filename="../mainwindow.ui" line="911"/>
-      <location filename="../mainwindow.cpp" line="821"/>
+      <location filename="../mainwindow.cpp" line="818"/>
       <source>Navigation</source>
       <translation>Navigácia</translation>
     </message>
@@ -1807,7 +1823,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="696"/>
-      <location filename="../mainwindow.cpp" line="8727"/>
+      <location filename="../mainwindow.cpp" line="8822"/>
       <source>Add a tag to the current note</source>
       <translation>Pridajte značku do aktuálnej poznámky</translation>
     </message>
@@ -1843,7 +1859,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1238"/>
-      <location filename="../mainwindow.cpp" line="6694"/>
+      <location filename="../mainwindow.cpp" line="6785"/>
       <source>Custom actions</source>
       <translation>Vlastné akcie</translation>
     </message>
@@ -1924,13 +1940,13 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1445"/>
-      <location filename="../mainwindow.cpp" line="10427"/>
+      <location filename="../mainwindow.cpp" line="10522"/>
       <source>Select &amp;all notes</source>
       <translation>Vyberte &amp;všetky poznámky</translation>
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1454"/>
-      <location filename="../mainwindow.cpp" line="6605"/>
+      <location filename="../mainwindow.cpp" line="6696"/>
       <source>Insert &amp;link</source>
       <translation>Vložiť &amp;odkaz</translation>
     </message>
@@ -1985,7 +2001,7 @@
       <translation>Vyhľadajte alebo vytvorte poznámku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8728"/>
+      <location filename="../mainwindow.cpp" line="8823"/>
       <source>Add a tag to the selected notes</source>
       <translation>Pridajte značku do vybratých poznámok</translation>
     </message>
@@ -1996,7 +2012,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="886"/>
-      <location filename="../mainwindow.cpp" line="6656"/>
+      <location filename="../mainwindow.cpp" line="6747"/>
       <source>Export</source>
       <translation>Export</translation>
     </message>
@@ -2007,7 +2023,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="928"/>
-      <location filename="../mainwindow.cpp" line="6637"/>
+      <location filename="../mainwindow.cpp" line="6728"/>
       <source>Print</source>
       <translation>Vytlačiť</translation>
     </message>
@@ -2078,7 +2094,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1159"/>
-      <location filename="../mainwindow.cpp" line="749"/>
+      <location filename="../mainwindow.cpp" line="746"/>
       <source>Workspaces</source>
       <translation>Pracovnej plochy</translation>
     </message>
@@ -2370,7 +2386,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2244"/>
-      <location filename="../mainwindow.cpp" line="11542"/>
+      <location filename="../mainwindow.cpp" line="11637"/>
       <source>Remove current workspace</source>
       <translation>Odstrániť aktuálny pracovný priestor</translation>
     </message>
@@ -2412,7 +2428,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2318"/>
-      <location filename="../mainwindow.cpp" line="6614"/>
+      <location filename="../mainwindow.cpp" line="6705"/>
       <source>Insert block &amp;quote</source>
       <translation>Vložiť blok &amp;citácie</translation>
     </message>
@@ -2439,7 +2455,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2365"/>
-      <location filename="../mainwindow.cpp" line="10403"/>
+      <location filename="../mainwindow.cpp" line="10498"/>
       <source>Open note in different window</source>
       <translation>Otvorte poznámku v inom okne</translation>
     </message>
@@ -2460,7 +2476,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2405"/>
-      <location filename="../mainwindow.cpp" line="10411"/>
+      <location filename="../mainwindow.cpp" line="10506"/>
       <source>Show note git versions</source>
       <translation>Zobraziť Poznámka: git verzie</translation>
     </message>
@@ -2543,7 +2559,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2567"/>
-      <location filename="../mainwindow.cpp" line="12466"/>
+      <location filename="../mainwindow.cpp" line="12563"/>
       <source>Automatically detect</source>
       <translation>Automaticky zistiť</translation>
     </message>
@@ -2738,22 +2754,22 @@
       <translation>Dovozné poznámok z Evernote</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2862"/>
+      <location filename="../mainwindow.cpp" line="2859"/>
       <source>Note was removed externally!</source>
       <translation>Poznámka bol odstránený externe!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2863"/>
+      <location filename="../mainwindow.cpp" line="2860"/>
       <source>Current note was removed outside of this application!
 Restore current note?</source>
       <translation>Aktuálna poznámka bola odstránená mimo tejto aplikácie!
 Obnoviť aktuálnu poznámku?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5460"/>
-      <location filename="../mainwindow.cpp" line="5483"/>
-      <location filename="../mainwindow.cpp" line="7099"/>
-      <location filename="../mainwindow.cpp" line="10493"/>
+      <location filename="../mainwindow.cpp" line="5475"/>
+      <location filename="../mainwindow.cpp" line="5498"/>
+      <location filename="../mainwindow.cpp" line="7190"/>
+      <location filename="../mainwindow.cpp" line="10588"/>
       <source>&amp;Cancel</source>
       <translation>&amp;Zrušiť</translation>
     </message>
@@ -2767,47 +2783,47 @@ Obnoviť aktuálnu poznámku?</translation>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3099"/>
+      <location filename="../mainwindow.cpp" line="3096"/>
       <source>new version %1 available</source>
       <translation>nová verzia %1 k dispozícii</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3216"/>
+      <location filename="../mainwindow.cpp" line="3213"/>
       <source>Abort</source>
       <translation>Prerušiť</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3216"/>
+      <location filename="../mainwindow.cpp" line="3213"/>
       <source>Loading notes…</source>
       <translation>Načítavajú sa poznámky…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3430"/>
+      <location filename="../mainwindow.cpp" line="3427"/>
       <source>Removed duplicate conflicted database: %1</source>
       <translation>Odstránená duplicitná konfliktná databáza: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3431"/>
+      <location filename="../mainwindow.cpp" line="3428"/>
       <source>Could not remove duplicate conflicted database: %1</source>
       <translation>Nepodarilo sa odstrániť duplicitné konfliktné databázy: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3437"/>
+      <location filename="../mainwindow.cpp" line="3434"/>
       <source>Removed merged conflicted database: %1</source>
       <translation>Odstránená zlúčená konfliktná databáza: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3438"/>
+      <location filename="../mainwindow.cpp" line="3435"/>
       <source>Could not remove merged conflicted database: %1</source>
       <translation>Zlúčenú konfliktnú databázu sa nepodarilo odstrániť: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3453"/>
+      <location filename="../mainwindow.cpp" line="3450"/>
       <source>Delete conflicted database copies</source>
       <translation>Odstráňte kópie konfliktnej databázy</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="3476"/>
+      <location filename="../mainwindow.cpp" line="3473"/>
       <source>Removed %n conflicted database copies</source>
       <translation>
         <numerusform>Bola odstránená %n kópia konfliktu databázy</numerusform>
@@ -2817,62 +2833,62 @@ Obnoviť aktuálnu poznámku?</translation>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3640"/>
+      <location filename="../mainwindow.cpp" line="3637"/>
       <source>Please select the folder where your notes will get stored</source>
       <translation>Vyberte priečinok, do ktorého sa uložia poznámky</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3666"/>
+      <location filename="../mainwindow.cpp" line="3663"/>
       <source>No folder was selected</source>
       <translation>Žiadna zložka bola vybraná</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3668"/>
+      <location filename="../mainwindow.cpp" line="3665"/>
       <source>You have to select your ownCloud notes folder to make this software work!</source>
       <translation>Ak chcete, aby tento softvér fungoval, musíte vybrať priečinok s vlastnými poznámkami!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3670"/>
+      <location filename="../mainwindow.cpp" line="3667"/>
       <source>&amp;Retry</source>
       <translation>&amp;Znova</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3670"/>
+      <location filename="../mainwindow.cpp" line="3667"/>
       <source>&amp;Exit</source>
       <translation>&amp;Výstupu</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3978"/>
+      <location filename="../mainwindow.cpp" line="3993"/>
       <source>Remove current note</source>
       <translation>Odstrániť aktuálnu poznámku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3979"/>
+      <location filename="../mainwindow.cpp" line="3994"/>
       <source>Remove current note: &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>Odstrániť aktuálnu poznámku: &lt;strong&gt;%1&lt;/strong&gt;?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4338"/>
+      <location filename="../mainwindow.cpp" line="4353"/>
       <source>Please enter the &lt;strong&gt;password&lt;/strong&gt; of this encrypted note.</source>
       <translation>Zadajte prosím heslo &lt;strong&gt;&lt;/strong&gt; tejto zašifrovanej poznámky.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4361"/>
+      <location filename="../mainwindow.cpp" line="4376"/>
       <source>Note can't be decrypted!</source>
       <translation>Poznámka sa nedá dešifrovať!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4362"/>
+      <location filename="../mainwindow.cpp" line="4377"/>
       <source>It seems that your password is not valid!</source>
       <translation>Zdá sa, že vaše heslo nie je platné!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4530"/>
+      <location filename="../mainwindow.cpp" line="4545"/>
       <source>Remove selected notes</source>
       <translation>Odstráňte vybraté poznámky</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4532"/>
+      <location filename="../mainwindow.cpp" line="4547"/>
       <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected note(s)?
 
 If the trash is enabled on your ownCloud server you should be able to restore them from there.</source>
@@ -2892,13 +2908,13 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4620"/>
-      <location filename="../mainwindow.cpp" line="10710"/>
+      <location filename="../mainwindow.cpp" line="4635"/>
+      <location filename="../mainwindow.cpp" line="10805"/>
       <source>Remove selected folders</source>
       <translation>Remove selected folders</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4621"/>
+      <location filename="../mainwindow.cpp" line="4636"/>
       <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected folder(s)?&lt;ul&gt;&lt;li&gt;%1&lt;/li&gt;&lt;/ul&gt;All files and folders in these folders will be removed as well!</source>
       <translation>
         <numerusform>Odstrániť vybratý priečinok &lt;strong&gt;%n&lt;/strong&gt;? &lt;ul&gt; &lt;li&gt;%1&lt;/li&gt; &lt;/ul&gt; Odstránia sa aj všetky súbory a priečinky v týchto priečinkoch!</numerusform>
@@ -2908,17 +2924,17 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4632"/>
+      <location filename="../mainwindow.cpp" line="4647"/>
       <source>Removed note subfolder: %1</source>
       <translation>Odstránené podpriečinok poznámku: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4652"/>
+      <location filename="../mainwindow.cpp" line="4667"/>
       <source>Remove selected tags</source>
       <translation>Odstrániť vybraté značky</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4653"/>
+      <location filename="../mainwindow.cpp" line="4668"/>
       <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected tag(s)? No notes will be removed in this process.</source>
       <translation>
         <numerusform>Odstrániť vybratú značku &lt;strong&gt;%n &lt;/strong&gt;? V tomto procese nebudú odstránené žiadne poznámky.</numerusform>
@@ -2928,13 +2944,13 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4705"/>
-      <location filename="../mainwindow.cpp" line="9513"/>
+      <location filename="../mainwindow.cpp" line="4720"/>
+      <location filename="../mainwindow.cpp" line="9608"/>
       <source>Move selected notes</source>
       <translation>Presunúť vybrané poznámky</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4706"/>
+      <location filename="../mainwindow.cpp" line="4721"/>
       <source>Move %n selected note(s) to &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>Presunúť %n vybratú poznámku do &lt;strong&gt;%2 &lt;/strong&gt;?</numerusform>
@@ -2944,13 +2960,13 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4809"/>
-      <location filename="../mainwindow.cpp" line="9622"/>
+      <location filename="../mainwindow.cpp" line="4824"/>
+      <location filename="../mainwindow.cpp" line="9717"/>
       <source>Copy selected notes</source>
       <translation>Kopírovať vybrané poznámky</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4810"/>
+      <location filename="../mainwindow.cpp" line="4825"/>
       <source>Copy %n selected note(s) to &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>Skopírujte %n vybraných poznámok do &lt;strong&gt;%2 &lt;/strong&gt;?</numerusform>
@@ -2960,13 +2976,13 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4840"/>
-      <location filename="../mainwindow.cpp" line="4989"/>
+      <location filename="../mainwindow.cpp" line="4855"/>
+      <location filename="../mainwindow.cpp" line="5004"/>
       <source>Done</source>
       <translation>Hotovo</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4841"/>
+      <location filename="../mainwindow.cpp" line="4856"/>
       <source>%n note(s) were copied to &lt;strong&gt;%2&lt;/strong&gt;.</source>
       <translation>
         <numerusform>Poznámka %n bola skopírovaná do položky &lt;strong&gt;%2 &lt;/strong&gt;.</numerusform>
@@ -2976,12 +2992,12 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4854"/>
+      <location filename="../mainwindow.cpp" line="4869"/>
       <source>Tag selected notes</source>
       <translation>Označiť vybrané poznámky</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4855"/>
+      <location filename="../mainwindow.cpp" line="4870"/>
       <source>Tag %n selected note(s) with &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>Označiť %n vybratú poznámku pomocou &lt;strong&gt;%2 &lt;/strong&gt;?</numerusform>
@@ -2991,42 +3007,42 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5128"/>
+      <location filename="../mainwindow.cpp" line="5143"/>
       <source>Restart application</source>
       <translation>Reštartujte aplikáciu</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5134"/>
+      <location filename="../mainwindow.cpp" line="5149"/>
       <source>You may need to restart the application manually to let the changes take effect.</source>
       <translation>Možno budete musieť manuálne reštartovať aplikáciu, aby sa zmeny prejavili.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5139"/>
+      <location filename="../mainwindow.cpp" line="5154"/>
       <source>You may need to restart the application to let the changes take effect.</source>
       <translation>Možno budete musieť reštartovať aplikáciu, aby sa zmeny prejavili.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5141"/>
+      <location filename="../mainwindow.cpp" line="5156"/>
       <source>Restart</source>
       <translation>Reštart</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5372"/>
+      <location filename="../mainwindow.cpp" line="5387"/>
       <source>PDF files</source>
       <translation>PDF súbory</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5456"/>
+      <location filename="../mainwindow.cpp" line="5471"/>
       <source>Todo lists disabled!</source>
       <translation>Zoznamy úloh sú zakázané!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5457"/>
+      <location filename="../mainwindow.cpp" line="5472"/>
       <source>You have disabled the todo lists.&lt;br /&gt;Please check your &lt;strong&gt;Todo&lt;/strong&gt; configuration in the settings!</source>
       <translation>Zakázali ste zoznamy úloh. &lt;br /&gt; Skontrolujte nastavenia &lt;strong&gt; Todo &lt;/strong&gt; v nastaveniach!</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="5705"/>
+      <location filename="../mainwindow.cpp" line="5720"/>
       <source>Found &lt;strong&gt;%n&lt;/strong&gt; occurrence(s) of any term of &lt;strong&gt;%1&lt;/strong&gt;</source>
       <translation>
         <numerusform>Nájdený &lt;strong&gt;%n &lt;/strong&gt; výskyt ľubovoľného termínu &lt;strong&gt;%1 &lt;/strong&gt;</numerusform>
@@ -3036,99 +3052,115 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6254"/>
+      <location filename="../mainwindow.cpp" line="6287"/>
+      <location filename="../mainwindow.cpp" line="6308"/>
       <source>Note was not found</source>
       <translation>Poznámka sa nenašla</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6255"/>
+      <location filename="../mainwindow.cpp" line="6298"/>
       <source>Note was not found, create new note &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>Poznámka sa nenašla, vytvorte novú poznámku &lt;strong&gt;%1&lt;/strong&gt;?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6418"/>
+      <location filename="../mainwindow.cpp" line="6302"/>
+      <source>Note was not found, create new note &lt;strong&gt;%1&lt;/strong&gt; at path &lt;strong&gt;%2&lt;/strong&gt; ?</source>
+      <translation type="unfinished">Note was not found, create new note &lt;strong&gt;%1&lt;/strong&gt; at path &lt;strong&gt;%2&lt;/strong&gt; ?</translation>
+    </message>
+    <message>
+      <location filename="../mainwindow.cpp" line="6347"/>
+      <source>Failed to create note</source>
+      <translation type="unfinished">Failed to create note</translation>
+    </message>
+    <message>
+      <location filename="../mainwindow.cpp" line="6348"/>
+      <source>Note creation failed</source>
+      <translation type="unfinished">Note creation failed</translation>
+    </message>
+    <message>
+      <location filename="../mainwindow.cpp" line="6509"/>
       <source>Note folders</source>
       <translation>Zložky s poznámkami</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6541"/>
+      <location filename="../mainwindow.cpp" line="6632"/>
       <source>Note versions are currently loaded from your ownCloud server</source>
       <translation>Poznámka verzie sú aktuálne načítané zo servera ownCloud</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6558"/>
+      <location filename="../mainwindow.cpp" line="6649"/>
       <source>Trashed notes are currently loaded from your ownCloud server</source>
       <translation>Trashed poznámky sú v súčasnosti načítané z vášho servera ownCloud</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6624"/>
+      <location filename="../mainwindow.cpp" line="6715"/>
       <source>Copy code block</source>
       <translation>Kopírovať kódový blok</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6645"/>
+      <location filename="../mainwindow.cpp" line="6736"/>
       <source>Print selected text</source>
       <translation>Vytlačiť vybraný text</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6651"/>
+      <location filename="../mainwindow.cpp" line="6742"/>
       <source>Print selected text (preview)</source>
       <translation>Vytlačiť vybratý text (náhľad)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6669"/>
+      <location filename="../mainwindow.cpp" line="6760"/>
       <source>Export selected text as PDF</source>
       <translation>Exportovať vybraný text vo formáte PDF</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6675"/>
+      <location filename="../mainwindow.cpp" line="6766"/>
       <source>Export selected text as PDF (preview)</source>
       <translation>Exportovať vybraný text vo formáte PDF (náhľad)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7095"/>
+      <location filename="../mainwindow.cpp" line="7186"/>
       <source>Your note will be decrypted and stored as plain text again. Keep in mind that the unencrypted note will possibly be synced to your server and sensitive text may be exposed!&lt;br /&gt;Do you want to decrypt your note?</source>
       <translation>Vaša poznámka bude znova dešifrovaná a uložená ako obyčajný text. Majte na pamäti, že nezašifrovaná poznámka bude pravdepodobne synchronizovaná so serverom a citlivý text môže byť vystavený! &lt;br /&gt; Chcete dešifrovať poznámku?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7192"/>
+      <location filename="../mainwindow.cpp" line="7283"/>
       <source>Markdown files</source>
       <translation>Markdown súbory</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7247"/>
+      <location filename="../mainwindow.cpp" line="7338"/>
       <source>Bookmarked note position at slot %1</source>
       <translation>Záložkou nôt v slot %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7262"/>
+      <location filename="../mainwindow.cpp" line="7353"/>
       <source>Jumped to bookmark position at slot %1</source>
       <translation>Skočil na záložku pozíciu v slot %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7490"/>
-      <location filename="../mainwindow.cpp" line="7559"/>
+      <location filename="../mainwindow.cpp" line="7581"/>
+      <location filename="../mainwindow.cpp" line="7650"/>
       <source>Inserting image</source>
       <translation>Vloženie obrázku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7495"/>
-      <location filename="../mainwindow.cpp" line="7563"/>
+      <location filename="../mainwindow.cpp" line="7586"/>
+      <location filename="../mainwindow.cpp" line="7654"/>
       <source>Done inserting image</source>
       <translation>Dokončenie vloženia obrázka</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7497"/>
+      <location filename="../mainwindow.cpp" line="7588"/>
       <source>Inserting attachment</source>
       <translation>Vloženie prílohy</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7502"/>
+      <location filename="../mainwindow.cpp" line="7593"/>
       <source>Done inserting attachment</source>
       <translation>Hotové vloženie prílohy</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="7514"/>
+      <location filename="../mainwindow.cpp" line="7605"/>
       <source>Copied %n note(s) to %1</source>
       <translation>
         <numerusform>Skopírovaná poznámka %n do %1</numerusform>
@@ -3138,7 +3170,7 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="7523"/>
+      <location filename="../mainwindow.cpp" line="7614"/>
       <source>Failed to copy %n note(s) (most likely already existing)</source>
       <translation>
         <numerusform>Nepodarilo sa skopírovať poznámku %n (pravdepodobne už existovala)</numerusform>
@@ -3148,7 +3180,7 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="7533"/>
+      <location filename="../mainwindow.cpp" line="7624"/>
       <source>Skipped copying of %n note(s) (no markdown or text file or not readable)</source>
       <translation>
         <numerusform>Preskočené kopírovanie %n poznámok (bez značky alebo textového súboru alebo nečitateľné)</numerusform>
@@ -3158,225 +3190,225 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7546"/>
+      <location filename="../mainwindow.cpp" line="7637"/>
       <source>Saving temporary image</source>
       <translation>Ukladanie dočasných obrázok</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7565"/>
+      <location filename="../mainwindow.cpp" line="7656"/>
       <source>Temporary file can't be opened</source>
       <translation>Dočasný súbor sa nedá otvoriť</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7608"/>
+      <location filename="../mainwindow.cpp" line="7699"/>
       <source>Downloading %1</source>
       <translation>Sťahovanie %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7798"/>
+      <location filename="../mainwindow.cpp" line="7889"/>
       <source>Reset font size to %1 pt</source>
       <comment>Will be shown after the font size is reset by 'Reset note text size'</comment>
       <translation>Obnoviť veľkosť písma na %1 pt</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8773"/>
+      <location filename="../mainwindow.cpp" line="8868"/>
       <source>Remove tag '%1' from the current note</source>
       <translation>Z aktuálnej poznámky odstráňte značku „%1“</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8774"/>
+      <location filename="../mainwindow.cpp" line="8869"/>
       <source>Remove tag '%1' from the selected notes</source>
       <translation>Odstráňte značku „%1“ z vybratých poznámok</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9005"/>
+      <location filename="../mainwindow.cpp" line="9100"/>
       <source>Rename tag</source>
       <translation>Premenovanie značky</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9006"/>
+      <location filename="../mainwindow.cpp" line="9101"/>
       <source>Assign color</source>
       <translation>Priradenie farieb</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9007"/>
+      <location filename="../mainwindow.cpp" line="9102"/>
       <source>Disable color</source>
       <translation>Zakázať farbu</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9011"/>
+      <location filename="../mainwindow.cpp" line="9106"/>
       <source>&amp;Move tags to…</source>
       <translation>&amp;Presunúť značky do…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9222"/>
+      <location filename="../mainwindow.cpp" line="9317"/>
       <source>Move to the root</source>
       <comment>to move a tag to the current tag in the tag context menu</comment>
       <translation>Presuňte sa na koreň</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9789"/>
+      <location filename="../mainwindow.cpp" line="9884"/>
       <source>An url was opened at the current cursor position</source>
       <translation>Na aktuálnej pozícii kurzora bola otvorená adresa Url</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9892"/>
+      <location filename="../mainwindow.cpp" line="9987"/>
       <source>No equation was found in front of the cursor</source>
       <translation>Pred kurzorom sa nenašla žiadna rovnica</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9912"/>
+      <location filename="../mainwindow.cpp" line="10007"/>
       <source>Result for equation: %1 = %2</source>
       <translation>Výsledok rovnice: %1 = %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10017"/>
+      <location filename="../mainwindow.cpp" line="10112"/>
       <source>The scripting engine was reloaded</source>
       <translation>Skriptovací nástroj bol reloaded</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10051"/>
+      <location filename="../mainwindow.cpp" line="10146"/>
       <source>HTML files</source>
       <translation>Súbory HTML</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10339"/>
+      <location filename="../mainwindow.cpp" line="10434"/>
       <source>Jump to the note's subfolder</source>
       <translation>Prejdite na podpriečinok poznámky
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10396"/>
+      <location filename="../mainwindow.cpp" line="10491"/>
       <source>Open note in tab</source>
       <translation>Otvorte poznámku na karte
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12059"/>
+      <location filename="../mainwindow.cpp" line="12156"/>
       <source>A script update was found!</source>
       <translation>Bola nájdená aktualizácia skriptu!
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12065"/>
+      <location filename="../mainwindow.cpp" line="12162"/>
       <source>Script updates</source>
       <translation>Aktualizácia skriptov
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12066"/>
+      <location filename="../mainwindow.cpp" line="12163"/>
       <source>Updates to your scripts were found in the script repository! Do you want to update them?</source>
       <translation>Aktualizácie vašich skriptov boli nájdené v úložisku skriptov! Chcete ich aktualizovať?
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12081"/>
+      <location filename="../mainwindow.cpp" line="12178"/>
       <source>No script updates were found</source>
       <translation>Nenašli sa žiadne aktualizácie skriptov
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12697"/>
+      <location filename="../mainwindow.cpp" line="12794"/>
       <source>Toggle note stickiness</source>
       <translation>Prepnúť lepivosť na vedomie
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12703"/>
+      <location filename="../mainwindow.cpp" line="12800"/>
       <source>Close other note tabs</source>
       <translation>Zatvorte ďalšie karty poznámok</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10283"/>
-      <location filename="../mainwindow.cpp" line="10477"/>
+      <location filename="../mainwindow.cpp" line="10378"/>
+      <location filename="../mainwindow.cpp" line="10572"/>
       <source>Rename note</source>
       <translation>Premenovať poznámku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10285"/>
+      <location filename="../mainwindow.cpp" line="10380"/>
       <source>Allows you to rename the filename of the note</source>
       <translation>Umožňuje premenovať názov súboru poznámky</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10299"/>
+      <location filename="../mainwindow.cpp" line="10394"/>
       <source>&amp;Move notes to…</source>
       <translation>&amp;Presunúť poznámky…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10300"/>
+      <location filename="../mainwindow.cpp" line="10395"/>
       <source>&amp;Copy notes to…</source>
       <translation>&amp;Kopírovať poznámky…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10343"/>
+      <location filename="../mainwindow.cpp" line="10438"/>
       <source>Move notes to subfolder…</source>
       <translation>Presunúť poznámky do podpriečinka…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10347"/>
+      <location filename="../mainwindow.cpp" line="10442"/>
       <source>Copy notes to subfolder…</source>
       <translation>Kopírovať poznámky do podpriečinka…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10355"/>
+      <location filename="../mainwindow.cpp" line="10450"/>
       <source>&amp;Tag selected notes with…</source>
       <translation>&amp;Vybraný tag poznámky s…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10379"/>
+      <location filename="../mainwindow.cpp" line="10474"/>
       <source>&amp;Remove tag from selected notes…</source>
       <translation>&amp;Odstránenie značky z vybratej poznámky…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10477"/>
+      <location filename="../mainwindow.cpp" line="10572"/>
       <source>Name:</source>
       <translation>Meno:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10489"/>
+      <location filename="../mainwindow.cpp" line="10584"/>
       <source>Note renaming not enabled!</source>
       <translation>Poznámka: premenovanie nie je povolené!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10709"/>
+      <location filename="../mainwindow.cpp" line="10804"/>
       <source>Rename subfolder</source>
       <translation>Premenovanie podpriečinok</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11313"/>
+      <location filename="../mainwindow.cpp" line="11408"/>
       <source>Create new workspace</source>
       <translation>Vytvorenie nového pracovného priestoru</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11314"/>
-      <location filename="../mainwindow.cpp" line="11584"/>
+      <location filename="../mainwindow.cpp" line="11409"/>
+      <location filename="../mainwindow.cpp" line="11679"/>
       <source>Workspace name:</source>
       <translation>Názov pracovného priestoru:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11439"/>
+      <location filename="../mainwindow.cpp" line="11534"/>
       <source>full</source>
       <comment>full workspace</comment>
       <translation>plné</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11446"/>
+      <location filename="../mainwindow.cpp" line="11541"/>
       <source>minimal</source>
       <comment>minimal workspace</comment>
       <translation>minimálne</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11543"/>
+      <location filename="../mainwindow.cpp" line="11638"/>
       <source>Remove the current workspace?</source>
       <translation>Odstrániť aktuálny pracovný priestor?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11583"/>
+      <location filename="../mainwindow.cpp" line="11678"/>
       <source>Rename workspace</source>
       <translation>Premenovať pracovný priestor</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="11729"/>
+      <location filename="../mainwindow.cpp" line="11824"/>
       <source>%n chars</source>
       <comment>characters</comment>
       <translation>
@@ -3387,42 +3419,42 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11998"/>
+      <location filename="../mainwindow.cpp" line="12095"/>
       <source>Disallow all note editing</source>
       <translation>Zakáže všetky úpravy poznámok</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12214"/>
+      <location filename="../mainwindow.cpp" line="12311"/>
       <source>Select text files to import</source>
       <translation>Vyberte položku textové súbory na import</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12244"/>
+      <location filename="../mainwindow.cpp" line="12341"/>
       <source>Importing: %1</source>
       <translation>Import: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12309"/>
+      <location filename="../mainwindow.cpp" line="12406"/>
       <source>Note headline '%1' was copied to the clipboard</source>
       <translation>Poznámka: titulok "%1" bola skopírovaná do schránky</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12403"/>
+      <location filename="../mainwindow.cpp" line="12500"/>
       <source>Leave full-screen mode</source>
       <translation>Opustenie režimu celej obrazovky</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12584"/>
+      <location filename="../mainwindow.cpp" line="12681"/>
       <source>Custom editor width</source>
       <translation>Šírka vlastného editora</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12584"/>
+      <location filename="../mainwindow.cpp" line="12681"/>
       <source>Characters:</source>
       <translation>Znaky:</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="8747"/>
+      <location filename="../mainwindow.cpp" line="8842"/>
       <source>%n notes selected</source>
       <translation>
         <numerusform>Počet vybratých poznámok: %n</numerusform>
@@ -3433,7 +3465,7 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2450"/>
-      <location filename="../mainwindow.cpp" line="11999"/>
+      <location filename="../mainwindow.cpp" line="12096"/>
       <source>Allow all note editing</source>
       <translation>Povoliť všetky úpravy poznámok</translation>
     </message>
@@ -3443,12 +3475,12 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       <translation>&amp;Tag</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4929"/>
+      <location filename="../mainwindow.cpp" line="4944"/>
       <source>Remove tag from selected notes</source>
       <translation>Odstránenie značky z vybratých poznámok</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4930"/>
+      <location filename="../mainwindow.cpp" line="4945"/>
       <source>Remove tag &lt;strong&gt;%1&lt;/strong&gt; from %n selected note(s)?</source>
       <translation>
         <numerusform>Odstrániť značku &lt;strong&gt;%1 &lt;/strong&gt; z vybratej poznámky %n?</numerusform>
@@ -3458,7 +3490,7 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4990"/>
+      <location filename="../mainwindow.cpp" line="5005"/>
       <source>Tag &lt;strong&gt;%1&lt;/strong&gt; was removed from %n note(s)</source>
       <translation>
         <numerusform>Značka &lt;strong&gt;%1&lt;/strong&gt; bola odstránená z poznámky %n</numerusform>
@@ -3468,132 +3500,132 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5035"/>
+      <location filename="../mainwindow.cpp" line="5050"/>
       <source>Current notes folder: </source>
       <translation>Aktuálny priečinok poznámky: </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5038"/>
+      <location filename="../mainwindow.cpp" line="5053"/>
       <source>Set the notes folder. Current notes folder: </source>
       <translation>Nastaviť priečinok poznámky. Aktuálny priečinok poznámky: </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5240"/>
+      <location filename="../mainwindow.cpp" line="5255"/>
       <source>Print note</source>
       <translation>Tlačiť poznámku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5315"/>
+      <location filename="../mainwindow.cpp" line="5330"/>
       <source>Letter</source>
       <translation>List</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5345"/>
+      <location filename="../mainwindow.cpp" line="5360"/>
       <source>Portrait</source>
       <translation>Portrét</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5345"/>
+      <location filename="../mainwindow.cpp" line="5360"/>
       <source>Landscape</source>
       <translation>Príroda</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5350"/>
+      <location filename="../mainwindow.cpp" line="5365"/>
       <source>Orientation</source>
       <translation>Orientácia</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5350"/>
+      <location filename="../mainwindow.cpp" line="5365"/>
       <source>Orientation:</source>
       <translation>Orientácia:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5373"/>
+      <location filename="../mainwindow.cpp" line="5388"/>
       <source>Export current note as PDF</source>
       <translation>Export aktuálnej poznámky vo formáte PDF</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5480"/>
+      <location filename="../mainwindow.cpp" line="5495"/>
       <source>You have not selected any todo lists.&lt;br /&gt;Please check your &lt;strong&gt;Todo&lt;/strong&gt; configuration in the settings!</source>
       <translation>Nevybrali ste žiadne zoznamy todo. &lt;br/&gt; Skontrolujte nastavenia &lt;strong&gt; Todo &lt;/strong&gt; v nastaveniach!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6400"/>
+      <location filename="../mainwindow.cpp" line="6491"/>
       <source>Open QOwnNotes</source>
       <translation>Otvorte QOwnNotes</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6063"/>
-      <location filename="../mainwindow.cpp" line="6450"/>
-      <location filename="../mainwindow.cpp" line="10279"/>
-      <location filename="../mainwindow.cpp" line="10707"/>
+      <location filename="../mainwindow.cpp" line="6078"/>
+      <location filename="../mainwindow.cpp" line="6541"/>
+      <location filename="../mainwindow.cpp" line="10374"/>
+      <location filename="../mainwindow.cpp" line="10802"/>
       <source>New note</source>
       <translation>Nová poznámka</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6467"/>
+      <location filename="../mainwindow.cpp" line="6558"/>
       <source>Recent notes</source>
       <translation>Naposledy použité poznámky</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6483"/>
+      <location filename="../mainwindow.cpp" line="6574"/>
       <source>Show todo lists</source>
       <translation>Zobrazenie zoznamov todo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6495"/>
+      <location filename="../mainwindow.cpp" line="6586"/>
       <source>Recent tasks</source>
       <translation>Naposledy použité úlohy</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6516"/>
+      <location filename="../mainwindow.cpp" line="6607"/>
       <source>Quit</source>
       <translation>Ukončite</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7966"/>
+      <location filename="../mainwindow.cpp" line="8061"/>
       <source>show notes from all note subfolders (%1)</source>
       <translation>zobraziť poznámky zo všetkých podpriečinkov poznámok (%1)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7989"/>
+      <location filename="../mainwindow.cpp" line="8084"/>
       <source>show notes in note root folder (%1)</source>
       <translation>zobraziť poznámky v koreňovom priečinku poznámok (%1)</translation>
     </message>
     <message>
       <location filename="../mainwindow.ui" line="316"/>
-      <location filename="../mainwindow.cpp" line="793"/>
-      <location filename="../mainwindow.cpp" line="2112"/>
-      <location filename="../mainwindow.cpp" line="8001"/>
+      <location filename="../mainwindow.cpp" line="790"/>
+      <location filename="../mainwindow.cpp" line="2109"/>
+      <location filename="../mainwindow.cpp" line="8096"/>
       <source>Note folder</source>
       <translation>Poznámka priečinok</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9394"/>
-      <location filename="../mainwindow.cpp" line="9461"/>
+      <location filename="../mainwindow.cpp" line="9489"/>
+      <location filename="../mainwindow.cpp" line="9556"/>
       <source>Copy to note folder</source>
       <translation>Skopírujte do priečinka s poznámkami</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9394"/>
-      <location filename="../mainwindow.cpp" line="9462"/>
+      <location filename="../mainwindow.cpp" line="9489"/>
+      <location filename="../mainwindow.cpp" line="9557"/>
       <source>Move to note folder</source>
       <translation>Presunúť do priečinka s poznámkami</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9395"/>
-      <location filename="../mainwindow.cpp" line="9463"/>
+      <location filename="../mainwindow.cpp" line="9490"/>
+      <location filename="../mainwindow.cpp" line="9558"/>
       <source>Copy to this subfolder</source>
       <translation>Skopírujte do tohto podpriečinka</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9396"/>
-      <location filename="../mainwindow.cpp" line="9464"/>
+      <location filename="../mainwindow.cpp" line="9491"/>
+      <location filename="../mainwindow.cpp" line="9559"/>
       <source>Move to this subfolder</source>
       <translation>Presunúť do tohto podpriečinka</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9508"/>
+      <location filename="../mainwindow.cpp" line="9603"/>
       <source>Move %n selected note(s) to note subfolder &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>Presunúť %n vybratú poznámku do podpriečinka &lt;strong&gt;%2 &lt;/strong&gt;?</numerusform>
@@ -3603,13 +3635,13 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5141"/>
-      <location filename="../mainwindow.cpp" line="12228"/>
+      <location filename="../mainwindow.cpp" line="5156"/>
+      <location filename="../mainwindow.cpp" line="12325"/>
       <source>Cancel</source>
       <translation>Zrušiť</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9593"/>
+      <location filename="../mainwindow.cpp" line="9688"/>
       <source>%n note(s) were moved to note subfolder "%2"</source>
       <translation>
         <numerusform>Poznámka %n bola presunutá do podpriečinka poznámky "%2"</numerusform>
@@ -3619,7 +3651,7 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9617"/>
+      <location filename="../mainwindow.cpp" line="9712"/>
       <source>Copy %n selected note(s) to note subfolder &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>Kopírovať vybratú poznámku %n do podpriečinka &lt;strong&gt;%2&lt;/strong&gt;?</numerusform>
@@ -3629,7 +3661,7 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9685"/>
+      <location filename="../mainwindow.cpp" line="9780"/>
       <source>%n note(s) were copied to note subfolder "%2"</source>
       <translation>
         <numerusform>Poznámka %n bola skopírovaná do podpriečinka „%2“</numerusform>
@@ -3639,118 +3671,118 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10401"/>
+      <location filename="../mainwindow.cpp" line="10496"/>
       <source>Open note in external editor</source>
       <translation>Otvoriť poznámku v externý editor</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10405"/>
+      <location filename="../mainwindow.cpp" line="10500"/>
       <source>Show note in file manager</source>
       <translation>Zobraziť poznámku v správcovi súborov</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10490"/>
+      <location filename="../mainwindow.cpp" line="10585"/>
       <source>If you want to rename your note you have to enable the option to allow the note filename to be different from the headline.</source>
       <translation>Ak chcete poznámku premenovať, musíte povoliť možnosť, aby sa názov súboru poznámky líšil od nadpisu.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10708"/>
+      <location filename="../mainwindow.cpp" line="10803"/>
       <source>New subfolder</source>
       <translation>Nový podpriečinok</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10712"/>
+      <location filename="../mainwindow.cpp" line="10807"/>
       <source>Show folder in file manager</source>
       <translation>Zobraziť priečinok v správcovi súborov</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10757"/>
+      <location filename="../mainwindow.cpp" line="10852"/>
       <source>Create a new folder</source>
       <translation>Vytvorte nový priečinok</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10758"/>
+      <location filename="../mainwindow.cpp" line="10853"/>
       <source>Folder name:</source>
       <translation>Názov priečinka:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7925"/>
+      <location filename="../mainwindow.cpp" line="8020"/>
       <source>show all untagged notes (%1)</source>
       <translation>zobraziť všetky neoznačené poznámky (%1)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7927"/>
+      <location filename="../mainwindow.cpp" line="8022"/>
       <source>Untagged notes</source>
       <translation>Neoznačené poznámky</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10052"/>
+      <location filename="../mainwindow.cpp" line="10147"/>
       <source>Export current note as HTML file</source>
       <translation>Exportovať aktuálnu poznámku ako súbor HTML</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5324"/>
+      <location filename="../mainwindow.cpp" line="5339"/>
       <source>Page size</source>
       <translation>Veľkosť stránky</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1165"/>
+      <location filename="../mainwindow.cpp" line="1162"/>
       <source>quit toolbar</source>
       <translation>ukončite panel s nástrojmi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5324"/>
+      <location filename="../mainwindow.cpp" line="5339"/>
       <source>Page size:</source>
       <translation>Veľkosť stránky:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5441"/>
+      <location filename="../mainwindow.cpp" line="5456"/>
       <source>QOwnNotes will track anonymous usage data, that helps to decide what parts of QOwnNotes to improve next and to find and fix bugs. You can disable that behaviour in the settings.</source>
       <translation>QOwnNotes bude sledovať anonymné údaje o používaní, ktoré pomôžu určiť, ktoré časti QOwnNotes sa majú ďalej vylepšovať a nájsť a opraviť chyby. Toto správanie môžete v nastaveniach zakázať.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5445"/>
+      <location filename="../mainwindow.cpp" line="5460"/>
       <source>&amp;Ok</source>
       <translation>&amp;Ok</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10289"/>
+      <location filename="../mainwindow.cpp" line="10384"/>
       <source>&amp;Remove notes</source>
       <translation>&amp;Odstrániť poznámky</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6605"/>
+      <location filename="../mainwindow.cpp" line="6696"/>
       <source>&amp;Link selected text</source>
       <translation>&amp;Prepojiť vybraný text</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1091"/>
+      <location filename="../mainwindow.cpp" line="1088"/>
       <source>Your tasks are being loaded from your server</source>
       <translation>Vaše úlohy sa načítavajú zo servera</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2793"/>
+      <location filename="../mainwindow.cpp" line="2790"/>
       <source>Current note was modified externally</source>
       <translation>Aktuálna poznámka bola upravená externe</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2876"/>
-      <location filename="../mainwindow.cpp" line="6001"/>
+      <location filename="../mainwindow.cpp" line="2873"/>
+      <location filename="../mainwindow.cpp" line="6016"/>
       <source>Stored current note to disk</source>
       <translation>Uložená aktuálna poznámka na disk</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2894"/>
+      <location filename="../mainwindow.cpp" line="2891"/>
       <source>Note was modified externally: %1</source>
       <translation>Poznámka bola externe upravená: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2916"/>
+      <location filename="../mainwindow.cpp" line="2913"/>
       <source>Notes directory was modified externally</source>
       <translation>Adresár poznámok bol externe upravený</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="2977"/>
+      <location filename="../mainwindow.cpp" line="2974"/>
       <source>Stored %n note(s) to disk</source>
       <translation>
         <numerusform>Uložená poznámka %n na disk</numerusform>
@@ -3760,215 +3792,215 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7892"/>
+      <location filename="../mainwindow.cpp" line="7987"/>
       <source>show all notes (%1)</source>
       <translation>zobraziť všetky poznámky (%1)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7895"/>
-      <location filename="../mainwindow.cpp" line="7969"/>
+      <location filename="../mainwindow.cpp" line="7990"/>
+      <location filename="../mainwindow.cpp" line="8064"/>
       <source>All notes</source>
       <translation>Všetky poznámky</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8997"/>
+      <location filename="../mainwindow.cpp" line="9092"/>
       <source>&amp;Add tag</source>
       <translation>&amp;Pridať značku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9045"/>
+      <location filename="../mainwindow.cpp" line="9140"/>
       <source>Tag could not be created!</source>
       <translation>Štítok sa nepodarilo vytvoriť!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9224"/>
+      <location filename="../mainwindow.cpp" line="9319"/>
       <source>Move to this tag</source>
       <translation>Presunúť na túto značku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9259"/>
+      <location filename="../mainwindow.cpp" line="9354"/>
       <source>Tag this</source>
       <translation>Značky tejto</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9284"/>
+      <location filename="../mainwindow.cpp" line="9379"/>
       <source>Cannot move tag '%1' to this tag</source>
       <translation>Značku '%1' nie je možné presunúť do tejto značky</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9333"/>
+      <location filename="../mainwindow.cpp" line="9428"/>
       <source>Moved tag '%1' to new tag</source>
       <translation>Značka „%1“ bola presunutá do novej značky</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8239"/>
+      <location filename="../mainwindow.cpp" line="8334"/>
       <source>show all notes tagged with '%1' (%2)</source>
       <translation>zobraziť všetky poznámky označené značkou „%1“ (%2)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9008"/>
+      <location filename="../mainwindow.cpp" line="9103"/>
       <source>&amp;Remove tags</source>
       <translation>&amp;Odstrániť značky</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5479"/>
+      <location filename="../mainwindow.cpp" line="5494"/>
       <source>No selected todo lists!</source>
       <translation>Žiadne vybraté zoznamy todo!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="762"/>
+      <location filename="../mainwindow.cpp" line="759"/>
       <source>Subfolders</source>
       <translation>Podpriečinky</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="774"/>
+      <location filename="../mainwindow.cpp" line="771"/>
       <source>Tags</source>
       <translation>Tagy</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="783"/>
+      <location filename="../mainwindow.cpp" line="780"/>
       <source>Note search</source>
       <translation>Poznámka: vyhľadávanie</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="812"/>
+      <location filename="../mainwindow.cpp" line="809"/>
       <source>Note list</source>
       <translation>Poznámka: zoznam</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="837"/>
+      <location filename="../mainwindow.cpp" line="834"/>
       <source>Note edit</source>
       <translation>Poznámka: upraviť</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="849"/>
+      <location filename="../mainwindow.cpp" line="846"/>
       <source>Note tags</source>
       <translation>Poznámka: Tagy</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="860"/>
+      <location filename="../mainwindow.cpp" line="857"/>
       <source>Note preview</source>
       <translation>Poznámka: náhľad</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="868"/>
+      <location filename="../mainwindow.cpp" line="865"/>
       <source>Log</source>
       <translation>Denník</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="877"/>
+      <location filename="../mainwindow.cpp" line="874"/>
       <source>Scripting</source>
       <translation>Skriptovanie</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1132"/>
+      <location filename="../mainwindow.cpp" line="1129"/>
       <source>formatting toolbar</source>
       <translation>panel s nástrojmi na formátovanie</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1141"/>
+      <location filename="../mainwindow.cpp" line="1138"/>
       <source>inserting toolbar</source>
       <translation>vkladanie toolbar</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1148"/>
+      <location filename="../mainwindow.cpp" line="1145"/>
       <source>encryption toolbar</source>
       <translation>šifrovanie toolbar</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1155"/>
+      <location filename="../mainwindow.cpp" line="1152"/>
       <source>window toolbar</source>
       <translation>okno panel s nástrojmi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1160"/>
+      <location filename="../mainwindow.cpp" line="1157"/>
       <source>custom action toolbar</source>
       <translation>vlastná akcia toolbar</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1180"/>
+      <location filename="../mainwindow.cpp" line="1177"/>
       <source>Workspace selector</source>
       <translation>Výber pracovného priestoru</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1326"/>
+      <location filename="../mainwindow.cpp" line="1323"/>
       <source>Show %1 panel</source>
       <translation>Zobraziť %1 panel</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1368"/>
+      <location filename="../mainwindow.cpp" line="1365"/>
       <source>Show %1</source>
       <translation>Zobraziť %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1691"/>
+      <location filename="../mainwindow.cpp" line="1688"/>
       <source>Leave distraction free mode</source>
       <translation>Nechajte režim bez rozptyľovania</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1873"/>
+      <location filename="../mainwindow.cpp" line="1870"/>
       <source>Switch to note folder</source>
       <translation>Prepnúť na priečinok s poznámkami
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2268"/>
+      <location filename="../mainwindow.cpp" line="2265"/>
       <source>show notes in folder '%1' (%2)</source>
       <translation>zobraziť poznámky v priečinku "%1" (%2)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2307"/>
+      <location filename="../mainwindow.cpp" line="2304"/>
       <source>&lt;strong&gt;%1&lt;/strong&gt;&lt;br /&gt;last modified: %2</source>
       <translation>&lt;strong&gt;%1&lt;/strong&gt;&lt;br /&gt;poslednej: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2312"/>
+      <location filename="../mainwindow.cpp" line="2309"/>
       <source>&lt;br /&gt;path: %1</source>
       <translation>cesta &lt;br /&gt;: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2514"/>
+      <location filename="../mainwindow.cpp" line="2511"/>
       <source>Toolbar could not be loaded without name</source>
       <translation>Panel s nástrojmi sa nedal načítať bez názvu</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2820"/>
+      <location filename="../mainwindow.cpp" line="2817"/>
       <source>Overwriting external changes of: %1</source>
       <translation>Prepísanie externé zmeny: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2841"/>
+      <location filename="../mainwindow.cpp" line="2838"/>
       <source>Loading external changes from: %1</source>
       <translation>Načítanie externých zmení z: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2877"/>
-      <location filename="../mainwindow.cpp" line="6002"/>
+      <location filename="../mainwindow.cpp" line="2874"/>
+      <location filename="../mainwindow.cpp" line="6017"/>
       <source>Current note could not be stored to disk</source>
       <translation>Aktuálna poznámka nedá sa uložiť na disk</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3056"/>
+      <location filename="../mainwindow.cpp" line="3053"/>
       <source>Read-only</source>
       <translation>Iba na čítanie</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3058"/>
+      <location filename="../mainwindow.cpp" line="3055"/>
       <source>Note editing is disabled, click to enable</source>
       <translation>Poznámka: editácia vypnutá, kliknite na</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3075"/>
+      <location filename="../mainwindow.cpp" line="3072"/>
       <source>Line numbers</source>
       <translation>Čísla riadkov</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3085"/>
+      <location filename="../mainwindow.cpp" line="3082"/>
       <source>Click here to see what has changed and to be able to update to the latest version</source>
       <translation>Kliknite sem, aby ste videli, čo sa zmenilo a aby ste mohli aktualizovať na najnovšiu verziu</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="3455"/>
+      <location filename="../mainwindow.cpp" line="3452"/>
       <source>Proceed with automatic deletion of &lt;strong&gt;%n&lt;/strong&gt; conflicted database copies that may block your ownCloud sync process?</source>
       <translation>
         <numerusform>Pokračujte s automatickým vymazaním kópie konfliktu &lt;strong&gt;%n &lt;/strong&gt;, ktorá môže blokovať váš vlastný proces synchronizácie nahlas?</numerusform>
@@ -3978,7 +4010,7 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4913"/>
+      <location filename="../mainwindow.cpp" line="4928"/>
       <source>%n note(s) were tagged with "%2"</source>
       <translation>
         <numerusform>Poznámka %n bola označená značkou „%2“</numerusform>
@@ -3988,7 +4020,7 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="5701"/>
+      <location filename="../mainwindow.cpp" line="5716"/>
       <source>Found &lt;strong&gt;%n&lt;/strong&gt; occurrence(s) of &lt;strong&gt;%1&lt;/strong&gt;</source>
       <translation>
         <numerusform>Nájdené &lt;strong&gt;%n &lt;/strong&gt; výskyt &lt;strong&gt;%1 &lt;/strong&gt;</numerusform>
@@ -3998,67 +4030,72 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6063"/>
+      <location filename="../mainwindow.cpp" line="6078"/>
       <source>Note headline</source>
       <translation>Poznámka: titulok</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6611"/>
+      <location filename="../mainwindow.cpp" line="6288"/>
+      <source>Could not find note.&lt;br /&gt;Unable to automatically create note at location, because subfolders are disabled for the current note folder.</source>
+      <translation type="unfinished">Could not find note.&lt;br /&gt;Unable to automatically create note at location, because subfolders are disabled for the current note folder.</translation>
+    </message>
+    <message>
+      <location filename="../mainwindow.cpp" line="6702"/>
       <source>Block &amp;quote selected text</source>
       <comment>Action to apply a block quote formatting to the selected text</comment>
       <translation>Blokovať &amp;citovaný text</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7620"/>
+      <location filename="../mainwindow.cpp" line="7711"/>
       <source>Downloading images finished</source>
       <translation>Sťahovanie obrázkov dokončil</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7770"/>
+      <location filename="../mainwindow.cpp" line="7861"/>
       <source>Increased font size to %1 pt</source>
       <translation>Zvýšená písmo veľkosti %1pt</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7787"/>
+      <location filename="../mainwindow.cpp" line="7878"/>
       <source>Decreased font size to %1 pt</source>
       <translation>Znížená veľkosť písma na %1 pt</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5445"/>
       <location filename="../mainwindow.cpp" line="5460"/>
-      <location filename="../mainwindow.cpp" line="5483"/>
-      <location filename="../mainwindow.cpp" line="10493"/>
+      <location filename="../mainwindow.cpp" line="5475"/>
+      <location filename="../mainwindow.cpp" line="5498"/>
+      <location filename="../mainwindow.cpp" line="10588"/>
       <source>Open &amp;settings</source>
       <translation>Otvoriť &amp;nastavenia</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1688"/>
-      <location filename="../mainwindow.cpp" line="12380"/>
+      <location filename="../mainwindow.cpp" line="1685"/>
+      <location filename="../mainwindow.cpp" line="12477"/>
       <source>leave</source>
       <translation>opustiť</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7038"/>
+      <location filename="../mainwindow.cpp" line="7129"/>
       <source>Please enter your &lt;strong&gt;password&lt;/strong&gt; to encrypt the note.&lt;br /&gt;Keep in mind that you have to &lt;strong&gt;remember&lt;/strong&gt; your password to read the content of the note&lt;br /&gt; and that you can &lt;strong&gt;only&lt;/strong&gt; do that &lt;strong&gt;in QOwnNotes&lt;/strong&gt;!</source>
       <translation>Ak chcete poznámku zašifrovať, zadajte svoje &lt;strong&gt; heslo &lt;/strong&gt;. &lt;br/&gt; Ak si chcete prečítať obsah poznámky, musíte si &lt;strong&gt; zapamätať &lt;/strong&gt; svoje heslo. &lt;br /&gt; a &lt;strong&gt; môžete to urobiť &lt;strong&gt; iba &lt;/strong&gt; v službe QOwnNotes &lt;/ strong &gt;!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7094"/>
+      <location filename="../mainwindow.cpp" line="7185"/>
       <source>Decrypt note and store it as plain text</source>
       <translation>Poznámka: dešifrovať a uložiť ako obyčajný text</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7099"/>
+      <location filename="../mainwindow.cpp" line="7190"/>
       <source>&amp;Decrypt</source>
       <translation>&amp;Dešifrovať</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7124"/>
+      <location filename="../mainwindow.cpp" line="7215"/>
       <source>&lt;br /&gt;You will be able to edit your encrypted note.</source>
       <translation>&lt;br /&gt; Budete môcť upravovať šifrovanú poznámku.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7193"/>
+      <location filename="../mainwindow.cpp" line="7284"/>
       <source>Export current note as Markdown file</source>
       <translation>Exportovať aktuálnu poznámku ako súbor Markdown</translation>
     </message>
@@ -4438,37 +4475,37 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       <translation>predvolené</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1312"/>
+      <location filename="../entities/note.cpp" line="1315"/>
       <source>Could not store note file: %1 - Error message: %2</source>
       <translation>Nepodarilo sa uložiť súbor s poznámkami: %1 - Chybové hlásenie: %2</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1390"/>
+      <location filename="../entities/note.cpp" line="1393"/>
       <source>Renamed note-file was removed: %1</source>
       <translation>Premenovaný súbor poznámok bol odstránený: %1</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1398"/>
+      <location filename="../entities/note.cpp" line="1401"/>
       <source>Could not remove renamed note-file: %1 - Error message: %2</source>
       <translation>Nepodarilo sa odstrániť premenovaný súbor poznámok: %1 - Chybové hlásenie: %2</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1544"/>
+      <location filename="../entities/note.cpp" line="1547"/>
       <source>Note</source>
       <translation>Poznámka</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="2592"/>
+      <location filename="../entities/note.cpp" line="2595"/>
       <source>Could not read image file: %1</source>
       <translation>Súbor obrázka sa nepodarilo prečítať: %1</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="3201"/>
+      <location filename="../entities/note.cpp" line="3215"/>
       <source>Note file path changed</source>
       <translation>Cesta súboru poznámky sa zmenila</translation>
     </message>
     <message numerus="yes">
-      <location filename="../entities/note.cpp" line="3202"/>
+      <location filename="../entities/note.cpp" line="3216"/>
       <source>A change of the note path was detected. Would you like to replace all occurrences of &lt;strong&gt;%1&lt;/strong&gt; links with &lt;strong&gt;%2&lt;/strong&gt; and links with filename &lt;strong&gt;%3&lt;/strong&gt; with &lt;strong&gt;%4&lt;/strong&gt; in &lt;strong&gt;%n&lt;/strong&gt; note file(s)?</source>
       <translation>
         <numerusform>Bola zistená zmena cesty noty. Chceli by ste nahradiť všetky výskyty &lt;strong&gt;%1&lt;/strong&gt; odkazov za &lt;strong&gt;%2&lt;/strong&gt; a odkazy s názvom &lt;strong&gt;%3&lt;/strong&gt; za &lt;strong&gt;%4&lt;/strong&gt; v &lt;strong&gt;%n&lt;/strong&gt; poznámkovom súbore?</numerusform>
@@ -4478,7 +4515,7 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../entities/note.cpp" line="3747"/>
+      <location filename="../entities/note.cpp" line="3761"/>
       <source>…and %n more note(s)</source>
       <translation>
         <numerusform>… a %n viac poznámok</numerusform>
@@ -4509,13 +4546,13 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
       <translation>Nezobrazovať!</translation>
     </message>
     <message>
-      <location filename="../utils/gui.cpp" line="856"/>
+      <location filename="../utils/gui.cpp" line="927"/>
       <source>Double-click to unstick note from tab</source>
       <translation>Dvojitým kliknutím odlepíte poznámku z karty
 </translation>
     </message>
     <message>
-      <location filename="../utils/gui.cpp" line="857"/>
+      <location filename="../utils/gui.cpp" line="928"/>
       <source>Double-click to stick note to tab</source>
       <translation>Dvojitým kliknutím nalepte na kartu poznámku
 </translation>
@@ -4578,27 +4615,27 @@ Ak je kôš povolený na vašom serveri ownCloud, mali by ste byť schopní ho o
   <context>
     <name>QOwnNotesMarkdownTextEdit</name>
     <message>
-      <location filename="../widgets/qownnotesmarkdowntextedit.cpp" line="599"/>
+      <location filename="../widgets/qownnotesmarkdowntextedit.cpp" line="604"/>
       <source>No suggestions for %1</source>
       <translation>Žiadne návrhy pre %1</translation>
     </message>
     <message>
-      <location filename="../widgets/qownnotesmarkdowntextedit.cpp" line="611"/>
+      <location filename="../widgets/qownnotesmarkdowntextedit.cpp" line="616"/>
       <source>Ignore</source>
       <translation>Ignorovať</translation>
     </message>
     <message>
-      <location filename="../widgets/qownnotesmarkdowntextedit.cpp" line="612"/>
+      <location filename="../widgets/qownnotesmarkdowntextedit.cpp" line="617"/>
       <source>Add to Dictionary</source>
       <translation>Pridať do slovníka</translation>
     </message>
     <message>
-      <location filename="../widgets/qownnotesmarkdowntextedit.cpp" line="669"/>
+      <location filename="../widgets/qownnotesmarkdowntextedit.cpp" line="674"/>
       <source>Note editing disabled</source>
       <translation>Poznámka je zakázaná</translation>
     </message>
     <message>
-      <location filename="../widgets/qownnotesmarkdowntextedit.cpp" line="670"/>
+      <location filename="../widgets/qownnotesmarkdowntextedit.cpp" line="675"/>
       <source>Note editing is currently disabled, do you want to allow it again?</source>
       <translation>Poznámka: úprava je momentálne zakázaná, chcete ju znova povoliť?</translation>
     </message>
@@ -6162,7 +6199,7 @@ Stačí si otestovať, či máte konflikty synchronizácie a ak áno, nastavte v
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="2140"/>
       <source>If you want to help to translate QOwnNotes or update an existing translation please read: &lt;a href="%1"&gt;How can I help to translate QOwnNotes?&lt;/a&gt;</source>
-      <translation type="unfinished">If you want to help to translate QOwnNotes or update an existing translation please read: &lt;a href="%1"&gt;How can I help to translate QOwnNotes?&lt;/a&gt;</translation>
+      <translation>Ak chcete pomôcť s prekladom QOwnNotes alebo aktualizovať existujúci preklad, prečítajte si: &lt;a href="%1"&gt; Ako môžem pomôcť s prekladom QOwnNotes? &lt;/a&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="2497"/>
@@ -8224,7 +8261,7 @@ To nie je možné vrátiť späť!</translation>
     <message>
       <location filename="../dialogs/updatedialog.ui" line="93"/>
       <source>&lt;a href="%1"&gt;Get involved with QOwnNotes&lt;/a&gt;</source>
-      <translation type="unfinished">&lt;a href="%1"&gt;Get involved with QOwnNotes&lt;/a&gt;</translation>
+      <translation>&lt;a href="%1"&gt; Zapojte sa do QOwnNotes &lt;/a&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/updatedialog.ui" line="106"/>
@@ -8369,34 +8406,34 @@ To nie je možné vrátiť späť!</translation>
   <context>
     <name>UpdateService</name>
     <message>
-      <location filename="../services/updateservice.cpp" line="118"/>
-      <location filename="../services/updateservice.cpp" line="133"/>
-      <location filename="../services/updateservice.cpp" line="154"/>
+      <location filename="../services/updateservice.cpp" line="114"/>
+      <location filename="../services/updateservice.cpp" line="129"/>
+      <location filename="../services/updateservice.cpp" line="150"/>
       <source>Update-checker error</source>
       <translation>Chyba kontroly aktualizácie</translation>
     </message>
     <message>
-      <location filename="../services/updateservice.cpp" line="119"/>
+      <location filename="../services/updateservice.cpp" line="115"/>
       <source>Network reply error: %1</source>
       <translation>Chyba odpovede siete: %1</translation>
     </message>
     <message>
-      <location filename="../services/updateservice.cpp" line="134"/>
+      <location filename="../services/updateservice.cpp" line="130"/>
       <source>No data was received by the network request!</source>
       <translation>Žiadosť o sieť nebola prijatá!</translation>
     </message>
     <message>
-      <location filename="../services/updateservice.cpp" line="155"/>
+      <location filename="../services/updateservice.cpp" line="151"/>
       <source>The data from the network request could not be interpreted!</source>
       <translation>Údaje zo sieťovej požiadavky nebolo možné interpretovať!</translation>
     </message>
     <message>
-      <location filename="../services/updateservice.cpp" line="262"/>
+      <location filename="../services/updateservice.cpp" line="255"/>
       <source>No updates</source>
       <translation>Žiadne aktualizácie</translation>
     </message>
     <message>
-      <location filename="../services/updateservice.cpp" line="263"/>
+      <location filename="../services/updateservice.cpp" line="256"/>
       <source>There are no updates available.&lt;br /&gt;&lt;strong&gt;%1&lt;/strong&gt; is the latest version.</source>
       <translation>Nie sú k dispozícii žiadne aktualizácie. &lt;br /&gt; &lt;strong&gt;%1 &lt;/strong&gt; je najnovšia verzia.</translation>
     </message>

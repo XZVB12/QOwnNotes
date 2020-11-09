@@ -27,6 +27,7 @@
 #include <utility>
 
 #include "api/noteapi.h"
+#include "api/notesubfolderapi.h"
 #include "api/tagapi.h"
 #include "entities/notesubfolder.h"
 
@@ -54,6 +55,7 @@ ScriptingService::ScriptingService(QObject *parent) : QObject(parent) {
     qmlRegisterType<TagApi>("com.qownnotes.tagapi", 1, 0, "TagApi");
 
     qmlRegisterType<NoteApi>("QOwnNotesTypes", 1, 0, "Note");
+    qmlRegisterType<NoteSubFolderApi>("QOwnNotesTypes", 1, 0, "NoteSubFolder");
     qmlRegisterType<TagApi>("QOwnNotesTypes", 1, 0, "Tag");
     qmlRegisterType<ScriptApi>("QOwnNotesTypes", 1, 0, "Script");
 
@@ -345,23 +347,6 @@ void ScriptingService::outputMethodsOfObject(QObject *object) {
 }
 
 /**
- * Calls the insertMediaHook function for an object
- */
-QString ScriptingService::callInsertMediaHookForObject(
-    QObject *object, QFile *file, const QString &markdownText) {
-    if (methodExistsForObject(
-            object, QStringLiteral("insertMediaHook(QVariant,QVariant)"))) {
-        QVariant newMarkdownText;
-        QMetaObject::invokeMethod(
-            object, "insertMediaHook", Q_RETURN_ARG(QVariant, newMarkdownText),
-            Q_ARG(QVariant, file->fileName()), Q_ARG(QVariant, markdownText));
-        return newMarkdownText.toString();
-    }
-
-    return QString();
-}
-
-/**
  * Calls the insertMediaHook function for all script components
  * This function is called when media file is inserted into the note
  */
@@ -373,10 +358,46 @@ QString ScriptingService::callInsertMediaHook(QFile *file,
         i.next();
         ScriptComponent scriptComponent = i.value();
 
-        QString text = callInsertMediaHookForObject(scriptComponent.object,
-                                                    file, markdownText);
-        if (!text.isEmpty()) {
-            return text;
+        if (methodExistsForObject(
+            scriptComponent.object, QStringLiteral("insertMediaHook(QVariant,QVariant)"))) {
+            QVariant newMarkdownText;
+            QMetaObject::invokeMethod(
+                scriptComponent.object, "insertMediaHook", Q_RETURN_ARG(QVariant, newMarkdownText),
+                Q_ARG(QVariant, file->fileName()), Q_ARG(QVariant, markdownText));
+            QString result = newMarkdownText.toString();
+
+            if (!result.isEmpty()) {
+                return result;
+            }
+        }
+    }
+
+    return markdownText;
+}
+
+/**
+ * Calls the insertMediaHook function for all script components
+ * This function is called when media file is inserted into the note
+ */
+QString ScriptingService::callInsertAttachmentHook(QFile *file,
+                                                   QString markdownText) {
+    QMapIterator<int, ScriptComponent> i(_scriptComponents);
+
+    while (i.hasNext()) {
+        i.next();
+        ScriptComponent scriptComponent = i.value();
+
+        if (methodExistsForObject(
+            scriptComponent.object, QStringLiteral("insertAttachmentHook(QVariant,QVariant)"))) {
+            QVariant newMarkdownText;
+            QMetaObject::invokeMethod(
+                scriptComponent.object, "insertAttachmentHook", Q_RETURN_ARG(QVariant, newMarkdownText),
+                Q_ARG(QVariant, file->fileName()), Q_ARG(QVariant, markdownText));
+            QString result = newMarkdownText.toString();
+
+            if (!result.isEmpty()) {
+                return result;
+            }
         }
     }
 
@@ -2135,7 +2156,6 @@ QString ScriptingService::readFromFile(const QString &filePath,
 
     return data;
 }
-
 
 /**
  * Check if a file exists

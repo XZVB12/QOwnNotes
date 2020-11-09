@@ -1,5 +1,88 @@
 # QOwnNotes Changelog
 
+## 20.11.3
+- fixed a bug where after deselecting notes from a multiple selection, the last selected
+  note was not the current node (for [#1939](https://github.com/pbek/QOwnNotes/issues/1939), thank you @fnkabit)
+- added more Bengali and Spanish translation (thank you Basudeb_Dhaka, richarson)
+
+## 20.11.2
+- a preview code block highlighting issue was fixed
+  (for [#1933](https://github.com/pbek/QOwnNotes/issues/1933), thank you @fnkabit)
+- the *distraction free mode* is now disabled when no note is selected
+  (for [#1936](https://github.com/pbek/QOwnNotes/pull/1936), thank you @fnkabit)
+- a new scripting hook `insertAttachmentHook` was added that is executed when an
+  attachment file is inserted into the current note (for [#1645](https://github.com/pbek/QOwnNotes/issues/1645))
+    - please take a look at the
+      [insertAttachmentHook documentation](https://www.qownnotes.org/scripting/hooks.html#insertattachmenthook)
+      for more information
+
+## 20.11.1
+- a possibly not updating note count when notes were removed was fixed
+  (for [#1934](https://github.com/pbek/QOwnNotes/pull/1934), thank you @fnkabit)
+
+## 20.11.0
+- there now is a new scripting class `NoteSubFolderApi` to fetch note subfolders and their notes
+  (for [#1165](https://github.com/pbek/QOwnNotes/issues/1165), thank you @fnkabit)
+    - for more information please take a look at the
+      [scripting documentation](https://www.qownnotes.org/scripting/classes.html#notesubfolder)
+- added more translation (thank you filipedias321, MGuerra, rakekniven, unchase,
+  zmni, gbabin, mlimacarlos, amirkbrpr)
+
+## 20.10.11
+- in the issue assistant there now are tooltips to show how many characters are needed
+  at minimum and it's not mandatory to post the log-output for issues any more
+- there now is a software repository for **Fedora 33**
+    - please visit the [Fedora installation page](https://www.qownnotes.org/installation/fedora.html#fedora-33)
+      for instructions
+- added more Catalan translation (thank you MGuerra)
+
+## 20.10.10
+- there now is a new scripting command `mainWindow.reloadCurrentNoteByNoteId()`
+  that you can use to reload the current note, for example because the path changed
+    - for more information please take a look at the
+      [scripting documentation](https://www.qownnotes.org/scripting/classes.html#mainwindow)
+- added more translation (thank you unchase, Tommy903, Zack-83, mlimacarlos, amirkbrpr, gbabin, rakekniven)
+
+## 20.10.9
+- you can now also choose to create the note of broken note links when clicking
+  on the note in the note preview (for [#1698](https://github.com/pbek/QOwnNotes/issues/1698), thank you @fnkabit)
+    - if note subfolders are disabled for your note folder you will now also get
+      a proper error message when trying to create notes in subfolders 
+- added more translation (thank you gbabin, rakekniven, mlimacarlos, Tommy903, amirkbrpr, unchase)
+
+## 20.10.8
+- you can now choose to create the note of broken note links when you <kbd>Ctrl</kbd> + Click
+  on the note in the note text edit (for [#1698](https://github.com/pbek/QOwnNotes/issues/1698), thank you @fnkabit)
+- the legacy update service is up again for older versions of QOwnNotes
+  (see [Legacy update service up again](https://www.qownnotes.org/blog/2020-10-26-Legacy-update-service-up-again.html))
+- added more translation (thank you pgrules7, rawfreeamy, VasilikiBotsou, danilosf)
+
+## 20.10.7
+- it is now also possible to move text in the note text edit via drag and drop
+  (for [#1888](https://github.com/pbek/QOwnNotes/issues/1888), thank you @fnkabit)
+
+## 20.10.6
+- you can now also change the alignment of your markdown table by setting it in
+  the table header and pressing <kbd>Ctrl</kbd> + <kbd>Space</kbd>
+  (for [#1905](https://github.com/pbek/QOwnNotes/issues/1905), thank you @fnkabit)
+
+## 20.10.5
+- the `All notes` count in the tags panel showing the count for the previously
+  selected item was fixed (for [#1903](https://github.com/pbek/QOwnNotes/issues/1903), thank you @Waqar144)
+- indented code blocks were fixed when previous line is not a heading
+  (for [#1908](https://github.com/pbek/QOwnNotes/issues/1908), thank you @Waqar144)
+- improved auto-removal of `*` and tick characters (for [#105](https://github.com/pbek/qmarkdowntextedit/issues/105), thank you @Waqar144)
+- inline code spans will now not be spell checked (for [#1911](https://github.com/pbek/QOwnNotes/issues/1911), thank you @Waqar144)
+- added more translation (thank you rawfreeamy, danilosf)
+
+## 20.10.4
+- the update service now makes use of the new api on https://api.qownnotes.org/
+  to check for application updates (for [#1900](https://github.com/pbek/QOwnNotes/issues/1900))
+    - the source code to the api is available on https://github.com/qownnotes/api
+    - the new api also supports requests to the old api for backward compatibility  
+- added more Chinese Traditional, Greek, Chinese Simplified, Hungarian, Dutch
+  translation (thank you rawfreeamy, VasilikiBotsou)
+
 ## 20.10.3
 - the links in the application were updated for the new webpage
 - added more translation (thank you MGuerra, gbabin, tiwi90, unchase, mlimacarlos,

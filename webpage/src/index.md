@@ -1,7 +1,8 @@
 ---
 title: QOwnNotes
+description: Open source markdown note taking for Linux, Mac OS X and Windows, that works together with Nextcloud Notes
 home: true
-heroImage: ./screenshots/screenshot.png
+heroImage: /screenshots/screenshot.png
 tagline: Free open source plain-text file markdown note taking with Nextcloud / ownCloud integration
 actionText: Quick Start →
 actionLink: getting-started/overview
@@ -15,4 +16,13 @@ features:
 footer: Made by Patrizio Bekerle with ❤️
 ---
 
+<div class="rss-block">
+    <v-chip outlined><v-icon left>mdi-rss</v-icon> <a href="https://feeds.feedburner.com/QOwnNotesBlog">Blog RSS</a></v-chip>
+    <v-chip outlined><v-icon left>mdi-rss</v-icon> <a href="https://feeds.feedburner.com/QOwnNotesReleases">Releases RSS</a></v-chip>
+</div>
+
 <Poll />
+
+<style>
+    .rss-block { text-align: center; margin-bottom: 20px; }
+</style>

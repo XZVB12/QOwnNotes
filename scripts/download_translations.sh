@@ -1,18 +1,24 @@
 #!/bin/bash
+#
 # Use this script in $ProjectFileDir$ to download the translations from Crowdin
+#
+# To update the translation files use:
+# cd src && /usr/bin/lupdate -verbose QOwnNotes.pro
+#
+# To upload new source files use:
+# crowdin upload
+#
 
 TRANSLATION_PATH="src/languages"
 
 echo "Downloading translation from Crowdin..."
-java -jar /opt/crowdin-cli/crowdin-cli.jar download translations
+# see: https://support.crowdin.com/cli-tool/
+crowdin download || exit 1
 echo
-
-# check if exit code was 0
-rc=$?; if [[ $rc != 0 ]]; then exit $rc; fi
 
 # we have to do this because this currently doesn't work in crowdin-cli
 echo "Renaming translation files..."
-cd ${TRANSLATION_PATH}
+pushd ${TRANSLATION_PATH} || exit 1
 
 mv QOwnNotes_ar_SA.ts QOwnNotes_ar.ts
 mv QOwnNotes_ca_ES.ts QOwnNotes_ca.ts
@@ -74,3 +80,28 @@ mv QOwnNotes_bs_BA.ts QOwnNotes_bs.ts
 mv QOwnNotes_mk_MK.ts QOwnNotes_mk.ts
 mv QOwnNotes_ko_KR.ts QOwnNotes_ko.ts
 mv QOwnNotes_et_EE.ts QOwnNotes_et.ts
+
+popd || exit 1
+
+echo "Remove all translated webpage folders, but German..."
+find webpage/src -type d -regextype posix-egrep -regex ".+src\/(ar|bg|bn|bs|ca|ceb|cs|da|el|es|et|eu|fa|fi|fil|fr|ga|gl|ha|he|hi|hil|hr|hu|id|is|it|ja|km|ko|ku|lt|lv|mi|mk|ms|nl|no|pa|pcm|pl|pt|ro|ru|si|sk|sl|sn|sq|sr|sv|th|tl|tlh|tr|uk|ur|uz|vi|xh|yi|zh|zu)$" -exec rm -Rf "{}" \;
+
+
+#
+# Fix Crowdin translation bugs
+#
+
+fixCrowdinTranslationProblems() {
+  sed -i -e 's/::: Tip/::: tip/g' "$1"
+  sed -i -e 's/::: tipp/::: tip/g' "$1"
+  sed -i -e 's/::: Trinkgeld/::: tip/g' "$1"
+  sed -i -e 's/::: Warnung/::: warning/g' "$1"
+  sed -i -e 's/::: warning /::: warning\n/g' "$1"
+  sed -i -e 's/::: tip /::: tip\n/g' "$1"
+  sed -i -e ':a' -e 'N' -e '$!ba' -e 's/::: tip\nInfo /::: tip Info\n/g' "$1"
+  sed -i -e 's/ :::$/\n:::/g' "$1"
+}
+
+echo "Fix Crowdin translation bugs..."
+export -f fixCrowdinTranslationProblems
+find webpage/src -type f -regextype posix-egrep -regex ".+src\/(de)\/.+\.md" -exec bash -c 'fixCrowdinTranslationProblems "$0"' {} \;

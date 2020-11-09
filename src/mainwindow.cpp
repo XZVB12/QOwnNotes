@@ -459,9 +459,6 @@ MainWindow::MainWindow(QWidget *parent)
             &MainWindow::dfmEditorWidthActionTriggered);
 
     setAcceptDrops(true);
-    // we need to disallow this explicitly under Windows
-    // so that the MainWindow gets the event
-    ui->noteTextEdit->setAcceptDrops(false);
 
     // act on position clicks in the navigation widget
     connect(ui->navigationWidget, &NavigationWidget::positionClicked, this,
@@ -3699,6 +3696,24 @@ void MainWindow::setCurrentNoteFromNoteId(const int noteId) {
     }
 }
 
+/**
+ * Reloads the current note by id
+ * This is useful when the path or filename of the current note changed
+ */
+void MainWindow::reloadCurrentNoteByNoteId() {
+    // get current cursor position
+    auto cursor = activeNoteTextEdit()->textCursor();
+    const int pos = cursor.position();
+
+    // update the current note
+    currentNote = Note::fetch(currentNote.getId());
+    setCurrentNote(std::move(currentNote), false);
+
+    // restore old cursor position
+    cursor.setPosition(pos);
+    activeNoteTextEdit()->setTextCursor(cursor);
+}
+
 void MainWindow::setCurrentNote(Note note, bool updateNoteText,
                                 bool updateSelectedNote,
                                 bool addNoteToHistory) {
@@ -3826,6 +3841,8 @@ void MainWindow::setCurrentNote(Note note, bool updateNoteText,
 
     // clear external image cache
     Note::externalImageHash()->clear();
+
+    ui->actionToggle_distraction_free_mode->setEnabled(true);
 }
 
 void MainWindow::updateCurrentTabData(const Note &note) const {
@@ -4583,6 +4600,8 @@ void MainWindow::removeSelectedNotes() {
         // something is happening after this method that reloads the note folder
         directoryWatcherWorkaround(false);
     }
+
+    loadNoteDirectoryList();
 }
 
 /**
@@ -4792,6 +4811,8 @@ void MainWindow::unsetCurrentNote() {
     Q_UNUSED(blocker3)
     ui->encryptedNoteTextEdit->hide();
     ui->encryptedNoteTextEdit->clear();
+
+    ui->actionToggle_distraction_free_mode->setEnabled(false);
 
     // set the note text edits to readonly
     setNoteTextEditReadOnly(true);
@@ -6166,10 +6187,11 @@ void MainWindow::openLocalUrl(QString urlString) {
     }
 
     QUrl url = QUrl(urlString);
+    const bool isExistingNoteFileUrl = Note::fileUrlIsExistingNoteInCurrentNoteFolder(url);
     const bool isNoteFileUrl = Note::fileUrlIsNoteInCurrentNoteFolder(url);
 
     // convert relative file urls to absolute urls and open them
-    if (urlString.startsWith(QStringLiteral("file://..")) && !isNoteFileUrl) {
+    if (urlString.startsWith(QStringLiteral("file://..")) && !isExistingNoteFileUrl) {
         QString windowsSlash = QString();
 
 #ifdef Q_OS_WIN32
@@ -6226,6 +6248,7 @@ void MainWindow::openLocalUrl(QString urlString) {
         Note note;
 
         if (isNoteFileUrl) {
+            ui->noteSubFolderTreeWidget->reset();
             note = Note::fetchByFileUrl(url);
         } else {
             // try to fetch a note from the url string
@@ -6237,27 +6260,101 @@ void MainWindow::openLocalUrl(QString urlString) {
             // set current note
             setCurrentNote(std::move(note));
         } else {
-            // if the name of the linked note only consists of numbers we cannot
-            // use host() to get the filename, it would get converted to an
-            // ip-address
-            QRegularExpressionMatch match =
-                QRegularExpression(QStringLiteral(R"(^\w+:\/\/(\d+)$)"))
-                    .match(urlString);
-            QString fileName =
-                match.hasMatch() ? match.captured(1) : url.host();
+            QString fileName;
+            QUrl filePath;
 
-            // try to generate a useful title for the note
-            fileName = Utils::Misc::toStartCase(
-                fileName.replace(QStringLiteral("_"), QStringLiteral(" ")));
+            if (!isNoteFileUrl) {
+                // if the name of the linked note only consists of numbers we cannot
+                // use host() to get the filename, it would get converted to an
+                // ip-address
+                QRegularExpressionMatch match =
+                    QRegularExpression(QStringLiteral(R"(^\w+:\/\/(\d+)$)"))
+                        .match(urlString);
+                fileName =
+                    match.hasMatch() ? match.captured(1) : url.host();
+
+                // try to generate a useful title for the note
+                fileName = Utils::Misc::toStartCase(
+                            fileName.replace(QStringLiteral("_"), QStringLiteral(" ")));
+            } else {
+                fileName = url.fileName();
+                filePath = url.adjusted(QUrl::RemoveFilename);
+            }
+
+            // remove file extension
+            QFileInfo fileInfo(fileName);
+            fileName = fileInfo.baseName();
+
+            QString relativeFilePath =
+                    Note::fileUrlInCurrentNoteFolderToRelativePath(filePath);
+
+            if (!relativeFilePath.isEmpty() && !NoteFolder::isCurrentHasSubfolders()) {
+                Utils::Gui::warning(
+                    this, tr("Note was not found"),
+                    tr("Could not find note.<br />Unable to automatically "
+                       "create note at location, because subfolders are "
+                       "disabled for the current note folder."),
+                    "cannot-create-note-not-has-subfolders");
+                return;
+            }
+
+            QString promptQuestion;
+
+            if (relativeFilePath.isEmpty()) {
+                promptQuestion = tr("Note was not found, create new note "
+                                    "<strong>%1</strong>?")
+                        .arg(fileName);
+            } else {
+                promptQuestion = tr("Note was not found, create new note "
+                                    "<strong>%1</strong> at path <strong>%2</strong> ?")
+                        .arg(fileName).arg(relativeFilePath);
+            }
 
             // ask if we want to create a new note if note wasn't found
             if (Utils::Gui::questionNoSkipOverride(this, tr("Note was not found"),
-                                     tr("Note was not found, create new note "
-                                        "<strong>%1</strong>?")
-                                         .arg(fileName),
-                                     QStringLiteral("open-url-create-note")) ==
-                QMessageBox::Yes) {
-                return createNewNote(fileName, false);
+                                                   promptQuestion,
+                                                   QStringLiteral("open-url-create-note")) == QMessageBox::Yes) {
+
+                NoteSubFolder noteSubFolder = NoteSubFolder::activeNoteSubFolder();
+                bool subFolderCreationFailed(false);
+
+                if (!relativeFilePath.isEmpty()) {
+                    for (QString folderName : relativeFilePath.split("/")) {
+                        if (folderName.isEmpty()) {
+                            break;
+                        }
+
+                        NoteSubFolder subFolder = NoteSubFolder::fetchByNameAndParentId(folderName, noteSubFolder.getId());
+                        if (!subFolder.exists()) {
+                            createNewNoteSubFolder(folderName);
+                            noteSubFolder = NoteSubFolder::fetchByNameAndParentId(folderName, noteSubFolder.getId());
+                            if (!noteSubFolder.exists()) {
+                                qWarning() << "Failed to create subfolder: " << folderName <<
+                                              "when attempting to create path: " << relativeFilePath;
+                                subFolderCreationFailed = true;
+                                break;
+                            }
+                        } else {
+                            noteSubFolder = subFolder;
+                        }
+
+                        noteSubFolder.setAsActive();
+                    }
+                }
+
+                if (!subFolderCreationFailed) {
+                    if (!relativeFilePath.isEmpty()) {
+                        ui->noteSubFolderTreeWidget->reset();
+                        jumpToNoteSubFolder(noteSubFolder.getId());
+                    }
+                    createNewNote(fileName, false);
+                } else {
+                    Utils::Gui::warning(
+                        this, tr("Failed to create note"),
+                        tr("Note creation failed"),
+                        "note-create-failed");
+                }
+                return;
             }
         }
     } else if (scheme == QStringLiteral("task")) {
@@ -6957,6 +7054,9 @@ bool MainWindow::insertAttachment(QFile *file, const QString &title) {
     QString text = currentNote.getInsertAttachmentMarkdown(file, title);
 
     if (!text.isEmpty()) {
+        ScriptingService *scriptingService = ScriptingService::instance();
+        // attempts to ask a script for another markdown text
+        text = scriptingService->callInsertAttachmentHook(file, text);
         qDebug() << __func__ << " - 'text': " << text;
 
         QOwnNotesMarkdownTextEdit *textEdit = activeNoteTextEdit();
@@ -7857,10 +7957,14 @@ void MainWindow::reloadTagTree() {
 
     QVector<int> noteSubFolderIds;
 
-    const auto noteSubFolderWidgetItems =
-        ui->noteSubFolderTreeWidget->selectedItems();
-    noteSubFolderIds.reserve(noteSubFolderWidgetItems.count());
+    auto noteSubFolderWidgetItems = ui->noteSubFolderTreeWidget->selectedItems();
+    // if only one item is selected, then take current Item otherwise we will get
+    // the item that was selected previously
+    if (noteSubFolderWidgetItems.count() == 1) {
+        noteSubFolderWidgetItems[0] = ui->noteSubFolderTreeWidget->currentItem();
+    }
 
+    noteSubFolderIds.reserve(noteSubFolderWidgetItems.count());
     // check if the notes should be viewed recursively
     if (NoteSubFolder::isNoteSubfoldersPanelShowNotesRecursively()) {
         for (QTreeWidgetItem *i : noteSubFolderWidgetItems) {
@@ -10212,11 +10316,7 @@ void MainWindow::on_noteTreeWidget_currentItemChanged(
         return;
     }
 
-    int noteId = current->data(0, Qt::UserRole).toInt();
-    Note note = Note::fetch(noteId);
     qDebug() << __func__;
-
-    setCurrentNote(std::move(note), true, false);
 
     // let's highlight the text from the search line edit and do a "in note
     // search"
@@ -11943,7 +12043,9 @@ Qt::SortOrder MainWindow::toQtOrder(int order) {
 void MainWindow::updatePanelsSortOrder() {
     updateNotesPanelSortOrder();
     reloadNoteSubFolderTree();
-    reloadTagTree();
+    // do not reload it again, it has already been reloaded when
+    // updateNotesPanelSortOrder() was called
+    //reloadTagTree();
 }
 
 void MainWindow::updateNotesPanelSortOrder() {
@@ -12164,6 +12266,13 @@ void MainWindow::on_noteTreeWidget_itemDoubleClicked(QTreeWidgetItem *item,
  * multiple notes
  */
 void MainWindow::on_noteTreeWidget_itemSelectionChanged() {
+    qDebug() << __func__;
+    if (ui->noteTreeWidget->selectedItems().size() == 1) {
+        int noteId = ui->noteTreeWidget->selectedItems()[0]->data(0, Qt::UserRole).toInt();
+        Note note = Note::fetch(noteId);
+        setCurrentNote(std::move(note), true, false);
+    }
+
     // we also need to do this in setCurrentNote because of different timings
     reloadCurrentNoteTags();
 }

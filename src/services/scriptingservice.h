@@ -15,6 +15,7 @@ class QQmlComponent;
 class QQmlEngine;
 class NoteApi;
 class Note;
+class NoteSubFolderApi;
 class QMimeData;
 
 #define PERSISTENT_VARIABLE_SETTINGS_PREFIX "PersistentScripting"
@@ -37,6 +38,7 @@ class ScriptingService : public QObject {
     QQmlEngine *engine() const;
     void initComponents();
     QString callInsertMediaHook(QFile *file, QString markdownText);
+    QString callInsertAttachmentHook(QFile *file, QString markdownText);
     QVariant callNoteTaggingHook(const Note &note, const QString &action,
                                  const QString &tagName = QString(),
                                  const QString &newTagName = QString());
@@ -206,8 +208,6 @@ class ScriptingService : public QObject {
     QMap<int, ScriptComponent> _scriptComponents;
     QHash<int, QList<QVariant>> _settingsVariables;
     bool methodExistsForObject(QObject *object, const QString &method) const;
-    QString callInsertMediaHookForObject(QObject *object, QFile *file,
-                                         const QString &markdownText);
     QString callNoteToMarkdownHtmlHookForObject(ScriptComponent *scriptComponent, Note *note,
                                                 const QString &html, const bool forExport);
     void initComponent(const Script &script);
