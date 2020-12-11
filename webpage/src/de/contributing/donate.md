@@ -1,6 +1,8 @@
 # Spenden
 
-Wenn Sie QOwnNotes mögen und für das Projekt **spenden** möchten, können Sie dies hier gerne tun.
+QOwnNotes generiert keine Einnahmen (gemeinnützig).
+
+Wenn Sie QOwnNotes mögen und für das Projekt zur Finanzierung von Hosting, Domäne usw. **spenden** möchten , können Sie dies hier gerne tun.
 
 ## PayPal
 
@@ -22,7 +24,7 @@ Sie können **Geld über Liberapay spenden**, indem Sie auf diese Schaltfläche 
 
 ## Bitcoin
 
-Sie können **Bitcoin BTC** an diese Bitcoin BTC-Adresse <0>spenden</0>:
+Sie können **Bitcoin BTC** an diese Bitcoin BTC-Adresse spenden:
 
 ```
 395NiU7QKpNiayWgRrUEGZDn8Z1ebMx8CH

@@ -74,6 +74,29 @@ bool DatabaseService::reinitializeDiskDatabase() {
     return removeDiskDatabase() && createDiskConnection() && setupTables();
 }
 
+bool DatabaseService::checkDiskDatabaseIntegrity() {
+    const QSqlDatabase db = QSqlDatabase::database(QStringLiteral("disk"));
+    QSqlQuery query(db);
+
+    if (!query.exec(QStringLiteral("PRAGMA integrity_check"))) {
+        qWarning() << __func__ << ": " << query.lastError();
+
+        return false;
+    } else if (query.first()) {
+        const auto result = query.value(0).toString();
+
+        if (result == QStringLiteral("ok")) {
+            return true;
+        }
+
+        qWarning() << __func__ << ": " << result;
+
+        return false;
+    }
+
+    return false;
+}
+
 bool DatabaseService::createMemoryConnection() {
     QSqlDatabase dbMemory = QSqlDatabase::addDatabase(QStringLiteral("QSQLITE"),
                                                       QStringLiteral("memory"));
@@ -81,7 +104,7 @@ bool DatabaseService::createMemoryConnection() {
 
     if (!dbMemory.open()) {
         QMessageBox::critical(
-            0, QWidget::tr("Cannot open memory database"),
+            nullptr, QWidget::tr("Cannot open memory database"),
             QWidget::tr("Unable to establish a memory database connection."),
             QMessageBox::Ok);
         return false;
@@ -816,6 +839,16 @@ bool DatabaseService::setupTables() {
         queryDisk.exec(QStringLiteral(
                            "ALTER TABLE cloudConnection ADD qownnotesapi_enabled BOOLEAN DEFAULT 1"));
         version = 34;
+    }
+
+    if (version < 35) {
+        // migrate setting with typo
+        settings.setValue(
+            QStringLiteral("Editor/removeTrailingSpaces"),
+            settings.value(QStringLiteral("Editor/removeTrainingSpaces")).toBool());
+        settings.remove(QStringLiteral("Editor/removeTrainingSpaces"));
+
+        version = 35;
     }
 
     if (version != oldVersion) {

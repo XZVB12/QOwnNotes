@@ -1797,7 +1797,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="696"/>
-      <location filename="../mainwindow.cpp" line="8822"/>
+      <location filename="../mainwindow.cpp" line="8827"/>
       <source>Add a tag to the current note</source>
       <translation>현재 노트에 태그 추가</translation>
     </message>
@@ -1833,7 +1833,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1238"/>
-      <location filename="../mainwindow.cpp" line="6785"/>
+      <location filename="../mainwindow.cpp" line="6794"/>
       <source>Custom actions</source>
       <translation>커스텀 액션</translation>
     </message>
@@ -1914,13 +1914,13 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1445"/>
-      <location filename="../mainwindow.cpp" line="10522"/>
+      <location filename="../mainwindow.cpp" line="10499"/>
       <source>Select &amp;all notes</source>
       <translation>모든 노트 선택(&amp;A)</translation>
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1454"/>
-      <location filename="../mainwindow.cpp" line="6696"/>
+      <location filename="../mainwindow.cpp" line="6705"/>
       <source>Insert &amp;link</source>
       <translation>링크 삽입(&amp;L)</translation>
     </message>
@@ -1975,7 +1975,7 @@
       <translation>노트 검색 또는 만들기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8823"/>
+      <location filename="../mainwindow.cpp" line="8828"/>
       <source>Add a tag to the selected notes</source>
       <translation>선택된 노트에 태그 추가</translation>
     </message>
@@ -1986,7 +1986,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="886"/>
-      <location filename="../mainwindow.cpp" line="6747"/>
+      <location filename="../mainwindow.cpp" line="6756"/>
       <source>Export</source>
       <translation>내보내기</translation>
     </message>
@@ -1997,7 +1997,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="928"/>
-      <location filename="../mainwindow.cpp" line="6728"/>
+      <location filename="../mainwindow.cpp" line="6737"/>
       <source>Print</source>
       <translation>인쇄하기</translation>
     </message>
@@ -2360,7 +2360,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2244"/>
-      <location filename="../mainwindow.cpp" line="11637"/>
+      <location filename="../mainwindow.cpp" line="11621"/>
       <source>Remove current workspace</source>
       <translation>현재 작업 공간 삭제하기</translation>
     </message>
@@ -2402,7 +2402,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2318"/>
-      <location filename="../mainwindow.cpp" line="6705"/>
+      <location filename="../mainwindow.cpp" line="6714"/>
       <source>Insert block &amp;quote</source>
       <translation>인용 블록 삽입(&amp;Q)</translation>
     </message>
@@ -2429,7 +2429,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2365"/>
-      <location filename="../mainwindow.cpp" line="10498"/>
+      <location filename="../mainwindow.cpp" line="10475"/>
       <source>Open note in different window</source>
       <translation>다른 창에서 노트 열기</translation>
     </message>
@@ -2450,7 +2450,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2405"/>
-      <location filename="../mainwindow.cpp" line="10506"/>
+      <location filename="../mainwindow.cpp" line="10483"/>
       <source>Show note git versions</source>
       <translation>노트 git 버전 표시</translation>
     </message>
@@ -2533,7 +2533,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2567"/>
-      <location filename="../mainwindow.cpp" line="12563"/>
+      <location filename="../mainwindow.cpp" line="12561"/>
       <source>Automatically detect</source>
       <translation>자동으로 감지</translation>
     </message>
@@ -2722,22 +2722,22 @@
       <translation>Evernote로부터 노트 가져오기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2859"/>
+      <location filename="../mainwindow.cpp" line="2862"/>
       <source>Note was removed externally!</source>
       <translation>노트가 외부에서 제거되었습니다!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2860"/>
+      <location filename="../mainwindow.cpp" line="2863"/>
       <source>Current note was removed outside of this application!
 Restore current note?</source>
       <translation>현재 노트가 이 애플리케이션의 외부에서 제거되었습니다!
 현재 노트를 복원하시겠습니까?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5475"/>
-      <location filename="../mainwindow.cpp" line="5498"/>
-      <location filename="../mainwindow.cpp" line="7190"/>
-      <location filename="../mainwindow.cpp" line="10588"/>
+      <location filename="../mainwindow.cpp" line="5484"/>
+      <location filename="../mainwindow.cpp" line="5507"/>
+      <location filename="../mainwindow.cpp" line="7202"/>
+      <location filename="../mainwindow.cpp" line="10565"/>
       <source>&amp;Cancel</source>
       <translation>취소(&amp;C)</translation>
     </message>
@@ -2748,109 +2748,109 @@ Restore current note?</source>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3096"/>
+      <location filename="../mainwindow.cpp" line="3099"/>
       <source>new version %1 available</source>
       <translation>사용 가능한 새 버전 %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3213"/>
+      <location filename="../mainwindow.cpp" line="3216"/>
       <source>Abort</source>
       <translation>중단하기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3213"/>
+      <location filename="../mainwindow.cpp" line="3216"/>
       <source>Loading notes…</source>
       <translation>노트 로드 중…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3427"/>
+      <location filename="../mainwindow.cpp" line="3430"/>
       <source>Removed duplicate conflicted database: %1</source>
       <translation>중복되는 충돌 데이터베이스를 제거했습니다: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3428"/>
+      <location filename="../mainwindow.cpp" line="3431"/>
       <source>Could not remove duplicate conflicted database: %1</source>
       <translation>중복되는 충돌 데이터베이스를 제거할 수 없습니다: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3434"/>
+      <location filename="../mainwindow.cpp" line="3437"/>
       <source>Removed merged conflicted database: %1</source>
       <translation>병합된 충돌 데이터베이스를 제거했습니다: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3435"/>
+      <location filename="../mainwindow.cpp" line="3438"/>
       <source>Could not remove merged conflicted database: %1</source>
       <translation>병합된 충돌 데이터베이스를 제거할 수 없습니다: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3450"/>
+      <location filename="../mainwindow.cpp" line="3453"/>
       <source>Delete conflicted database copies</source>
       <translation>충돌 데이터베이스 복사본 삭제</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="3473"/>
+      <location filename="../mainwindow.cpp" line="3476"/>
       <source>Removed %n conflicted database copies</source>
       <translation>
         <numerusform>충돌하는 데이터베이스 복사본 %n개 삭제</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3637"/>
+      <location filename="../mainwindow.cpp" line="3640"/>
       <source>Please select the folder where your notes will get stored</source>
       <translation>노트를 저장할 폴더를 선택하십시오</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3663"/>
+      <location filename="../mainwindow.cpp" line="3666"/>
       <source>No folder was selected</source>
       <translation>폴더가 선택되지 않았습니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3665"/>
+      <location filename="../mainwindow.cpp" line="3668"/>
       <source>You have to select your ownCloud notes folder to make this software work!</source>
       <translation>이 소프트웨어를 사용하려면 ownCloud 노트 폴더를 선택해야 합니다!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3667"/>
+      <location filename="../mainwindow.cpp" line="3670"/>
       <source>&amp;Retry</source>
       <translation>재시도(&amp;R)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3667"/>
+      <location filename="../mainwindow.cpp" line="3670"/>
       <source>&amp;Exit</source>
       <translation>&amp;나가기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3993"/>
+      <location filename="../mainwindow.cpp" line="3998"/>
       <source>Remove current note</source>
       <translation>현재 노트 삭제하기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3994"/>
+      <location filename="../mainwindow.cpp" line="3999"/>
       <source>Remove current note: &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>현재 노트 &lt;strong&gt;%1&lt;/strong&gt;을(를) 삭제하시겠습니까?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4353"/>
+      <location filename="../mainwindow.cpp" line="4358"/>
       <source>Please enter the &lt;strong&gt;password&lt;/strong&gt; of this encrypted note.</source>
       <translation>이 암호화된 노트의 &lt;strong&gt;비밀번호&lt;/strong&gt;를 입력하십시오.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4376"/>
+      <location filename="../mainwindow.cpp" line="4381"/>
       <source>Note can't be decrypted!</source>
       <translation>노트는 해독할 수 없습니다!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4377"/>
+      <location filename="../mainwindow.cpp" line="4382"/>
       <source>It seems that your password is not valid!</source>
       <translation>비밀번호가 유효하지 않습니다.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4545"/>
+      <location filename="../mainwindow.cpp" line="4550"/>
       <source>Remove selected notes</source>
       <translation>선택된 노트 제거</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4547"/>
+      <location filename="../mainwindow.cpp" line="4552"/>
       <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected note(s)?
 
 If the trash is enabled on your ownCloud server you should be able to restore them from there.</source>
@@ -2861,471 +2861,471 @@ ownCloud 서버의 휴지통이 활성화된 경우 휴지통에서 복원할 �
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4635"/>
-      <location filename="../mainwindow.cpp" line="10805"/>
+      <location filename="../mainwindow.cpp" line="4642"/>
+      <location filename="../mainwindow.cpp" line="10788"/>
       <source>Remove selected folders</source>
       <translation>선택된 폴더 제거</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4636"/>
+      <location filename="../mainwindow.cpp" line="4643"/>
       <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected folder(s)?&lt;ul&gt;&lt;li&gt;%1&lt;/li&gt;&lt;/ul&gt;All files and folders in these folders will be removed as well!</source>
       <translation>
         <numerusform>선택한 폴더 &lt;strong&gt;%n&lt;/strong&gt;개를 삭제하시겠습니까?&lt;ul&gt;&lt;li&gt;%1&lt;/li&gt;&lt;/ul&gt;이 폴더의 모든 파일과 폴더가 함께 삭제됩니다!</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4647"/>
+      <location filename="../mainwindow.cpp" line="4654"/>
       <source>Removed note subfolder: %1</source>
       <translation>노트 하위 폴더를 제거했습니다: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4667"/>
+      <location filename="../mainwindow.cpp" line="4674"/>
       <source>Remove selected tags</source>
       <translation>선택된 태그 제거</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4668"/>
+      <location filename="../mainwindow.cpp" line="4675"/>
       <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected tag(s)? No notes will be removed in this process.</source>
       <translation>
         <numerusform>선택한 태그 &lt;strong&gt;%n&lt;/strong&gt;개를 삭제하시겠습니까? 이 과정에서 노트가 삭제되지 않습니다.</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4720"/>
-      <location filename="../mainwindow.cpp" line="9608"/>
+      <location filename="../mainwindow.cpp" line="4727"/>
+      <location filename="../mainwindow.cpp" line="9613"/>
       <source>Move selected notes</source>
       <translation>선택된 노트 이동</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4721"/>
+      <location filename="../mainwindow.cpp" line="4728"/>
       <source>Move %n selected note(s) to &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>선택한 노트 %n개를 &lt;strong&gt;%2&lt;/strong&gt;(으)로 이동하시겠습니까?</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4824"/>
-      <location filename="../mainwindow.cpp" line="9717"/>
+      <location filename="../mainwindow.cpp" line="4833"/>
+      <location filename="../mainwindow.cpp" line="9722"/>
       <source>Copy selected notes</source>
       <translation>선택된 노트 복사</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4825"/>
+      <location filename="../mainwindow.cpp" line="4834"/>
       <source>Copy %n selected note(s) to &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>선택한 노트 %n개를 &lt;strong&gt;%2&lt;/strong&gt;에 복사하시겠습니까?</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4855"/>
-      <location filename="../mainwindow.cpp" line="5004"/>
+      <location filename="../mainwindow.cpp" line="4864"/>
+      <location filename="../mainwindow.cpp" line="5013"/>
       <source>Done</source>
       <translation>완료</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4856"/>
+      <location filename="../mainwindow.cpp" line="4865"/>
       <source>%n note(s) were copied to &lt;strong&gt;%2&lt;/strong&gt;.</source>
       <translation>
         <numerusform>%n개의 노트가 &lt;strong&gt;%2&lt;/strong&gt;에 복사되었습니다.</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4869"/>
+      <location filename="../mainwindow.cpp" line="4878"/>
       <source>Tag selected notes</source>
       <translation>선택된 노트 태그</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4870"/>
+      <location filename="../mainwindow.cpp" line="4879"/>
       <source>Tag %n selected note(s) with &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>&lt;strong&gt;%2&lt;/strong&gt;(으)로 선택한 노트 %n개를 태그를 지정하시겠습니까?</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5143"/>
+      <location filename="../mainwindow.cpp" line="5152"/>
       <source>Restart application</source>
       <translation>애플리케이션 재시작</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5149"/>
+      <location filename="../mainwindow.cpp" line="5158"/>
       <source>You may need to restart the application manually to let the changes take effect.</source>
       <translation>변경 사항을 적용하려면 애플리케이션을 수동으로 다시 시작해야 할 수도 있습니다.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5154"/>
+      <location filename="../mainwindow.cpp" line="5163"/>
       <source>You may need to restart the application to let the changes take effect.</source>
       <translation>변경 사항을 적용하려면 애플리케이션을 다시 시작해야 할 수도 있습니다.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5156"/>
+      <location filename="../mainwindow.cpp" line="5165"/>
       <source>Restart</source>
       <translation>재시작</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5387"/>
+      <location filename="../mainwindow.cpp" line="5396"/>
       <source>PDF files</source>
       <translation>PDF 파일</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5471"/>
+      <location filename="../mainwindow.cpp" line="5480"/>
       <source>Todo lists disabled!</source>
       <translation>할 일 목록이 비활성화되었습니다!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5472"/>
+      <location filename="../mainwindow.cpp" line="5481"/>
       <source>You have disabled the todo lists.&lt;br /&gt;Please check your &lt;strong&gt;Todo&lt;/strong&gt; configuration in the settings!</source>
       <translation>할 일 목록을 비활성화했습니다.&lt;br /&gt;설정에서 &lt;strong&gt;할 일&lt;/strong&gt; 설정을 확인하십시오!</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="5720"/>
+      <location filename="../mainwindow.cpp" line="5729"/>
       <source>Found &lt;strong&gt;%n&lt;/strong&gt; occurrence(s) of any term of &lt;strong&gt;%1&lt;/strong&gt;</source>
       <translation>
         <numerusform>&lt;strong&gt;%1&lt;/strong&gt; 용어 중&lt;strong&gt;%n&lt;/strong&gt;개를 찾았습니다</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6287"/>
-      <location filename="../mainwindow.cpp" line="6308"/>
+      <location filename="../mainwindow.cpp" line="6296"/>
+      <location filename="../mainwindow.cpp" line="6317"/>
       <source>Note was not found</source>
       <translation>노트를 찾을 수 없습니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6298"/>
+      <location filename="../mainwindow.cpp" line="6307"/>
       <source>Note was not found, create new note &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>노트를 찾을 수 없습니다. 새로운 노트 &lt;strong&gt;%1&lt;/strong&gt;을(를) 만드시겠습니까?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6302"/>
+      <location filename="../mainwindow.cpp" line="6311"/>
       <source>Note was not found, create new note &lt;strong&gt;%1&lt;/strong&gt; at path &lt;strong&gt;%2&lt;/strong&gt; ?</source>
       <translation type="unfinished">Note was not found, create new note &lt;strong&gt;%1&lt;/strong&gt; at path &lt;strong&gt;%2&lt;/strong&gt; ?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6347"/>
+      <location filename="../mainwindow.cpp" line="6356"/>
       <source>Failed to create note</source>
       <translation type="unfinished">Failed to create note</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6348"/>
+      <location filename="../mainwindow.cpp" line="6357"/>
       <source>Note creation failed</source>
       <translation type="unfinished">Note creation failed</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6509"/>
+      <location filename="../mainwindow.cpp" line="6518"/>
       <source>Note folders</source>
       <translation>노트 폴더</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6632"/>
+      <location filename="../mainwindow.cpp" line="6641"/>
       <source>Note versions are currently loaded from your ownCloud server</source>
       <translation>노트 버전이 현재 사용자의 ownCloud 서버로부터 로드됩니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6649"/>
+      <location filename="../mainwindow.cpp" line="6658"/>
       <source>Trashed notes are currently loaded from your ownCloud server</source>
       <translation>버려진 노트는 현재 사용자의 ownCloud 서버로부터 로드됩니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6715"/>
+      <location filename="../mainwindow.cpp" line="6724"/>
       <source>Copy code block</source>
       <translation>코드 블록 복사하기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6736"/>
+      <location filename="../mainwindow.cpp" line="6745"/>
       <source>Print selected text</source>
       <translation>선택된 텍스트 인쇄하기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6742"/>
+      <location filename="../mainwindow.cpp" line="6751"/>
       <source>Print selected text (preview)</source>
       <translation>선택된 텍스트 인쇄하기 (미리보기)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6760"/>
+      <location filename="../mainwindow.cpp" line="6769"/>
       <source>Export selected text as PDF</source>
       <translation>선택된 텍스트를 PDF로 내보내기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6766"/>
+      <location filename="../mainwindow.cpp" line="6775"/>
       <source>Export selected text as PDF (preview)</source>
       <translation>선택된 텍스트를 PDF로 내보내기 (미리보기)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7186"/>
+      <location filename="../mainwindow.cpp" line="7198"/>
       <source>Your note will be decrypted and stored as plain text again. Keep in mind that the unencrypted note will possibly be synced to your server and sensitive text may be exposed!&lt;br /&gt;Do you want to decrypt your note?</source>
       <translation>노트가 해독되어 다시 일반 텍스트로 저장됩니다. 암호화되지 않은 노트는 서버에서 동기화할 수 있으며 민감한 텍스트 내용이 노출될 수 있습니다.&lt;br /&gt;노트를 해독 하시겠습니까?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7283"/>
+      <location filename="../mainwindow.cpp" line="7295"/>
       <source>Markdown files</source>
       <translation>마크다운 파일</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7338"/>
+      <location filename="../mainwindow.cpp" line="7350"/>
       <source>Bookmarked note position at slot %1</source>
       <translation>슬롯 %1에 북마크된 노트 위치</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7353"/>
+      <location filename="../mainwindow.cpp" line="7365"/>
       <source>Jumped to bookmark position at slot %1</source>
       <translation>슬롯 %1에서 북마크 위치로 이동</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7581"/>
-      <location filename="../mainwindow.cpp" line="7650"/>
+      <location filename="../mainwindow.cpp" line="7593"/>
+      <location filename="../mainwindow.cpp" line="7662"/>
       <source>Inserting image</source>
       <translation>이미지 삽입</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7586"/>
-      <location filename="../mainwindow.cpp" line="7654"/>
+      <location filename="../mainwindow.cpp" line="7598"/>
+      <location filename="../mainwindow.cpp" line="7666"/>
       <source>Done inserting image</source>
       <translation>이미지 삽입 완료</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7588"/>
+      <location filename="../mainwindow.cpp" line="7600"/>
       <source>Inserting attachment</source>
       <translation>첨부 파일 삽입</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7593"/>
+      <location filename="../mainwindow.cpp" line="7605"/>
       <source>Done inserting attachment</source>
       <translation>첨부 파일 삽입 완료</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="7605"/>
+      <location filename="../mainwindow.cpp" line="7617"/>
       <source>Copied %n note(s) to %1</source>
       <translation>
         <numerusform>%n개의 노트를 %1에 복사했습니다</numerusform>
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="7614"/>
+      <location filename="../mainwindow.cpp" line="7626"/>
       <source>Failed to copy %n note(s) (most likely already existing)</source>
       <translation>
         <numerusform>노트 %n개 복사 실패(이미 존재함)</numerusform>
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="7624"/>
+      <location filename="../mainwindow.cpp" line="7636"/>
       <source>Skipped copying of %n note(s) (no markdown or text file or not readable)</source>
       <translation>
         <numerusform>노트 %n개 복사 건너뛰기(마크다운 또는 텍스트 파일이 없거나 읽기 불가능)</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7637"/>
+      <location filename="../mainwindow.cpp" line="7649"/>
       <source>Saving temporary image</source>
       <translation>임시 이미지 저장</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7656"/>
+      <location filename="../mainwindow.cpp" line="7668"/>
       <source>Temporary file can't be opened</source>
       <translation>임시 파일을 열 수 없습니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7699"/>
+      <location filename="../mainwindow.cpp" line="7711"/>
       <source>Downloading %1</source>
       <translation>%1 다운로드 중</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7889"/>
+      <location filename="../mainwindow.cpp" line="7901"/>
       <source>Reset font size to %1 pt</source>
       <comment>Will be shown after the font size is reset by 'Reset note text size'</comment>
       <translation>글꼴 크기를 %1pt로 재설정</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8868"/>
+      <location filename="../mainwindow.cpp" line="8873"/>
       <source>Remove tag '%1' from the current note</source>
       <translation>현재 노트에서 '%1' 태그 삭제</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8869"/>
+      <location filename="../mainwindow.cpp" line="8874"/>
       <source>Remove tag '%1' from the selected notes</source>
       <translation>선택된 노트에서 '%1' 태그 삭제</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9100"/>
+      <location filename="../mainwindow.cpp" line="9105"/>
       <source>Rename tag</source>
       <translation>태그 이름 바꾸기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9101"/>
+      <location filename="../mainwindow.cpp" line="9106"/>
       <source>Assign color</source>
       <translation>색상 지정</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9102"/>
+      <location filename="../mainwindow.cpp" line="9107"/>
       <source>Disable color</source>
       <translation>색상 비활성화</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9106"/>
+      <location filename="../mainwindow.cpp" line="9111"/>
       <source>&amp;Move tags to…</source>
       <translation>태그를 이동(&amp;M)...</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9317"/>
+      <location filename="../mainwindow.cpp" line="9322"/>
       <source>Move to the root</source>
       <comment>to move a tag to the current tag in the tag context menu</comment>
       <translation>루트로 이동</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9884"/>
+      <location filename="../mainwindow.cpp" line="9861"/>
       <source>An url was opened at the current cursor position</source>
       <translation>현재 커서 위치에서 URL이 열렸습니다.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9987"/>
+      <location filename="../mainwindow.cpp" line="9964"/>
       <source>No equation was found in front of the cursor</source>
       <translation>커서 앞에 계산식이 없습니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10007"/>
+      <location filename="../mainwindow.cpp" line="9984"/>
       <source>Result for equation: %1 = %2</source>
       <translation>계산식 결과: %1 = %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10112"/>
+      <location filename="../mainwindow.cpp" line="10089"/>
       <source>The scripting engine was reloaded</source>
       <translation>스크립팅 엔진이 다시 로드되었습니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10146"/>
+      <location filename="../mainwindow.cpp" line="10123"/>
       <source>HTML files</source>
       <translation>HTML 파일</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10434"/>
+      <location filename="../mainwindow.cpp" line="10411"/>
       <source>Jump to the note's subfolder</source>
       <translation>노트의 하위 폴더로 이동
 </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10491"/>
+      <location filename="../mainwindow.cpp" line="10468"/>
       <source>Open note in tab</source>
       <translation>탭에서 노트 열기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12156"/>
+      <location filename="../mainwindow.cpp" line="12140"/>
       <source>A script update was found!</source>
       <translation>스크립트 업데이트가 있습니다!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12162"/>
+      <location filename="../mainwindow.cpp" line="12146"/>
       <source>Script updates</source>
       <translation>스크립트 업데이트</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12163"/>
+      <location filename="../mainwindow.cpp" line="12147"/>
       <source>Updates to your scripts were found in the script repository! Do you want to update them?</source>
       <translation>스크립트 업데이트가 스크립트 저장소에서 발견되었습니다! 업데이트하시겠습니까?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12178"/>
+      <location filename="../mainwindow.cpp" line="12162"/>
       <source>No script updates were found</source>
       <translation>스크립트 업데이트가 없습니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12794"/>
+      <location filename="../mainwindow.cpp" line="12792"/>
       <source>Toggle note stickiness</source>
       <translation>노트 고정 전환</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12800"/>
+      <location filename="../mainwindow.cpp" line="12798"/>
       <source>Close other note tabs</source>
       <translation>다른 노트 탭 닫기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10378"/>
-      <location filename="../mainwindow.cpp" line="10572"/>
+      <location filename="../mainwindow.cpp" line="10355"/>
+      <location filename="../mainwindow.cpp" line="10549"/>
       <source>Rename note</source>
       <translation>노트 이름 바꾸기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10380"/>
+      <location filename="../mainwindow.cpp" line="10357"/>
       <source>Allows you to rename the filename of the note</source>
       <translation>노트의 파일 이름을 바꿀 수 있습니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10394"/>
+      <location filename="../mainwindow.cpp" line="10371"/>
       <source>&amp;Move notes to…</source>
       <translation>노트를 다음으로 이동(&amp;M)...</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10395"/>
+      <location filename="../mainwindow.cpp" line="10372"/>
       <source>&amp;Copy notes to…</source>
       <translation>&amp;노트를 복사...</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10438"/>
+      <location filename="../mainwindow.cpp" line="10415"/>
       <source>Move notes to subfolder…</source>
       <translation>하위 폴더로 노트 이동…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10442"/>
+      <location filename="../mainwindow.cpp" line="10419"/>
       <source>Copy notes to subfolder…</source>
       <translation>하위 폴더로 노트 복사…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10450"/>
+      <location filename="../mainwindow.cpp" line="10427"/>
       <source>&amp;Tag selected notes with…</source>
       <translation>선택한 노트에 태그 추가&amp;T)...</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10474"/>
+      <location filename="../mainwindow.cpp" line="10451"/>
       <source>&amp;Remove tag from selected notes…</source>
       <translation>선택한 노트에서 태그 삭제(&amp;R)...</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10572"/>
+      <location filename="../mainwindow.cpp" line="10549"/>
       <source>Name:</source>
       <translation>이름:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10584"/>
+      <location filename="../mainwindow.cpp" line="10561"/>
       <source>Note renaming not enabled!</source>
       <translation>노트 이름 바꾸기가 허용되지 않습니다!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10804"/>
+      <location filename="../mainwindow.cpp" line="10787"/>
       <source>Rename subfolder</source>
       <translation>하위 폴더 이름 바꾸기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11408"/>
+      <location filename="../mainwindow.cpp" line="11392"/>
       <source>Create new workspace</source>
       <translation>새로운 작업 공간 만들기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11409"/>
-      <location filename="../mainwindow.cpp" line="11679"/>
+      <location filename="../mainwindow.cpp" line="11393"/>
+      <location filename="../mainwindow.cpp" line="11663"/>
       <source>Workspace name:</source>
       <translation>작업 공간 이름:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11534"/>
+      <location filename="../mainwindow.cpp" line="11518"/>
       <source>full</source>
       <comment>full workspace</comment>
       <translation>전체 화면</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11541"/>
+      <location filename="../mainwindow.cpp" line="11525"/>
       <source>minimal</source>
       <comment>minimal workspace</comment>
       <translation>최소</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11638"/>
+      <location filename="../mainwindow.cpp" line="11622"/>
       <source>Remove the current workspace?</source>
       <translation>현재 작업 공간을 제거하시겠습니까?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11678"/>
+      <location filename="../mainwindow.cpp" line="11662"/>
       <source>Rename workspace</source>
       <translation>작업 공간 이름 바꾸기</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="11824"/>
+      <location filename="../mainwindow.cpp" line="11808"/>
       <source>%n chars</source>
       <comment>characters</comment>
       <translation>
@@ -3333,42 +3333,42 @@ ownCloud 서버의 휴지통이 활성화된 경우 휴지통에서 복원할 �
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12095"/>
+      <location filename="../mainwindow.cpp" line="12079"/>
       <source>Disallow all note editing</source>
       <translation>모든 노트 편집을 허용 안함</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12311"/>
+      <location filename="../mainwindow.cpp" line="12309"/>
       <source>Select text files to import</source>
       <translation>가져올 텍스트 파일을 선택하십시오</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12341"/>
+      <location filename="../mainwindow.cpp" line="12339"/>
       <source>Importing: %1</source>
       <translation>가져오기: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12406"/>
+      <location filename="../mainwindow.cpp" line="12404"/>
       <source>Note headline '%1' was copied to the clipboard</source>
       <translation>노트 제목 '%1'이(가) 클립보드에 복사되었습니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12500"/>
+      <location filename="../mainwindow.cpp" line="12498"/>
       <source>Leave full-screen mode</source>
       <translation>전체 화면 모드에서 나가기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12681"/>
+      <location filename="../mainwindow.cpp" line="12679"/>
       <source>Custom editor width</source>
       <translation>편집기 너비 커스텀</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12681"/>
+      <location filename="../mainwindow.cpp" line="12679"/>
       <source>Characters:</source>
       <translation>캐릭터:</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="8842"/>
+      <location filename="../mainwindow.cpp" line="8847"/>
       <source>%n notes selected</source>
       <translation>
         <numerusform>%n개 노트가 선택됨</numerusform>
@@ -3376,7 +3376,7 @@ ownCloud 서버의 휴지통이 활성화된 경우 휴지통에서 복원할 �
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2450"/>
-      <location filename="../mainwindow.cpp" line="12096"/>
+      <location filename="../mainwindow.cpp" line="12080"/>
       <source>Allow all note editing</source>
       <translation>모든 노트 편집 허용</translation>
     </message>
@@ -3386,235 +3386,235 @@ ownCloud 서버의 휴지통이 활성화된 경우 휴지통에서 복원할 �
       <translation>&amp;태그</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4944"/>
+      <location filename="../mainwindow.cpp" line="4953"/>
       <source>Remove tag from selected notes</source>
       <translation>선택된 노트에서 태그 제거</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4945"/>
+      <location filename="../mainwindow.cpp" line="4954"/>
       <source>Remove tag &lt;strong&gt;%1&lt;/strong&gt; from %n selected note(s)?</source>
       <translation>
         <numerusform>선택한 노트 %n개에서 &lt;strong&gt;%1&lt;/strong&gt; 태그를 삭제하시겠습니까?</numerusform>
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="5005"/>
+      <location filename="../mainwindow.cpp" line="5014"/>
       <source>Tag &lt;strong&gt;%1&lt;/strong&gt; was removed from %n note(s)</source>
       <translation>
         <numerusform>&lt;strong&gt;%1&lt;/strong&gt; 태그가 %n개의 노트에서 삭제되었습니다</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5050"/>
+      <location filename="../mainwindow.cpp" line="5059"/>
       <source>Current notes folder: </source>
       <translation>현재 노트 폴더: </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5053"/>
+      <location filename="../mainwindow.cpp" line="5062"/>
       <source>Set the notes folder. Current notes folder: </source>
       <translation>노트 폴더를 설정하십시오. 현재 노트 폴더: </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5255"/>
+      <location filename="../mainwindow.cpp" line="5264"/>
       <source>Print note</source>
       <translation>노트 프린트하기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5330"/>
+      <location filename="../mainwindow.cpp" line="5339"/>
       <source>Letter</source>
       <translation>편지</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5360"/>
+      <location filename="../mainwindow.cpp" line="5369"/>
       <source>Portrait</source>
       <translation>세로</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5360"/>
+      <location filename="../mainwindow.cpp" line="5369"/>
       <source>Landscape</source>
       <translation>가로</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5365"/>
+      <location filename="../mainwindow.cpp" line="5374"/>
       <source>Orientation</source>
       <translation>방향</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5365"/>
+      <location filename="../mainwindow.cpp" line="5374"/>
       <source>Orientation:</source>
       <translation>방향:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5388"/>
+      <location filename="../mainwindow.cpp" line="5397"/>
       <source>Export current note as PDF</source>
       <translation>현재 노트를 PDF로 내보내기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5495"/>
+      <location filename="../mainwindow.cpp" line="5504"/>
       <source>You have not selected any todo lists.&lt;br /&gt;Please check your &lt;strong&gt;Todo&lt;/strong&gt; configuration in the settings!</source>
       <translation>할 일 목록이 선택되지 않았습니다.&lt;br /&gt;설정에서 &lt;strong&gt;할 일&lt;/strong&gt; 설정을 확인하세요!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6491"/>
+      <location filename="../mainwindow.cpp" line="6500"/>
       <source>Open QOwnNotes</source>
       <translation>QOwnNotes 열기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6078"/>
-      <location filename="../mainwindow.cpp" line="6541"/>
-      <location filename="../mainwindow.cpp" line="10374"/>
-      <location filename="../mainwindow.cpp" line="10802"/>
+      <location filename="../mainwindow.cpp" line="6087"/>
+      <location filename="../mainwindow.cpp" line="6550"/>
+      <location filename="../mainwindow.cpp" line="10351"/>
+      <location filename="../mainwindow.cpp" line="10781"/>
       <source>New note</source>
       <translation>새로운 노트</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6558"/>
+      <location filename="../mainwindow.cpp" line="6567"/>
       <source>Recent notes</source>
       <translation>최근 노트</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6574"/>
+      <location filename="../mainwindow.cpp" line="6583"/>
       <source>Show todo lists</source>
       <translation>할 일 목록 표시</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6586"/>
+      <location filename="../mainwindow.cpp" line="6595"/>
       <source>Recent tasks</source>
       <translation>최근 작업</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6607"/>
+      <location filename="../mainwindow.cpp" line="6616"/>
       <source>Quit</source>
       <translation>종료하기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8061"/>
+      <location filename="../mainwindow.cpp" line="8074"/>
       <source>show notes from all note subfolders (%1)</source>
       <translation>모든 노트 하위 폴더로부터 노트 표시 (%1)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8084"/>
+      <location filename="../mainwindow.cpp" line="8097"/>
       <source>show notes in note root folder (%1)</source>
       <translation>노트 루트 폴더에 노트 표시 (%1)</translation>
     </message>
     <message>
       <location filename="../mainwindow.ui" line="316"/>
       <location filename="../mainwindow.cpp" line="790"/>
-      <location filename="../mainwindow.cpp" line="2109"/>
-      <location filename="../mainwindow.cpp" line="8096"/>
+      <location filename="../mainwindow.cpp" line="2112"/>
+      <location filename="../mainwindow.cpp" line="8109"/>
       <source>Note folder</source>
       <translation>노트 폴더</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9489"/>
-      <location filename="../mainwindow.cpp" line="9556"/>
+      <location filename="../mainwindow.cpp" line="9494"/>
+      <location filename="../mainwindow.cpp" line="9561"/>
       <source>Copy to note folder</source>
       <translation>노트 폴더에 복사</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9489"/>
-      <location filename="../mainwindow.cpp" line="9557"/>
+      <location filename="../mainwindow.cpp" line="9494"/>
+      <location filename="../mainwindow.cpp" line="9562"/>
       <source>Move to note folder</source>
       <translation>노트 폴더로 이동</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9490"/>
-      <location filename="../mainwindow.cpp" line="9558"/>
+      <location filename="../mainwindow.cpp" line="9495"/>
+      <location filename="../mainwindow.cpp" line="9563"/>
       <source>Copy to this subfolder</source>
       <translation>이 하위 폴더로 복사</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9491"/>
-      <location filename="../mainwindow.cpp" line="9559"/>
+      <location filename="../mainwindow.cpp" line="9496"/>
+      <location filename="../mainwindow.cpp" line="9564"/>
       <source>Move to this subfolder</source>
       <translation>이 하위 폴더로 이동</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9603"/>
+      <location filename="../mainwindow.cpp" line="9608"/>
       <source>Move %n selected note(s) to note subfolder &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>%n개의 선택된 노트를 노트 하위 폴더 &lt;strong&gt;%2&lt;/strong&gt;(으)로 이동하시겠습니까?</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5156"/>
-      <location filename="../mainwindow.cpp" line="12325"/>
+      <location filename="../mainwindow.cpp" line="5165"/>
+      <location filename="../mainwindow.cpp" line="12323"/>
       <source>Cancel</source>
       <translation>취소</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9688"/>
+      <location filename="../mainwindow.cpp" line="9693"/>
       <source>%n note(s) were moved to note subfolder "%2"</source>
       <translation>
         <numerusform>%n개의 노트가 노트 하위폴더 "%2"(으)로 이동되었습니다</numerusform>
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9712"/>
+      <location filename="../mainwindow.cpp" line="9717"/>
       <source>Copy %n selected note(s) to note subfolder &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>%n개의 선택된 노트를 노트 하위 폴더 &lt;strong&gt;%2&lt;/strong&gt;에 복사하시겠습니까?</numerusform>
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9780"/>
+      <location filename="../mainwindow.cpp" line="9784"/>
       <source>%n note(s) were copied to note subfolder "%2"</source>
       <translation>
         <numerusform>%n개의 노트가 "%2" 노트 하위 폴더에 복사되었습니다</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10496"/>
+      <location filename="../mainwindow.cpp" line="10473"/>
       <source>Open note in external editor</source>
       <translation>외부 편집기에서 노트 열기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10500"/>
+      <location filename="../mainwindow.cpp" line="10477"/>
       <source>Show note in file manager</source>
       <translation>파일 관리자에 노트 표시</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10585"/>
+      <location filename="../mainwindow.cpp" line="10562"/>
       <source>If you want to rename your note you have to enable the option to allow the note filename to be different from the headline.</source>
       <translation>노트 이름을 바꾸려면 노트 파일 이름이 제목과 다르도록 허용하는 옵션을 활성화해야 합니다.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10803"/>
+      <location filename="../mainwindow.cpp" line="10782"/>
       <source>New subfolder</source>
       <translation>새로운 하위 폴더</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10807"/>
+      <location filename="../mainwindow.cpp" line="10792"/>
       <source>Show folder in file manager</source>
       <translation>파일 관리자에 폴더 표시</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10852"/>
+      <location filename="../mainwindow.cpp" line="10837"/>
       <source>Create a new folder</source>
       <translation>새 폴더 만들기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10853"/>
+      <location filename="../mainwindow.cpp" line="10838"/>
       <source>Folder name:</source>
       <translation>폴더 이름:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8020"/>
+      <location filename="../mainwindow.cpp" line="8033"/>
       <source>show all untagged notes (%1)</source>
       <translation>태그가 없는 모든 노트 표시 (%1)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8022"/>
+      <location filename="../mainwindow.cpp" line="8035"/>
       <source>Untagged notes</source>
       <translation>태그가 없는 노트</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10147"/>
+      <location filename="../mainwindow.cpp" line="10124"/>
       <source>Export current note as HTML file</source>
       <translation>현재 노트를 HTML 파일로 내보내기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5339"/>
+      <location filename="../mainwindow.cpp" line="5348"/>
       <source>Page size</source>
       <translation>페이지 크기</translation>
     </message>
@@ -3624,27 +3624,27 @@ ownCloud 서버의 휴지통이 활성화된 경우 휴지통에서 복원할 �
       <translation>툴바 종료</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5339"/>
+      <location filename="../mainwindow.cpp" line="5348"/>
       <source>Page size:</source>
       <translation>페이지 크기:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5456"/>
+      <location filename="../mainwindow.cpp" line="5465"/>
       <source>QOwnNotes will track anonymous usage data, that helps to decide what parts of QOwnNotes to improve next and to find and fix bugs. You can disable that behaviour in the settings.</source>
       <translation>QOwnNotes는 익명의 사용 데이터를 추적하여 QOwnNotes를 개선하고 버그를 찾아 수정합니다. 설정에서 해당 동작을 비활성화할 수 있습니다.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5460"/>
+      <location filename="../mainwindow.cpp" line="5469"/>
       <source>&amp;Ok</source>
       <translation>&amp;확인</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10384"/>
+      <location filename="../mainwindow.cpp" line="10361"/>
       <source>&amp;Remove notes</source>
       <translation>&amp;노트 삭제하기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6696"/>
+      <location filename="../mainwindow.cpp" line="6705"/>
       <source>&amp;Link selected text</source>
       <translation>&amp;선택된 텍스트 링크하기</translation>
     </message>
@@ -3654,86 +3654,86 @@ ownCloud 서버의 휴지통이 활성화된 경우 휴지통에서 복원할 �
       <translation>서버로부터 작업이 로드되고 있습니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2790"/>
+      <location filename="../mainwindow.cpp" line="2793"/>
       <source>Current note was modified externally</source>
       <translation>현재 노트가 외부에서 수정되었습니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2873"/>
-      <location filename="../mainwindow.cpp" line="6016"/>
+      <location filename="../mainwindow.cpp" line="2876"/>
+      <location filename="../mainwindow.cpp" line="6025"/>
       <source>Stored current note to disk</source>
       <translation>현재 노트를 디스크에 저장</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2891"/>
+      <location filename="../mainwindow.cpp" line="2894"/>
       <source>Note was modified externally: %1</source>
       <translation>노트가 외부에서 수정되었습니다: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2913"/>
+      <location filename="../mainwindow.cpp" line="2916"/>
       <source>Notes directory was modified externally</source>
       <translation>노트 디렉터리가 외부에서 수정되었습니다</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="2974"/>
+      <location filename="../mainwindow.cpp" line="2977"/>
       <source>Stored %n note(s) to disk</source>
       <translation>
         <numerusform>%n개의 노트를 디스크에 저장했습니다</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7987"/>
+      <location filename="../mainwindow.cpp" line="7999"/>
       <source>show all notes (%1)</source>
       <translation>모든 노트 표시 (%1)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7990"/>
-      <location filename="../mainwindow.cpp" line="8064"/>
+      <location filename="../mainwindow.cpp" line="8002"/>
+      <location filename="../mainwindow.cpp" line="8077"/>
       <source>All notes</source>
       <translation>모든 노트</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9092"/>
+      <location filename="../mainwindow.cpp" line="9097"/>
       <source>&amp;Add tag</source>
       <translation>&amp;태그 추가</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9140"/>
+      <location filename="../mainwindow.cpp" line="9145"/>
       <source>Tag could not be created!</source>
       <translation>태그를 만들 수 없습니다!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9319"/>
+      <location filename="../mainwindow.cpp" line="9324"/>
       <source>Move to this tag</source>
       <translation>이 태그로 이동</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9354"/>
+      <location filename="../mainwindow.cpp" line="9359"/>
       <source>Tag this</source>
       <translation>이것을 태그</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9379"/>
+      <location filename="../mainwindow.cpp" line="9384"/>
       <source>Cannot move tag '%1' to this tag</source>
       <translation>태그 '%1'을(를) 이 태그로 이동할 수 없습니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9428"/>
+      <location filename="../mainwindow.cpp" line="9433"/>
       <source>Moved tag '%1' to new tag</source>
       <translation>태그 '%1'을(를) 새 태그로 이동</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8334"/>
+      <location filename="../mainwindow.cpp" line="8339"/>
       <source>show all notes tagged with '%1' (%2)</source>
       <translation>'%1'(%2) 태그가 붙은 모든 노트 표시</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9103"/>
+      <location filename="../mainwindow.cpp" line="9108"/>
       <source>&amp;Remove tags</source>
       <translation>&amp;태그 삭제</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5494"/>
+      <location filename="../mainwindow.cpp" line="5503"/>
       <source>No selected todo lists!</source>
       <translation>선택된 할 일 목록이 없습니다!</translation>
     </message>
@@ -3818,164 +3818,164 @@ ownCloud 서버의 휴지통이 활성화된 경우 휴지통에서 복원할 �
       <translation>%1 패널 표시</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1365"/>
+      <location filename="../mainwindow.cpp" line="1368"/>
       <source>Show %1</source>
       <translation>%1 표시</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1688"/>
+      <location filename="../mainwindow.cpp" line="1691"/>
       <source>Leave distraction free mode</source>
       <translation>집중 모드 나가기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1870"/>
+      <location filename="../mainwindow.cpp" line="1873"/>
       <source>Switch to note folder</source>
       <translation>노트 폴더로 전환</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2265"/>
+      <location filename="../mainwindow.cpp" line="2268"/>
       <source>show notes in folder '%1' (%2)</source>
       <translation>폴더에 노트 표시 '%1'(%2)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2304"/>
+      <location filename="../mainwindow.cpp" line="2307"/>
       <source>&lt;strong&gt;%1&lt;/strong&gt;&lt;br /&gt;last modified: %2</source>
       <translation>&lt;strong&gt;%1&lt;/strong&gt;&lt;br /&gt;마지막으로 수정됨: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2309"/>
+      <location filename="../mainwindow.cpp" line="2312"/>
       <source>&lt;br /&gt;path: %1</source>
       <translation>&lt;br /&gt;경로: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2511"/>
+      <location filename="../mainwindow.cpp" line="2514"/>
       <source>Toolbar could not be loaded without name</source>
       <translation>이름 없이 툴바를 로드할 수 없습니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2817"/>
+      <location filename="../mainwindow.cpp" line="2820"/>
       <source>Overwriting external changes of: %1</source>
       <translation>외부 변경 사항 덮어쓰기: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2838"/>
+      <location filename="../mainwindow.cpp" line="2841"/>
       <source>Loading external changes from: %1</source>
       <translation>다음으로부터 외부 변경 사항 로드 중: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2874"/>
-      <location filename="../mainwindow.cpp" line="6017"/>
+      <location filename="../mainwindow.cpp" line="2877"/>
+      <location filename="../mainwindow.cpp" line="6026"/>
       <source>Current note could not be stored to disk</source>
       <translation>현재 노트를 디스크에 저장할 수 없습니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3053"/>
+      <location filename="../mainwindow.cpp" line="3056"/>
       <source>Read-only</source>
       <translation>읽기 전용</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3055"/>
+      <location filename="../mainwindow.cpp" line="3058"/>
       <source>Note editing is disabled, click to enable</source>
       <translation>노트 편집이 비활성화되어 있습니다. 활성화하려면 클릭하십시오.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3072"/>
+      <location filename="../mainwindow.cpp" line="3075"/>
       <source>Line numbers</source>
       <translation>줄 번호</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3082"/>
+      <location filename="../mainwindow.cpp" line="3085"/>
       <source>Click here to see what has changed and to be able to update to the latest version</source>
       <translation>변경된 사항을 확인하고 최신 버전으로 업데이트하려면 여기를 클릭하십시오.</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="3452"/>
+      <location filename="../mainwindow.cpp" line="3455"/>
       <source>Proceed with automatic deletion of &lt;strong&gt;%n&lt;/strong&gt; conflicted database copies that may block your ownCloud sync process?</source>
       <translation>
         <numerusform>ownCloud 동기화 프로세스를 차단할 수도 있는 충돌 데이터베이스 사본 &lt;strong&gt;%n&lt;/strong&gt;개를 자동으로 삭제하시겠습니까?</numerusform>
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4928"/>
+      <location filename="../mainwindow.cpp" line="4937"/>
       <source>%n note(s) were tagged with "%2"</source>
       <translation>
         <numerusform>%n개의 노트가 "%2"(으)로 태그되었습니다</numerusform>
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="5716"/>
+      <location filename="../mainwindow.cpp" line="5725"/>
       <source>Found &lt;strong&gt;%n&lt;/strong&gt; occurrence(s) of &lt;strong&gt;%1&lt;/strong&gt;</source>
       <translation>
         <numerusform>&lt;strong&gt;%1&lt;/strong&gt; 발생 &lt;strong&gt;%n&lt;/strong&gt;개를 찾았습니다</numerusform>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6078"/>
+      <location filename="../mainwindow.cpp" line="6087"/>
       <source>Note headline</source>
       <translation>노트 제목</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6288"/>
+      <location filename="../mainwindow.cpp" line="6297"/>
       <source>Could not find note.&lt;br /&gt;Unable to automatically create note at location, because subfolders are disabled for the current note folder.</source>
       <translation type="unfinished">Could not find note.&lt;br /&gt;Unable to automatically create note at location, because subfolders are disabled for the current note folder.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6702"/>
+      <location filename="../mainwindow.cpp" line="6711"/>
       <source>Block &amp;quote selected text</source>
       <comment>Action to apply a block quote formatting to the selected text</comment>
       <translation>&amp;선택된 텍스트 인용 블록</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7711"/>
+      <location filename="../mainwindow.cpp" line="7723"/>
       <source>Downloading images finished</source>
       <translation>이미지 다운로드 완료</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7861"/>
+      <location filename="../mainwindow.cpp" line="7873"/>
       <source>Increased font size to %1 pt</source>
       <translation>글꼴 크기를 %1pt로 늘였습니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7878"/>
+      <location filename="../mainwindow.cpp" line="7890"/>
       <source>Decreased font size to %1 pt</source>
       <translation>글꼴 크기를 %1pt로 줄였습니다</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5460"/>
-      <location filename="../mainwindow.cpp" line="5475"/>
-      <location filename="../mainwindow.cpp" line="5498"/>
-      <location filename="../mainwindow.cpp" line="10588"/>
+      <location filename="../mainwindow.cpp" line="5469"/>
+      <location filename="../mainwindow.cpp" line="5484"/>
+      <location filename="../mainwindow.cpp" line="5507"/>
+      <location filename="../mainwindow.cpp" line="10565"/>
       <source>Open &amp;settings</source>
       <translation>&amp;설정 열기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1685"/>
-      <location filename="../mainwindow.cpp" line="12477"/>
+      <location filename="../mainwindow.cpp" line="1688"/>
+      <location filename="../mainwindow.cpp" line="12475"/>
       <source>leave</source>
       <translation>나가기</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7129"/>
+      <location filename="../mainwindow.cpp" line="7141"/>
       <source>Please enter your &lt;strong&gt;password&lt;/strong&gt; to encrypt the note.&lt;br /&gt;Keep in mind that you have to &lt;strong&gt;remember&lt;/strong&gt; your password to read the content of the note&lt;br /&gt; and that you can &lt;strong&gt;only&lt;/strong&gt; do that &lt;strong&gt;in QOwnNotes&lt;/strong&gt;!</source>
       <translation>노트를 암호화하려면 &lt;strong&gt;비밀번호&lt;/strong&gt;를 입력하십시오.&lt;br /&gt;노트의 내용을 읽으려면 비밀번호를 &lt;strong&gt;기억&lt;/strong&gt;해야하며&lt;br /&gt;&lt;strong&gt;오직&lt;/strong&gt;&lt;strong&gt;QOwnNotes&lt;/strong&gt;에서만&lt;/strong&gt;수행&lt;strong&gt;할 수 있습니다!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7185"/>
+      <location filename="../mainwindow.cpp" line="7197"/>
       <source>Decrypt note and store it as plain text</source>
       <translation>노트를 해독하고 일반 텍스트로 저장</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7190"/>
+      <location filename="../mainwindow.cpp" line="7202"/>
       <source>&amp;Decrypt</source>
       <translation>&amp;암호 해독</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7215"/>
+      <location filename="../mainwindow.cpp" line="7227"/>
       <source>&lt;br /&gt;You will be able to edit your encrypted note.</source>
       <translation>&lt;br /&gt;암호화된 노트를 편집할 수 있습니다.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7284"/>
+      <location filename="../mainwindow.cpp" line="7296"/>
       <source>Export current note as Markdown file</source>
       <translation>현재 노트를 마크다운 파일로 내보내기</translation>
     </message>
@@ -4347,44 +4347,44 @@ ownCloud 서버의 휴지통이 활성화된 경우 휴지통에서 복원할 �
       <translation>기본</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1315"/>
+      <location filename="../entities/note.cpp" line="1311"/>
       <source>Could not store note file: %1 - Error message: %2</source>
       <translation>노트 파일을 저장할 수 없습니다: %1 - 오류 메시지: %2</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1393"/>
+      <location filename="../entities/note.cpp" line="1389"/>
       <source>Renamed note-file was removed: %1</source>
       <translation>이름이 바뀐 노트 파일이 제거되었습니다: %1</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1401"/>
+      <location filename="../entities/note.cpp" line="1397"/>
       <source>Could not remove renamed note-file: %1 - Error message: %2</source>
       <translation>이름이 바뀐 노트 파일을 삭제할 수 없습니다: %1 - 오류 메시지: %2</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1547"/>
+      <location filename="../entities/note.cpp" line="1543"/>
       <source>Note</source>
       <translation>노트</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="2595"/>
+      <location filename="../entities/note.cpp" line="2591"/>
       <source>Could not read image file: %1</source>
       <translation>이미지 파일을 읽을 수 없습니다: %1</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="3215"/>
+      <location filename="../entities/note.cpp" line="3211"/>
       <source>Note file path changed</source>
       <translation>노트 파일 경로가 변경되었습니다</translation>
     </message>
     <message numerus="yes">
-      <location filename="../entities/note.cpp" line="3216"/>
+      <location filename="../entities/note.cpp" line="3212"/>
       <source>A change of the note path was detected. Would you like to replace all occurrences of &lt;strong&gt;%1&lt;/strong&gt; links with &lt;strong&gt;%2&lt;/strong&gt; and links with filename &lt;strong&gt;%3&lt;/strong&gt; with &lt;strong&gt;%4&lt;/strong&gt; in &lt;strong&gt;%n&lt;/strong&gt; note file(s)?</source>
       <translation>
         <numerusform>노트 경로의 변경이 감지되었습니다. &lt;strong&gt;%1&lt;/strong&gt;링크의 모든 항목을 &lt;strong&gt;%2&lt;/strong&gt;(으)로 바꾸고 &lt;strong&gt;%n&lt;/strong&gt;개의 노트 파일에서 파일 이름이 &lt;strong&gt;%3&lt;/strong&gt;인 링크를 &lt;strong&gt;%4&lt;/strong&gt;(으)로 바꾸시겠습니까?</numerusform>
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../entities/note.cpp" line="3761"/>
+      <location filename="../entities/note.cpp" line="3757"/>
       <source>…and %n more note(s)</source>
       <translation>
         <numerusform>…그리고 %n개의 더 많은 노트</numerusform>
@@ -4432,7 +4432,7 @@ ownCloud 서버의 휴지통이 활성화된 경우 휴지통에서 복원할 �
       <translation>&lt;code&gt;%1&lt;/code&gt; 명령에 실패했습니다!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4220"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4227"/>
       <source>New connection</source>
       <translation>새로운 연결</translation>
     </message>
@@ -4671,40 +4671,40 @@ ownCloud 서버의 휴지통이 활성화된 경우 휴지통에서 복원할 �
   <context>
     <name>QWidget</name>
     <message>
-      <location filename="../services/databaseservice.cpp" line="84"/>
+      <location filename="../services/databaseservice.cpp" line="90"/>
       <source>Cannot open memory database</source>
       <translation>메모리 데이터베이스를 열 수 없습니다</translation>
     </message>
     <message>
-      <location filename="../services/databaseservice.cpp" line="85"/>
+      <location filename="../services/databaseservice.cpp" line="91"/>
       <source>Unable to establish a memory database connection.</source>
       <translation>메모리 데이터베이스 연결을 설정할 수 없습니다.</translation>
     </message>
     <message>
-      <location filename="../services/databaseservice.cpp" line="101"/>
+      <location filename="../services/databaseservice.cpp" line="107"/>
       <source>Cannot open disk database</source>
       <translation>디스크 데이터베이스를 열 수 없습니다</translation>
     </message>
     <message>
-      <location filename="../services/databaseservice.cpp" line="102"/>
-      <location filename="../services/databaseservice.cpp" line="126"/>
+      <location filename="../services/databaseservice.cpp" line="108"/>
+      <location filename="../services/databaseservice.cpp" line="132"/>
       <source>Unable to establish a database connection with file '%1'.
 Are the folder and the file writeable?</source>
       <translation>파일 '%1'과(와) 데이터베이스 연결을 할 수 없습니다.
 쓰기 가능한 폴더와 파일입니까?</translation>
     </message>
     <message>
-      <location filename="../services/databaseservice.cpp" line="125"/>
+      <location filename="../services/databaseservice.cpp" line="131"/>
       <source>Cannot open note folder database</source>
       <translation>노트 폴더 데이터베이스를 열 수 없습니다</translation>
     </message>
     <message>
-      <location filename="../services/databaseservice.cpp" line="873"/>
+      <location filename="../services/databaseservice.cpp" line="879"/>
       <source>Cannot open database</source>
       <translation>데이터베이스를 열 수 없습니다</translation>
     </message>
     <message>
-      <location filename="../services/databaseservice.cpp" line="874"/>
+      <location filename="../services/databaseservice.cpp" line="880"/>
       <source>Unable to establish a database connection with note folder database to merge '%1'.
 Are the folder and the file writeable?</source>
       <translation>'%1'을(를) 병합하기 위해 노트 폴더 데이터베이스와 데이터베이스 연결을 할 수 없습니다.
@@ -4895,7 +4895,7 @@ Do you want to install it anyway?</source>
   <context>
     <name>ScriptingService</name>
     <message>
-      <location filename="../services/scriptingservice.cpp" line="257"/>
+      <location filename="../services/scriptingservice.cpp" line="261"/>
       <source>file doesn't exist</source>
       <translation>파일이 존재하지 않습니다</translation>
     </message>
@@ -4925,7 +4925,7 @@ Do you want to install it anyway?</source>
     <name>SettingsDialog</name>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="26"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4287"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4288"/>
       <source>Settings</source>
       <translation>설정</translation>
     </message>
@@ -4970,73 +4970,73 @@ Do you want to install it anyway?</source>
       <translation>OwnCloud 서버</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1088"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1089"/>
       <source>ownCloud server url:</source>
       <translation>ownCloud 서버 URL:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1110"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1111"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Please enter the URL of your ownCloud server, for example: &lt;span style=" font-style:italic;"&gt;https://cloud.yourserver.com&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ownCloud 서버의 URL을 입력하십시오. 예시: &lt;span style=" font-style:italic;"&gt;https://cloud.yourserver.com&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1148"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1149"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Please enter the username on your ownCloud server.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ownCloud 서버의 사용자 이름을 입력하십시오.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1183"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1184"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Please enter the password for your username.&lt;br/&gt;Currently the password will be stored encrypted with the other settings, but is not very secure.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;사용자 이름의 비밀번호를 입력하십시오.&lt;br/&gt;현재 비밀번호는 다른 설정으로 암호화되어 저장되지만 안전하지는 않습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1254"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1255"/>
       <source>connection to web server</source>
       <translation>웹 서버에 연결</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1271"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1272"/>
       <source>ownCloud server detected</source>
       <translation>ownCloud 서버 감지</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1305"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1306"/>
       <source>connection to QOwnNotesAPI</source>
       <translation>QOwnNotesAPI에 연결</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1288"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1289"/>
       <source>username and password correct</source>
       <translation>올바른 사용자 이름과 비밀번호</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1244"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1261"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1278"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1295"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1312"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1329"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1346"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1245"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1262"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1279"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1296"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1313"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1330"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1347"/>
       <source>unknown</source>
       <translation>알 수 없는</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1211"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1212"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Click here to test the connection to your ownCloud server.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;클라우드 서버에 대한 연결을 테스트하려면 여기를 클릭하십시오.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1322"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1323"/>
       <source>versions app enabled on server</source>
       <translation>서버에서 사용 가능한 버전 앱</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1339"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1340"/>
       <source>trash app enabled on server</source>
       <translation>서버에서 휴지통 앱 사용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1356"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1357"/>
       <source>notes path found on server</source>
       <translation>서버에서 찾은 노트 경로</translation>
     </message>
@@ -5071,7 +5071,7 @@ Do you want to install it anyway?</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;또한 두 개의 ownCloud 핵심 앱 &lt;span style=" font-weight:600;"&gt;버전&lt;/span&gt;과 &lt;span style=" font-weight:600;"&gt;삭제된 파일&lt;/span&gt;을 ownCloud 서버에서 활성화되도록 설정해야 합니다(기본값이어야 함).</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="988"/>
+      <location filename="../dialogs/settingsdialog.ui" line="989"/>
       <source>Error Message</source>
       <translation>오류 메시지</translation>
     </message>
@@ -5081,42 +5081,42 @@ Do you want to install it anyway?</source>
       <translation>네트워크</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1423"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1424"/>
       <source>Proxy Settings</source>
       <translation>프록시 설정</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1429"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1430"/>
       <source>No Proxy</source>
       <translation>프록시 없음</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1439"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1440"/>
       <source>Use system proxy</source>
       <translation>시스템 프록시 사용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1446"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1447"/>
       <source>Specify proxy manually as</source>
       <translation>수동으로 프록시 지정</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1471"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1472"/>
       <source>Host</source>
       <translation>호스트</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1522"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1523"/>
       <source>Proxy server requires authentication</source>
       <translation>프록시 서버는 인증이 필요합니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1579"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1580"/>
       <source>SSL Settings</source>
       <translation>SSL 설정</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1585"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1586"/>
       <source>Ignore SSL errors</source>
       <translation>SSL 오류 무시</translation>
     </message>
@@ -5126,7 +5126,7 @@ Do you want to install it anyway?</source>
       <translation>할 일</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1840"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1841"/>
       <source>Default ownCloud calendar</source>
       <translation>기본 ownCloud 캘린더</translation>
     </message>
@@ -5136,65 +5136,65 @@ Do you want to install it anyway?</source>
       <translation>인터페이스</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1810"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1811"/>
       <source>Other CalDAV server</source>
       <translation>다른 CalDAV 서버</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2978"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2979"/>
       <source>Only some colors will be adapted, your desktop theme will control the rest. You need to restart the application to let these changes take action.</source>
       <translation>일부 색상만 조정되며, 데스크톱 테마가 나머지를 제어합니다. 이러한 변경 사항을 적용하려면 애플리케이션을 다시 시작해야 합니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2981"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2982"/>
       <source>Optimize preview colors for dark mode desktop themes</source>
       <translation>다크 모드 데스크톱 테마에 대한 미리보기 색상 최적화</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2968"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2969"/>
       <source>This enables the dark mode, interface and icons will be modified. You need to restart the application to let these changes take action.</source>
       <translation>다크 모드, 인터페이스 및 아이콘이 수정됩니다. 이러한 변경 사항을 적용하려면 응용 프로그램을 다시 시작해야 합니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2971"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2972"/>
       <source>Enable dark mode</source>
       <translation>다크 모드 활성화</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2997"/>
-      <location filename="../dialogs/settingsdialog.ui" line="3007"/>
-      <location filename="../dialogs/settingsdialog.ui" line="3038"/>
-      <location filename="../dialogs/settingsdialog.ui" line="3048"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2998"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3008"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3039"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3049"/>
       <source>You need to restart the application to let this setting take effect</source>
       <translation>이 설정을 적용하려면 애플리케이션을 다시 시작해야합니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3077"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3078"/>
       <source>Item sizes in the main window</source>
       <translation>메인 창 항목 크기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5060"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5071"/>
       <source>Markdown highlighting</source>
       <translation>마크다운 하이라이트</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5066"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5077"/>
       <source>Enable markdown highlighting</source>
       <translation>마크다운 하이라이트 활성화</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2134"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2135"/>
       <source>Interface language</source>
       <translation>인터페이스 언어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2164"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2165"/>
       <source>Automatic</source>
       <translation>자동</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2299"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2300"/>
       <source>English</source>
       <translation>영어</translation>
     </message>
@@ -5204,119 +5204,119 @@ Do you want to install it anyway?</source>
       <translation>단축키</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4515"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4808"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4526"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4819"/>
       <source>Default font:</source>
       <translation>기본 글꼴:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4557"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4749"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4568"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4760"/>
       <source>Code font:</source>
       <translation>코드 글꼴:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3236"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3237"/>
       <source>Main window shortcuts</source>
       <translation>메인 윈도우 단축키</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3829"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3830"/>
       <source>Do this at your own risk!</source>
       <translation>위험을 감수하고 이것을 하십시오!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3832"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3833"/>
       <source>Ignore all external note folder changes</source>
       <translation>모든 외부 노트 폴더 변경 사항 무시</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4415"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4426"/>
       <source>Use GitHub line breaks</source>
       <translation>GitHub 줄 바꿈 사용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2277"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2278"/>
       <source>German</source>
       <translation>독일어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2354"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2355"/>
       <source>French</source>
       <translation>프랑스어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2618"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2619"/>
       <source>Polish</source>
       <translation>폴란드어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2640"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2641"/>
       <source>Portuguese</source>
       <translation>포르투갈어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2585"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2586"/>
       <source>Dutch</source>
       <translation>네덜란드어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2552"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2553"/>
       <source>Hungarian</source>
       <translation>헝가리어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2310"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2311"/>
       <source>Spanish</source>
       <translation>스페인어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2942"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2943"/>
       <source>Dark mode</source>
       <translation>다크 모드</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1639"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1640"/>
       <source>Disable tracking of usage data</source>
       <translation>사용 데이터 추적 비활성화</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1683"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1684"/>
       <source>Usage tracking is done on a private Piwik server.</source>
       <translation>사용 추적은 개인 Piwik 서버에서 수행됩니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1743"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1744"/>
       <source>Disable heartbeat</source>
       <translation>하트 비트 비활성화</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2673"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2674"/>
       <source>Russian</source>
       <translation>러시아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1592"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1593"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You might want to consider getting a free SSL certificate from &lt;a href="https://letsencrypt.org/"&gt;Let's encrypt&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href="https://letsencrypt.org/"&gt;Let's encrypt&lt;/a&gt;에서 무료 SSL 인증서를 받는 것이 좋습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2153"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2154"/>
       <source>If you change the language you have to restart the application for the changes to take action.</source>
       <translation>언어를 변경한 경우 변경 사항을 적용하려면 애플리케이션을 다시 시작해야 합니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3658"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3659"/>
       <source>You need to reload the scripting engine if you modify a script file</source>
       <translation>스크립트 파일을 수정하는 경우 스크립팅 엔진을 다시 로드해야 합니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3661"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3662"/>
       <source>Reload scripting engine</source>
       <translation>스크립팅 엔진 다시 로드</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3651"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3652"/>
       <source>Validate script</source>
       <translation>스크립트 유효성 검사</translation>
     </message>
@@ -5326,120 +5326,122 @@ Do you want to install it anyway?</source>
       <translation>일반</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3823"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3824"/>
       <source>Notes</source>
       <translation>노트</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3849"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3850"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If checked you will always be notified about external modifications, even if current note wasn't edited in the last minute. Recommended is &lt;span style=" font-style:italic;"&gt;unchecked&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;체크하면 현재 노트가 마지막 순간에 편집되지 않았더라도 항상 외부 수정에 대한 알림을 받습니다. 권장 사항은 &lt;span style=" font-style:italic;"&gt;체크하지 않음&lt;/span&gt;입니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3945"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5301"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5846"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3946"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5312"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5857"/>
       <source>You might run into sync troubles with older versions of ownCloud sync when going far below 10 sec.
 Just test yourself if you get sync conflicts and set a higher value if so.</source>
       <translation>10초 미만으로 훨씬 떨어지면 이전 버전의 ownCloud 동기화에 문제가 발생할 수 있습니다.
 동기화 충돌이 발생하는지 테스트하고, 발생한다면 더 높은 값을 설정하십시오.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2574"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2575"/>
       <source>Japanese</source>
       <translation>일본어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3949"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3950"/>
       <source>note save interval time [sec]</source>
       <translation>노트 저장 간격 시간 [초]</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3852"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3853"/>
       <source>Notify about all external modifications of the current note</source>
       <translation>현재 노트의 모든 외부 수정 사항에 대해 알림</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4316"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4317"/>
       <location filename="../dialogs/settingsdialog.cpp" line="2275"/>
       <location filename="../dialogs/settingsdialog.cpp" line="2283"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4297"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4302"/>
       <source>Database</source>
       <translation>데이터베이스</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4332"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4323"/>
       <source>Reinitialize Database</source>
       <translation>데이터베이스 다시 초기화</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4255"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4256"/>
       <source>Clear application data and exit</source>
       <translation>애플리케이션 데이터를 지우고 종료</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4261"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4262"/>
       <source>This button allows you to clear all settings, remove the local todo database and exit QOwnNotes.</source>
       <translation>이 버튼을 누르면 모든 설정과 로컬 할 일 데이터베이스가 제거되고 QOwnNotes를 종료합니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4271"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4272"/>
       <location filename="../dialogs/settingsdialog.cpp" line="2347"/>
       <source>Clear app data and exit</source>
       <translation>앱 데이터를 지우고 종료</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4050"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4051"/>
       <source>Update dialog</source>
       <translation>업데이트 대화 상자</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4130"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4131"/>
       <source>Default note file extension</source>
       <translation>기본 노트 파일 확장자</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4215"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4216"/>
       <source>External editor</source>
       <translation>외부 편집기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4228"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4229"/>
       <source>path to external editor, leave empty for default</source>
       <translation>외부 편집기 경로. 기본값은 비워 두십시오.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4238"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5380"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4239"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5391"/>
       <source>set external editor</source>
       <translation>외부 편집기 설정</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1608"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1609"/>
       <source>App metrics</source>
       <translation>앱 분석</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1626"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1627"/>
       <source>Anonymous usage data helps to decide what parts of QOwnNotes to improve next and to find and fix bugs. Please disable it only if you really can't live with it.</source>
       <translation>익명 사용 데이터는 QOwnNotes의 어떤 부분을 개선할지 결정하는 것과 버그를 찾아 수정하는 데 도움이 됩니다. 이를 수용할 수 없는 경우에만 비활성화해 주십시오.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1658"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1659"/>
       <source>This data includes anonymous information about what features of the app are used.</source>
       <translation>이 데이터에는 앱의 어떤 기능이 사용되는지에 대한 익명 정보가 포함됩니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1712"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1713"/>
       <source>App heartbeat</source>
       <translation>하트 비트 앱</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1730"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1731"/>
       <source>A small heartbeat request is sent periodically while QOwnNotes is running. Make a developer happy by letting him know that someone is using QOwnNotes.</source>
       <translation>QOwnNotes가 실행되는 동안 작은 하트 비트 요청이 주기적으로 전송됩니다. 누군가 QOwnNotes를 사용하고 있음을 알려 개발자를 기쁘게 합니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2464"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2465"/>
       <source>Italian</source>
       <translation>이탈리아어</translation>
     </message>
@@ -5449,17 +5451,17 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>스크립팅</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3305"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3306"/>
       <source>Your scripts</source>
       <translation>나의 스크립트</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3389"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3390"/>
       <source>&amp;Remove script</source>
       <translation>&amp;스크립트 삭제</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3668"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3669"/>
       <source>Click here to select your QML script</source>
       <translation>여기를 클릭하여 QML 스크립트를 선택하십시오</translation>
     </message>
@@ -5541,7 +5543,7 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="773"/>
-      <location filename="../dialogs/settingsdialog.ui" line="3479"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3480"/>
       <source>Name:</source>
       <translation>이름:</translation>
     </message>
@@ -5581,56 +5583,56 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;노트를 동기화하기 위해서&lt;a href="https://owncloud.org/"&gt;&lt;span style=" font-weight:600"&gt;ownCloud 동기화 클라이언트&lt;/span&gt;&lt;/a&gt;가 여전히 필요합니다!(또는 다른 데스크톱 동기화 클라이언트)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1021"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1022"/>
       <source>Select a connection to edit</source>
       <translation>편집할 연결을 선택하십시오</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1028"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1031"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1029"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1032"/>
       <source>Add connection</source>
       <translation>연결 추가</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1042"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1045"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1043"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1046"/>
       <source>Remove connection</source>
       <translation>연결 제거</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1126"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1897"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1127"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1898"/>
       <source>Username:</source>
       <translation>사용자 이름:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1151"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1152"/>
       <source>Your ownCloud username</source>
       <translation>OwnCloud 사용자 이름</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1161"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1932"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1162"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1933"/>
       <source>Password:</source>
       <translation>비밀번호:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1189"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1190"/>
       <source>Your ownCloud password</source>
       <translation>OwnCloud 비밀번호</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1217"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1218"/>
       <source>&amp;Connect to ownCloud server</source>
       <translation>&amp;OwnCloud 서버에 연결</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1237"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1238"/>
       <source>Connection status</source>
       <translation>연결 상태</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1059"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1060"/>
       <source>Connection name:</source>
       <translation>연결 이름:</translation>
     </message>
@@ -5646,387 +5648,387 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>노트 하위 폴더 사용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1392"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1393"/>
       <source>Enable QOwnNotesAPI app</source>
       <translation>QOwnNotesAPI 앱 사용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1782"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1783"/>
       <source>Todo settings</source>
       <translation>할 일 설정</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1788"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1789"/>
       <source>Enable todo calendar support</source>
       <translation>할 일 캘린더 지원 활성화</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1973"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1974"/>
       <source>Which cloud connection do you want to use?</source>
       <translation>어떤 클라우드 연결을 하시겠습니까?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1985"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1986"/>
       <source>Select the calendars you want to use for the Todo list</source>
       <translation>할 일 목록에 사용할 캘린더를 선택하십시오</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2060"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2061"/>
       <source>Todo list settings</source>
       <translation>할 일 목록 설정</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2066"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2067"/>
       <source>Saving an item also closes the Todo list</source>
       <translation>항목을 저장하면 할 일 목록도 닫힙니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2178"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2179"/>
       <source>Indonesian</source>
       <translation>인도네시아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2200"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2201"/>
       <source>Bengali</source>
       <translation>벵골어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2211"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2212"/>
       <source>Bosnian</source>
       <translation>보스니아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2222"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2223"/>
       <source>Bulgarian</source>
       <translation>불가리아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2233"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2234"/>
       <source>Catalan</source>
       <translation>카탈로니아어
 </translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2244"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2245"/>
       <source>Cebuano</source>
       <translation>세부아노어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2266"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2267"/>
       <source>Danish</source>
       <translation>덴마크어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2288"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2289"/>
       <source>Basque</source>
       <translation>바스크어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2321"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2322"/>
       <source>Estonian</source>
       <translation>에스토니아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2332"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2333"/>
       <source>Filipino</source>
       <translation>필리핀어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2343"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2344"/>
       <source>Finnish</source>
       <translation>핀란드어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2365"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2366"/>
       <source>Irish</source>
       <translation>아일랜드어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2376"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2377"/>
       <source>Galician</source>
       <translation>갈리시아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2387"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2388"/>
       <source>Greek</source>
       <translation>그리스어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2398"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2399"/>
       <source>Hausa</source>
       <translation>하우사어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2409"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2410"/>
       <source>Hebrew</source>
       <translation>히브리어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2420"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2421"/>
       <source>Hindi</source>
       <translation>힌디어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2442"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2443"/>
       <source>Hiligaynon</source>
       <translation>힐리가이논어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2453"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2454"/>
       <source>Icelandic</source>
       <translation>아이슬란드어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2475"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2476"/>
       <source>Korean</source>
       <translation>한국어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2486"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2487"/>
       <source>Kurdish</source>
       <translation>쿠르드어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2508"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2509"/>
       <source>Latvian</source>
       <translation>라트비아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2519"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2520"/>
       <source>Lithuanian</source>
       <translation>리투아니아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2530"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2531"/>
       <source>Macedonian</source>
       <translation>마케도니아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2563"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2564"/>
       <source>Norwegian</source>
       <translation>노르웨이어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2607"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2608"/>
       <source>Uzbek</source>
       <translation>우즈베크어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2651"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2652"/>
       <source>Punjabi</source>
       <translation>펀자브어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2596"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2597"/>
       <source>Persian</source>
       <translation>페르시아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2662"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2663"/>
       <source>Romanian</source>
       <translation>루마니아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2684"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2685"/>
       <source>Serbian</source>
       <translation>세르비아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2695"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2696"/>
       <source>Albanian</source>
       <translation>알바니아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2728"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2729"/>
       <source>Slovak</source>
       <translation>슬로바키아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2739"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2740"/>
       <source>Slovenian</source>
       <translation>슬로베니아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2750"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2751"/>
       <source>Swedish</source>
       <translation>스웨덴어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2761"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2762"/>
       <source>Tagalog</source>
       <translation>타갈로그어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2794"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2795"/>
       <source>Turkish</source>
       <translation>터키어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2827"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2828"/>
       <source>Urdu</source>
       <translation>우르두어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2860"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2861"/>
       <source>Chinese Simplified</source>
       <translation>중국어(간체)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2871"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2872"/>
       <source>Chinese Traditional</source>
       <translation>중국어(번체)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2951"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2952"/>
       <source>Enable dark mode application icon and tray icon</source>
       <translation>다크 모드 애플리케이션 아이콘 및 트레이 아이콘 사용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2958"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2959"/>
       <source>You might also want to choose another editor color schema in the editor settings in dark mode.</source>
       <translation>다크 모드의 편집기 설정에서 다른 편집기 색 스키마를 선택할 수도 있습니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3061"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3062"/>
       <source>Enable dark mode icon theme</source>
       <translation>다크 모드 아이콘 테마 사용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2991"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2992"/>
       <source>System tray</source>
       <translation>시스템 트레이</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3000"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3001"/>
       <source>Show system tray icon</source>
       <translation>시스템 트레이 아이콘 표시</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3010"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3011"/>
       <source>Start application hidden</source>
       <translation>숨겨진 애플리케이션 시작</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3020"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3021"/>
       <source>Interface style</source>
       <translation>인터페이스 스타일</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3051"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3052"/>
       <source>Enforce system icon theme</source>
       <translation>시스템 아이콘 테마 적용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3157"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3158"/>
       <source>Override interface font size</source>
       <translation>인터페이스 글꼴 크기 재정의</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3166"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3167"/>
       <source>Interface font size:</source>
       <translation>인터페이스 글꼴 크기:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3378"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3379"/>
       <source>&amp;Add script…</source>
       <translation>&amp;스크립트 추가…</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4024"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4025"/>
       <source>Use legacy way to link to notes, images and attachments</source>
       <translation>레거시 방법을 사용하여 노트, 이미지 및 첨부 파일에 연결</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3869"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3870"/>
       <source>When opening notes the cursor position inside the note will now be restored to the position when the note was last visited in the current session</source>
       <translation>노트를 열면 노트 내부의 커서 위치가 현재 세션에서 노트를 마지막으로 방문했을 때의 위치로 복원됩니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3839"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3840"/>
       <source>By default the headline will generated automatically</source>
       <translation>기본적으로 제목은 자동으로 생성됩니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3842"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3843"/>
       <source>The shortcut to create a new note asks for a headline</source>
       <translation>새 노트를 작성하는 단축키는 제목을 요구합니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3908"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3909"/>
       <source>Automatically close the note folder database to prevent problems with sync tools</source>
       <translation>동기화 도구 관련 문제를 방지하기 위해 노트 폴더 데이터베이스를 자동으로 닫습니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3911"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3912"/>
       <source>Automatically close the note folder database</source>
       <translation>노트 폴더 데이터베이스 자동 닫기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4072"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4073"/>
       <source>Search engine</source>
       <translation>검색 엔진</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4094"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4095"/>
       <source>Message boxes</source>
       <translation>메시지 박스</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4100"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3960"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4101"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3967"/>
       <source>Reset message boxes</source>
       <translation>메시지 박스 리셋</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4293"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4026"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4050"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4294"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4033"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4057"/>
       <source>Import settings</source>
       <translation>설정 가져오기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4300"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3992"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4301"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3999"/>
       <source>Export settings</source>
       <translation>설정 내보내기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4438"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4449"/>
       <source>Open issue assistant</source>
       <translation>문제 도우미 열기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4405"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4416"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The best way to post issues is to use the issue assistant by pressing the &lt;span style=" font-weight:600;"&gt;Open issue assistant&lt;/span&gt; button on the bottom.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;문제를 게시하는 가장 좋은 방법은 하단의 &lt;span style=" font-weight:600;"&gt;문제 도우미&lt;/span&gt; 버튼을 눌러 문제 도우미를 사용하는 것입니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4670"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4681"/>
       <source>Ignore code font size to allow zooming</source>
       <translation>확대/축소를 허용하도록 코드 글꼴 크기 무시</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4664"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4675"/>
       <source>Rendering</source>
       <translation>렌더링</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4684"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4695"/>
       <source>Enable underline rendering</source>
       <translation>밑줄 렌더링 사용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5094"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5105"/>
       <source>Fully highlight blockquotes</source>
       <translation>인용 부호를 완전히 강조 표시</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5164"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5175"/>
       <source>Note-edit cursor width:</source>
       <translation>노트 편집 커서 너비:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5113"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5124"/>
       <source>Enable Vim mode (some QOwnNotes shortcuts will not work)</source>
       <translation>Vim 모드 활성화(일부 QOwnNotes 단축키가 작동하지 않음)</translation>
     </message>
@@ -6046,291 +6048,306 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>ownCloud 서버 앱 비밀번호 페이지를 여십시오</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2541"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2542"/>
       <source>Māori</source>
       <translation>마오리어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2189"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2190"/>
       <source>Malay</source>
       <translation>말레이어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2140"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2141"/>
       <source>If you want to help to translate QOwnNotes or update an existing translation please read: &lt;a href="%1"&gt;How can I help to translate QOwnNotes?&lt;/a&gt;</source>
       <translation>QOwnNotes 번역을 돕거나 기존 번역을 업데이트하려면 &lt;a href="%1"&gt; QOwnNotes 번역을 어떻게 도와 드릴까요? &lt;/a&gt;를 읽어보세요.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2497"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2498"/>
       <source>Khmer</source>
       <translation>크메르어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2706"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2707"/>
       <source>Shona</source>
       <translation>쇼나어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2717"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2718"/>
       <source>Sinhala</source>
       <translation>싱할라어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2772"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2773"/>
       <source>Thai</source>
       <translation>태국어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2783"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2784"/>
       <source>Vietnamese</source>
       <translation>베트남어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2805"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2806"/>
       <source>Xhosa</source>
       <translation>코사어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2838"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2839"/>
       <source>Yiddish</source>
       <translation>이디시어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2849"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2850"/>
       <source>Zulu</source>
       <translation>줄루어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2905"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2906"/>
       <source>Search for language</source>
       <translation>언어 검색</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3268"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3269"/>
       <source>Action name</source>
       <translation>액션 이름</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3273"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3274"/>
       <source>Local shortcut</source>
       <translation>로컬 단축키</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3278"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3279"/>
       <source>Global shortcut</source>
       <translation>글로벌 단축키</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3879"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3880"/>
       <source>Disable this if you want to launch the application without opening a note</source>
       <translation>노트를 열지 않고 애플리케이션을 시작하려면 이 기능을 비활성화하십시오</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3882"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3883"/>
       <source>Open last accessed note at application startup</source>
       <translation>애플리케이션 시작 시 마지막으로 접근한 노트 열기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4412"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4330"/>
+      <source>Checks the disk database integrity and fixes problems</source>
+      <translation type="unfinished">Checks the disk database integrity and fixes problems</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/settingsdialog.ui" line="4333"/>
+      <source>Check integrity</source>
+      <translation type="unfinished">Check integrity</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/settingsdialog.ui" line="4340"/>
+      <source>Be warned that reinitializing the database will also remove your cached todo items and configured note folders and scripts!</source>
+      <translation type="unfinished">Be warned that reinitializing the database will also remove your cached todo items and configured note folders and scripts!</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/settingsdialog.ui" line="4423"/>
       <source>GitHub doesn't need two spaces at the end of the line to do a line break</source>
       <translation>GitHub에서는 줄 바꾸기를 위한 2개의 공백 문자가 필요하지 않습니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4435"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4446"/>
       <source>This is the best way to open an issue</source>
       <translation>이것이 이슈를 여는 가장 좋은 방법입니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4449"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4460"/>
       <source>Please use this in the issue tracker</source>
       <translation>이슈 트래커에서 이것을 사용하십시오</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4452"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4463"/>
       <source>&amp;Copy debug information to clipboard</source>
       <translation>&amp;디버그 정보를 클립보드에 복사</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4463"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4474"/>
       <source>Please don't use this in the issue tracker</source>
       <translation>이슈 트래커에서 이것을 사용하지 마십시오</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4691"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4702"/>
       <source>Use editor highlighting styles also for the preview</source>
       <translation>미리보기에도 편집기 강조 스타일 사용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4714"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4725"/>
       <source>Exporting</source>
       <translation>내보내기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4720"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4731"/>
       <source>Use internal export styling for the PDF export and printing of the preview</source>
       <translation>미리보기의 PDF 내보내기 및 인쇄에 내부 내보내기 스타일 사용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5028"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5039"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You might want to take a look at all available &lt;a href="http://docs.qownnotes.org/en/latest/editor/time-formats/"&gt;time formats&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;사용 가능한 모든 &lt;a href="http://docs.qownnotes.org/en/latest/editor/time-formats/"&gt;시간 형식&lt;/a&gt;을 살펴볼 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5198"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5209"/>
       <source>Disable cursor blinking</source>
       <translation>커서 깜박임 비활성화</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5205"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5216"/>
       <source>Automatically remove trailing spaces in the note text</source>
       <translation>노트 텍스트에서 후행 공백을 자동으로 삭제</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5215"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5226"/>
       <source>Tabs and Indents</source>
       <translation>탭과 들여쓰기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5223"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5234"/>
       <source>Use tab character instead of spaces</source>
       <translation>공백 대신 탭 문자 사용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5230"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5241"/>
       <source>Indent:</source>
       <translation>들여 쓰기:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5610"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5619"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5621"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5630"/>
       <source>Regular expressions of note subfolders to ignore, separated by ";"</source>
       <translation>";"으로 구분된 무시될 노트 하위 폴더의 정규 표현</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5613"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5624"/>
       <source>Ignored subfolders</source>
       <translation>무시된 하위 폴더
 </translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5629"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5640"/>
       <source>Reset ignored subfolders</source>
       <translation>무시된 하위 폴더 재설정
 </translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5665"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5676"/>
       <source>Restore open note tabs at application startup and when note folders are switched</source>
       <translation>애플리케이션 시작 및 노트 폴더가 전환 될 때 열린 노트 탭 복원</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5750"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5761"/>
       <source>Hide 'Note count' with tags (increases performance)</source>
       <translation>태그가 포함된 '메모 카운트' 감추기(성능 향상)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5786"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5797"/>
       <source>Show the number of matches in each note</source>
       <translation>각 노트의 일치 항목 수 표시</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5441"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5452"/>
       <source>Note list panel</source>
       <translation>노트 목록 패널</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5447"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5458"/>
       <source>Show notes in the note list with preview</source>
       <translation>미리보기로 노트 목록에 노트 표시</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5520"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5531"/>
       <source>Instead of a note list use a note tree with all the subfolders (if they are turned on for the note folder)</source>
       <translation>노트 목록 대신 모든 하위 폴더가 있는 노트 트리를 사용하십시오(노트 폴더에 대해 설정된 경우)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5796"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5807"/>
       <source>Note folder panel</source>
       <translation>노트 폴더 패널
 </translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5802"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5813"/>
       <source>Show note folders as buttons instead of in a select box</source>
       <translation>선택 상자 대신 노트 폴더를 버튼으로 표시</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5944"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5955"/>
       <source>Panels can be turned on and off in the &lt;i&gt;Window / Panels&lt;/i&gt; main menu and you can also configure different &lt;i&gt;Workspaces&lt;/i&gt; for different panel configurations.</source>
       <translation>&lt;i&gt;창 / 패널&lt;/i&gt; 메인 메뉴에서 패널을 켜고 끌 수 있으며, 다른 패널 구성에 대해 다른 &lt;i&gt;작업 공간&lt;/i&gt;을 구성할 수도 있습니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6021"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6032"/>
       <source>Bookmarks</source>
       <translation>북마크</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6027"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6038"/>
       <source>Notes with this tag will be used for fetching bookmarks</source>
       <translation>이 태그가 있는 노트는 북마크를 가져오는 데 사용됩니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6030"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6041"/>
       <source>Tag name for bookmarks notes</source>
       <translation>북마크 노트의 태그 이름</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6037"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6048"/>
       <source>Bookmarks tag:</source>
       <translation>북마크 태그:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6044"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6055"/>
       <source>By default the browser extension will show all links of the current note. You can also make it show special bookmark links of notes with a certain tag. For more information about the bookmark link syntax click &lt;a href="%1"&gt;here&lt;/a&gt;.</source>
       <translation>기본적으로 브라우저 확장 기능은 현재 노트의 모든 링크를 표시합니다. 특정 태그가 있는 노트의 특별한 북마크 링크를 표시하도록 할 수도 있습니다. 북마크 링크에 대한 자세한 내용을 보려면 &lt;a href="%1"&gt;여기&lt;/a&gt;를 클릭하십시오.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6057"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6068"/>
       <source>Bookmarks note name:</source>
       <translation>북마크 노트 이름:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6064"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6075"/>
       <source>This note will be used for adding new bookmarks from the browser extension</source>
       <translation>이 노트는 브라우저 확장 기능에서 새 북마크를 추가하는 데 사용됩니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6067"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6078"/>
       <source>Note name for adding new bookmarks</source>
       <translation>새 북마크 추가를 위한 노트 이름</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6077"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6088"/>
       <source>Web socket server</source>
       <translation>웹 소켓 서버</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6083"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6094"/>
       <source>Socket server port:</source>
       <translation>소켓 서버 포트:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6117"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6128"/>
       <source>Show security token</source>
       <translation>보안 토큰 표시</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6153"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6164"/>
       <source>Web socket server support</source>
       <translation>웹 소켓 서버 지원</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6159"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6170"/>
       <source>Enable socket server</source>
       <translation>소켓 서버 활성화</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6134"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6145"/>
       <source>Install the &lt;a href="%1"&gt;Web Companion browser extension&lt;/a&gt; from the &lt;a href="%2"&gt;Chrome Web Store&lt;/a&gt; or &lt;a href="%3"&gt;Firefox Add-ons page&lt;/a&gt; to use QOwnNotes as web clipper.</source>
       <translation>QOwnNotes를 웹 클리퍼로 사용하려면 &lt;a href="%1"&gt;Web Companion 브라우저 확장 기능&lt;/a&gt;을 설치하십시오. &lt;a href="%2"&gt;크롬 웹 스토어&lt;/a&gt;나 &lt;a href="%3"&gt;파이어폭스 애드온 페이지&lt;/a&gt;에서 설치하실 수 있습니다.</translation>
     </message>
@@ -6340,249 +6357,249 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>노트 파일 이름이 제목과 다른 것을 허용하십시오.&lt;br&gt;ownCloud 노트는 파일 이름이 제목과 같아야 합니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5649"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5660"/>
       <source>Note edit panel</source>
       <translation>노트 편집 패널</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5655"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5666"/>
       <source>If this is disabled you are able to create more complex panel layouts, but all panels will be resized if the window is resized</source>
       <translation>이 옵션을 비활성화하면 더 복잡한 패널 레이아웃을 만들 수 있지만, 창의 크기가 조정되면 모든 패널의 크기가 조정됩니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5658"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5669"/>
       <source>Use the note edit panel as fixed central widget to be resized if the window or other panels are resized</source>
       <translation>창이나 다른 패널의 크기가 조정된 경우 크기를 조정하려면 노트 편집 패널을 고정된 중앙 위젯으로 사용하십시오</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5773"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5784"/>
       <source>Note search panel</source>
       <translation>노트 검색 패널</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5779"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5790"/>
       <source>Disable auto-completion of previous searches</source>
       <translation>이전 검색의 자동 완성 비활성화</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5675"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5686"/>
       <source>Navigation panel</source>
       <translation>탐색 패널</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5681"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5692"/>
       <source>Hide navigation item search bar</source>
       <translation>탐색 항목 검색 창 숨기기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5816"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5827"/>
       <source>Local trash settings</source>
       <translation>로컬 휴지통 설정</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5850"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5861"/>
       <source>Remove trashed notes after:</source>
       <translation>다음 작업 후 휴지통에 넣은 노트를 제거하십시오:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5857"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5868"/>
       <source> days</source>
       <extracomment>seconds</extracomment>
       <translation> 일</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5876"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5887"/>
       <source>Automatically remove trashed notes after a certain time</source>
       <translation>일정 시간이 지난 후 휴지통에 있는 노트를 자동으로 삭제</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5902"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5913"/>
       <source>Local trash support</source>
       <translation>로컬 휴지통 지원</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5908"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5919"/>
       <source>Enable local trash</source>
       <translation>로컬 휴지통 사용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5925"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5936"/>
       <source>Layout selector</source>
       <translation>레이아웃 선택기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5931"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5942"/>
       <source>You can set a new layout here. Keep in mind that you always can modify the position of the panels with the &lt;i&gt;Unlock panels&lt;/i&gt; button.</source>
       <translation>여기에서 새 레이아웃을 설정할 수 있습니다. &lt;i&gt;패널 잠금 해제&lt;/i&gt; 버튼을 사용하여 언제든지 패널의 위치를 수정할 수 있습니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5140"/>
-      <location filename="../dialogs/settingsdialog.ui" line="6103"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5151"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6114"/>
       <source>Reset the cursor width</source>
       <translation>커서 너비를 재설정</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5315"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5326"/>
       <source>External git log command to show the git versions of a note</source>
       <translation>노트의 git 버전을 표시하는 외부 git 로그 명령</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5321"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5332"/>
       <source>Enter a command to be used to show a git log (like for example "gitk")</source>
       <extracomment>Please don't translate "%notePath%"</extracomment>
       <translation>git 로그를 표시하는 데 사용할 명령을 입력하십시오 (예: "gitk")</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5341"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5352"/>
       <source>If you use this setting you will get a new menu entry to show the git versions if you right-click a note.</source>
       <extracomment>Please don't translate "%notePath%"</extracomment>
       <translation>이 설정을 사용하면 노트를 마우스 오른쪽 버튼으로 클릭하면 git 버전을 표시하는 새 메뉴 항목이 표시됩니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5461"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5472"/>
       <source>Show all notes of a tag including the notes of their children-tags</source>
       <translation>하위 태그의 노트를 포함하여 태그의 모든 노트 표시</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5454"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5465"/>
       <source>Show all notes in a folder including their subfolders (only works if subfolders are turned on)</source>
       <translation>하위 폴더를 포함하여 폴더에 모든 노트 표시(하위 폴더가 켜져있는 경우에만 작동)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5191"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5202"/>
       <source>Highlight the current line</source>
       <translation>현재 줄을 강조</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5408"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5419"/>
       <source>Don't forget to enable git support for your note folders and to configure your name and email address for your git client, for example with these terminal commands:</source>
       <translation>다음과 같은 터미널 명령을 사용하여 노트 폴더에 git 지원을 활성화하고 git 클라이언트에 대한 이름 및 이메일 주소를 설정하는 것을 잊지 마십시오:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5691"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5702"/>
       <source>Tags panel</source>
       <translation>태그 패널</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5494"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5573"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5720"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5505"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5584"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5731"/>
       <source>Order</source>
       <translation>순서</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5503"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5579"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5726"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5514"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5590"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5737"/>
       <source>Ascending</source>
       <translation>오름차순</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5510"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5586"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5733"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5521"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5597"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5744"/>
       <source>Descending</source>
       <translation>내림차순</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5468"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5543"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5697"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5479"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5554"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5708"/>
       <source>Sort</source>
       <translation>정렬</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5184"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5195"/>
       <source>Only use editor width setting in distraction free mode</source>
       <translation>집중 모드에서만 편집기 너비 설정을 사용하십시오</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5474"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5549"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5703"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5485"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5560"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5714"/>
       <source>Alphabetical</source>
       <translation>알파벳순</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5710"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5721"/>
       <source>By last change / use</source>
       <translation>수정 / 사용한 날짜순</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5743"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5754"/>
       <source>Hide 'Find or create tag' search</source>
       <translation>'태그 찾기 또는 만들기' 검색 숨기기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5530"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5541"/>
       <source>Note subfolders panel</source>
       <translation>노트 하위 폴더 패널</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5536"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5547"/>
       <source>Show with full path</source>
       <translation>전체 경로로 표시</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5481"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5556"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5492"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5567"/>
       <source>By last change</source>
       <translation>수정한 날짜순</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5566"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5577"/>
       <source>Show root folder name</source>
       <translation>루트 폴더 이름 표시</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5596"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5607"/>
       <source>Hide 'Find or create note subfolder' search</source>
       <translation>'노트 하위 폴더 찾기 또는 만들기' 검색 숨기기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5603"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5614"/>
       <source>Display note subfolders as full tree</source>
       <translation>노트 하위 폴더를 전체 트리로 표시</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2876"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2883"/>
       <source>Search script repository</source>
       <translation>스크립트 저장소 검색</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5331"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5342"/>
       <source>You optionally can use "%notePath%" for the path of the note.</source>
       <extracomment>Please don't translate "%notePath%"</extracomment>
       <translation>노트 경로에 "%notePath%"을(를) 마음대로 사용할 수 있습니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5354"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5365"/>
       <source>Git client</source>
       <translation>Git 클라이언트</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5370"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5381"/>
       <source>Path to git executable:</source>
       <translation>git 실행 파일 경로:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5360"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5371"/>
       <source>Path to git client, leave empty for default</source>
       <translation>git 클라이언트 경로. 기본값은 비워 두십시오.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5279"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5290"/>
       <source>Commit interval</source>
       <translation>커밋 간격</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5285"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5296"/>
       <source>sec</source>
       <extracomment>seconds</extracomment>
       <translation>초</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5305"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5316"/>
       <source>git commit interval time [sec]</source>
       <translation>git 커밋 간격 시간 [초]</translation>
     </message>
@@ -6602,308 +6619,303 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>브라우저 확장</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1804"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1805"/>
       <source>Which calendar backend do you want to use?</source>
       <translation>어떤 캘린더 백 엔드를 사용하시겠습니까?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1837"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1838"/>
       <source>For most current ownCloud and Nextcloud installations</source>
       <translation>최신 버전의 ownCloud 및 Nextcloud 설치</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1817"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1818"/>
       <source>For older versions of ownCloud where the default setting doesn't work</source>
       <translation>기본 설정이 작동하지 않는 ownCloud의 이전 버전</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1820"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1821"/>
       <source>Legacy ownCloud calendar</source>
       <translation>레거시 ownCloud 캘린더</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1853"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1854"/>
       <source>CalDAV server settings</source>
       <translation>CalDAV 서버 설정</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1862"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1863"/>
       <source>Calendar base url:</source>
       <translation>캘린더 기본 URL:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1884"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1885"/>
       <source>Please enter the CalDAV base url to your calendar.</source>
       <translation>캘린더에 CalDAV 기본 URL을 입력하십시오.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1954"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1955"/>
       <source>Please enter the password for your CalDAV username.&lt;br/&gt;Currently the password will be stored encrypted with the other settings, but is not very secure.</source>
       <translation>CalDAV 사용자 이름의 비밀번호를 입력하십시오.&lt;br/&gt;현재 비밀번호는 다른 설정으로 암호화되어 저장되지만 안전하지는 않습니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2255"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2256"/>
       <source>Czech</source>
       <translation>체코어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2629"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2630"/>
       <source>Brazilian Portuguese</source>
       <translation>브라질 포르투갈어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2816"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2817"/>
       <source>Ukrainian</source>
       <translation>우크라이나어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3780"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3781"/>
       <source>The name</source>
       <translation>이름</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4004"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4005"/>
       <source>Maximum height:</source>
       <translation>최대 높이:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3977"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3978"/>
       <source>Maximum width:</source>
       <translation>최대 너비:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3918"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3919"/>
       <source>Scale images down when inserted into notes</source>
       <translation>노트에 삽입할 때 이미지 축소</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2431"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2432"/>
       <source>Croatian</source>
       <translation>크로아티아어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3695"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3696"/>
       <source>Path to your QML file</source>
       <translation>QML 파일의 경로</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3486"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3487"/>
       <source>Script name</source>
       <translation>스크립트 이름</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3508"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3509"/>
       <source>Description:</source>
       <translation>설명:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3590"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3591"/>
       <source>Version:</source>
       <translation>버전:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3551"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3552"/>
       <source>Repository:</source>
       <translation>저장소:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3528"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3529"/>
       <source>Author(s):</source>
       <translation>작성자</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3925"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3926"/>
       <source>Check this if you want to accept all external modifications while you are editing the current note.</source>
       <translation>현재 노트를 편집하는 동안 모든 외부 수정 사항을 허용하려면 이 옵션을 선택하십시오.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3928"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3929"/>
       <source>Accept all external modifications of the current note</source>
       <translation>현재 노트의 모든 외부 수정 사항을 허락합니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3862"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3863"/>
       <source>Use UNIX newline instead of native newline characters</source>
       <translation>기본 줄 바꿈 문자 대신 UNIX 줄 바꿈 사용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3872"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3873"/>
       <source>Restore cursor position when opening a note</source>
       <translation>노트를 열 때 커서 위치 복원</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4322"/>
-      <source>Be warned that this will also remove your cached todo items and configured note folders and scripts!</source>
-      <translation>이렇게 하면 캐시 저장된 할 일 항목과 구성된 노트 폴더 및 스크립트도 제거된다는 점을 주의하십시오!</translation>
-    </message>
-    <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4852"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4863"/>
       <source>Apply toolbar configuration</source>
       <translation>툴바 환경 설정 적용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4866"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4877"/>
       <source>Reset toolbars</source>
       <translation>툴바 재설정</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4894"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4905"/>
       <source>Enable logging to file</source>
       <translation>파일에 로깅 활성화</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4901"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4912"/>
       <source>Clear log file</source>
       <translation>로그 파일 지우기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4912"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4923"/>
       <source>Fake old version number to trigger update</source>
       <translation>업데이트를 실행하는 가짜 이전 버전의 넘버</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4940"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4951"/>
       <source>Log file path:</source>
       <translation>로그 파일 경로:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5002"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5013"/>
       <source>Here you can set your own time format for inserting the current time into a note.</source>
       <translation>현재 시간을 노트에 삽입하기 위한 고유한 시간 형식을 여기에서 설정할 수 있습니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5005"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5016"/>
       <source>Insert current time</source>
       <translation>현재 시간 삽입</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5011"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5022"/>
       <source>Time format:</source>
       <translation>시간 형식:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5018"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5029"/>
       <source>Enter your custom time format, like "dd.MM.yyyy hh:mm"</source>
       <translation>"dd.MM.yyyy hh:mm"과 같은 사용자 정의 시간 형식을 입력하십시오.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5107"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5118"/>
       <source>Editor options</source>
       <translation>편집기 옵션</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5120"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5131"/>
       <source>Enable automatic closing of brackets and markdown formatting characters</source>
       <translation>괄호 및 마크다운 서식 문자의 자동 닫기 사용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5174"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5185"/>
       <source>You have to use the backspace key to remove the opening character</source>
       <translation>시작 문자를 제거하려면 백스페이스키를 사용해야 합니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5177"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5188"/>
       <source>Enable automatic removal of matching closing characters</source>
       <translation>일치하는 닫기 문자 자동 제거 활성화</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1887"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1888"/>
       <source>Your CalDAV calendar base url</source>
       <translation>CalDAV 캘린더 기본 URL</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1919"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1920"/>
       <source>Please enter the username of your CalDAV server.</source>
       <translation>CalDAV 서버의 사용자 이름을 입력하십시오.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1922"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1923"/>
       <source>Your CalDAV username</source>
       <translation>CalDAV 사용자 이름</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1960"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1961"/>
       <source>Your CalDAV password</source>
       <translation>CalDAV 비밀번호</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2007"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2008"/>
       <source>This causes all todo list items to be reloaded from your server the next time you open your todo dialog.</source>
       <translation>이로 인해 다음에 할 일 대화 상자를 열 때 서버로부터 모든 할 일 목록의 항목이 다시 로드됩니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2010"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2011"/>
       <source>Empty calendar item cache</source>
       <translation>빈 캘린더 항목 캐시</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2033"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2034"/>
       <source>Click here to reload the list of calendars from your calendar server.</source>
       <translation>여기를 클릭하여 캘린더 서버로부터 캘린더 목록을 다시 로드하십시오.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2039"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2040"/>
       <source>&amp;Reload calendar list</source>
       <translation>&amp;캘린더 목록 다시 로드</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2948"/>
-      <location filename="../dialogs/settingsdialog.ui" line="3058"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2949"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3059"/>
       <source>You may need to restart the application to let these changes take effect</source>
       <translation>이러한 변경 사항을 적용하려면 애플리케이션을 다시 시작해야 할 수 있습니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3093"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3094"/>
       <source>Toolbar icon size:</source>
       <translation>툴바 아이콘 크기:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3083"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3084"/>
       <source>List and tree item height:</source>
       <translation>목록 및 트리 항목 높이:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3116"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3117"/>
       <source>Reset the icon size</source>
       <translation>아이콘 크기 재설정</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3130"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3131"/>
       <source>Reset the item height</source>
       <translation>항목 높이 재설정</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4677"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4688"/>
       <source>View text right to left (RTL)</source>
       <translation>오른쪽에서 왼쪽으로 텍스트 보기 (RTL)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3254"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3255"/>
       <source>Search for shortcut</source>
       <translation>단축키 검색</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2050"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2051"/>
       <source>Ignore calendars that don't support todo items</source>
       <translation>할 일 항목을 지원하지 않는 캘린더는 무시</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2882"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2883"/>
       <source>Arabic</source>
       <translation>아랍어</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3032"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3033"/>
       <source>Icons</source>
       <translation>아이콘</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3041"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3042"/>
       <source>Use internal icon theme instead of system icon theme</source>
       <translation>시스템 아이콘 테마 대신 내부 아이콘 테마 사용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3644"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3645"/>
       <source>Script path:</source>
       <translation>스크립트 경로:</translation>
     </message>
@@ -6918,79 +6930,79 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>노트 파일 이름이 제목과 다를 수 있도록 허용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3935"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3936"/>
       <source>Check this if you want to ignore all external modifications while you are editing the current note.</source>
       <translation>현재 노트를 편집하는 동안 모든 외부 수정 사항을 무시하려면 이 옵션을 선택하십시오.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3938"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3939"/>
       <source>Ignore all external modifications of the current note</source>
       <translation>현재 노트의 모든 외부 수정 사항 무시</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3859"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3860"/>
       <source>You can use this for example under Windows if you have troubles with newlines in the ownCloud / Nextcloud notes app</source>
       <translation>ownCloud / Nextcloud 노트 앱에서 줄 바꿈에 문제가 있는 경우 Windows에서 이를 예를 들어 사용할 수 있습니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4034"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4035"/>
       <source>App instance</source>
       <translation>앱 인스턴스</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4040"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4041"/>
       <source>Only allow one app instance at the same time</source>
       <translation>동시에 하나의 앱 인스턴스만 허용</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4136"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4137"/>
       <source>Add a custom file extension</source>
       <translation>커스텀 파일 확장기능 추가</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4150"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4151"/>
       <source>Remove a custom file extension</source>
       <translation>커스텀 파일 확장자 제거</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4189"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4190"/>
       <source>If you add custom extensions just type in the extension, like "taskpaper".</source>
       <translation>커스텀 확장자를 추가하는 경우 "taskpaper"처럼 확장자를 입력하십시오.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4193"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4194"/>
       <source>Text file (txt)</source>
       <translation>텍스트 파일 (txt)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4221"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4222"/>
       <source>Path to external editor:</source>
       <translation>외부 편집기 경로:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4056"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4057"/>
       <source>Don't show the update dialog automatically</source>
       <translation>업데이트 대화 상자를 자동으로 표시하지 않습니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4509"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4736"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4520"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4747"/>
       <source>Fonts</source>
       <translation>글꼴</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4532"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4574"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4759"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4787"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4543"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4585"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4770"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4798"/>
       <source>Set a new font</source>
       <translation>새 글꼴 설정</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4543"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4588"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4773"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4818"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4554"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4599"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4784"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4829"/>
       <source>Reset font</source>
       <translation>글꼴 리셋</translation>
     </message>
@@ -7000,19 +7012,19 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>디버그</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4373"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4384"/>
       <location filename="../dialogs/settingsdialog.cpp" line="2294"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4269"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4276"/>
       <source>Debug information</source>
       <translation>디버그 정보</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4379"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4390"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can &lt;span style=" font-weight:600;"&gt;copy and paste&lt;/span&gt; this text (or parts of this text) in an &lt;span style=" font-weight:600;"&gt;issue&lt;/span&gt; on the &lt;a href="https://github.com/pbek/QOwnNotes/issues"&gt;QOwnNotes issues page&lt;/a&gt; if you have &lt;span style=" font-weight:600;"&gt;questions or troubles&lt;/span&gt; with QOwnNotes. Data that is too sensitive is hidden in this information.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;QOwnNotes에 &lt;span style=" font-weight:600;"&gt;문의 또는 문제&lt;/span&gt;가 있는 경우 이 텍스트(또는 이 텍스트의 일부)를 &lt;a href="https://github.com/pbek/QOwnNotes/issues"&gt;QOwnNotes 문제 페이지&lt;/a&gt;에 &lt;span style=" font-weight:600;"&gt;복사하여 붙여넣기&lt;/span&gt; 하십시오. 너무 민감한 데이터는 이 정보에 숨겨져 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4466"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4477"/>
       <source>&amp;Save debug information</source>
       <translation>&amp;디버그 정보 저장</translation>
     </message>
@@ -7107,78 +7119,88 @@ QOwnNotesAPI 앱을 설치하고 활성화해야 합니다!
       <translation>현재 노트 폴더 &lt;strong&gt;%1&lt;/strong&gt;을(를) 삭제하시겠습니까?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2665"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2672"/>
       <source>Please select the folder where your notes will get stored to</source>
       <translation>노트를 저장할 폴더를 선택하십시오</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2700"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2707"/>
       <source>Loading folders from server</source>
       <translation>서버로부터 폴더 로드 중</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2715"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2722"/>
       <source>No more folders were found in the current folder</source>
       <translation>현재 폴더에 더 이상 폴더가 없습니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2788"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2795"/>
       <source>Loading folders in '%1' from server</source>
       <translation>서버로부터 '%1'에 폴더 로드 중</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2861"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2868"/>
       <source>Take a look at the &lt;a href="%1"&gt;Scripting documentation&lt;/a&gt; to get started fast.</source>
       <translation>빠른 시작을 위해 &lt;a href="%1"&gt;스크립팅 문서&lt;/a&gt;를 살펴보십시오.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2865"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2872"/>
       <source>If you need access to a certain functionality in QOwnNotes please open an issue on the &lt;a href="%1"&gt; QOwnNotes issue page&lt;/a&gt;.</source>
       <translation>QOwnNotes의 특정 기능에 접근해야 하는 경우 &lt;a href="%1"&gt; QOwnNotes 문제 페이지&lt;/a&gt;에서 문제를 게시하십시오.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2887"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2894"/>
       <source>Check for script updates</source>
       <translation>스크립트 업데이트 확인</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2894"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2901"/>
       <source>Add local script</source>
       <translation>로컬 스크립트 추가</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2898"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2905"/>
       <source>Add an existing, local script</source>
       <translation>기존 로컬 스크립트 추가</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3991"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4049"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3998"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4056"/>
       <source>INI files</source>
       <translation>INI 파일</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4027"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4034"/>
       <source>Do you really want to import settings? Your current settings will get removed and not every setting may get restored, like the note folder settings and which scripts you were using. You also will need to adjust some settings, especially across platforms, but your notes will stay intact!</source>
       <translation>정말로 설정을 가져오시겠습니까? 현재 설정이 제거되고 노트 폴더 설정 및 사용 중인 스크립트 같은 모든 설정이 복원되는 것은 아닙니다. 또한 특히 여러 플랫폼에서 일부 설정을 조정해야 하지만 노트는 그대로 유지됩니다!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4037"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4044"/>
       <source>The application will be quit after the import.</source>
       <translation>가져오기 후에 애플리케이션이 종료됩니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4038"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4045"/>
       <source>The application will be restarted after the import.</source>
       <translation>가져오기 후에 애플리케이션이 다시 시작됩니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4270"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4277"/>
       <source>The debug information was copied to the clipboard.</source>
       <translation>디버그 정보가 클립보드에 복사되었습니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2881"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4298"/>
+      <source>The integrity of the disk database is valid.</source>
+      <translation type="unfinished">The integrity of the disk database is valid.</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/settingsdialog.cpp" line="4303"/>
+      <source>The integrity of the disk database is not valid!</source>
+      <translation type="unfinished">The integrity of the disk database is not valid!</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/settingsdialog.cpp" line="2888"/>
       <source>Find a script in the script repository</source>
       <translation>스크립트 저장소에서 스크립트를 찾으십시오</translation>
     </message>
@@ -7221,105 +7243,105 @@ QOwnNotesAPI 앱을 설치하고 활성화해야 합니다!
       <translation>단축키 &lt;strong&gt;%1&lt;/strong&gt;은 이미 &lt;strong&gt;%2&lt;/strong&gt;에 설정되었습니다! 단축키로 이동하시겠습니까?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2974"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2981"/>
       <source>Remove script</source>
       <translation>스크립트 삭제</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2975"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2982"/>
       <source>Remove the current script &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>현재 스크립트 &lt;strong&gt;%1&lt;/strong&gt;을(를) 제거하시겠습니까?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3025"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3032"/>
       <source>QML files</source>
       <translation>QML 파일</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3026"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3033"/>
       <source>Please select your QML file</source>
       <translation>QML 파일을 선택하십시오</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3115"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3122"/>
       <source>Open repository</source>
       <translation>저장소 열기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3173"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3180"/>
       <source>Your script seems to be valid</source>
       <translation>스크립트가 유효합니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3174"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3181"/>
       <source>There were script errors:
 %1</source>
       <translation>스크립트 오류가 있었습니다:
 %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3242"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3249"/>
       <source>File extension</source>
       <translation>파일 확장자</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3242"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3249"/>
       <source>Enter your custom file extension:</source>
       <translation>커스텀 파일 확장자를 입력하십시오:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3571"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3578"/>
       <source>Calendar cache emptied</source>
       <translation>캘린더 캐시가 비었습니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3572"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3579"/>
       <source>Your calendar cache was emptied.</source>
       <translation>캘린더 캐시가 비었습니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3653"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3660"/>
       <source>Reset toolbars and exit</source>
       <translation>툴바를 재설정하고 나가기</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3654"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3661"/>
       <source>Do you really want to reset all toolbars? The application will be closed in the process, the default toolbars will be restored when you start it again.</source>
       <translation>정말 모든 툴바를 재설정하시겠습니까? 진행 중에 애플리케이션은 닫히고, 다시 시작하면 기본 툴바가 복원됩니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3658"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3665"/>
       <source>Reset and &amp;exit</source>
       <translation>재설정 및 &amp;종료</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3816"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3823"/>
       <source>Log file cleared</source>
       <translation>로그 파일을 지웠습니다</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3817"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3824"/>
       <source>The log file &lt;strong&gt;%1&lt;/strong&gt; was cleared.</source>
       <translation>로그 파일 &lt;strong&gt;%1&lt;/strong&gt;이 지워졌습니다.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3853"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3860"/>
       <source>Executable files</source>
       <translation>실행 파일</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3854"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3856"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3861"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3863"/>
       <source>All files</source>
       <translation>모든 파일</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3864"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3871"/>
       <source>Please select the path of your git executable</source>
       <translation>git 실행 파일의 경로를 선택하십시오</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3961"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3968"/>
       <source>Do you really want to reset the overrides of all message boxes?</source>
       <translation>정말로 모든 메시지 상자 재정의를 리셋하시겠습니까?</translation>
     </message>
@@ -7400,7 +7422,7 @@ Your notes will stay intact!</source>
     <message>
       <location filename="../dialogs/settingsdialog.cpp" line="2279"/>
       <location filename="../dialogs/settingsdialog.cpp" line="2351"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3658"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3665"/>
       <source>&amp;Cancel</source>
       <translation>&amp;취소</translation>
     </message>

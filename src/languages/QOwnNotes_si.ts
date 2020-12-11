@@ -1805,7 +1805,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="696"/>
-      <location filename="../mainwindow.cpp" line="8822"/>
+      <location filename="../mainwindow.cpp" line="8827"/>
       <source>Add a tag to the current note</source>
       <translation>වත්මන් සටහනට ටැගයක් එක් කරන්න</translation>
     </message>
@@ -1841,7 +1841,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1238"/>
-      <location filename="../mainwindow.cpp" line="6785"/>
+      <location filename="../mainwindow.cpp" line="6794"/>
       <source>Custom actions</source>
       <translation>අභිරුචි ක්රියාවන්</translation>
     </message>
@@ -1922,13 +1922,13 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1445"/>
-      <location filename="../mainwindow.cpp" line="10522"/>
+      <location filename="../mainwindow.cpp" line="10499"/>
       <source>Select &amp;all notes</source>
       <translation>සියලුම &amp;සටහන් තෝරන්න</translation>
     </message>
     <message>
       <location filename="../mainwindow.ui" line="1454"/>
-      <location filename="../mainwindow.cpp" line="6696"/>
+      <location filename="../mainwindow.cpp" line="6705"/>
       <source>Insert &amp;link</source>
       <translation>&amp;සබැඳිය ඇතුළු කරන්න</translation>
     </message>
@@ -1983,7 +1983,7 @@
       <translation>සටහන සොයන්න හෝ සාදන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8823"/>
+      <location filename="../mainwindow.cpp" line="8828"/>
       <source>Add a tag to the selected notes</source>
       <translation>තෝරාගත් සටහන් වලට ටැගයක් එක් කරන්න</translation>
     </message>
@@ -1994,7 +1994,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="886"/>
-      <location filename="../mainwindow.cpp" line="6747"/>
+      <location filename="../mainwindow.cpp" line="6756"/>
       <source>Export</source>
       <translation>අපනයන</translation>
     </message>
@@ -2005,7 +2005,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="928"/>
-      <location filename="../mainwindow.cpp" line="6728"/>
+      <location filename="../mainwindow.cpp" line="6737"/>
       <source>Print</source>
       <translation>මුද්‍රණය කරන්න</translation>
     </message>
@@ -2368,7 +2368,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2244"/>
-      <location filename="../mainwindow.cpp" line="11637"/>
+      <location filename="../mainwindow.cpp" line="11621"/>
       <source>Remove current workspace</source>
       <translation>වත්මන් වැඩබිම ඉවත් කරන්න</translation>
     </message>
@@ -2410,7 +2410,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2318"/>
-      <location filename="../mainwindow.cpp" line="6705"/>
+      <location filename="../mainwindow.cpp" line="6714"/>
       <source>Insert block &amp;quote</source>
       <translation>&amp;වාරණ උපුටා දැක්වීම ඇතුළත් කරන්න</translation>
     </message>
@@ -2437,7 +2437,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2365"/>
-      <location filename="../mainwindow.cpp" line="10498"/>
+      <location filename="../mainwindow.cpp" line="10475"/>
       <source>Open note in different window</source>
       <translation>විවිධ කවුළුවක සටහන විවෘත කරන්න</translation>
     </message>
@@ -2458,7 +2458,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2405"/>
-      <location filename="../mainwindow.cpp" line="10506"/>
+      <location filename="../mainwindow.cpp" line="10483"/>
       <source>Show note git versions</source>
       <translation>සටහන් git අනුවාද පෙන්වන්න</translation>
     </message>
@@ -2541,7 +2541,7 @@
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2567"/>
-      <location filename="../mainwindow.cpp" line="12563"/>
+      <location filename="../mainwindow.cpp" line="12561"/>
       <source>Automatically detect</source>
       <translation>ස්වයංක්‍රීයව හඳුනා ගන්න</translation>
     </message>
@@ -2730,22 +2730,22 @@
       <translation>Evernote වෙතින් සටහන් ආයාත කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2859"/>
+      <location filename="../mainwindow.cpp" line="2862"/>
       <source>Note was removed externally!</source>
       <translation>සටහන බාහිරව ඉවත් කරන ලදි!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2860"/>
+      <location filename="../mainwindow.cpp" line="2863"/>
       <source>Current note was removed outside of this application!
 Restore current note?</source>
       <translation>මෙම යෙදුමෙන් පිටත වත්මන් සටහන ඉවත් කරන ලදි!
 වත්මන් සටහන ප්‍රතිස්ථාපනය කරන්න?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5475"/>
-      <location filename="../mainwindow.cpp" line="5498"/>
-      <location filename="../mainwindow.cpp" line="7190"/>
-      <location filename="../mainwindow.cpp" line="10588"/>
+      <location filename="../mainwindow.cpp" line="5484"/>
+      <location filename="../mainwindow.cpp" line="5507"/>
+      <location filename="../mainwindow.cpp" line="7202"/>
+      <location filename="../mainwindow.cpp" line="10565"/>
       <source>&amp;Cancel</source>
       <translation>&amp;අවලංගු කරන්න</translation>
     </message>
@@ -2757,47 +2757,47 @@ Restore current note?</source>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3096"/>
+      <location filename="../mainwindow.cpp" line="3099"/>
       <source>new version %1 available</source>
       <translation>නව අනුවාදය %1 ලබා ගත හැකිය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3213"/>
+      <location filename="../mainwindow.cpp" line="3216"/>
       <source>Abort</source>
       <translation>නවත්වන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3213"/>
+      <location filename="../mainwindow.cpp" line="3216"/>
       <source>Loading notes…</source>
       <translation>සටහන් පූරණය වේ…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3427"/>
+      <location filename="../mainwindow.cpp" line="3430"/>
       <source>Removed duplicate conflicted database: %1</source>
       <translation>ඉවත් කළ අනුපිටපත් ගැටුම් දත්ත ගබඩාව: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3428"/>
+      <location filename="../mainwindow.cpp" line="3431"/>
       <source>Could not remove duplicate conflicted database: %1</source>
       <translation>අනුපිටපත් ගැටුම් දත්ත ගබඩාව ඉවත් කිරීමට නොහැකි විය: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3434"/>
+      <location filename="../mainwindow.cpp" line="3437"/>
       <source>Removed merged conflicted database: %1</source>
       <translation>ඒකාබද්ධ කළ ගැටුම් සහිත දත්ත සමුදාය ඉවත් කරන ලදි: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3435"/>
+      <location filename="../mainwindow.cpp" line="3438"/>
       <source>Could not remove merged conflicted database: %1</source>
       <translation>ඒකාබද්ධ කළ ගැටුම් සහිත දත්ත සමුදාය ඉවත් කිරීමට නොහැකි විය: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3450"/>
+      <location filename="../mainwindow.cpp" line="3453"/>
       <source>Delete conflicted database copies</source>
       <translation>ගැටුම් සහිත දත්ත සමුදා පිටපත් මකන්න</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="3473"/>
+      <location filename="../mainwindow.cpp" line="3476"/>
       <source>Removed %n conflicted database copies</source>
       <translation>
         <numerusform>%n ගැටුම් සහිත දත්ත සමුදා පිටපත ඉවත් කරන ලදි</numerusform>
@@ -2805,62 +2805,62 @@ Restore current note?</source>
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3637"/>
+      <location filename="../mainwindow.cpp" line="3640"/>
       <source>Please select the folder where your notes will get stored</source>
       <translation>කරුණාකර ඔබගේ සටහන් ගබඩා වන ෆෝල්ඩරය තෝරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3663"/>
+      <location filename="../mainwindow.cpp" line="3666"/>
       <source>No folder was selected</source>
       <translation>ෆෝල්ඩරයක් තෝරාගෙන නොමැත</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3665"/>
+      <location filename="../mainwindow.cpp" line="3668"/>
       <source>You have to select your ownCloud notes folder to make this software work!</source>
       <translation>මෙම මෘදුකාංගය ක්‍රියාත්මක කිරීම සඳහා ඔබ ඔබේම ක්ලවුඩ් සටහන් ෆෝල්ඩරය තෝරා ගත යුතුය!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3667"/>
+      <location filename="../mainwindow.cpp" line="3670"/>
       <source>&amp;Retry</source>
       <translation>&amp;නැවත උත්සාහ කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3667"/>
+      <location filename="../mainwindow.cpp" line="3670"/>
       <source>&amp;Exit</source>
       <translation>&amp;පිටවීම</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3993"/>
+      <location filename="../mainwindow.cpp" line="3998"/>
       <source>Remove current note</source>
       <translation>වත්මන් සටහන ඉවත් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3994"/>
+      <location filename="../mainwindow.cpp" line="3999"/>
       <source>Remove current note: &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>වත්මන් සටහන ඉවත් කරන්න: &lt;strong&gt;%1&lt;/strong&gt;?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4353"/>
+      <location filename="../mainwindow.cpp" line="4358"/>
       <source>Please enter the &lt;strong&gt;password&lt;/strong&gt; of this encrypted note.</source>
       <translation>කරුණාකර මෙම සංකේතාත්මක සටහනේ &lt;strong&gt; මුරපදය &lt;/ strong&gt; ඇතුළත් කරන්න.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4376"/>
+      <location filename="../mainwindow.cpp" line="4381"/>
       <source>Note can't be decrypted!</source>
       <translation>සටහන විකේතනය කළ නොහැක!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4377"/>
+      <location filename="../mainwindow.cpp" line="4382"/>
       <source>It seems that your password is not valid!</source>
       <translation>ඔබගේ මුරපදය වලංගු නොවන බව පෙනේ!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4545"/>
+      <location filename="../mainwindow.cpp" line="4550"/>
       <source>Remove selected notes</source>
       <translation>තෝරාගත් සටහන් ඉවත් කරන්න</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4547"/>
+      <location filename="../mainwindow.cpp" line="4552"/>
       <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected note(s)?
 
 If the trash is enabled on your ownCloud server you should be able to restore them from there.</source>
@@ -2874,13 +2874,13 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4635"/>
-      <location filename="../mainwindow.cpp" line="10805"/>
+      <location filename="../mainwindow.cpp" line="4642"/>
+      <location filename="../mainwindow.cpp" line="10788"/>
       <source>Remove selected folders</source>
       <translation>තෝරාගත් ෆෝල්ඩර ඉවත් කරන්න</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4636"/>
+      <location filename="../mainwindow.cpp" line="4643"/>
       <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected folder(s)?&lt;ul&gt;&lt;li&gt;%1&lt;/li&gt;&lt;/ul&gt;All files and folders in these folders will be removed as well!</source>
       <translation>
         <numerusform>&lt;strong&gt;%n&lt;/strong&gt; තෝරාගත් ෆෝල්ඩරය ඉවත් කරන්න? &lt;ul&gt; &lt;li&gt;% 1 &lt;/li&gt; &lt;/ul&gt; මෙම ෆෝල්ඩරවල ඇති සියලුම ගොනු සහ ෆෝල්ඩර ඉවත් කරනු ලැබේ!</numerusform>
@@ -2888,17 +2888,17 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4647"/>
+      <location filename="../mainwindow.cpp" line="4654"/>
       <source>Removed note subfolder: %1</source>
       <translation>ඉවත් කළ සටහන් උප ෆෝල්ඩරය: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4667"/>
+      <location filename="../mainwindow.cpp" line="4674"/>
       <source>Remove selected tags</source>
       <translation>තෝරාගත් ටැග් ඉවත් කරන්න</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4668"/>
+      <location filename="../mainwindow.cpp" line="4675"/>
       <source>Remove &lt;strong&gt;%n&lt;/strong&gt; selected tag(s)? No notes will be removed in this process.</source>
       <translation>
         <numerusform>&lt;strong&gt;%n&lt;/strong&gt; තෝරාගත් ටැගය ඉවත් කරන්න? මෙම ක්‍රියාවලියේදී සටහන් කිසිවක් ඉවත් නොකෙරේ.</numerusform>
@@ -2906,13 +2906,13 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4720"/>
-      <location filename="../mainwindow.cpp" line="9608"/>
+      <location filename="../mainwindow.cpp" line="4727"/>
+      <location filename="../mainwindow.cpp" line="9613"/>
       <source>Move selected notes</source>
       <translation>තෝරාගත් සටහන් ගෙනයන්න</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4721"/>
+      <location filename="../mainwindow.cpp" line="4728"/>
       <source>Move %n selected note(s) to &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>%n තෝරාගත් සටහන &lt;strong&gt;%2&lt;/strong&gt; වෙත ගෙන යන්න?</numerusform>
@@ -2920,13 +2920,13 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4824"/>
-      <location filename="../mainwindow.cpp" line="9717"/>
+      <location filename="../mainwindow.cpp" line="4833"/>
+      <location filename="../mainwindow.cpp" line="9722"/>
       <source>Copy selected notes</source>
       <translation>තෝරාගත් සටහන් පිටපත් කරන්න</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4825"/>
+      <location filename="../mainwindow.cpp" line="4834"/>
       <source>Copy %n selected note(s) to &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>%n තෝරාගත් සටහන &lt;strong&gt;%2&lt;/strong&gt; වෙත පිටපත් කරන්න?</numerusform>
@@ -2934,13 +2934,13 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4855"/>
-      <location filename="../mainwindow.cpp" line="5004"/>
+      <location filename="../mainwindow.cpp" line="4864"/>
+      <location filename="../mainwindow.cpp" line="5013"/>
       <source>Done</source>
       <translation>සිදු විය</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4856"/>
+      <location filename="../mainwindow.cpp" line="4865"/>
       <source>%n note(s) were copied to &lt;strong&gt;%2&lt;/strong&gt;.</source>
       <translation>
         <numerusform>%n සටහන &lt;strong&gt;%2&lt;/strong&gt; වෙත පිටපත් කරන ලදි.</numerusform>
@@ -2948,12 +2948,12 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4869"/>
+      <location filename="../mainwindow.cpp" line="4878"/>
       <source>Tag selected notes</source>
       <translation>තෝරාගත් සටහන් ටැග් කරන්න</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4870"/>
+      <location filename="../mainwindow.cpp" line="4879"/>
       <source>Tag %n selected note(s) with &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>&lt;strong&gt;%2&lt;/strong&gt; සමඟ තෝරාගත් සටහන් %n ටැග් කරන්න</numerusform>
@@ -2961,42 +2961,42 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5143"/>
+      <location filename="../mainwindow.cpp" line="5152"/>
       <source>Restart application</source>
       <translation>යෙදුම නැවත ආරම්භ කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5149"/>
+      <location filename="../mainwindow.cpp" line="5158"/>
       <source>You may need to restart the application manually to let the changes take effect.</source>
       <translation>වෙනස්කම් ක්‍රියාත්මක වීමට ඉඩ දීම සඳහා ඔබට යෙදුම අතින් නැවත ආරම්භ කිරීමට අවශ්‍ය විය හැකිය.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5154"/>
+      <location filename="../mainwindow.cpp" line="5163"/>
       <source>You may need to restart the application to let the changes take effect.</source>
       <translation>වෙනස්කම් බලාත්මක වීමට ඔබට යෙදුම නැවත ආරම්භ කිරීමට අවශ්‍ය විය හැකිය.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5156"/>
+      <location filename="../mainwindow.cpp" line="5165"/>
       <source>Restart</source>
       <translation>නැවත ආරම්භ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5387"/>
+      <location filename="../mainwindow.cpp" line="5396"/>
       <source>PDF files</source>
       <translation>PDF ගොනු</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5471"/>
+      <location filename="../mainwindow.cpp" line="5480"/>
       <source>Todo lists disabled!</source>
       <translation>ටෝඩෝ ලැයිස්තු අක්‍රීයයි!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5472"/>
+      <location filename="../mainwindow.cpp" line="5481"/>
       <source>You have disabled the todo lists.&lt;br /&gt;Please check your &lt;strong&gt;Todo&lt;/strong&gt; configuration in the settings!</source>
       <translation>ඔබ ටෝඩෝ ලැයිස්තු අක්‍රීය කර ඇත. &lt;br /&gt; කරුණාකර ඔබගේ &lt;strong&gt; ටෝඩෝ &lt;/ strong&gt; සැකසුම් තුළ පරීක්ෂා කරන්න!</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="5720"/>
+      <location filename="../mainwindow.cpp" line="5729"/>
       <source>Found &lt;strong&gt;%n&lt;/strong&gt; occurrence(s) of any term of &lt;strong&gt;%1&lt;/strong&gt;</source>
       <translation>
         <numerusform>&lt;strong&gt;%1&lt;/strong&gt; හි ඕනෑම පදයක &lt;strong&gt;%n&lt;/strong&gt; සිදුවීම හමු විය</numerusform>
@@ -3004,115 +3004,115 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6287"/>
-      <location filename="../mainwindow.cpp" line="6308"/>
+      <location filename="../mainwindow.cpp" line="6296"/>
+      <location filename="../mainwindow.cpp" line="6317"/>
       <source>Note was not found</source>
       <translation>සටහන හමු නොවීය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6298"/>
+      <location filename="../mainwindow.cpp" line="6307"/>
       <source>Note was not found, create new note &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>සටහන හමු නොවීය, නව සටහනක් සාදන්න &lt;strong&gt;%1 &lt;/strong&gt;?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6302"/>
+      <location filename="../mainwindow.cpp" line="6311"/>
       <source>Note was not found, create new note &lt;strong&gt;%1&lt;/strong&gt; at path &lt;strong&gt;%2&lt;/strong&gt; ?</source>
       <translation type="unfinished">Note was not found, create new note &lt;strong&gt;%1&lt;/strong&gt; at path &lt;strong&gt;%2&lt;/strong&gt; ?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6347"/>
+      <location filename="../mainwindow.cpp" line="6356"/>
       <source>Failed to create note</source>
       <translation type="unfinished">Failed to create note</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6348"/>
+      <location filename="../mainwindow.cpp" line="6357"/>
       <source>Note creation failed</source>
       <translation type="unfinished">Note creation failed</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6509"/>
+      <location filename="../mainwindow.cpp" line="6518"/>
       <source>Note folders</source>
       <translation>ෆෝල්ඩර සටහන් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6632"/>
+      <location filename="../mainwindow.cpp" line="6641"/>
       <source>Note versions are currently loaded from your ownCloud server</source>
       <translation>සටහන් අනුවාදයන් දැනට ඔබගේම ක්ලවුඩ් සේවාදායකයෙන් පටවා ඇත</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6649"/>
+      <location filename="../mainwindow.cpp" line="6658"/>
       <source>Trashed notes are currently loaded from your ownCloud server</source>
       <translation>ඉවත දැමූ සටහන් දැනට ඔබගේම ක්ලවුඩ් සේවාදායකයෙන් පටවා ඇත</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6715"/>
+      <location filename="../mainwindow.cpp" line="6724"/>
       <source>Copy code block</source>
       <translation>කේත වාරණය පිටපත් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6736"/>
+      <location filename="../mainwindow.cpp" line="6745"/>
       <source>Print selected text</source>
       <translation>තෝරාගත් පෙළ මුද්‍රණය කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6742"/>
+      <location filename="../mainwindow.cpp" line="6751"/>
       <source>Print selected text (preview)</source>
       <translation>තෝරාගත් පෙළ මුද්‍රණය කරන්න (පෙරදසුන)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6760"/>
+      <location filename="../mainwindow.cpp" line="6769"/>
       <source>Export selected text as PDF</source>
       <translation>තෝරාගත් පෙළ PDF ලෙස අපනයනය කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6766"/>
+      <location filename="../mainwindow.cpp" line="6775"/>
       <source>Export selected text as PDF (preview)</source>
       <translation>තෝරාගත් පෙළ PDF ලෙස අපනයනය කරන්න (පෙරදසුන)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7186"/>
+      <location filename="../mainwindow.cpp" line="7198"/>
       <source>Your note will be decrypted and stored as plain text again. Keep in mind that the unencrypted note will possibly be synced to your server and sensitive text may be exposed!&lt;br /&gt;Do you want to decrypt your note?</source>
       <translation>ඔබගේ සටහන විකේතනය කර නැවත සරල පෙළ ලෙස ගබඩා කරනු ඇත. සංකේතාංකනය නොකළ සටහන ඔබේ සේවාදායකයට සමමුහුර්ත වනු ඇති බවත් සංවේදී පෙළ නිරාවරණය විය හැකි බවත් මතක තබා ගන්න! &lt;br /&gt; ඔබේ සටහන විකේතනය කිරීමට ඔබට අවශ්‍යද?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7283"/>
+      <location filename="../mainwindow.cpp" line="7295"/>
       <source>Markdown files</source>
       <translation>සලකුණු ගොනු</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7338"/>
+      <location filename="../mainwindow.cpp" line="7350"/>
       <source>Bookmarked note position at slot %1</source>
       <translation>ස්ලට් %1 හි සටහන් කර ඇති සටහන් ස්ථානය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7353"/>
+      <location filename="../mainwindow.cpp" line="7365"/>
       <source>Jumped to bookmark position at slot %1</source>
       <translation>%1 ස්ථානයේ පිටු සලකුණු ස්ථානයට පැන්නේය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7581"/>
-      <location filename="../mainwindow.cpp" line="7650"/>
+      <location filename="../mainwindow.cpp" line="7593"/>
+      <location filename="../mainwindow.cpp" line="7662"/>
       <source>Inserting image</source>
       <translation>රූපය ඇතුළත් කිරීම</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7586"/>
-      <location filename="../mainwindow.cpp" line="7654"/>
+      <location filename="../mainwindow.cpp" line="7598"/>
+      <location filename="../mainwindow.cpp" line="7666"/>
       <source>Done inserting image</source>
       <translation>රූපය ඇතුළත් කිරීම අවසන්</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7588"/>
+      <location filename="../mainwindow.cpp" line="7600"/>
       <source>Inserting attachment</source>
       <translation>ඇමුණුම ඇතුල් කිරීම</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7593"/>
+      <location filename="../mainwindow.cpp" line="7605"/>
       <source>Done inserting attachment</source>
       <translation>ඇමුණුම ඇතුළත් කිරීම අවසන්</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="7605"/>
+      <location filename="../mainwindow.cpp" line="7617"/>
       <source>Copied %n note(s) to %1</source>
       <translation>
         <numerusform>%n සටහන %1 සිට පිටපත් කරන ලදි</numerusform>
@@ -3120,7 +3120,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="7614"/>
+      <location filename="../mainwindow.cpp" line="7626"/>
       <source>Failed to copy %n note(s) (most likely already existing)</source>
       <translation>
         <numerusform>%n සටහන පිටපත් කිරීමට අපොහොසත් විය (බොහෝ දුරට දැනටමත් පවතින)</numerusform>
@@ -3128,7 +3128,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="7624"/>
+      <location filename="../mainwindow.cpp" line="7636"/>
       <source>Skipped copying of %n note(s) (no markdown or text file or not readable)</source>
       <translation>
         <numerusform>%n සටහන පිටපත් කිරීම මඟ හැරී ඇත (සලකුණු කිරීමක් හෝ පෙළ ගොනුවක් හෝ කියවිය නොහැක)</numerusform>
@@ -3136,218 +3136,218 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7637"/>
+      <location filename="../mainwindow.cpp" line="7649"/>
       <source>Saving temporary image</source>
       <translation>තාවකාලික රූපය සුරකිමින්</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7656"/>
+      <location filename="../mainwindow.cpp" line="7668"/>
       <source>Temporary file can't be opened</source>
       <translation>තාවකාලික ගොනුව විවෘත කළ නොහැක</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7699"/>
+      <location filename="../mainwindow.cpp" line="7711"/>
       <source>Downloading %1</source>
       <translation>%1 බාගත කිරීම</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7889"/>
+      <location filename="../mainwindow.cpp" line="7901"/>
       <source>Reset font size to %1 pt</source>
       <comment>Will be shown after the font size is reset by 'Reset note text size'</comment>
       <translation>අකුරු ප්‍රමාණය %1 pt ලෙස නැවත සකසන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8868"/>
+      <location filename="../mainwindow.cpp" line="8873"/>
       <source>Remove tag '%1' from the current note</source>
       <translation>වත්මන් සටහනෙන් '%1' ටැගය ඉවත් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8869"/>
+      <location filename="../mainwindow.cpp" line="8874"/>
       <source>Remove tag '%1' from the selected notes</source>
       <translation>තෝරාගත් සටහන් වලින් '%1' ටැගය ඉවත් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9100"/>
+      <location filename="../mainwindow.cpp" line="9105"/>
       <source>Rename tag</source>
       <translation>ටැගය නැවත නම් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9101"/>
+      <location filename="../mainwindow.cpp" line="9106"/>
       <source>Assign color</source>
       <translation>වර්ණය පවරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9102"/>
+      <location filename="../mainwindow.cpp" line="9107"/>
       <source>Disable color</source>
       <translation>වර්ණය අක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9106"/>
+      <location filename="../mainwindow.cpp" line="9111"/>
       <source>&amp;Move tags to…</source>
       <translation>&amp;ටැග්… වෙත ගෙන යන්න…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9317"/>
+      <location filename="../mainwindow.cpp" line="9322"/>
       <source>Move to the root</source>
       <comment>to move a tag to the current tag in the tag context menu</comment>
       <translation>මූලයට යන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9884"/>
+      <location filename="../mainwindow.cpp" line="9861"/>
       <source>An url was opened at the current cursor position</source>
       <translation>වත්මන් කර්සරය ස්ථානයේ යූආර්එල් එකක් විවෘත විය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9987"/>
+      <location filename="../mainwindow.cpp" line="9964"/>
       <source>No equation was found in front of the cursor</source>
       <translation>කර්සරය ඉදිරිපිට කිසිදු සමීකරණයක් හමු නොවීය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10007"/>
+      <location filename="../mainwindow.cpp" line="9984"/>
       <source>Result for equation: %1 = %2</source>
       <translation>සමීකරණය සඳහා ප්‍රති ult ලය: %1 = %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10112"/>
+      <location filename="../mainwindow.cpp" line="10089"/>
       <source>The scripting engine was reloaded</source>
       <translation>ස්ක්‍රිප්ටින් එන්ජිම නැවත පූරණය විය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10146"/>
+      <location filename="../mainwindow.cpp" line="10123"/>
       <source>HTML files</source>
       <translation>HTML ගොනු</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10434"/>
+      <location filename="../mainwindow.cpp" line="10411"/>
       <source>Jump to the note's subfolder</source>
       <translation type="unfinished">Jump to the note's subfolder</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10491"/>
+      <location filename="../mainwindow.cpp" line="10468"/>
       <source>Open note in tab</source>
       <translation type="unfinished">Open note in tab</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12156"/>
+      <location filename="../mainwindow.cpp" line="12140"/>
       <source>A script update was found!</source>
       <translation type="unfinished">A script update was found!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12162"/>
+      <location filename="../mainwindow.cpp" line="12146"/>
       <source>Script updates</source>
       <translation type="unfinished">Script updates</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12163"/>
+      <location filename="../mainwindow.cpp" line="12147"/>
       <source>Updates to your scripts were found in the script repository! Do you want to update them?</source>
       <translation type="unfinished">Updates to your scripts were found in the script repository! Do you want to update them?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12178"/>
+      <location filename="../mainwindow.cpp" line="12162"/>
       <source>No script updates were found</source>
       <translation type="unfinished">No script updates were found</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12794"/>
+      <location filename="../mainwindow.cpp" line="12792"/>
       <source>Toggle note stickiness</source>
       <translation type="unfinished">Toggle note stickiness</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12800"/>
+      <location filename="../mainwindow.cpp" line="12798"/>
       <source>Close other note tabs</source>
       <translation type="unfinished">Close other note tabs</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10378"/>
-      <location filename="../mainwindow.cpp" line="10572"/>
+      <location filename="../mainwindow.cpp" line="10355"/>
+      <location filename="../mainwindow.cpp" line="10549"/>
       <source>Rename note</source>
       <translation>සටහන නැවත නම් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10380"/>
+      <location filename="../mainwindow.cpp" line="10357"/>
       <source>Allows you to rename the filename of the note</source>
       <translation>සටහනේ ගොනු නාමය නැවත නම් කිරීමට ඔබට ඉඩ දෙයි</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10394"/>
+      <location filename="../mainwindow.cpp" line="10371"/>
       <source>&amp;Move notes to…</source>
       <translation>&amp;සටහන් වෙත ගෙන යන්න…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10395"/>
+      <location filename="../mainwindow.cpp" line="10372"/>
       <source>&amp;Copy notes to…</source>
       <translation>&amp;සටහන් පිටපත් කරන්න…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10438"/>
+      <location filename="../mainwindow.cpp" line="10415"/>
       <source>Move notes to subfolder…</source>
       <translation>සටහන් උප ෆෝල්ඩරයට ගෙන යන්න…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10442"/>
+      <location filename="../mainwindow.cpp" line="10419"/>
       <source>Copy notes to subfolder…</source>
       <translation>සටහන් උප ෆෝල්ඩරයට පිටපත් කරන්න…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10450"/>
+      <location filename="../mainwindow.cpp" line="10427"/>
       <source>&amp;Tag selected notes with…</source>
       <translation>&amp;තෝරාගත් සටහන් සමඟ ටැග් කරන්න…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10474"/>
+      <location filename="../mainwindow.cpp" line="10451"/>
       <source>&amp;Remove tag from selected notes…</source>
       <translation>&amp;තෝරාගත් සටහන් වලින් ටැගය ඉවත් කරන්න…</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10572"/>
+      <location filename="../mainwindow.cpp" line="10549"/>
       <source>Name:</source>
       <translation>නම:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10584"/>
+      <location filename="../mainwindow.cpp" line="10561"/>
       <source>Note renaming not enabled!</source>
       <translation>සටහන නැවත නම් කිරීම සක්‍රීය කර නැත!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10804"/>
+      <location filename="../mainwindow.cpp" line="10787"/>
       <source>Rename subfolder</source>
       <translation>උප ෆෝල්ඩරය නැවත නම් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11408"/>
+      <location filename="../mainwindow.cpp" line="11392"/>
       <source>Create new workspace</source>
       <translation>නව වැඩබිමක් සාදන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11409"/>
-      <location filename="../mainwindow.cpp" line="11679"/>
+      <location filename="../mainwindow.cpp" line="11393"/>
+      <location filename="../mainwindow.cpp" line="11663"/>
       <source>Workspace name:</source>
       <translation>වැඩපොළේ නම:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11534"/>
+      <location filename="../mainwindow.cpp" line="11518"/>
       <source>full</source>
       <comment>full workspace</comment>
       <translation>සම්පූර්ණ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11541"/>
+      <location filename="../mainwindow.cpp" line="11525"/>
       <source>minimal</source>
       <comment>minimal workspace</comment>
       <translation>අවම</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11638"/>
+      <location filename="../mainwindow.cpp" line="11622"/>
       <source>Remove the current workspace?</source>
       <translation>වත්මන් වැඩබිම ඉවත් කරන්න?</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="11678"/>
+      <location filename="../mainwindow.cpp" line="11662"/>
       <source>Rename workspace</source>
       <translation>වැඩබිම නැවත නම් කරන්න</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="11824"/>
+      <location filename="../mainwindow.cpp" line="11808"/>
       <source>%n chars</source>
       <comment>characters</comment>
       <translation type="unfinished">
@@ -3356,42 +3356,42 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12095"/>
+      <location filename="../mainwindow.cpp" line="12079"/>
       <source>Disallow all note editing</source>
       <translation>සියලුම සටහන් සංස්කරණය කිරීම තහනම් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12311"/>
+      <location filename="../mainwindow.cpp" line="12309"/>
       <source>Select text files to import</source>
       <translation>ආයාත කිරීමට පෙළ ගොනු තෝරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12341"/>
+      <location filename="../mainwindow.cpp" line="12339"/>
       <source>Importing: %1</source>
       <translation>ආනයනය: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12406"/>
+      <location filename="../mainwindow.cpp" line="12404"/>
       <source>Note headline '%1' was copied to the clipboard</source>
       <translation>සටහන් ශීර්ෂය '%1' ක්ලිප් පුවරුවට පිටපත් කරන ලදි</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12500"/>
+      <location filename="../mainwindow.cpp" line="12498"/>
       <source>Leave full-screen mode</source>
       <translation>සම්පූර්ණ තිර ප්‍රකාරයෙන් ඉවත් වන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12681"/>
+      <location filename="../mainwindow.cpp" line="12679"/>
       <source>Custom editor width</source>
       <translation>අභිරුචි සංස්කාරක පළල</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="12681"/>
+      <location filename="../mainwindow.cpp" line="12679"/>
       <source>Characters:</source>
       <translation>චරිත:</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="8842"/>
+      <location filename="../mainwindow.cpp" line="8847"/>
       <source>%n notes selected</source>
       <translation>
         <numerusform>%n සටහනක් තෝරා ඇත</numerusform>
@@ -3400,7 +3400,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
     </message>
     <message>
       <location filename="../mainwindow.ui" line="2450"/>
-      <location filename="../mainwindow.cpp" line="12096"/>
+      <location filename="../mainwindow.cpp" line="12080"/>
       <source>Allow all note editing</source>
       <translation>සියලුම සටහන් සංස්කරණයට ඉඩ දෙන්න</translation>
     </message>
@@ -3410,12 +3410,12 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       <translation>&amp;ටැගය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="4944"/>
+      <location filename="../mainwindow.cpp" line="4953"/>
       <source>Remove tag from selected notes</source>
       <translation>තෝරාගත් සටහන් වලින් ටැගය ඉවත් කරන්න</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4945"/>
+      <location filename="../mainwindow.cpp" line="4954"/>
       <source>Remove tag &lt;strong&gt;%1&lt;/strong&gt; from %n selected note(s)?</source>
       <translation>
         <numerusform>ටැගය &lt;strong&gt;%1&lt;/strong&gt; %n තෝරාගත් සටහන?</numerusform>
@@ -3423,7 +3423,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="5005"/>
+      <location filename="../mainwindow.cpp" line="5014"/>
       <source>Tag &lt;strong&gt;%1&lt;/strong&gt; was removed from %n note(s)</source>
       <translation>
         <numerusform>ටැගය &lt;strong&gt;%1&lt;/strong&gt; %n සටහනකින් ඉවත් කරන ලදි</numerusform>
@@ -3431,132 +3431,132 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5050"/>
+      <location filename="../mainwindow.cpp" line="5059"/>
       <source>Current notes folder: </source>
       <translation>වත්මන් සටහන් ෆෝල්ඩරය:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5053"/>
+      <location filename="../mainwindow.cpp" line="5062"/>
       <source>Set the notes folder. Current notes folder: </source>
       <translation>සටහන් ෆෝල්ඩරය සකසන්න. වත්මන් සටහන් ෆෝල්ඩරය:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5255"/>
+      <location filename="../mainwindow.cpp" line="5264"/>
       <source>Print note</source>
       <translation>සටහන මුද්‍රණය කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5330"/>
+      <location filename="../mainwindow.cpp" line="5339"/>
       <source>Letter</source>
       <translation>ලිපිය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5360"/>
+      <location filename="../mainwindow.cpp" line="5369"/>
       <source>Portrait</source>
       <translation>ආලේඛ්‍ය චිත්‍රය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5360"/>
+      <location filename="../mainwindow.cpp" line="5369"/>
       <source>Landscape</source>
       <translation>භූ දර්ශනය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5365"/>
+      <location filename="../mainwindow.cpp" line="5374"/>
       <source>Orientation</source>
       <translation>දිශානතිය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5365"/>
+      <location filename="../mainwindow.cpp" line="5374"/>
       <source>Orientation:</source>
       <translation>දිශානතිය:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5388"/>
+      <location filename="../mainwindow.cpp" line="5397"/>
       <source>Export current note as PDF</source>
       <translation>වත්මන් සටහන PDF ලෙස අපනයනය කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5495"/>
+      <location filename="../mainwindow.cpp" line="5504"/>
       <source>You have not selected any todo lists.&lt;br /&gt;Please check your &lt;strong&gt;Todo&lt;/strong&gt; configuration in the settings!</source>
       <translation>ඔබ කිසිදු ටෝඩෝ ලැයිස්තුවක් තෝරාගෙන නැත. &lt;br /&gt; කරුණාකර ඔබගේ &lt;strong&gt; ටෝඩෝ &lt;/ strong&gt; සැකසුම් තුළ පරීක්ෂා කරන්න!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6491"/>
+      <location filename="../mainwindow.cpp" line="6500"/>
       <source>Open QOwnNotes</source>
       <translation>QOwnNotes විවෘත කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6078"/>
-      <location filename="../mainwindow.cpp" line="6541"/>
-      <location filename="../mainwindow.cpp" line="10374"/>
-      <location filename="../mainwindow.cpp" line="10802"/>
+      <location filename="../mainwindow.cpp" line="6087"/>
+      <location filename="../mainwindow.cpp" line="6550"/>
+      <location filename="../mainwindow.cpp" line="10351"/>
+      <location filename="../mainwindow.cpp" line="10781"/>
       <source>New note</source>
       <translation>නව සටහනක්</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6558"/>
+      <location filename="../mainwindow.cpp" line="6567"/>
       <source>Recent notes</source>
       <translation>මෑත සටහන්</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6574"/>
+      <location filename="../mainwindow.cpp" line="6583"/>
       <source>Show todo lists</source>
       <translation>ටෝඩෝ ලැයිස්තු පෙන්වන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6586"/>
+      <location filename="../mainwindow.cpp" line="6595"/>
       <source>Recent tasks</source>
       <translation>මෑත කාලීන කාර්යයන්</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6607"/>
+      <location filename="../mainwindow.cpp" line="6616"/>
       <source>Quit</source>
       <translation>ඉවත්</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8061"/>
+      <location filename="../mainwindow.cpp" line="8074"/>
       <source>show notes from all note subfolders (%1)</source>
       <translation>සියලුම සටහන් උප ෆෝල්ඩර වලින් සටහන් පෙන්වන්න (%1)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8084"/>
+      <location filename="../mainwindow.cpp" line="8097"/>
       <source>show notes in note root folder (%1)</source>
       <translation>සටහන් මූල ෆෝල්ඩරයේ සටහන් පෙන්වන්න (%1)</translation>
     </message>
     <message>
       <location filename="../mainwindow.ui" line="316"/>
       <location filename="../mainwindow.cpp" line="790"/>
-      <location filename="../mainwindow.cpp" line="2109"/>
-      <location filename="../mainwindow.cpp" line="8096"/>
+      <location filename="../mainwindow.cpp" line="2112"/>
+      <location filename="../mainwindow.cpp" line="8109"/>
       <source>Note folder</source>
       <translation>සටහන් ෆෝල්ඩරය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9489"/>
-      <location filename="../mainwindow.cpp" line="9556"/>
+      <location filename="../mainwindow.cpp" line="9494"/>
+      <location filename="../mainwindow.cpp" line="9561"/>
       <source>Copy to note folder</source>
       <translation>සටහන් ෆෝල්ඩරයට පිටපත් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9489"/>
-      <location filename="../mainwindow.cpp" line="9557"/>
+      <location filename="../mainwindow.cpp" line="9494"/>
+      <location filename="../mainwindow.cpp" line="9562"/>
       <source>Move to note folder</source>
       <translation>සටහන් ෆෝල්ඩරයට ගෙන යන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9490"/>
-      <location filename="../mainwindow.cpp" line="9558"/>
+      <location filename="../mainwindow.cpp" line="9495"/>
+      <location filename="../mainwindow.cpp" line="9563"/>
       <source>Copy to this subfolder</source>
       <translation>මෙම උප ෆෝල්ඩරයට පිටපත් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9491"/>
-      <location filename="../mainwindow.cpp" line="9559"/>
+      <location filename="../mainwindow.cpp" line="9496"/>
+      <location filename="../mainwindow.cpp" line="9564"/>
       <source>Move to this subfolder</source>
       <translation>මෙම උප ෆෝල්ඩරයට යන්න</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9603"/>
+      <location filename="../mainwindow.cpp" line="9608"/>
       <source>Move %n selected note(s) to note subfolder &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>&lt;strong&gt;%2&lt;/strong&gt; සටහන් කිරීමට %n තෝරාගත් සටහන ගෙනයන්න?</numerusform>
@@ -3564,13 +3564,13 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5156"/>
-      <location filename="../mainwindow.cpp" line="12325"/>
+      <location filename="../mainwindow.cpp" line="5165"/>
+      <location filename="../mainwindow.cpp" line="12323"/>
       <source>Cancel</source>
       <translation>අවලංගු කරන්න</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9688"/>
+      <location filename="../mainwindow.cpp" line="9693"/>
       <source>%n note(s) were moved to note subfolder "%2"</source>
       <translation>
         <numerusform>%n සටහනක් "%2" යන උප ෆෝල්ඩරයට ගෙන යන ලදි</numerusform>
@@ -3578,7 +3578,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9712"/>
+      <location filename="../mainwindow.cpp" line="9717"/>
       <source>Copy %n selected note(s) to note subfolder &lt;strong&gt;%2&lt;/strong&gt;?</source>
       <translation>
         <numerusform>&lt;strong&gt;%2&lt;/strong&gt; සටහන් කිරීමට %n තෝරාගත් සටහන පිටපත් කරන්න?</numerusform>
@@ -3586,7 +3586,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="9780"/>
+      <location filename="../mainwindow.cpp" line="9784"/>
       <source>%n note(s) were copied to note subfolder "%2"</source>
       <translation>
         <numerusform>%n සටහන "%2" යන උප ෆෝල්ඩරයට පිටපත් කරන ලදි</numerusform>
@@ -3594,57 +3594,57 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10496"/>
+      <location filename="../mainwindow.cpp" line="10473"/>
       <source>Open note in external editor</source>
       <translation>බාහිර සංස්කාරකයේ සටහන විවෘත කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10500"/>
+      <location filename="../mainwindow.cpp" line="10477"/>
       <source>Show note in file manager</source>
       <translation>ගොනු කළමනාකරු තුළ සටහන පෙන්වන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10585"/>
+      <location filename="../mainwindow.cpp" line="10562"/>
       <source>If you want to rename your note you have to enable the option to allow the note filename to be different from the headline.</source>
       <translation>ඔබට ඔබේ සටහන නැවත නම් කිරීමට අවශ්‍ය නම්, සටහන් ගොනුවේ නම සිරස්තලයට වඩා වෙනස් වීමට ඉඩ සලසන විකල්පය සක්‍රීය කළ යුතුය.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10803"/>
+      <location filename="../mainwindow.cpp" line="10782"/>
       <source>New subfolder</source>
       <translation>නව උප ෆෝල්ඩරය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10807"/>
+      <location filename="../mainwindow.cpp" line="10792"/>
       <source>Show folder in file manager</source>
       <translation>ගොනු කළමනාකරු තුළ ෆෝල්ඩරය පෙන්වන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10852"/>
+      <location filename="../mainwindow.cpp" line="10837"/>
       <source>Create a new folder</source>
       <translation>නව ෆෝල්ඩරයක් සාදන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10853"/>
+      <location filename="../mainwindow.cpp" line="10838"/>
       <source>Folder name:</source>
       <translation>ෆෝල්ඩරයේ නම:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8020"/>
+      <location filename="../mainwindow.cpp" line="8033"/>
       <source>show all untagged notes (%1)</source>
       <translation>සියලුම නොකැඩූ සටහන් පෙන්වන්න (%1)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8022"/>
+      <location filename="../mainwindow.cpp" line="8035"/>
       <source>Untagged notes</source>
       <translation>නොකැඩූ සටහන්</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10147"/>
+      <location filename="../mainwindow.cpp" line="10124"/>
       <source>Export current note as HTML file</source>
       <translation>වත්මන් සටහන HTML ගොනුවක් ලෙස අපනයනය කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5339"/>
+      <location filename="../mainwindow.cpp" line="5348"/>
       <source>Page size</source>
       <translation>පිටු ප්‍රමාණය</translation>
     </message>
@@ -3654,27 +3654,27 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       <translation>මෙවලම් තීරුවෙන් ඉවත් වන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5339"/>
+      <location filename="../mainwindow.cpp" line="5348"/>
       <source>Page size:</source>
       <translation>පිටු ප්‍රමාණය:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5456"/>
+      <location filename="../mainwindow.cpp" line="5465"/>
       <source>QOwnNotes will track anonymous usage data, that helps to decide what parts of QOwnNotes to improve next and to find and fix bugs. You can disable that behaviour in the settings.</source>
       <translation>QOwnNotes විසින් නිර්නාමික භාවිත දත්ත නිරීක්ෂණය කරනු ඇත, එය ඊළඟට වැඩිදියුණු කිරීමට QOwnNotes හි කුමන කොටස් තීරණය කිරීමට සහ දෝෂ සොයා ගැනීමට සහ නිවැරදි කිරීමට උපකාරී වේ. සැකසුම් තුළ ඔබට එම හැසිරීම අක්‍රිය කළ හැකිය.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5460"/>
+      <location filename="../mainwindow.cpp" line="5469"/>
       <source>&amp;Ok</source>
       <translation>&amp;හරි</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="10384"/>
+      <location filename="../mainwindow.cpp" line="10361"/>
       <source>&amp;Remove notes</source>
       <translation>&amp;සටහන් ඉවත් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6696"/>
+      <location filename="../mainwindow.cpp" line="6705"/>
       <source>&amp;Link selected text</source>
       <translation>&amp;තෝරාගත් පෙළ සම්බන්ධ කරන්න</translation>
     </message>
@@ -3684,28 +3684,28 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       <translation>ඔබගේ කාර්යයන් ඔබගේ සේවාදායකයෙන් පටවනු ලැබේ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2790"/>
+      <location filename="../mainwindow.cpp" line="2793"/>
       <source>Current note was modified externally</source>
       <translation>වත්මන් සටහන බාහිරව වෙනස් කරන ලදි</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2873"/>
-      <location filename="../mainwindow.cpp" line="6016"/>
+      <location filename="../mainwindow.cpp" line="2876"/>
+      <location filename="../mainwindow.cpp" line="6025"/>
       <source>Stored current note to disk</source>
       <translation>වත්මන් සටහන තැටියට ගබඩා කර ඇත</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2891"/>
+      <location filename="../mainwindow.cpp" line="2894"/>
       <source>Note was modified externally: %1</source>
       <translation>සටහන බාහිරව වෙනස් කරන ලදි: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2913"/>
+      <location filename="../mainwindow.cpp" line="2916"/>
       <source>Notes directory was modified externally</source>
       <translation>සටහන් නාමාවලිය බාහිරව වෙනස් කරන ලදි</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="2974"/>
+      <location filename="../mainwindow.cpp" line="2977"/>
       <source>Stored %n note(s) to disk</source>
       <translation>
         <numerusform>%n සටහන තැටියට ගබඩා කර ඇත</numerusform>
@@ -3713,58 +3713,58 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7987"/>
+      <location filename="../mainwindow.cpp" line="7999"/>
       <source>show all notes (%1)</source>
       <translation>සියලුම සටහන් පෙන්වන්න (%1)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7990"/>
-      <location filename="../mainwindow.cpp" line="8064"/>
+      <location filename="../mainwindow.cpp" line="8002"/>
+      <location filename="../mainwindow.cpp" line="8077"/>
       <source>All notes</source>
       <translation>සියලුම සටහන්</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9092"/>
+      <location filename="../mainwindow.cpp" line="9097"/>
       <source>&amp;Add tag</source>
       <translation>&amp;ටැගය එක් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9140"/>
+      <location filename="../mainwindow.cpp" line="9145"/>
       <source>Tag could not be created!</source>
       <translation>ටැගය සෑදිය නොහැක!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9319"/>
+      <location filename="../mainwindow.cpp" line="9324"/>
       <source>Move to this tag</source>
       <translation>මෙම ටැගය වෙත ගෙන යන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9354"/>
+      <location filename="../mainwindow.cpp" line="9359"/>
       <source>Tag this</source>
       <translation>මෙය ටැග් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9379"/>
+      <location filename="../mainwindow.cpp" line="9384"/>
       <source>Cannot move tag '%1' to this tag</source>
       <translation>'%1' ටැගය මෙම ටැගයට ගෙන යා නොහැක</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9428"/>
+      <location filename="../mainwindow.cpp" line="9433"/>
       <source>Moved tag '%1' to new tag</source>
       <translation>'%1' ටැගය නව ටැගයට ගෙන යන ලදි</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="8334"/>
+      <location filename="../mainwindow.cpp" line="8339"/>
       <source>show all notes tagged with '%1' (%2)</source>
       <translation>'%1' (%2) සමඟ ටැග් කර ඇති සියලුම සටහන් පෙන්වන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="9103"/>
+      <location filename="../mainwindow.cpp" line="9108"/>
       <source>&amp;Remove tags</source>
       <translation>&amp;ටැග් ඉවත් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5494"/>
+      <location filename="../mainwindow.cpp" line="5503"/>
       <source>No selected todo lists!</source>
       <translation>තෝරාගත් ටෝඩෝ ලැයිස්තු නොමැත!</translation>
     </message>
@@ -3849,78 +3849,78 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       <translation>%1 පුවරුව පෙන්වන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1365"/>
+      <location filename="../mainwindow.cpp" line="1368"/>
       <source>Show %1</source>
       <translation>%1 පෙන්වන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1688"/>
+      <location filename="../mainwindow.cpp" line="1691"/>
       <source>Leave distraction free mode</source>
       <translation>අවධානය වෙනතකට යොමු නොකරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1870"/>
+      <location filename="../mainwindow.cpp" line="1873"/>
       <source>Switch to note folder</source>
       <translation type="unfinished">Switch to note folder</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2265"/>
+      <location filename="../mainwindow.cpp" line="2268"/>
       <source>show notes in folder '%1' (%2)</source>
       <translation>'%1' (%2) ෆෝල්ඩරයේ සටහන් පෙන්වන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2304"/>
+      <location filename="../mainwindow.cpp" line="2307"/>
       <source>&lt;strong&gt;%1&lt;/strong&gt;&lt;br /&gt;last modified: %2</source>
       <translation>&lt;strong&gt;%1&lt;/strong&gt; &lt;br /&gt; අවසන් වරට වෙනස් කරන ලද්දේ: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2309"/>
+      <location filename="../mainwindow.cpp" line="2312"/>
       <source>&lt;br /&gt;path: %1</source>
       <translation>&lt;br /&gt; මාර්ගය: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2511"/>
+      <location filename="../mainwindow.cpp" line="2514"/>
       <source>Toolbar could not be loaded without name</source>
       <translation>මෙවලම් තීරුව නමක් නොමැතිව පූරණය කළ නොහැක</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2817"/>
+      <location filename="../mainwindow.cpp" line="2820"/>
       <source>Overwriting external changes of: %1</source>
       <translation>බාහිර වෙනස්කම් නැවත ලිවීම: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2838"/>
+      <location filename="../mainwindow.cpp" line="2841"/>
       <source>Loading external changes from: %1</source>
       <translation>බාහිර වෙනස්කම් පූරණය කරන්නේ: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="2874"/>
-      <location filename="../mainwindow.cpp" line="6017"/>
+      <location filename="../mainwindow.cpp" line="2877"/>
+      <location filename="../mainwindow.cpp" line="6026"/>
       <source>Current note could not be stored to disk</source>
       <translation>වත්මන් සටහන තැටියේ ගබඩා කළ නොහැක</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3053"/>
+      <location filename="../mainwindow.cpp" line="3056"/>
       <source>Read-only</source>
       <translation>කියවීමට පමණි</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3055"/>
+      <location filename="../mainwindow.cpp" line="3058"/>
       <source>Note editing is disabled, click to enable</source>
       <translation>සටහන් සංස්කරණය අක්‍රීය කර ඇත, සක්‍රිය කිරීමට ක්ලික් කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3072"/>
+      <location filename="../mainwindow.cpp" line="3075"/>
       <source>Line numbers</source>
       <translation>රේඛා අංක</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="3082"/>
+      <location filename="../mainwindow.cpp" line="3085"/>
       <source>Click here to see what has changed and to be able to update to the latest version</source>
       <translation>වෙනස් වී ඇති දේ බැලීමට සහ නවතම අනුවාදයට යාවත්කාලීන කිරීමට මෙතැන ක්ලික් කරන්න</translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="3452"/>
+      <location filename="../mainwindow.cpp" line="3455"/>
       <source>Proceed with automatic deletion of &lt;strong&gt;%n&lt;/strong&gt; conflicted database copies that may block your ownCloud sync process?</source>
       <translation>
         <numerusform>ඔබේම ක්ලවුඩ් සමමුහුර්ත කිරීමේ ක්‍රියාවලිය අවහිර කළ හැකි &lt;strong&gt;%n&lt;/strong&gt; ගැටුම් සහිත දත්ත සමුදා පිටපතක් ස්වයංක්‍රීයව මකාදැමීම සමඟ ඉදිරියට යන්නද?
@@ -3929,7 +3929,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="4928"/>
+      <location filename="../mainwindow.cpp" line="4937"/>
       <source>%n note(s) were tagged with "%2"</source>
       <translation>
         <numerusform>%n සටහන "%2" සමඟ ටැග් කර ඇත</numerusform>
@@ -3937,7 +3937,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../mainwindow.cpp" line="5716"/>
+      <location filename="../mainwindow.cpp" line="5725"/>
       <source>Found &lt;strong&gt;%n&lt;/strong&gt; occurrence(s) of &lt;strong&gt;%1&lt;/strong&gt;</source>
       <translation>
         <numerusform>&lt;strong&gt;%1&lt;/strong&gt; හි &lt;strong&gt;%n&lt;/strong&gt; සිදුවීම හමු විය</numerusform>
@@ -3945,72 +3945,72 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6078"/>
+      <location filename="../mainwindow.cpp" line="6087"/>
       <source>Note headline</source>
       <translation>සටහන සිරස්තලය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6288"/>
+      <location filename="../mainwindow.cpp" line="6297"/>
       <source>Could not find note.&lt;br /&gt;Unable to automatically create note at location, because subfolders are disabled for the current note folder.</source>
       <translation type="unfinished">Could not find note.&lt;br /&gt;Unable to automatically create note at location, because subfolders are disabled for the current note folder.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="6702"/>
+      <location filename="../mainwindow.cpp" line="6711"/>
       <source>Block &amp;quote selected text</source>
       <comment>Action to apply a block quote formatting to the selected text</comment>
       <translation>තෝරාගත් &amp;පෙළ අවහිර කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7711"/>
+      <location filename="../mainwindow.cpp" line="7723"/>
       <source>Downloading images finished</source>
       <translation>පින්තූර බාගත කිරීම අවසන්</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7861"/>
+      <location filename="../mainwindow.cpp" line="7873"/>
       <source>Increased font size to %1 pt</source>
       <translation>අකුරු ප්‍රමාණය %1 pt දක්වා වැඩි කිරීම</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7878"/>
+      <location filename="../mainwindow.cpp" line="7890"/>
       <source>Decreased font size to %1 pt</source>
       <translation>අකුරු ප්‍රමාණය %1 pt දක්වා අඩු කිරීම</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="5460"/>
-      <location filename="../mainwindow.cpp" line="5475"/>
-      <location filename="../mainwindow.cpp" line="5498"/>
-      <location filename="../mainwindow.cpp" line="10588"/>
+      <location filename="../mainwindow.cpp" line="5469"/>
+      <location filename="../mainwindow.cpp" line="5484"/>
+      <location filename="../mainwindow.cpp" line="5507"/>
+      <location filename="../mainwindow.cpp" line="10565"/>
       <source>Open &amp;settings</source>
       <translation>සැකසුම් &amp;විවෘත කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1685"/>
-      <location filename="../mainwindow.cpp" line="12477"/>
+      <location filename="../mainwindow.cpp" line="1688"/>
+      <location filename="../mainwindow.cpp" line="12475"/>
       <source>leave</source>
       <translation>නිවාඩු</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7129"/>
+      <location filename="../mainwindow.cpp" line="7141"/>
       <source>Please enter your &lt;strong&gt;password&lt;/strong&gt; to encrypt the note.&lt;br /&gt;Keep in mind that you have to &lt;strong&gt;remember&lt;/strong&gt; your password to read the content of the note&lt;br /&gt; and that you can &lt;strong&gt;only&lt;/strong&gt; do that &lt;strong&gt;in QOwnNotes&lt;/strong&gt;!</source>
       <translation>සටහන සංකේතනය කිරීම සඳහා කරුණාකර ඔබේ &lt;strong&gt; මුරපදය &lt;/ strong&gt; ඇතුළත් කරන්න. &lt;br /&gt; සටහනේ අන්තර්ගතය කියවීමට ඔබේ මුරපදය &lt;strong&gt; මතක තබා ගත යුතු බව මතක තබා ගන්න. &lt;br /&gt; ඔබට එය කළ හැක්කේ &lt;strong&gt; QOwnNotes &lt;/strong&gt; හි &lt;strong&gt; පමණි!</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7185"/>
+      <location filename="../mainwindow.cpp" line="7197"/>
       <source>Decrypt note and store it as plain text</source>
       <translation>සටහන විකේතනය කර එය සරල පෙළ ලෙස ගබඩා කරන්න</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7190"/>
+      <location filename="../mainwindow.cpp" line="7202"/>
       <source>&amp;Decrypt</source>
       <translation>&amp;විකේතනය</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7215"/>
+      <location filename="../mainwindow.cpp" line="7227"/>
       <source>&lt;br /&gt;You will be able to edit your encrypted note.</source>
       <translation>&lt;br /&gt; ඔබේ සංකේතාත්මක සටහන සංස්කරණය කිරීමට ඔබට හැකි වේ.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="7284"/>
+      <location filename="../mainwindow.cpp" line="7296"/>
       <source>Export current note as Markdown file</source>
       <translation>වත්මන් සටහන මාර්ක්ඩවුන් ගොනුව ලෙස අපනයනය කරන්න</translation>
     </message>
@@ -4384,37 +4384,37 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       <translation>පෙරනිමිය</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1315"/>
+      <location filename="../entities/note.cpp" line="1311"/>
       <source>Could not store note file: %1 - Error message: %2</source>
       <translation>සටහන් ගොනුව ගබඩා කිරීමට නොහැකි විය: %1 - දෝෂ පණිවිඩය: %2</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1393"/>
+      <location filename="../entities/note.cpp" line="1389"/>
       <source>Renamed note-file was removed: %1</source>
       <translation>නැවත නම් කරන ලද සටහන් ගොනුව ඉවත් කරන ලදි: %1</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1401"/>
+      <location filename="../entities/note.cpp" line="1397"/>
       <source>Could not remove renamed note-file: %1 - Error message: %2</source>
       <translation>නැවත නම් කරන ලද සටහන් ගොනුව ඉවත් කිරීමට නොහැකි විය: %1 - දෝෂ පණිවිඩය: %2</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="1547"/>
+      <location filename="../entities/note.cpp" line="1543"/>
       <source>Note</source>
       <translation type="unfinished">Note</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="2595"/>
+      <location filename="../entities/note.cpp" line="2591"/>
       <source>Could not read image file: %1</source>
       <translation>රූප ගොනුව කියවීමට නොහැකි විය: %1</translation>
     </message>
     <message>
-      <location filename="../entities/note.cpp" line="3215"/>
+      <location filename="../entities/note.cpp" line="3211"/>
       <source>Note file path changed</source>
       <translation>සටහන් ගොනු මාර්ගය වෙනස් කර ඇත</translation>
     </message>
     <message numerus="yes">
-      <location filename="../entities/note.cpp" line="3216"/>
+      <location filename="../entities/note.cpp" line="3212"/>
       <source>A change of the note path was detected. Would you like to replace all occurrences of &lt;strong&gt;%1&lt;/strong&gt; links with &lt;strong&gt;%2&lt;/strong&gt; and links with filename &lt;strong&gt;%3&lt;/strong&gt; with &lt;strong&gt;%4&lt;/strong&gt; in &lt;strong&gt;%n&lt;/strong&gt; note file(s)?</source>
       <translation>
         <numerusform>සටහන් මාර්ගයේ වෙනසක් අනාවරණය විය. &lt;strong&gt;%1&lt;/strong&gt; සබැඳි &lt;strong&gt;%2&lt;/strong&gt; හා ගොනු නාමය &lt;strong&gt;%3&lt;/strong&gt; සමඟ &lt;strong&gt;%4&lt;/ strong සමඟ ආදේශ කිරීමට ඔබ කැමතිද? &gt; &lt;strong&gt;%n &lt;/strong&gt; සටහන් ගොනුවේ?</numerusform>
@@ -4422,7 +4422,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       </translation>
     </message>
     <message numerus="yes">
-      <location filename="../entities/note.cpp" line="3761"/>
+      <location filename="../entities/note.cpp" line="3757"/>
       <source>…and %n more note(s)</source>
       <translation>
         <numerusform>… සහ %n සටහනක්</numerusform>
@@ -4471,7 +4471,7 @@ If the trash is enabled on your ownCloud server you should be able to restore th
       <translation>&lt;code&gt;%1&lt;/code&gt; විධානය අසාර්ථක විය!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4220"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4227"/>
       <source>New connection</source>
       <translation>නව සම්බන්ධතාවය</translation>
     </message>
@@ -4709,40 +4709,40 @@ If the trash is enabled on your ownCloud server you should be able to restore th
   <context>
     <name>QWidget</name>
     <message>
-      <location filename="../services/databaseservice.cpp" line="84"/>
+      <location filename="../services/databaseservice.cpp" line="90"/>
       <source>Cannot open memory database</source>
       <translation>මතක දත්ත ගබඩාව විවෘත කළ නොහැක</translation>
     </message>
     <message>
-      <location filename="../services/databaseservice.cpp" line="85"/>
+      <location filename="../services/databaseservice.cpp" line="91"/>
       <source>Unable to establish a memory database connection.</source>
       <translation>මතක දත්ත සමුදා සම්බන්ධතාවයක් ස්ථාපනය කළ නොහැක.</translation>
     </message>
     <message>
-      <location filename="../services/databaseservice.cpp" line="101"/>
+      <location filename="../services/databaseservice.cpp" line="107"/>
       <source>Cannot open disk database</source>
       <translation>තැටි දත්ත සමුදාය විවෘත කළ නොහැක</translation>
     </message>
     <message>
-      <location filename="../services/databaseservice.cpp" line="102"/>
-      <location filename="../services/databaseservice.cpp" line="126"/>
+      <location filename="../services/databaseservice.cpp" line="108"/>
+      <location filename="../services/databaseservice.cpp" line="132"/>
       <source>Unable to establish a database connection with file '%1'.
 Are the folder and the file writeable?</source>
       <translation>'%1' ගොනුව සමඟ දත්ත සමුදා සම්බන්ධතාවයක් ඇති කිරීමට නොහැකි විය.
 ෆෝල්ඩරය සහ ගොනුව ලිවිය හැකිද?</translation>
     </message>
     <message>
-      <location filename="../services/databaseservice.cpp" line="125"/>
+      <location filename="../services/databaseservice.cpp" line="131"/>
       <source>Cannot open note folder database</source>
       <translation>සටහන් ෆෝල්ඩරයේ දත්ත සමුදාය විවෘත කළ නොහැක</translation>
     </message>
     <message>
-      <location filename="../services/databaseservice.cpp" line="873"/>
+      <location filename="../services/databaseservice.cpp" line="879"/>
       <source>Cannot open database</source>
       <translation>දත්ත සමුදාය විවෘත කළ නොහැක</translation>
     </message>
     <message>
-      <location filename="../services/databaseservice.cpp" line="874"/>
+      <location filename="../services/databaseservice.cpp" line="880"/>
       <source>Unable to establish a database connection with note folder database to merge '%1'.
 Are the folder and the file writeable?</source>
       <translation>'%1' ඒකාබද්ධ කිරීම සඳහා සටහන් ෆෝල්ඩරයේ දත්ත සමුදාය සමඟ දත්ත සමුදා සම්බන්ධතාවයක් ඇති කළ නොහැක.
@@ -4933,7 +4933,7 @@ Do you want to install it anyway?</source>
   <context>
     <name>ScriptingService</name>
     <message>
-      <location filename="../services/scriptingservice.cpp" line="257"/>
+      <location filename="../services/scriptingservice.cpp" line="261"/>
       <source>file doesn't exist</source>
       <translation>ගොනුව නොපවතී</translation>
     </message>
@@ -4964,7 +4964,7 @@ Do you want to install it anyway?</source>
     <name>SettingsDialog</name>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="26"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4287"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4288"/>
       <source>Settings</source>
       <translation>සැකසුම්</translation>
     </message>
@@ -5009,73 +5009,73 @@ Do you want to install it anyway?</source>
       <translation>ඔබේම ක්ලවුඩ් සේවාදායකය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1088"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1089"/>
       <source>ownCloud server url:</source>
       <translation>ownCloud සේවාදායක url:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1110"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1111"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Please enter the URL of your ownCloud server, for example: &lt;span style=" font-style:italic;"&gt;https://cloud.yourserver.com&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt; &lt;head/&gt; &lt;body&gt; &lt;p&gt; කරුණාකර ඔබේම ක්ලවුඩ් සේවාදායකයේ URL ය ඇතුලත් කරන්න, උදාහරණයක් ලෙස: &lt;span style = "font-style: italic;"&gt; https://cloud.yourserver.com &lt;/ span &gt; &lt;/p&gt; &lt;/body&gt; &lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1148"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1149"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Please enter the username on your ownCloud server.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt; &lt;head/&gt; &lt;body&gt; &lt;p&gt; කරුණාකර ඔබේම ක්ලවුඩ් සේවාදායකයේ පරිශීලක නාමය ඇතුළත් කරන්න. &lt;/ p&gt; &lt;/body&gt; &lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1183"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1184"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Please enter the password for your username.&lt;br/&gt;Currently the password will be stored encrypted with the other settings, but is not very secure.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt; &lt;head/&gt; &lt;body&gt; &lt;p&gt; කරුණාකර ඔබගේ පරිශීලක නාමය සඳහා මුරපදය ඇතුළත් කරන්න. &lt;br/&gt; දැනට මුරපදය අනෙක් සැකසුම් සමඟ සංකේතනය කර ගබඩා කරනු ඇත, නමුත් එය ආරක්ෂිත නොවේ. &lt;/ p&gt; &lt;/ body &gt; &lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1254"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1255"/>
       <source>connection to web server</source>
       <translation>වෙබ් සේවාදායකයට සම්බන්ධතාවය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1271"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1272"/>
       <source>ownCloud server detected</source>
       <translation>ownCloud සේවාදායකය අනාවරණය විය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1305"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1306"/>
       <source>connection to QOwnNotesAPI</source>
       <translation>QOwnNotesAPI වෙත සම්බන්ධතාවය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1288"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1289"/>
       <source>username and password correct</source>
       <translation>පරිශීලක නාමය සහ මුරපදය නිවැරදි ය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1244"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1261"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1278"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1295"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1312"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1329"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1346"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1245"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1262"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1279"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1296"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1313"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1330"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1347"/>
       <source>unknown</source>
       <translation>නොදන්නා</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1211"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1212"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Click here to test the connection to your ownCloud server.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt; &lt;head/&gt; &lt;body&gt; &lt;p&gt; ඔබේම ක්ලවුඩ් සේවාදායකයට සම්බන්ධතාවය පරීක්ෂා කිරීම සඳහා මෙහි ක්ලික් කරන්න. &lt;/ p&gt; &lt;/body&gt; &lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1322"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1323"/>
       <source>versions app enabled on server</source>
       <translation>අනුවාද යෙදුම සේවාදායකයේ සක්‍රීය කර ඇත</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1339"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1340"/>
       <source>trash app enabled on server</source>
       <translation>කුණු යෙදුම සේවාදායකයේ සක්‍රීය කර ඇත</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1356"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1357"/>
       <source>notes path found on server</source>
       <translation>සටහන් මාර්ගය සේවාදායකයේ හමු විය</translation>
     </message>
@@ -5110,7 +5110,7 @@ Do you want to install it anyway?</source>
       <translation>&lt;html&gt; &lt;head/&gt; &lt;body&gt; &lt;p&gt; ඔබටත් ක්ලවුඩ් කෝර් යෙදුම් දෙකක් තිබිය යුතුය &lt;span style = "font-weight: 600;"&gt; අනුවාද &lt;/ span&gt; සහ &lt;span style = "font-weight : 600; "&gt; මකා දැමූ ගොනු &lt;/ span&gt; ඔබේම ක්ලවුඩ් සේවාදායකයේ සක්‍රීය කර ඇත (එය පෙරනිමිය විය යුතුය). &lt;/ P&gt; &lt;/body&gt; &lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="988"/>
+      <location filename="../dialogs/settingsdialog.ui" line="989"/>
       <source>Error Message</source>
       <translation>දෝෂ පණිවිඩය</translation>
     </message>
@@ -5120,42 +5120,42 @@ Do you want to install it anyway?</source>
       <translation>ජාල</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1423"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1424"/>
       <source>Proxy Settings</source>
       <translation>ප්‍රොක්සි සැකසුම්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1429"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1430"/>
       <source>No Proxy</source>
       <translation>ප්‍රොක්සි නැත</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1439"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1440"/>
       <source>Use system proxy</source>
       <translation>පද්ධති ප්‍රොක්සි භාවිතා කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1446"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1447"/>
       <source>Specify proxy manually as</source>
       <translation>ප්‍රොක්සි අතින් ලෙස සඳහන් කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1471"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1472"/>
       <source>Host</source>
       <translation>සත්කාරක</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1522"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1523"/>
       <source>Proxy server requires authentication</source>
       <translation>ප්‍රොක්සි සේවාදායකයට සත්‍යාපනය අවශ්‍ය වේ</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1579"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1580"/>
       <source>SSL Settings</source>
       <translation>SSL සැකසුම්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1585"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1586"/>
       <source>Ignore SSL errors</source>
       <translation>SSL දෝෂ නොසලකා හරින්න</translation>
     </message>
@@ -5165,7 +5165,7 @@ Do you want to install it anyway?</source>
       <translation>ටෝඩෝ</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1840"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1841"/>
       <source>Default ownCloud calendar</source>
       <translation>පෙරනිමි ස්වකීය වලාකුළු දින දර්ශනය</translation>
     </message>
@@ -5175,65 +5175,65 @@ Do you want to install it anyway?</source>
       <translation>අතුරුමුහුණත</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1810"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1811"/>
       <source>Other CalDAV server</source>
       <translation>වෙනත් CalDAV සේවාදායකය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2978"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2979"/>
       <source>Only some colors will be adapted, your desktop theme will control the rest. You need to restart the application to let these changes take action.</source>
       <translation>සමහර වර්ණ පමණක් අනුවර්තනය වනු ඇත, ඔබේ ඩෙස්ක්ටොප් තේමාව අනෙක් ඒවා පාලනය කරයි. මෙම වෙනස්කම් ක්‍රියාත්මක කිරීමට ඉඩ දීම සඳහා ඔබ යෙදුම නැවත ආරම්භ කළ යුතුය.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2981"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2982"/>
       <source>Optimize preview colors for dark mode desktop themes</source>
       <translation>අඳුරු මාදිලියේ ඩෙස්ක්ටොප් තේමාවන් සඳහා පෙරදසුන වර්ණ ප්‍රශස්ත කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2968"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2969"/>
       <source>This enables the dark mode, interface and icons will be modified. You need to restart the application to let these changes take action.</source>
       <translation>මෙය අඳුරු මාදිලිය සක්‍රීය කරයි, අතුරු මුහුණත සහ අයිකන වෙනස් කරනු ඇත. මෙම වෙනස්කම් ක්‍රියාත්මක කිරීමට ඉඩ දීම සඳහා ඔබ යෙදුම නැවත ආරම්භ කළ යුතුය.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2971"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2972"/>
       <source>Enable dark mode</source>
       <translation>අඳුරු ප්‍රකාරය සක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2997"/>
-      <location filename="../dialogs/settingsdialog.ui" line="3007"/>
-      <location filename="../dialogs/settingsdialog.ui" line="3038"/>
-      <location filename="../dialogs/settingsdialog.ui" line="3048"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2998"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3008"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3039"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3049"/>
       <source>You need to restart the application to let this setting take effect</source>
       <translation>මෙම සිටුවම ක්‍රියාත්මක වීමට ඉඩ දීම සඳහා ඔබ යෙදුම නැවත ආරම්භ කළ යුතුය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3077"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3078"/>
       <source>Item sizes in the main window</source>
       <translation>ප්‍රධාන කවුළුවේ අයිතම ප්‍රමාණය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5060"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5071"/>
       <source>Markdown highlighting</source>
       <translation>සලකුණු ඉස්මතු කිරීම</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5066"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5077"/>
       <source>Enable markdown highlighting</source>
       <translation>සලකුණු ඉස්මතු කිරීම සක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2134"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2135"/>
       <source>Interface language</source>
       <translation>අතුරු මුහුණත භාෂාව</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2164"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2165"/>
       <source>Automatic</source>
       <translation>ස්වයංක්‍රීය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2299"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2300"/>
       <source>English</source>
       <translation>ඉංග්රීසි</translation>
     </message>
@@ -5243,119 +5243,119 @@ Do you want to install it anyway?</source>
       <translation>කෙටිමං</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4515"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4808"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4526"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4819"/>
       <source>Default font:</source>
       <translation>පෙරනිමි අකුරු:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4557"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4749"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4568"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4760"/>
       <source>Code font:</source>
       <translation>කේත අකුරු:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3236"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3237"/>
       <source>Main window shortcuts</source>
       <translation>ප්‍රධාන කවුළු කෙටිමං</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3829"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3830"/>
       <source>Do this at your own risk!</source>
       <translation>මෙය ඔබේම අවදානමකින් කරන්න!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3832"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3833"/>
       <source>Ignore all external note folder changes</source>
       <translation>සියලුම බාහිර සටහන් ෆෝල්ඩරයේ වෙනස්කම් නොසලකා හරින්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4415"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4426"/>
       <source>Use GitHub line breaks</source>
       <translation>GitHub රේඛා බිඳීම් භාවිතා කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2277"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2278"/>
       <source>German</source>
       <translation>ජර්මානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2354"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2355"/>
       <source>French</source>
       <translation>ප්‍රංශ</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2618"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2619"/>
       <source>Polish</source>
       <translation>පෝලන්ත</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2640"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2641"/>
       <source>Portuguese</source>
       <translation>පෘතුගීසි</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2585"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2586"/>
       <source>Dutch</source>
       <translation>ලන්දේසි</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2552"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2553"/>
       <source>Hungarian</source>
       <translation>හංගේරියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2310"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2311"/>
       <source>Spanish</source>
       <translation>ස්පාඤ්ඤ</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2942"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2943"/>
       <source>Dark mode</source>
       <translation>අඳුරු මාදිලිය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1639"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1640"/>
       <source>Disable tracking of usage data</source>
       <translation>භාවිත දත්ත නිරීක්ෂණය කිරීම අක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1683"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1684"/>
       <source>Usage tracking is done on a private Piwik server.</source>
       <translation>භාවිතය නිරීක්ෂණය කිරීම පුද්ගලික පිවික් සේවාදායකයක සිදු කෙරේ.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1743"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1744"/>
       <source>Disable heartbeat</source>
       <translation>හෘද ස්පන්දනය අක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2673"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2674"/>
       <source>Russian</source>
       <translation>රුසියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1592"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1593"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You might want to consider getting a free SSL certificate from &lt;a href="https://letsencrypt.org/"&gt;Let's encrypt&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt; &lt;head/&gt; &lt;body&gt; &lt;p&gt; &lt;a href="https://letsencrypt.org/"&gt; සංකේතනය කරමු &lt;/a&gt; වෙතින් නොමිලේ SSL සහතිකයක් ලබා ගැනීම ගැන සලකා බැලීමට ඔබට අවශ්‍ය විය හැකිය. &lt;/ p&gt; &lt;/body&gt; &lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2153"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2154"/>
       <source>If you change the language you have to restart the application for the changes to take action.</source>
       <translation>ඔබ භාෂාව වෙනස් කරන්නේ නම්, ක්‍රියාමාර්ග ගැනීම සඳහා යෙදුම නැවත ආරම්භ කළ යුතුය.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3658"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3659"/>
       <source>You need to reload the scripting engine if you modify a script file</source>
       <translation>ඔබ ස්ක්‍රිප්ට් ගොනුවක් වෙනස් කරන්නේ නම් ඔබට ස්ක්‍රිප්ටින් එන්ජිම නැවත පූරණය කළ යුතුය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3661"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3662"/>
       <source>Reload scripting engine</source>
       <translation>ස්ක්‍රිප්ටින් එන්ජිම නැවත පූරණය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3651"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3652"/>
       <source>Validate script</source>
       <translation>ස්ක්‍රිප්ට් වලංගු කරන්න</translation>
     </message>
@@ -5365,120 +5365,122 @@ Do you want to install it anyway?</source>
       <translation>ජනරාල්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3823"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3824"/>
       <source>Notes</source>
       <translation>සටහන්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3849"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3850"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If checked you will always be notified about external modifications, even if current note wasn't edited in the last minute. Recommended is &lt;span style=" font-style:italic;"&gt;unchecked&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt; &lt;head/&gt; &lt;body&gt; &lt;p&gt; පරීක්ෂා කර බැලුවහොත් අවසාන සටහනෙහි වත්මන් සටහන සංස්කරණය නොකළද බාහිර වෙනස් කිරීම් පිළිබඳව ඔබට සැමවිටම දැනුම් දෙනු ලැබේ. නිර්දේශිත වන්නේ &lt;span style = "font-style: italic;"&gt; පරීක්ෂා නොකළ &lt;/ span&gt;. &lt;/ P&gt; &lt;/body&gt; &lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3945"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5301"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5846"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3946"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5312"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5857"/>
       <source>You might run into sync troubles with older versions of ownCloud sync when going far below 10 sec.
 Just test yourself if you get sync conflicts and set a higher value if so.</source>
       <translation>තත්පර 10 ට වඩා අඩු දුරක් යන විට ඔබට ස්වකීය ක්ලවුඩ් සමමුහුර්තකරණයේ පැරණි සංස්කරණ සමඟ සමමුහුර්ත කිරීමේ කරදර ඇති විය හැකිය.
 ඔබට සමමුහුර්ත ගැටුම් ඇති වුවහොත් ඔබම පරීක්ෂා කර බලා ඉහළ අගයක් සකසන්න.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2574"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2575"/>
       <source>Japanese</source>
       <translation>ජපන්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3949"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3950"/>
       <source>note save interval time [sec]</source>
       <translation>සටහන ඉතිරි කිරීමේ කාලය [තත්පර]</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3852"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3853"/>
       <source>Notify about all external modifications of the current note</source>
       <translation>වත්මන් සටහනේ සියලුම බාහිර වෙනස් කිරීම් ගැන දැනුම් දෙන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4316"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4317"/>
       <location filename="../dialogs/settingsdialog.cpp" line="2275"/>
       <location filename="../dialogs/settingsdialog.cpp" line="2283"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4297"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4302"/>
       <source>Database</source>
       <translation>දත්ත සමුදාය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4332"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4323"/>
       <source>Reinitialize Database</source>
       <translation>දත්ත සමුදාය නැවත ආරම්භ කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4255"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4256"/>
       <source>Clear application data and exit</source>
       <translation>යෙදුම් දත්ත ඉවත් කර පිටවීම</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4261"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4262"/>
       <source>This button allows you to clear all settings, remove the local todo database and exit QOwnNotes.</source>
       <translation>මෙම බොත්තම මඟින් ඔබට සියලු සැකසුම් ඉවත් කිරීමට, දේශීය ටෝඩෝ දත්ත සමුදාය ඉවත් කිරීමට සහ QOwnNotes වෙතින් පිටවීමට ඉඩ ලබා දේ.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4271"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4272"/>
       <location filename="../dialogs/settingsdialog.cpp" line="2347"/>
       <source>Clear app data and exit</source>
       <translation>යෙදුම් දත්ත ඉවත් කර පිටවන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4050"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4051"/>
       <source>Update dialog</source>
       <translation>යාවත්කාලීන සංවාදය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4130"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4131"/>
       <source>Default note file extension</source>
       <translation>පෙරනිමි සටහන් ගොනු දිගුව</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4215"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4216"/>
       <source>External editor</source>
       <translation>බාහිර සංස්කාරකය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4228"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4229"/>
       <source>path to external editor, leave empty for default</source>
       <translation>බාහිර සංස්කාරකයට යන මාර්ගය, පෙරනිමිය සඳහා හිස්ව තබන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4238"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5380"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4239"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5391"/>
       <source>set external editor</source>
       <translation>බාහිර සංස්කාරකය සකසන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1608"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1609"/>
       <source>App metrics</source>
       <translation>යෙදුම් ප්‍රමිතික</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1626"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1627"/>
       <source>Anonymous usage data helps to decide what parts of QOwnNotes to improve next and to find and fix bugs. Please disable it only if you really can't live with it.</source>
       <translation>QOwnNotes හි ඊළඟ කොටස් වැඩිදියුණු කිරීමට සහ දෝෂ සොයා ගැනීමට සහ නිවැරදි කිරීමට නිර්නාමික භාවිත දත්ත උපකාරී වේ. කරුණාකර එය අක්‍රිය කරන්න ඔබට එය සමඟ ජීවත් වීමට නොහැකි නම් පමණි.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1658"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1659"/>
       <source>This data includes anonymous information about what features of the app are used.</source>
       <translation>යෙදුමේ කුමන අංග භාවිතා කරන්නේද යන්න පිළිබඳ නිර්නාමික තොරතුරු මෙම දත්ත වලට ඇතුළත් වේ.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1712"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1713"/>
       <source>App heartbeat</source>
       <translation>යෙදුම් හෘද ස්පන්දනය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1730"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1731"/>
       <source>A small heartbeat request is sent periodically while QOwnNotes is running. Make a developer happy by letting him know that someone is using QOwnNotes.</source>
       <translation>QOwnNotes ක්‍රියාත්මක වන විට කුඩා හෘද ස්පන්දන ඉල්ලීමක් වරින් වර යවනු ලැබේ. යමෙකු QOwnNotes භාවිතා කරන බව ඔහුට දන්වමින් සංවර්ධකයෙකු සතුටු කරන්න.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2464"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2465"/>
       <source>Italian</source>
       <translation>ඉතාලි</translation>
     </message>
@@ -5488,17 +5490,17 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>පිටපත් කිරීම</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3305"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3306"/>
       <source>Your scripts</source>
       <translation>ඔබේ ස්ක්‍රිප්ට්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3389"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3390"/>
       <source>&amp;Remove script</source>
       <translation>&amp;ස්ක්‍රිප්ට් ඉවත් කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3668"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3669"/>
       <source>Click here to select your QML script</source>
       <translation>ඔබේ QML ස්ක්‍රිප්ට් තේරීමට මෙතන ක්ලික් කරන්න</translation>
     </message>
@@ -5580,7 +5582,7 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
     </message>
     <message>
       <location filename="../dialogs/settingsdialog.ui" line="773"/>
-      <location filename="../dialogs/settingsdialog.ui" line="3479"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3480"/>
       <source>Name:</source>
       <translation>නම:</translation>
     </message>
@@ -5620,56 +5622,56 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>&lt;html&gt; &lt;head/&gt; &lt;body&gt; &lt;p&gt; ඔබට තවමත් &lt;a href="https://owncloud.org/"&gt; &lt;span style = "font-weight: 600"&gt; ownCloud සමමුහුර්ත සේවාදායකයා &lt;/ ඔබේ සටහන් සමමුහුර්ත කිරීමට span&gt; &lt;/a&gt; (හෝ වෙනත් ඩෙස්ක්ටොප් සමමුහුර්ත සේවාදායකයෙක්)! &lt;/ p&gt; &lt;/body&gt; &lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1021"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1022"/>
       <source>Select a connection to edit</source>
       <translation>සංස්කරණය කිරීමට සම්බන්ධතාවයක් තෝරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1028"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1031"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1029"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1032"/>
       <source>Add connection</source>
       <translation>සම්බන්ධතාවය එක් කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1042"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1045"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1043"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1046"/>
       <source>Remove connection</source>
       <translation>සම්බන්ධතාවය ඉවත් කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1126"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1897"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1127"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1898"/>
       <source>Username:</source>
       <translation>පරිශීලක නාමය:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1151"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1152"/>
       <source>Your ownCloud username</source>
       <translation>ඔබේම ක්ලවුඩ් පරිශීලක නාමය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1161"/>
-      <location filename="../dialogs/settingsdialog.ui" line="1932"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1162"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1933"/>
       <source>Password:</source>
       <translation>මුරපදය:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1189"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1190"/>
       <source>Your ownCloud password</source>
       <translation>ඔබේම ක්ලවුඩ් මුරපදය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1217"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1218"/>
       <source>&amp;Connect to ownCloud server</source>
       <translation>&amp;OwnCloud සේවාදායකයට සම්බන්ධ වන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1237"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1238"/>
       <source>Connection status</source>
       <translation>සම්බන්ධතා තත්ත්වය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1059"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1060"/>
       <source>Connection name:</source>
       <translation>සම්බන්ධතාවයේ නම:</translation>
     </message>
@@ -5684,386 +5686,386 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation type="unfinished">Use note subfolders</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1392"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1393"/>
       <source>Enable QOwnNotesAPI app</source>
       <translation type="unfinished">Enable QOwnNotesAPI app</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1782"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1783"/>
       <source>Todo settings</source>
       <translation>ටෝඩෝ සැකසුම්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1788"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1789"/>
       <source>Enable todo calendar support</source>
       <translation>ටෝඩෝ දින දර්ශන සහාය සක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1973"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1974"/>
       <source>Which cloud connection do you want to use?</source>
       <translation>ඔබට භාවිතා කිරීමට අවශ්‍ය වලාකුළු සම්බන්ධතාවය කුමක්ද?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1985"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1986"/>
       <source>Select the calendars you want to use for the Todo list</source>
       <translation>ටෝඩෝ ලැයිස්තුව සඳහා ඔබට භාවිතා කිරීමට අවශ්‍ය දින දර්ශන තෝරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2060"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2061"/>
       <source>Todo list settings</source>
       <translation>ටෝඩෝ ලැයිස්තු සැකසුම්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2066"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2067"/>
       <source>Saving an item also closes the Todo list</source>
       <translation>අයිතමයක් සුරැකීම ද ටෝඩෝ ලැයිස්තුව වසා දමයි</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2178"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2179"/>
       <source>Indonesian</source>
       <translation>ඉන්දුනීසියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2200"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2201"/>
       <source>Bengali</source>
       <translation>බෙංගාලි</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2211"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2212"/>
       <source>Bosnian</source>
       <translation>බොස්නියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2222"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2223"/>
       <source>Bulgarian</source>
       <translation>බල්ගේරියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2233"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2234"/>
       <source>Catalan</source>
       <translation>කැටලන්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2244"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2245"/>
       <source>Cebuano</source>
       <translation>සෙබුවානෝ</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2266"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2267"/>
       <source>Danish</source>
       <translation>ඩෙන්මාර්ක</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2288"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2289"/>
       <source>Basque</source>
       <translation>බාස්ක්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2321"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2322"/>
       <source>Estonian</source>
       <translation>එස්තෝනියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2332"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2333"/>
       <source>Filipino</source>
       <translation>පිලිපීන</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2343"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2344"/>
       <source>Finnish</source>
       <translation>ෆින්ලන්ත</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2365"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2366"/>
       <source>Irish</source>
       <translation>අයිරිෂ්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2376"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2377"/>
       <source>Galician</source>
       <translation>ගැලීසියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2387"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2388"/>
       <source>Greek</source>
       <translation>ග්‍රීක</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2398"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2399"/>
       <source>Hausa</source>
       <translation>හවුසා</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2409"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2410"/>
       <source>Hebrew</source>
       <translation>හෙබ්‍රෙව්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2420"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2421"/>
       <source>Hindi</source>
       <translation>හින්දි</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2442"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2443"/>
       <source>Hiligaynon</source>
       <translation>හිලිගෙයිනොන්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2453"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2454"/>
       <source>Icelandic</source>
       <translation>අයිස්ලන්ත</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2475"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2476"/>
       <source>Korean</source>
       <translation>කොරියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2486"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2487"/>
       <source>Kurdish</source>
       <translation>කුර්දි</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2508"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2509"/>
       <source>Latvian</source>
       <translation>ලැට්වියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2519"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2520"/>
       <source>Lithuanian</source>
       <translation>ලිතුවේනියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2530"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2531"/>
       <source>Macedonian</source>
       <translation>මැසිඩෝනියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2563"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2564"/>
       <source>Norwegian</source>
       <translation>නෝර්වීජියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2607"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2608"/>
       <source>Uzbek</source>
       <translation>උස්බෙක්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2651"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2652"/>
       <source>Punjabi</source>
       <translation>පන්ජාබි</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2596"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2597"/>
       <source>Persian</source>
       <translation>පර්සියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2662"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2663"/>
       <source>Romanian</source>
       <translation>රුමේනියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2684"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2685"/>
       <source>Serbian</source>
       <translation>සර්බියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2695"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2696"/>
       <source>Albanian</source>
       <translation>ඇල්බේනියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2728"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2729"/>
       <source>Slovak</source>
       <translation>ස්ලෝවැක්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2739"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2740"/>
       <source>Slovenian</source>
       <translation>ස්ලොවේනියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2750"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2751"/>
       <source>Swedish</source>
       <translation>ස්වීඩන්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2761"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2762"/>
       <source>Tagalog</source>
       <translation>ටගාලොග්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2794"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2795"/>
       <source>Turkish</source>
       <translation>තුර්කි</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2827"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2828"/>
       <source>Urdu</source>
       <translation>උර්දු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2860"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2861"/>
       <source>Chinese Simplified</source>
       <translation>චීන සරල</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2871"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2872"/>
       <source>Chinese Traditional</source>
       <translation>චීන සාම්ප්‍රදායික</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2951"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2952"/>
       <source>Enable dark mode application icon and tray icon</source>
       <translation>අඳුරු මාදිලියේ යෙදුම් නිරූපකය සහ තැටි නිරූපකය සක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2958"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2959"/>
       <source>You might also want to choose another editor color schema in the editor settings in dark mode.</source>
       <translation>අඳුරු මාදිලියේ සංස්කාරක සැකසුම් තුළ තවත් සංස්කාරක වර්ණ පටිපාටියක් තෝරා ගැනීමට ඔබට අවශ්‍ය විය හැකිය.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3061"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3062"/>
       <source>Enable dark mode icon theme</source>
       <translation>අඳුරු මාදිලියේ නිරූපක තේමාව සක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2991"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2992"/>
       <source>System tray</source>
       <translation>පද්ධතිය තැටි</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3000"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3001"/>
       <source>Show system tray icon</source>
       <translation>පද්ධති තැටි නිරූපකය පෙන්වන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3010"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3011"/>
       <source>Start application hidden</source>
       <translation>යෙදුම සැඟවීම ආරම්භ කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3020"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3021"/>
       <source>Interface style</source>
       <translation>අතුරුමුහුණත් විලාසය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3051"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3052"/>
       <source>Enforce system icon theme</source>
       <translation>පද්ධති නිරූපක තේමාව බලාත්මක කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3157"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3158"/>
       <source>Override interface font size</source>
       <translation>අතුරු මුහුණත් අකුරු ප්‍රමාණය ඉක්මවා යන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3166"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3167"/>
       <source>Interface font size:</source>
       <translation>අතුරුමුහුණත් අකුරු ප්‍රමාණය:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3378"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3379"/>
       <source>&amp;Add script…</source>
       <translation>&amp;ස්ක්‍රිප්ට් එක් කරන්න…</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4024"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4025"/>
       <source>Use legacy way to link to notes, images and attachments</source>
       <translation>සටහන්, රූප සහ ඇමුණුම් සමඟ සම්බන්ධ වීමට පැරණි ක්‍රමය භාවිතා කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3869"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3870"/>
       <source>When opening notes the cursor position inside the note will now be restored to the position when the note was last visited in the current session</source>
       <translation>සටහන් විවෘත කිරීමේදී සටහනෙහි කර්සරයේ පිහිටීම වත්මන් සැසියේදී සටහන අවසන් වරට බැලූ විට එම ස්ථානයට නැවත ලබා දෙනු ඇත</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3839"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3840"/>
       <source>By default the headline will generated automatically</source>
       <translation>පෙරනිමියෙන් සිරස්තලය ස්වයංක්‍රීයව ජනනය වේ</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3842"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3843"/>
       <source>The shortcut to create a new note asks for a headline</source>
       <translation>නව සටහනක් නිර්මාණය කිරීම සඳහා කෙටිමඟ සිරස්තලයක් ඉල්ලා සිටී</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3908"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3909"/>
       <source>Automatically close the note folder database to prevent problems with sync tools</source>
       <translation>සමමුහුර්ත මෙවලම් සමඟ ඇති ගැටළු වළක්වා ගැනීම සඳහා සටහන් ෆෝල්ඩරයේ දත්ත සමුදාය ස්වයංක්‍රීයව වසා දමන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3911"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3912"/>
       <source>Automatically close the note folder database</source>
       <translation>සටහන් ෆෝල්ඩරයේ දත්ත සමුදාය ස්වයංක්‍රීයව වසා දමන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4072"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4073"/>
       <source>Search engine</source>
       <translation>සෙවුම් යන්ත්‍රය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4094"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4095"/>
       <source>Message boxes</source>
       <translation>පණිවිඩ පෙට්ටි</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4100"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3960"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4101"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3967"/>
       <source>Reset message boxes</source>
       <translation>පණිවිඩ පෙට්ටි නැවත සකසන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4293"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4026"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4050"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4294"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4033"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4057"/>
       <source>Import settings</source>
       <translation>සැකසුම් ආයාත කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4300"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3992"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4301"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3999"/>
       <source>Export settings</source>
       <translation>අපනයන සැකසුම්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4438"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4449"/>
       <source>Open issue assistant</source>
       <translation>විවෘත නිකුතුව සහකාර</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4405"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4416"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The best way to post issues is to use the issue assistant by pressing the &lt;span style=" font-weight:600;"&gt;Open issue assistant&lt;/span&gt; button on the bottom.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt; &lt;head/&gt; &lt;body&gt; &lt;p&gt; ගැටළු පළ කිරීමට හොඳම ක්‍රමය වන්නේ &lt;span style = "font-weight: 600;"&gt; විවෘත නිකුතුව සහකාර &lt;/ span&gt; බොත්තම එබීමෙන් ගැටළු සහායක භාවිතා කිරීමයි. පහළ. &lt;/ p&gt; &lt;/body&gt; &lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4670"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4681"/>
       <source>Ignore code font size to allow zooming</source>
       <translation>විශාලනය කිරීමට ඉඩ දීම සඳහා කේත අකුරු ප්‍රමාණය නොසලකා හරින්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4664"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4675"/>
       <source>Rendering</source>
       <translation>විදැහුම්කරණය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4684"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4695"/>
       <source>Enable underline rendering</source>
       <translation>යටි ඉරි විදැහුම්කරණය සක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5094"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5105"/>
       <source>Fully highlight blockquotes</source>
       <translation>බ්ලොක්කෝට් සම්පූර්ණයෙන්ම ඉස්මතු කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5164"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5175"/>
       <source>Note-edit cursor width:</source>
       <translation>සටහන-කර්සරයේ පළල:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5113"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5124"/>
       <source>Enable Vim mode (some QOwnNotes shortcuts will not work)</source>
       <translation>Vim ප්‍රකාරය සක්‍රිය කරන්න (සමහර QOwnNotes කෙටිමං ක්‍රියා නොකරනු ඇත)</translation>
     </message>
@@ -6083,288 +6085,303 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>ඔබේම ක්ලවුඩ් සේවාදායක යෙදුම් මුරපද පිටුව විවෘත කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2541"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2542"/>
       <source>Māori</source>
       <translation>මාඕරි</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2189"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2190"/>
       <source>Malay</source>
       <translation>මැලේ</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2140"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2141"/>
       <source>If you want to help to translate QOwnNotes or update an existing translation please read: &lt;a href="%1"&gt;How can I help to translate QOwnNotes?&lt;/a&gt;</source>
       <translation type="unfinished">If you want to help to translate QOwnNotes or update an existing translation please read: &lt;a href="%1"&gt;How can I help to translate QOwnNotes?&lt;/a&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2497"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2498"/>
       <source>Khmer</source>
       <translation>ඛමර්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2706"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2707"/>
       <source>Shona</source>
       <translation>ෂෝනා</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2717"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2718"/>
       <source>Sinhala</source>
       <translation>සිංහල</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2772"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2773"/>
       <source>Thai</source>
       <translation type="unfinished">Thai</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2783"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2784"/>
       <source>Vietnamese</source>
       <translation>වියට්නාම</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2805"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2806"/>
       <source>Xhosa</source>
       <translation>ෂෝසා</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2838"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2839"/>
       <source>Yiddish</source>
       <translation type="unfinished">Yiddish</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2849"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2850"/>
       <source>Zulu</source>
       <translation>සුලූ</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2905"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2906"/>
       <source>Search for language</source>
       <translation>භාෂාව සොයන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3268"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3269"/>
       <source>Action name</source>
       <translation type="unfinished">Action name</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3273"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3274"/>
       <source>Local shortcut</source>
       <translation type="unfinished">Local shortcut</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3278"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3279"/>
       <source>Global shortcut</source>
       <translation type="unfinished">Global shortcut</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3879"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3880"/>
       <source>Disable this if you want to launch the application without opening a note</source>
       <translation>සටහනක් විවෘත නොකර යෙදුම දියත් කිරීමට අවශ්‍ය නම් මෙය අක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3882"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3883"/>
       <source>Open last accessed note at application startup</source>
       <translation>යෙදුම් ආරම්භයේ දී අවසන් වරට ප්‍රවේශ වූ සටහන විවෘත කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4412"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4330"/>
+      <source>Checks the disk database integrity and fixes problems</source>
+      <translation type="unfinished">Checks the disk database integrity and fixes problems</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/settingsdialog.ui" line="4333"/>
+      <source>Check integrity</source>
+      <translation type="unfinished">Check integrity</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/settingsdialog.ui" line="4340"/>
+      <source>Be warned that reinitializing the database will also remove your cached todo items and configured note folders and scripts!</source>
+      <translation type="unfinished">Be warned that reinitializing the database will also remove your cached todo items and configured note folders and scripts!</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/settingsdialog.ui" line="4423"/>
       <source>GitHub doesn't need two spaces at the end of the line to do a line break</source>
       <translation type="unfinished">GitHub doesn't need two spaces at the end of the line to do a line break</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4435"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4446"/>
       <source>This is the best way to open an issue</source>
       <translation>ගැටලුවක් විවෘත කිරීමට හොඳම ක්‍රමය මෙයයි</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4449"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4460"/>
       <source>Please use this in the issue tracker</source>
       <translation>කරුණාකර මෙය ගැටළු ට්රැකර් තුළ භාවිතා කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4452"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4463"/>
       <source>&amp;Copy debug information to clipboard</source>
       <translation>&amp;නිදොස් කිරීමේ තොරතුරු ක්ලිප් පුවරුවට පිටපත් කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4463"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4474"/>
       <source>Please don't use this in the issue tracker</source>
       <translation>කරුණාකර මෙය ගැටළු ට්රැකර් තුළ භාවිතා නොකරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4691"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4702"/>
       <source>Use editor highlighting styles also for the preview</source>
       <translation>පෙරදසුන සඳහා සංස්කාරක උද්දීපනය කිරීමේ මෝස්තර භාවිතා කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4714"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4725"/>
       <source>Exporting</source>
       <translation>අපනයනය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4720"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4731"/>
       <source>Use internal export styling for the PDF export and printing of the preview</source>
       <translation>PDF අපනයනය සහ පෙරදසුන මුද්‍රණය කිරීම සඳහා අභ්‍යන්තර අපනයන මෝස්තර භාවිතා කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5028"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5039"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You might want to take a look at all available &lt;a href="http://docs.qownnotes.org/en/latest/editor/time-formats/"&gt;time formats&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You might want to take a look at all available &lt;a href="http://docs.qownnotes.org/en/latest/editor/time-formats/"&gt;time formats&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5198"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5209"/>
       <source>Disable cursor blinking</source>
       <translation>කර්සරය දැල්වීම අක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5205"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5216"/>
       <source>Automatically remove trailing spaces in the note text</source>
       <translation type="unfinished">Automatically remove trailing spaces in the note text</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5215"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5226"/>
       <source>Tabs and Indents</source>
       <translation>ටැබ් සහ ඉන්ඩෙන්ට්ස්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5223"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5234"/>
       <source>Use tab character instead of spaces</source>
       <translation>අවකාශය වෙනුවට ටැබ් අක්‍ෂරය භාවිතා කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5230"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5241"/>
       <source>Indent:</source>
       <translation>ඉන්ඩෙන්ට්:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5610"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5619"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5621"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5630"/>
       <source>Regular expressions of note subfolders to ignore, separated by ";"</source>
       <translation type="unfinished">Regular expressions of note subfolders to ignore, separated by ";"</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5613"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5624"/>
       <source>Ignored subfolders</source>
       <translation type="unfinished">Ignored subfolders</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5629"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5640"/>
       <source>Reset ignored subfolders</source>
       <translation type="unfinished">Reset ignored subfolders</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5665"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5676"/>
       <source>Restore open note tabs at application startup and when note folders are switched</source>
       <translation type="unfinished">Restore open note tabs at application startup and when note folders are switched</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5750"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5761"/>
       <source>Hide 'Note count' with tags (increases performance)</source>
       <translation type="unfinished">Hide 'Note count' with tags (increases performance)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5786"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5797"/>
       <source>Show the number of matches in each note</source>
       <translation>එක් එක් සටහනේ තරඟ ගණන පෙන්වන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5441"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5452"/>
       <source>Note list panel</source>
       <translation>සටහන් ලැයිස්තු පැනලය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5447"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5458"/>
       <source>Show notes in the note list with preview</source>
       <translation>සටහන් ලැයිස්තුවේ සටහන් පෙරදසුනක් සමඟ පෙන්වන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5520"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5531"/>
       <source>Instead of a note list use a note tree with all the subfolders (if they are turned on for the note folder)</source>
       <translation>සටහන් ලැයිස්තුවක් වෙනුවට සියලුම උප ෆෝල්ඩර සහිත සටහන් ගසක් භාවිතා කරන්න (ඒවා සටහන් ෆෝල්ඩරය සඳහා සක්‍රිය කර ඇත්නම්)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5796"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5807"/>
       <source>Note folder panel</source>
       <translation type="unfinished">Note folder panel</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5802"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5813"/>
       <source>Show note folders as buttons instead of in a select box</source>
       <translation type="unfinished">Show note folders as buttons instead of in a select box</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5944"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5955"/>
       <source>Panels can be turned on and off in the &lt;i&gt;Window / Panels&lt;/i&gt; main menu and you can also configure different &lt;i&gt;Workspaces&lt;/i&gt; for different panel configurations.</source>
       <translation>&lt;i&gt; කවුළු / පැනල් &lt;/ i&gt; ප්‍රධාන මෙනුව තුළ පැනල් සක්‍රිය හා අක්‍රිය කළ හැකි අතර විවිධ පැනල් වින්‍යාසයන් සඳහා ඔබට විවිධ &lt;i&gt; වැඩබිම් &lt;/ i&gt; වින්‍යාසගත කළ හැකිය.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6021"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6032"/>
       <source>Bookmarks</source>
       <translation>පිටු සලකුණු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6027"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6038"/>
       <source>Notes with this tag will be used for fetching bookmarks</source>
       <translation>පිටු සලකුණු ලබා ගැනීම සඳහා මෙම ටැගය සහිත සටහන් භාවිතා කරනු ඇත</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6030"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6041"/>
       <source>Tag name for bookmarks notes</source>
       <translation>පිටු සලකුණු සටහන් සඳහා ටැග් නම</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6037"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6048"/>
       <source>Bookmarks tag:</source>
       <translation>පිටු සලකුණු ටැගය:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6044"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6055"/>
       <source>By default the browser extension will show all links of the current note. You can also make it show special bookmark links of notes with a certain tag. For more information about the bookmark link syntax click &lt;a href="%1"&gt;here&lt;/a&gt;.</source>
       <translation>පෙරනිමියෙන් බ්‍රව්සර් දිගුව වත්මන් සටහනේ සියලුම සබැඳි පෙන්වනු ඇත. නිශ්චිත ටැගයක් සහිත සටහන් වල විශේෂ පිටු සලකුණු සබැඳි පෙන්වීමටද ඔබට එය කළ හැකිය. පිටු සලකුණු සබැඳිය පිළිබඳ වැඩි විස්තර සඳහා &lt;a href="%1"&gt; මෙහි &lt;/a&gt; ක්ලික් කරන්න.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6057"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6068"/>
       <source>Bookmarks note name:</source>
       <translation>පිටු සලකුණු සටහන් නම:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6064"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6075"/>
       <source>This note will be used for adding new bookmarks from the browser extension</source>
       <translation>බ්‍රව්සර් දිගුවෙන් නව පිටු සලකුණු එකතු කිරීම සඳහා මෙම සටහන භාවිතා කරනු ඇත</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6067"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6078"/>
       <source>Note name for adding new bookmarks</source>
       <translation>නව පිටු සලකුණු එකතු කිරීම සඳහා සටහන් නම</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6077"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6088"/>
       <source>Web socket server</source>
       <translation>වෙබ් සොකට් සේවාදායකය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6083"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6094"/>
       <source>Socket server port:</source>
       <translation>සොකට් සේවාදායක වරාය:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6117"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6128"/>
       <source>Show security token</source>
       <translation>ආරක්ෂක ටෝකනය පෙන්වන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6153"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6164"/>
       <source>Web socket server support</source>
       <translation>වෙබ් සොකට් සේවාදායක සහාය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6159"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6170"/>
       <source>Enable socket server</source>
       <translation>සොකට් සේවාදායකය සබල කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="6134"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6145"/>
       <source>Install the &lt;a href="%1"&gt;Web Companion browser extension&lt;/a&gt; from the &lt;a href="%2"&gt;Chrome Web Store&lt;/a&gt; or &lt;a href="%3"&gt;Firefox Add-ons page&lt;/a&gt; to use QOwnNotes as web clipper.</source>
       <translation>&lt;a href="%2"&gt; ක්‍රෝම් වෙබ් වෙළඳසැල &lt;/a&gt; හෝ &lt;a href="%3"&gt; ෆයර්ෆොක්ස් එකතු කරන්න- වෙතින් &lt;a href="%1"&gt; වෙබ් සහචර බ්‍රව්සර් දිගුව &lt;/a&gt; ස්ථාපනය කරන්න. වෙබ් පිටුව &lt;/a&gt; QOwnNotes වෙබ් ක්ලිපර් ලෙස භාවිතා කිරීමට.</translation>
     </message>
@@ -6375,249 +6392,249 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
 තමන්ගේම ක්ලවුඩ් සටහන් වලට ගොනුවේ නම සිරස්තලයට සමාන විය යුතු බවට පරිස්සම් වන්න!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5649"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5660"/>
       <source>Note edit panel</source>
       <translation>සටහන සංස්කරණ පැනලය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5655"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5666"/>
       <source>If this is disabled you are able to create more complex panel layouts, but all panels will be resized if the window is resized</source>
       <translation>මෙය අක්‍රිය කර ඇත්නම් ඔබට වඩාත් සංකීර්ණ පැනල් පිරිසැලසුම් නිර්මාණය කළ හැකිය, නමුත් කවුළුව ප්‍රතිප්‍රමාණනය කළහොත් සියලුම පැනල් ප්‍රමාණය වෙනස් වේ</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5658"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5669"/>
       <source>Use the note edit panel as fixed central widget to be resized if the window or other panels are resized</source>
       <translation>කවුළුව හෝ වෙනත් පැනල් ප්‍රමාණය වෙනස් කළ හොත් ප්‍රමාණය වෙනස් කිරීම සඳහා ස්ථාවර මධ්‍යම විජට් ලෙස සටහන් සංස්කරණ පැනලය භාවිතා කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5773"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5784"/>
       <source>Note search panel</source>
       <translation>සටහන් සෙවුම් පැනලය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5779"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5790"/>
       <source>Disable auto-completion of previous searches</source>
       <translation>පෙර සෙවීම් ස්වයංක්‍රීයව සම්පූර්ණ කිරීම අක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5675"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5686"/>
       <source>Navigation panel</source>
       <translation>සංචාලන පැනලය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5681"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5692"/>
       <source>Hide navigation item search bar</source>
       <translation>සංචාලන අයිතම සෙවුම් තීරුව සඟවන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5816"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5827"/>
       <source>Local trash settings</source>
       <translation>දේශීය කුණු සැකසුම්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5850"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5861"/>
       <source>Remove trashed notes after:</source>
       <translation>ඉවත දැමූ සටහන් පසුව ඉවත් කරන්න:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5857"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5868"/>
       <source> days</source>
       <extracomment>seconds</extracomment>
       <translation>දින</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5876"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5887"/>
       <source>Automatically remove trashed notes after a certain time</source>
       <translation>නිශ්චිත කාලයකට පසු ඉවතලන සටහන් ස්වයංක්‍රීයව ඉවත් කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5902"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5913"/>
       <source>Local trash support</source>
       <translation>දේශීය අපද්‍රව්‍ය සහාය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5908"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5919"/>
       <source>Enable local trash</source>
       <translation>දේශීය කුණු කූඩය සක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5925"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5936"/>
       <source>Layout selector</source>
       <translation>පිරිසැලසුම් තේරීම</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5931"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5942"/>
       <source>You can set a new layout here. Keep in mind that you always can modify the position of the panels with the &lt;i&gt;Unlock panels&lt;/i&gt; button.</source>
       <translation>ඔබට මෙහි නව පිරිසැලසුමක් සැකසිය හැකිය. &lt;i&gt; අගුළු ඇරීමේ පැනල් &lt;/ i&gt; බොත්තම සමඟ ඔබට සැමවිටම පැනල් වල පිහිටීම වෙනස් කළ හැකි බව මතක තබා ගන්න.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5140"/>
-      <location filename="../dialogs/settingsdialog.ui" line="6103"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5151"/>
+      <location filename="../dialogs/settingsdialog.ui" line="6114"/>
       <source>Reset the cursor width</source>
       <translation>කර්සරයේ පළල නැවත සකසන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5315"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5326"/>
       <source>External git log command to show the git versions of a note</source>
       <translation>සටහනක git අනුවාද පෙන්වීමට බාහිර git log විධානය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5321"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5332"/>
       <source>Enter a command to be used to show a git log (like for example "gitk")</source>
       <extracomment>Please don't translate "%notePath%"</extracomment>
       <translation>Git ලොගයක් පෙන්වීමට භාවිතා කිරීමට විධානයක් ඇතුළත් කරන්න (උදාහරණයක් ලෙස "gitk" වැනි)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5341"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5352"/>
       <source>If you use this setting you will get a new menu entry to show the git versions if you right-click a note.</source>
       <extracomment>Please don't translate "%notePath%"</extracomment>
       <translation>ඔබ මෙම සැකසුම භාවිතා කරන්නේ නම්, ඔබ සටහනක් දකුණු-ක්ලික් කළහොත් git අනුවාද පෙන්වීමට ඔබට නව මෙනු ප්‍රවේශයක් ලැබෙනු ඇත.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5461"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5472"/>
       <source>Show all notes of a tag including the notes of their children-tags</source>
       <translation>ටැග් එකක සියලුම සටහන් ඔවුන්ගේ දරුවන්ගේ සටහන් ඇතුළුව පෙන්වන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5454"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5465"/>
       <source>Show all notes in a folder including their subfolders (only works if subfolders are turned on)</source>
       <translation>සියළුම සටහන් ඒවායේ උප ෆෝල්ඩර ඇතුළුව ෆෝල්ඩරයක පෙන්වන්න (ක්‍රියා කරන්නේ උප ෆෝල්ඩර සක්‍රිය කර ඇත්නම් පමණි)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5191"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5202"/>
       <source>Highlight the current line</source>
       <translation>වත්මන් රේඛාව ඉස්මතු කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5408"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5419"/>
       <source>Don't forget to enable git support for your note folders and to configure your name and email address for your git client, for example with these terminal commands:</source>
       <translation>ඔබගේ සටහන් ෆෝල්ඩර සඳහා git සහාය සක්‍රීය කිරීමට සහ ඔබේ git සේවාදායකයා සඳහා ඔබේ නම සහ විද්‍යුත් තැපැල් ලිපිනය වින්‍යාස කිරීමට අමතක නොකරන්න, උදාහරණයක් ලෙස මෙම පර්යන්ත විධානයන් සමඟ:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5691"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5702"/>
       <source>Tags panel</source>
       <translation>ටැග් පැනලය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5494"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5573"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5720"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5505"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5584"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5731"/>
       <source>Order</source>
       <translation>නියෝග</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5503"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5579"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5726"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5514"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5590"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5737"/>
       <source>Ascending</source>
       <translation>නඟින්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5510"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5586"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5733"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5521"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5597"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5744"/>
       <source>Descending</source>
       <translation>බැසයාම</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5468"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5543"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5697"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5479"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5554"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5708"/>
       <source>Sort</source>
       <translation>වර්ග කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5184"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5195"/>
       <source>Only use editor width setting in distraction free mode</source>
       <translation>අවධානය වෙනතකට යොමු නොවන ආකාරයෙන් සංස්කාරක පළල සැකසුම පමණක් භාවිතා කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5474"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5549"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5703"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5485"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5560"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5714"/>
       <source>Alphabetical</source>
       <translation>අකාරාදී</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5710"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5721"/>
       <source>By last change / use</source>
       <translation>අවසාන වෙනස් කිරීම / භාවිතය අනුව</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5743"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5754"/>
       <source>Hide 'Find or create tag' search</source>
       <translation>'සොයන්න හෝ ටැගය සාදන්න' සෙවීම සඟවන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5530"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5541"/>
       <source>Note subfolders panel</source>
       <translation>සටහන උප ෆෝල්ඩර පැනලය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5536"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5547"/>
       <source>Show with full path</source>
       <translation>සම්පූර්ණ මාර්ගයෙන් පෙන්වන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5481"/>
-      <location filename="../dialogs/settingsdialog.ui" line="5556"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5492"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5567"/>
       <source>By last change</source>
       <translation>අවසාන වෙනස අනුව</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5566"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5577"/>
       <source>Show root folder name</source>
       <translation>මූල ෆෝල්ඩරයේ නම පෙන්වන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5596"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5607"/>
       <source>Hide 'Find or create note subfolder' search</source>
       <translation>'සටහන් උප ෆෝල්ඩරය සොයන්න හෝ සාදන්න' සඟවන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5603"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5614"/>
       <source>Display note subfolders as full tree</source>
       <translation>සටහන් උප ෆෝල්ඩර සම්පූර්ණ ගසක් ලෙස පෙන්වන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2876"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2883"/>
       <source>Search script repository</source>
       <translation>ස්ක්‍රිප්ට් නිධිය සොයන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5331"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5342"/>
       <source>You optionally can use "%notePath%" for the path of the note.</source>
       <extracomment>Please don't translate "%notePath%"</extracomment>
       <translation>ඔබට විකල්පයක් ලෙස සටහනේ මාර්ගය සඳහා "%notePath%" භාවිතා කළ හැකිය.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5354"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5365"/>
       <source>Git client</source>
       <translation>Git සේවාදායකයා</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5370"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5381"/>
       <source>Path to git executable:</source>
       <translation>ක්‍රියාත්මක කළ හැකි මාර්ගය:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5360"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5371"/>
       <source>Path to git client, leave empty for default</source>
       <translation>Git සේවාදායකයා සඳහා මාවත, පෙරනිමිය සඳහා හිස්ව තබන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5279"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5290"/>
       <source>Commit interval</source>
       <translation>පරතරය කැප කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5285"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5296"/>
       <source>sec</source>
       <extracomment>seconds</extracomment>
       <translation>තත්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5305"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5316"/>
       <source>git commit interval time [sec]</source>
       <translation>git කාල පරතරය කැප කරන්න [තත්].</translation>
     </message>
@@ -6637,308 +6654,303 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>බ්‍රව්සර් දිගුව</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1804"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1805"/>
       <source>Which calendar backend do you want to use?</source>
       <translation>ඔබට භාවිතා කිරීමට අවශ්‍ය කුමන දින දර්ශන පසුබිමද?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1837"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1838"/>
       <source>For most current ownCloud and Nextcloud installations</source>
       <translation>වර්තමාන ownCloud සහ Nextcloud ස්ථාපනයන් සඳහා</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1817"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1818"/>
       <source>For older versions of ownCloud where the default setting doesn't work</source>
       <translation>පෙරනිමි සැකසුම ක්‍රියාත්මක නොවන ownCloud හි පැරණි අනුවාද සඳහා</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1820"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1821"/>
       <source>Legacy ownCloud calendar</source>
       <translation>උරුමය ownCloud දින දර්ශනය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1853"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1854"/>
       <source>CalDAV server settings</source>
       <translation>CalDAV සේවාදායක සැකසුම්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1862"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1863"/>
       <source>Calendar base url:</source>
       <translation>දින දර්ශන පදනම් url:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1884"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1885"/>
       <source>Please enter the CalDAV base url to your calendar.</source>
       <translation>කරුණාකර ඔබේ දින දර්ශනයට CalDAV පදනම් url ඇතුලත් කරන්න.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1954"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1955"/>
       <source>Please enter the password for your CalDAV username.&lt;br/&gt;Currently the password will be stored encrypted with the other settings, but is not very secure.</source>
       <translation>කරුණාකර ඔබගේ කැල්ඩාවි පරිශීලක නාමය සඳහා මුරපදය ඇතුළත් කරන්න. &lt;br/&gt; දැනට මුරපදය අනෙක් සැකසුම් සමඟ සංකේතනය කර ගබඩා කරනු ඇත, නමුත් එය ආරක්ෂිත නොවේ.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2255"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2256"/>
       <source>Czech</source>
       <translation>චෙක්</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2629"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2630"/>
       <source>Brazilian Portuguese</source>
       <translation>බ්‍රසීලියානු පෘතුගීසි</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2816"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2817"/>
       <source>Ukrainian</source>
       <translation>යුක්රේන</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3780"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3781"/>
       <source>The name</source>
       <translation>නම</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4004"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4005"/>
       <source>Maximum height:</source>
       <translation>උපරිම උස:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3977"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3978"/>
       <source>Maximum width:</source>
       <translation>උපරිම පළල:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3918"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3919"/>
       <source>Scale images down when inserted into notes</source>
       <translation>සටහන් වලට ඇතුළත් කළ විට රූප පරිමාණය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2431"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2432"/>
       <source>Croatian</source>
       <translation>ක්‍රොඒෂියානු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3695"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3696"/>
       <source>Path to your QML file</source>
       <translation>ඔබගේ QML ගොනුවට මාවත</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3486"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3487"/>
       <source>Script name</source>
       <translation>ස්ක්‍රිප්ට් නම</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3508"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3509"/>
       <source>Description:</source>
       <translation>විස්තර:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3590"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3591"/>
       <source>Version:</source>
       <translation>පිටපත:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3551"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3552"/>
       <source>Repository:</source>
       <translation>නිධිය:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3528"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3529"/>
       <source>Author(s):</source>
       <translation>කර්තෘ (ය):</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3925"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3926"/>
       <source>Check this if you want to accept all external modifications while you are editing the current note.</source>
       <translation>ඔබ වත්මන් සටහන සංස්කරණය කරන අතරතුර සියලු බාහිර වෙනස් කිරීම් පිළිගැනීමට අවශ්‍ය නම් මෙය පරීක්ෂා කරන්න.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3928"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3929"/>
       <source>Accept all external modifications of the current note</source>
       <translation>වත්මන් සටහනේ සියලුම බාහිර වෙනස් කිරීම් පිළිගන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3862"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3863"/>
       <source>Use UNIX newline instead of native newline characters</source>
       <translation>ස්වදේශීය නිව්ලයින් අක්ෂර වෙනුවට යුනික්ස් නව රේඛාව භාවිතා කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3872"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3873"/>
       <source>Restore cursor position when opening a note</source>
       <translation>සටහනක් විවෘත කිරීමේදී කර්සරයේ පිහිටීම ප්‍රතිස්ථාපනය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4322"/>
-      <source>Be warned that this will also remove your cached todo items and configured note folders and scripts!</source>
-      <translation>මෙය ඔබගේ හැඹිලි ටෝඩෝ අයිතම සහ වින්‍යාසගත සටහන් ෆෝල්ඩර සහ ස්ක්‍රිප්ට් ද ඉවත් කරන බවට අනතුරු අඟවන්න!</translation>
-    </message>
-    <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4852"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4863"/>
       <source>Apply toolbar configuration</source>
       <translation>මෙවලම් තීරු වින්‍යාසය යොදන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4866"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4877"/>
       <source>Reset toolbars</source>
       <translation>මෙවලම් තීරු නැවත සකසන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4894"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4905"/>
       <source>Enable logging to file</source>
       <translation>ගොනු කිරීමට ලොග් වීම සක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4901"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4912"/>
       <source>Clear log file</source>
       <translation>ලොග් ගොනුව හිස් කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4912"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4923"/>
       <source>Fake old version number to trigger update</source>
       <translation>යාවත්කාලීන කිරීම අවුලුවාලීමට පැරණි අනුවාද අංකය ව්‍යාජ කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4940"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4951"/>
       <source>Log file path:</source>
       <translation>ලොග් ගොනු මාර්ගය:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5002"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5013"/>
       <source>Here you can set your own time format for inserting the current time into a note.</source>
       <translation>මෙහිදී ඔබට වර්තමාන වේලාව සටහනකට ඇතුළත් කිරීම සඳහා ඔබේම කාල ආකෘතියක් සැකසිය හැකිය.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5005"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5016"/>
       <source>Insert current time</source>
       <translation>වත්මන් කාලය ඇතුළු කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5011"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5022"/>
       <source>Time format:</source>
       <translation>කාල ආකෘතිය:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5018"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5029"/>
       <source>Enter your custom time format, like "dd.MM.yyyy hh:mm"</source>
       <translation>"Dd.MM.yyyy hh: mm" වැනි ඔබේ අභිරුචි කාල ආකෘතිය ඇතුළත් කරන්න.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5107"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5118"/>
       <source>Editor options</source>
       <translation>සංස්කාරක විකල්ප</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5120"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5131"/>
       <source>Enable automatic closing of brackets and markdown formatting characters</source>
       <translation>වරහන් ස්වයංක්‍රීයව වැසීම සහ සලකුණු ආකෘති හැඩතල ගැන්වීම සක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5174"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5185"/>
       <source>You have to use the backspace key to remove the opening character</source>
       <translation>ආරම්භක අක්‍ෂරය ඉවත් කිරීමට ඔබට බැක්ස්පේස් යතුර භාවිතා කළ යුතුය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="5177"/>
+      <location filename="../dialogs/settingsdialog.ui" line="5188"/>
       <source>Enable automatic removal of matching closing characters</source>
       <translation>ගැලපෙන සංවෘත අක්ෂර ස්වයංක්‍රීයව ඉවත් කිරීම සක්‍රීය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1887"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1888"/>
       <source>Your CalDAV calendar base url</source>
       <translation>ඔබගේ CalDAV දින දර්ශන පාදක url</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1919"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1920"/>
       <source>Please enter the username of your CalDAV server.</source>
       <translation>කරුණාකර ඔබේ CalDAV සේවාදායකයේ පරිශීලක නාමය ඇතුළත් කරන්න.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1922"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1923"/>
       <source>Your CalDAV username</source>
       <translation>ඔබේ CalDAV පරිශීලක නාමය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="1960"/>
+      <location filename="../dialogs/settingsdialog.ui" line="1961"/>
       <source>Your CalDAV password</source>
       <translation>ඔබගේ CalDAV මුරපදය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2007"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2008"/>
       <source>This causes all todo list items to be reloaded from your server the next time you open your todo dialog.</source>
       <translation>මෙය ඊළඟ වතාවේ ඔබේ ටෝඩෝ සංවාදය විවෘත කරන විට සියලුම ටෝඩෝ ලැයිස්තු අයිතම ඔබේ සේවාදායකයෙන් නැවත පූරණය වේ.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2010"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2011"/>
       <source>Empty calendar item cache</source>
       <translation>හිස් දින දර්ශන අයිතම හැඹිලිය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2033"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2034"/>
       <source>Click here to reload the list of calendars from your calendar server.</source>
       <translation>ඔබගේ දින දර්ශන සේවාදායකයෙන් දින දර්ශන ලැයිස්තුව නැවත පූරණය කිරීමට මෙතන ක්ලික් කරන්න.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2039"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2040"/>
       <source>&amp;Reload calendar list</source>
       <translation>&amp;දින දර්ශන ලැයිස්තුව නැවත පූරණය කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2948"/>
-      <location filename="../dialogs/settingsdialog.ui" line="3058"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2949"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3059"/>
       <source>You may need to restart the application to let these changes take effect</source>
       <translation>මෙම වෙනස්කම් බලාත්මක වීමට ඔබට යෙදුම නැවත ආරම්භ කිරීමට අවශ්‍ය විය හැකිය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3093"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3094"/>
       <source>Toolbar icon size:</source>
       <translation>මෙවලම් තීරු නිරූපක ප්‍රමාණය:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3083"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3084"/>
       <source>List and tree item height:</source>
       <translation>ලැයිස්තුව සහ ගස් අයිතමයේ උස:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3116"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3117"/>
       <source>Reset the icon size</source>
       <translation>නිරූපක ප්‍රමාණය නැවත සකසන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3130"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3131"/>
       <source>Reset the item height</source>
       <translation>අයිතමයේ උස නැවත සකසන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4677"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4688"/>
       <source>View text right to left (RTL)</source>
       <translation>පෙළ දකුණේ සිට වමට බලන්න (RTL)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3254"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3255"/>
       <source>Search for shortcut</source>
       <translation>කෙටිමං සඳහා සොයන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2050"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2051"/>
       <source>Ignore calendars that don't support todo items</source>
       <translation>ටෝඩෝ අයිතම සඳහා සහය නොදක්වන දින දර්ශන නොසලකා හරින්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="2882"/>
+      <location filename="../dialogs/settingsdialog.ui" line="2883"/>
       <source>Arabic</source>
       <translation>අරාබි</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3032"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3033"/>
       <source>Icons</source>
       <translation>අයිකන</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3041"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3042"/>
       <source>Use internal icon theme instead of system icon theme</source>
       <translation>පද්ධති නිරූපක තේමාව වෙනුවට අභ්‍යන්තර නිරූපක තේමාව භාවිතා කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3644"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3645"/>
       <source>Script path:</source>
       <translation>ස්ක්‍රිප්ට් මාර්ගය:</translation>
     </message>
@@ -6953,79 +6965,79 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>සටහන් ගොනුවේ නම සිරස්තලයට වඩා වෙනස් වීමට ඉඩ දෙන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3935"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3936"/>
       <source>Check this if you want to ignore all external modifications while you are editing the current note.</source>
       <translation>ඔබ වත්මන් සටහන සංස්කරණය කරන අතරතුර සියලු බාහිර වෙනස් කිරීම් නොසලකා හැරීමට අවශ්‍ය නම් මෙය පරීක්ෂා කරන්න.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3938"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3939"/>
       <source>Ignore all external modifications of the current note</source>
       <translation>වත්මන් සටහනේ සියලුම බාහිර වෙනස් කිරීම් නොසලකා හරින්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="3859"/>
+      <location filename="../dialogs/settingsdialog.ui" line="3860"/>
       <source>You can use this for example under Windows if you have troubles with newlines in the ownCloud / Nextcloud notes app</source>
       <translation>ඔබට තමන්ගේම ක්ලවුඩ් / නෙක්ස්ට් ක්ලවුඩ් සටහන් යෙදුමේ නව රේඛා සමඟ ගැටලු ඇත්නම් වින්ඩෝස් යටතේ මෙය භාවිතා කළ හැකිය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4034"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4035"/>
       <source>App instance</source>
       <translation>යෙදුම් උදාහරණය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4040"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4041"/>
       <source>Only allow one app instance at the same time</source>
       <translation>එකවර එක් යෙදුම් අවස්ථාවකට පමණක් ඉඩ දෙන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4136"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4137"/>
       <source>Add a custom file extension</source>
       <translation>අභිරුචි ගොනු දිගුවක් එක් කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4150"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4151"/>
       <source>Remove a custom file extension</source>
       <translation>අභිරුචි ගොනු දිගුවක් ඉවත් කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4189"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4190"/>
       <source>If you add custom extensions just type in the extension, like "taskpaper".</source>
       <translation>ඔබ අභිරුචි දිගු එකතු කරන්නේ නම් "කාර්ය පත්‍රිකාව" වැනි දිගුව ටයිප් කරන්න.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4193"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4194"/>
       <source>Text file (txt)</source>
       <translation>පෙළ ගොනුව (txt)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4221"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4222"/>
       <source>Path to external editor:</source>
       <translation>බාහිර සංස්කාරකයට මාර්ගය:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4056"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4057"/>
       <source>Don't show the update dialog automatically</source>
       <translation>යාවත්කාලීන සංවාදය ස්වයංක්‍රීයව පෙන්වන්න එපා</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4509"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4736"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4520"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4747"/>
       <source>Fonts</source>
       <translation>අකුරු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4532"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4574"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4759"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4787"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4543"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4585"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4770"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4798"/>
       <source>Set a new font</source>
       <translation>නව අකුරු සකසන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4543"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4588"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4773"/>
-      <location filename="../dialogs/settingsdialog.ui" line="4818"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4554"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4599"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4784"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4829"/>
       <source>Reset font</source>
       <translation>අකුරු යළි පිහිටුවන්න</translation>
     </message>
@@ -7035,19 +7047,19 @@ Just test yourself if you get sync conflicts and set a higher value if so.</sour
       <translation>නිදොස්කරණය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4373"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4384"/>
       <location filename="../dialogs/settingsdialog.cpp" line="2294"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4269"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4276"/>
       <source>Debug information</source>
       <translation>තොරතුරු නිදොස් කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4379"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4390"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can &lt;span style=" font-weight:600;"&gt;copy and paste&lt;/span&gt; this text (or parts of this text) in an &lt;span style=" font-weight:600;"&gt;issue&lt;/span&gt; on the &lt;a href="https://github.com/pbek/QOwnNotes/issues"&gt;QOwnNotes issues page&lt;/a&gt; if you have &lt;span style=" font-weight:600;"&gt;questions or troubles&lt;/span&gt; with QOwnNotes. Data that is too sensitive is hidden in this information.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt; &lt;head/&gt; &lt;body&gt; &lt;p&gt; ඔබට &lt;span style = "font-weight: 600;"&gt; පිටපත් කර අලවන්න &lt;/ span&gt; මෙම පා (ය (හෝ මෙම පා text යේ කොටස්) &lt;span style = &lt;a href="https://github.com/pbek/QOwnNotes/issues"&gt; QOwnNotes නිකුතු පිටුව &lt;/a&gt; හි &lt;font-weight: 600; "&gt; නිකුතුව &lt;/ span&gt; ඔබට &lt;span style = QOwnNotes සමඟ "font-weight: 600;"&gt; ප්‍රශ්න හෝ කරදර &lt;/ span&gt;. ඉතා සංවේදී දත්ත මෙම තොරතුරු තුළ සැඟවී ඇත. &lt;/ P&gt; &lt;/body&gt; &lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.ui" line="4466"/>
+      <location filename="../dialogs/settingsdialog.ui" line="4477"/>
       <source>&amp;Save debug information</source>
       <translation>&amp;නිදොස් කිරීමේ තොරතුරු සුරකින්න</translation>
     </message>
@@ -7142,78 +7154,88 @@ Connection error message: </source>
       <translation>වත්මන් සටහන් ෆෝල්ඩරය ඉවත් කරන්න &lt;strong&gt;%1 &lt;/strong&gt;?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2665"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2672"/>
       <source>Please select the folder where your notes will get stored to</source>
       <translation>කරුණාකර ඔබේ සටහන් ගබඩා වන ෆෝල්ඩරය තෝරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2700"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2707"/>
       <source>Loading folders from server</source>
       <translation>සේවාදායකයෙන් ෆෝල්ඩර පූරණය වෙමින් පවතී</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2715"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2722"/>
       <source>No more folders were found in the current folder</source>
       <translation>වත්මන් ෆෝල්ඩරයේ තවත් ෆෝල්ඩර හමු නොවීය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2788"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2795"/>
       <source>Loading folders in '%1' from server</source>
       <translation>සේවාදායකයෙන් '%1' හි ෆෝල්ඩර පූරණය වෙමින් පවතී</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2861"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2868"/>
       <source>Take a look at the &lt;a href="%1"&gt;Scripting documentation&lt;/a&gt; to get started fast.</source>
       <translation>වේගයෙන් ආරම්භ කිරීම සඳහා &lt;a href="%1"&gt; ස්ක්‍රිප්ටින් ප්‍රලේඛනය &lt;/a&gt; දෙස බලන්න.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2865"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2872"/>
       <source>If you need access to a certain functionality in QOwnNotes please open an issue on the &lt;a href="%1"&gt; QOwnNotes issue page&lt;/a&gt;.</source>
       <translation>QOwnNotes හි යම් ක්‍රියාකාරීත්වයකට ඔබට ප්‍රවේශය අවශ්‍ය නම් කරුණාකර &lt;a href="%1"&gt; QOwnNotes නිකුතුව පිටුවේ &lt;/a&gt; ගැටලුවක් විවෘත කරන්න.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2887"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2894"/>
       <source>Check for script updates</source>
       <translation>ස්ක්‍රිප්ට් යාවත්කාලීන කිරීම් සඳහා පරීක්ෂා කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2894"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2901"/>
       <source>Add local script</source>
       <translation>දේශීය ස්ක්‍රිප්ට් එක් කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2898"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2905"/>
       <source>Add an existing, local script</source>
       <translation>පවතින දේශීය පිටපතක් එක් කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3991"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="4049"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3998"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4056"/>
       <source>INI files</source>
       <translation>INI ගොනු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4027"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4034"/>
       <source>Do you really want to import settings? Your current settings will get removed and not every setting may get restored, like the note folder settings and which scripts you were using. You also will need to adjust some settings, especially across platforms, but your notes will stay intact!</source>
       <translation>ඔබට සැබවින්ම සැකසුම් ආනයනය කිරීමට අවශ්‍යද? ඔබගේ වර්තමාන සැකසුම් ඉවත් කරනු ඇති අතර සටහන් ෆෝල්ඩර සැකසුම් සහ ඔබ භාවිතා කළ ස්ක්‍රිප්ට් වැනි සෑම සැකසුමක්ම ප්‍රතිස්ථාපනය නොවනු ඇත. ඔබට සමහර සැකසුම්, විශේෂයෙන් වේදිකා හරහා සකස් කිරීමට අවශ්‍ය වනු ඇත, නමුත් ඔබේ සටහන් නොවෙනස්ව පවතිනු ඇත!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4037"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4044"/>
       <source>The application will be quit after the import.</source>
       <translation>ආයාත කිරීමෙන් පසු අයදුම්පත ඉවත් වේ.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4038"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4045"/>
       <source>The application will be restarted after the import.</source>
       <translation>ආයාත කිරීමෙන් පසු යෙදුම නැවත ආරම්භ වේ.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="4270"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4277"/>
       <source>The debug information was copied to the clipboard.</source>
       <translation>නිදොස් කිරීමේ තොරතුරු ක්ලිප් පුවරුවට පිටපත් කරන ලදි.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2881"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="4298"/>
+      <source>The integrity of the disk database is valid.</source>
+      <translation type="unfinished">The integrity of the disk database is valid.</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/settingsdialog.cpp" line="4303"/>
+      <source>The integrity of the disk database is not valid!</source>
+      <translation type="unfinished">The integrity of the disk database is not valid!</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/settingsdialog.cpp" line="2888"/>
       <source>Find a script in the script repository</source>
       <translation>ස්ක්‍රිප්ට් ගබඩාවේ ස්ක්‍රිප්ට් එකක් සොයා ගන්න</translation>
     </message>
@@ -7256,105 +7278,105 @@ Connection error message: </source>
       <translation>කෙටිමඟ &lt;strong&gt;% 1 &lt;/strong&gt; දැනටමත් &lt;strong&gt;% 2 &lt;/strong&gt; වෙත පවරා ඇත! ඔබට කෙටිමඟට පනින්න අවශ්‍යද?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2974"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2981"/>
       <source>Remove script</source>
       <translation>ස්ක්‍රිප්ට් ඉවත් කරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="2975"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="2982"/>
       <source>Remove the current script &lt;strong&gt;%1&lt;/strong&gt;?</source>
       <translation>වත්මන් ස්ක්‍රිප්ට් ඉවත් කරන්න &lt;strong&gt;%1&lt;/strong&gt;?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3025"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3032"/>
       <source>QML files</source>
       <translation>QML ගොනු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3026"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3033"/>
       <source>Please select your QML file</source>
       <translation>කරුණාකර ඔබේ QML ගොනුව තෝරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3115"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3122"/>
       <source>Open repository</source>
       <translation>විවෘත ගබඩාව</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3173"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3180"/>
       <source>Your script seems to be valid</source>
       <translation>ඔබගේ ස්ක්‍රිප්ට් වලංගු බව පෙනේ</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3174"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3181"/>
       <source>There were script errors:
 %1</source>
       <translation>ස්ක්‍රිප්ට් දෝෂ තිබේ:
 %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3242"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3249"/>
       <source>File extension</source>
       <translation>ගොනු දිගුව</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3242"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3249"/>
       <source>Enter your custom file extension:</source>
       <translation>ඔබගේ අභිරුචි ගොනු දිගුව ඇතුළත් කරන්න:</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3571"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3578"/>
       <source>Calendar cache emptied</source>
       <translation>දින දර්ශන හැඹිලිය හිස් විය</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3572"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3579"/>
       <source>Your calendar cache was emptied.</source>
       <translation>ඔබගේ දින දර්ශන හැඹිලිය හිස් විය.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3653"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3660"/>
       <source>Reset toolbars and exit</source>
       <translation>මෙවලම් තීරු නැවත සකසා පිටවන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3654"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3661"/>
       <source>Do you really want to reset all toolbars? The application will be closed in the process, the default toolbars will be restored when you start it again.</source>
       <translation>සියලුම මෙවලම් තීරු නැවත සැකසීමට ඔබට ඇත්තටම අවශ්‍යද? ක්‍රියාවලිය තුළ යෙදුම වසා දමනු ඇත, ඔබ එය නැවත ආරම්භ කරන විට පෙරනිමි මෙවලම් තීරු ප්‍රතිස්ථාපනය වේ.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3658"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3665"/>
       <source>Reset and &amp;exit</source>
       <translation>නැවත සකසා &amp;පිටවන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3816"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3823"/>
       <source>Log file cleared</source>
       <translation>ලොග් ගොනුව හිස් කර ඇත</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3817"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3824"/>
       <source>The log file &lt;strong&gt;%1&lt;/strong&gt; was cleared.</source>
       <translation>ලොග් ගොනුව &lt;strong&gt;%1 &lt;/strong&gt; ඉවත් කරන ලදි.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3853"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3860"/>
       <source>Executable files</source>
       <translation>ක්‍රියාත්මක කළ හැකි ගොනු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3854"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3856"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3861"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3863"/>
       <source>All files</source>
       <translation>සියලුම ලිපිගොනු</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3864"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3871"/>
       <source>Please select the path of your git executable</source>
       <translation>කරුණාකර ඔබේ git ක්‍රියාත්මක කළ හැකි මාර්ගය තෝරන්න</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsdialog.cpp" line="3961"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3968"/>
       <source>Do you really want to reset the overrides of all message boxes?</source>
       <translation>සියලුම පණිවිඩ පෙට්ටිවල අතිච්ඡාදනයන් නැවත සැකසීමට ඔබට ඇත්තටම අවශ්‍යද?</translation>
     </message>
@@ -7435,7 +7457,7 @@ Your notes will stay intact!</source>
     <message>
       <location filename="../dialogs/settingsdialog.cpp" line="2279"/>
       <location filename="../dialogs/settingsdialog.cpp" line="2351"/>
-      <location filename="../dialogs/settingsdialog.cpp" line="3658"/>
+      <location filename="../dialogs/settingsdialog.cpp" line="3665"/>
       <source>&amp;Cancel</source>
       <translation>&amp;අවලංගු කරන්න</translation>
     </message>

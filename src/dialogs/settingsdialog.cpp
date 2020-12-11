@@ -755,8 +755,8 @@ void SettingsDialog::storeSettings() {
                       ui->autoBracketClosingCheckBox->isChecked());
     settings.setValue(QStringLiteral("Editor/autoBracketRemoval"),
                       ui->autoBracketRemovalCheckBox->isChecked());
-    settings.setValue(QStringLiteral("Editor/removeTrainingSpaces"),
-                      ui->removeTrainingSpacesCheckBox->isChecked());
+    settings.setValue(QStringLiteral("Editor/removeTrailingSpaces"),
+                      ui->removeTrailingSpacesCheckBox->isChecked());
     settings.setValue(QStringLiteral("Editor/highlightCurrentLine"),
                       ui->highlightCurrentLineCheckBox->isChecked());
     settings.setValue(QStringLiteral("Editor/editorWidthInDFMOnly"),
@@ -1146,8 +1146,8 @@ void SettingsDialog::readSettings() {
     ui->autoBracketRemovalCheckBox->setChecked(
         settings.value(QStringLiteral("Editor/autoBracketRemoval"), true)
             .toBool());
-    ui->removeTrainingSpacesCheckBox->setChecked(
-        settings.value(QStringLiteral("Editor/removeTrainingSpaces")).toBool());
+    ui->removeTrailingSpacesCheckBox->setChecked(
+        settings.value(QStringLiteral("Editor/removeTrailingSpaces")).toBool());
     ui->highlightCurrentLineCheckBox->setChecked(
         settings.value(QStringLiteral("Editor/highlightCurrentLine"), true)
             .toBool());
@@ -2635,6 +2635,13 @@ void SettingsDialog::on_noteFolderNameLineEdit_editingFinished() {
                        .remove(QStringLiteral("\n"))
                        .trimmed();
     text.truncate(50);
+
+    // fallback to directory name in case name edit is empty
+    if (text.isEmpty()) {
+        const QString localPath = ui->noteFolderLocalPathLineEdit->text();
+        text = QDir(localPath).dirName();
+    }
+
     _selectedNoteFolder.setName(text);
     _selectedNoteFolder.store();
 
@@ -4282,4 +4289,18 @@ void SettingsDialog::on_languageSearchLineEdit_textChanged(const QString &arg1) 
 
 void SettingsDialog::on_noteTextViewUseEditorStylesCheckBox_toggled(bool checked) {
     ui->previewFontsGroupBox->setDisabled(checked);
+}
+
+void SettingsDialog::on_databaseIntegrityCheckButton_clicked() {
+    if (DatabaseService::checkDiskDatabaseIntegrity()) {
+        Utils::Gui::information(
+            this, tr("Database"),
+            tr("The integrity of the disk database is valid."),
+            QStringLiteral("database-integrity-check-valid"));
+    } else {
+        Utils::Gui::warning(
+            this, tr("Database"),
+            tr("The integrity of the disk database is not valid!"),
+            QStringLiteral("database-integrity-check-not-valid"));
+    }
 }

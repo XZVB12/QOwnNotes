@@ -954,8 +954,6 @@ private:
     void createNewNote(QString noteName = QString(),
                        bool withNameAppend = true);
 
-    bool selectedNotesHaveTags();
-
     void initTagButtonScrollArea();
 
     static QIcon getSystemTrayIcon();
@@ -1105,4 +1103,6 @@ private:
     void closeOrphanedTabs() const;
     void removeNoteTab(int index) const;
     void automaticScriptUpdateCheck();
+
+    void updateJumpToActionsAvailability();
 };

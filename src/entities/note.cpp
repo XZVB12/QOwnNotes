@@ -253,7 +253,7 @@ Note Note::fetchByRelativeFilePath(const QString &relativePath) {
     const auto noteSubFolder =
         NoteSubFolder::fetchByPathData(fileInfo.path(), QStringLiteral("/"));
 
-    if ((fileInfo.path() != ".") && !noteSubFolder.exists()) {
+    if ((fileInfo.path() != ".") && !noteSubFolder.isFetched()) {
         return Note();
     }
 
@@ -747,27 +747,6 @@ QVector<int> Note::noteIdListFromNoteList(const QVector<Note> &noteList) {
 }
 
 /**
- * Returns all notes that are not tagged
- */
-QVector<Note> Note::fetchAllNotTagged(int activeNoteSubFolderId) {
-    QVector<Note> noteList;
-    if (activeNoteSubFolderId < 0) {
-        noteList = Note::fetchAll();
-    } else {
-        noteList = Note::fetchAllByNoteSubFolderId(activeNoteSubFolderId);
-    }
-    QVector<Note> untaggedNoteList;
-    untaggedNoteList.reserve(noteList.size());
-
-    QVector<Note>::const_iterator i;
-    for (i = noteList.constBegin(); i != noteList.constEnd(); ++i) {
-        const int tagCount = Tag::countAllOfNote(*i);
-        if (tagCount == 0) untaggedNoteList.append(*i);
-    }
-    return untaggedNoteList;
-}
-
-/**
  * Returns all notes names that are not tagged
  */
 QVector<int> Note::fetchAllNotTaggedIds() {
@@ -777,8 +756,9 @@ QVector<int> Note::fetchAllNotTaggedIds() {
 
     QVector<Note>::const_iterator it = noteList.constBegin();
     for (; it != noteList.constEnd(); ++it) {
-        const int tagCount = Tag::countAllOfNote(*it);
-        if (tagCount == 0) untaggedNoteIdList << it->getId();
+        if (!Tag::noteHasTags(*it, QString())) {
+            untaggedNoteIdList << it->getId();
+        }
     }
 
     return untaggedNoteIdList;
@@ -788,7 +768,23 @@ QVector<int> Note::fetchAllNotTaggedIds() {
  * Counts all notes that are not tagged
  */
 int Note::countAllNotTagged(int activeNoteSubFolderId) {
-    return Note::fetchAllNotTagged(activeNoteSubFolderId).count();
+    QVector<Note> noteList;
+    QString path;
+    if (activeNoteSubFolderId < 0) {
+        noteList = Note::fetchAll();
+    } else {
+        noteList = Note::fetchAllByNoteSubFolderId(activeNoteSubFolderId);
+        path = NoteSubFolder::fetch(activeNoteSubFolderId).relativePath();
+    }
+
+    QVector<Note>::const_iterator i;
+    int count = 0;
+    for (i = noteList.constBegin(); i != noteList.constEnd(); ++i) {
+        if (!Tag::noteHasTags(*i, path)) {
+            count++;
+        }
+    }
+    return count;
 }
 
 QVector<Note> Note::search(const QString &text) {
@@ -1366,7 +1362,7 @@ bool Note::storeNoteTextFileToDisk() {
     this->_hasDirtyData = false;
     this->_fileLastModified = QDateTime::currentDateTime();
 
-    if (!fileExists) {
+    if (!fileExists || !this->_fileCreated.isValid()) {
         this->_fileCreated = this->_fileLastModified;
     }
 
@@ -1556,7 +1552,7 @@ bool Note::handleNoteTextFileName() {
         const QString nameBase = name;
 
         // check if note with this filename already exists
-        while (Note::fetchByFileName(fileName).exists()) {
+        while (Note::fetchByFileName(fileName).isFetched()) {
             // find new filename for the note
             name =
                 nameBase + QStringLiteral(" ") + QString::number(++nameCount);

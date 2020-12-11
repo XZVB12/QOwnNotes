@@ -33,7 +33,7 @@ graph TB
 
 ## QOwnNotes
 
-- QOwnNotes **stores notes** directly to your **note folder as markdown files**
+- QOwnNotes **speichert Notizen** direkt in Ihrem **Notizordner als Markdown-Dateien**
 - Es kann direkt mit Ihrem Nextcloud / ownCloud-Server kommunizieren, um Notizen auszutauschen
 - Sie können auch über die [QOwnNotesApi Nextcloud-App](#qownnotesapi-nextcloud-app) auf Ihren Notizverlauf und Papierkorb auf Ihrem Nextcloud / ownCloud-Server zugreifen
 - Auf Todo-Listen auf Ihrem Nextcloud / ownCloud-Server kann über QOwnNotes zugegriffen werden
@@ -58,10 +58,10 @@ Weitere Informationen finden Sie unter [QOwnNotes Web Companion-Browsererweiteru
 
 ## Nextcloud Desktop Sync Client
 
-**Synchronisieren Sie Ihre Notizen** mit anderen Geräten (Desktop & Mobile) mit Ihrer [Nextcloud](https://nextcloud.com/) oder [ownCloud](https://owncloud.org/) Client mit Ihrem Server synchronisieren.
+**Synchronisieren Sie Ihre Notizen** mit anderen Geräten (Desktop & Mobile) mittels Ihres [Nextcloud](https://nextcloud.com/) oder [ownCloud](https://owncloud.org/) Sync-Clients für Ihren Server.
 
 ::: tip
-Natürlich können auch andere Lösungen wie **Dropbox**, **Syncthing**, **Seafile** oder BitTorrent Sync verwendet werden auch, um Ihre Notizen und andere Dateien zu synchronisieren.
+Natürlich können auch andere Lösungen wie **Dropbox**, **Syncthing**, **Seafile** oder BitTorrent Sync verwendet werden, um Ihre Notizen und andere Dateien zu synchronisieren.
 
 Sie können auch **git** verwenden, um mit Tools wie [gitomatic](https://github.com/muesli/gitomatic/) zu synchronisieren.
 :::
@@ -73,7 +73,7 @@ Um online mit Ihren Notizen zu arbeiten, können Sie Server wie [Nextcloud](http
 Sie können Ihren eigenen Server hosten oder gehostete Lösungen verwenden.
 
 ::: tip
-Natürlich können auch andere Lösungen wie **Dropbox**, **Syncthing**, **Seafile** oder BitTorrent Sync verwendet werden auch, um Ihre Notizen und andere Dateien zu hosten
+Natürlich können auch andere Lösungen wie **Dropbox**, **Syncthing**, **Seafile** oder BitTorrent Sync verwendet werden, um Ihre Notizen und andere Dateien zu hosten
 :::
 
 ## QOwnNotesAPI Nextcloud app
@@ -117,6 +117,8 @@ Sie können auch [Notebooks](https://itunes.apple.com/us/app/notebooks-write-and
 Dies ist ein Onlinedienst von QOwnNotes, mit dem überprüft werden kann, ob eine neue Version der Anwendung verfügbar ist.
 
 Es spricht mit GitHub und sucht nach der neuesten Version, erhält eine geeignete Download-URL und kompiliert die Änderungen aus dem Änderungsprotokoll im Vergleich zu der Version von QOwnNotes, die Sie derzeit als HTML verwenden, um sie im Aktualisierungsdialog anzuzeigen.
+
+Darüber hinaus bietet es den [Release RSS Feed](http://api.qownnotes.org/rss/app-releases) und eine Implementierung der API zur Überprüfung älterer Legacy-Updates für ältere Versionen von QOwnNotes.
 
 ::: tip
 Sie können auf den Quellcode für [api.qownnotes.org](https://api.qownnotes.org) auf [GitHub](https://github.com/qownnotes/api) zugreifen.

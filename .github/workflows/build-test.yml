@@ -24,7 +24,7 @@ jobs:
         # Linux:   https://download.qt.io/online/qtsdkrepository/linux_x64/desktop/
         # macOS:   https://download.qt.io/online/qtsdkrepository/mac_x64/desktop/
         # Windows: https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/
-        qt-version: ['5.3', '5.4', '5.7', '5.13.2', '5.14.2', '5.15.1']
+        qt-version: ['5.3', '5.4', '5.7', '5.13.2', '5.14.2', '5.15.2']
         experimental: [false]
         exclude:
           # xcode not found
@@ -67,13 +67,21 @@ jobs:
         submodules: true
     - id: files
       uses: jitterbit/get-changed-files@v1
+      with:
+        format: 'csv'
+    - if: contains( matrix.os, 'macos')
+      name: Install bash 5.0 under macOS for mapfile
+      run: |
+        brew install bash
+        sudo mv /usr/local/bin/bash /bin/bash
     - id: changes
       name: Check if we want to build QOwnNotes
       shell: bash
       run: |
         unset DO_BUILD
-        for changed_file in ${{ steps.files.outputs.all }}; do
-          if [[ ${changed_file} = src* ]] || [[ ${changed_file} = ".github/workflows/build-test.yml" ]] ;
+        mapfile -d ',' -t added_modified_files < <(printf '%s,' '${{ steps.files.outputs.added_modified }}')
+        for changed_file in "${added_modified_files[@]}"; do
+          if [[ ${changed_file} = src* ]] || [[ ${changed_file} = build-systems/github/* ]] || [[ ${changed_file} = ".github/workflows/build-test.yml" ]] ;
           then
             echo "'${changed_file}' matches, we will build"
             DO_BUILD='true'
@@ -105,14 +113,14 @@ jobs:
         cached: ${{ steps.cache-qt.outputs.cache-hit }}
         aqtversion: '==0.9.4'
 #        py7zrversion: '==0.9.0'
-    - if: contains( matrix.os, 'windows') && ( matrix.qt-version == '5.15.1' ) && steps.changes.outputs.DO_BUILD
-      name: Install Qt 5.15.1 on Windows
+    - if: contains( matrix.os, 'windows') && ( matrix.qt-version == '5.15.2' ) && steps.changes.outputs.DO_BUILD
+      name: Install Qt 5.15.2 on Windows
       uses: jurplel/install-qt-action@v2
       with:
         version: ${{ matrix.qt-version }}
         arch: win64_mingw81
         cached: ${{ steps.cache-qt.outputs.cache-hit }}
-    - if: contains( matrix.os, 'windows') && ( matrix.qt-version != '5.7' ) && ( matrix.qt-version != '5.15.1' ) && steps.changes.outputs.DO_BUILD
+    - if: contains( matrix.os, 'windows') && ( matrix.qt-version != '5.7' ) && ( matrix.qt-version != '5.15.2' ) && steps.changes.outputs.DO_BUILD
       name: Install Qt on Windows
       uses: jurplel/install-qt-action@v2
       with:
@@ -156,7 +164,20 @@ jobs:
       # Build QOwnNotes
       #
 
-    - if: steps.changes.outputs.DO_BUILD
+    - if: steps.changes.outputs.DO_BUILD && !(contains( matrix.os, 'windows') && ( matrix.qt-version == '5.15.2' ))
       name: Build QOwnNotes
       run: |
         lrelease QOwnNotes.pro && qmake && make
+
+      #
+      # Build QOwnNotes Windows Release and store it as artifact
+      #
+
+    - if: contains( matrix.os, 'windows') && ( matrix.qt-version == '5.15.2' ) && steps.changes.outputs.DO_BUILD
+      name: Build QOwnNotes Windows Release
+      run: '& ..\build-systems\github\windows\build-zip.ps1'
+    - if: contains( matrix.os, 'windows') && ( matrix.qt-version == '5.15.2' ) && steps.changes.outputs.DO_BUILD
+      uses: actions/upload-artifact@v2
+      with:
+        name: QOwnNotes-Windows
+        path: QOwnNotes.zip

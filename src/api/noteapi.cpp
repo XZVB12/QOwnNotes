@@ -48,13 +48,13 @@ QQmlListProperty<TagApi> NoteApi::tags() {
     _tags.clear();
 
     Note note = Note::fetch(_id);
-    QVector<TagHeader> tags = Tag::fetchAllOfNote(note);
-    QVectorIterator<TagHeader> itr(tags);
+    QVector<Tag> tags = Tag::fetchAllOfNote(note);
+    QVectorIterator<Tag> itr(tags);
     while (itr.hasNext()) {
-        TagHeader tag = itr.next();
+        Tag tag = itr.next();
 
         auto* tagApi = new TagApi();
-        tagApi->fetch(tag._id);
+        tagApi->copy(tag);
         _tags.append(tagApi);
     }
 #if (QT_VERSION < QT_VERSION_CHECK(5, 15, 0))
@@ -70,11 +70,11 @@ QQmlListProperty<TagApi> NoteApi::tags() {
 QStringList NoteApi::tagNames() const {
     QStringList tagNameList;
     Note note = Note::fetch(_id);
-    QVector<TagHeader> tags = Tag::fetchAllOfNote(note);
-    QVectorIterator<TagHeader> itr(tags);
+    QVector<Tag> tags = Tag::fetchAllOfNote(note);
+    QVectorIterator<Tag> itr(tags);
     while (itr.hasNext()) {
-        TagHeader tag = itr.next();
-        tagNameList.append(tag._name);
+        Tag tag = itr.next();
+        tagNameList.append(tag.getName());
     }
 
     return tagNameList;
@@ -92,7 +92,7 @@ bool NoteApi::addTag(const QString& tagName) {
     }
 
     Note note = Note::fetch(_id);
-    if (!note.exists()) {
+    if (!note.isFetched()) {
         return false;
     }
 
@@ -114,12 +114,12 @@ bool NoteApi::addTag(const QString& tagName) {
  */
 bool NoteApi::removeTag(QString tagName) {
     Tag tag = Tag::fetchByName(std::move(tagName));
-    if (!tag.exists()) {
+    if (!tag.isFetched()) {
         return false;
     }
 
     Note note = Note::fetch(_id);
-    if (!note.exists()) {
+    if (!note.isFetched()) {
         return false;
     }
 
@@ -135,7 +135,7 @@ bool NoteApi::removeTag(QString tagName) {
 bool NoteApi::renameNoteFile(const QString &newName) {
     Note note = Note::fetch(_id);
 
-    if (note.exists()) {
+    if (note.isFetched()) {
         return note.renameNoteFile(newName);
     }
 

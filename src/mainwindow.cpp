@@ -1342,10 +1342,13 @@ void MainWindow::updatePanelMenu() {
         // toggle the panel if the checkbox was triggered
         connect(action, &QAction::triggered, this, [this, dockWidget]() {
             togglePanelVisibility(dockWidget->objectName());
+            updateJumpToActionsAvailability();
         });
 
         ui->menuPanels->addAction(action);
     }
+
+    updateJumpToActionsAvailability();
 
     // update the preview in case it was disable previously
     if (_notePreviewDockWidget->isVisible()) {
@@ -2979,7 +2982,7 @@ void MainWindow::storeUpdatedNotesToDisk() {
 
         if (currentNoteChanged) {
             // strip trailing spaces of the current note (if enabled)
-            if (QSettings().value(QStringLiteral("Editor/removeTrainingSpaces"))
+            if (QSettings().value(QStringLiteral("Editor/removeTrailingSpaces"))
                     .toBool()) {
                 const bool wasStripped = currentNote.stripTrailingSpaces(
                     activeNoteTextEdit()->textCursor().position());
@@ -6325,10 +6328,10 @@ void MainWindow::openLocalUrl(QString urlString) {
                         }
 
                         NoteSubFolder subFolder = NoteSubFolder::fetchByNameAndParentId(folderName, noteSubFolder.getId());
-                        if (!subFolder.exists()) {
+                        if (!subFolder.isFetched()) {
                             createNewNoteSubFolder(folderName);
                             noteSubFolder = NoteSubFolder::fetchByNameAndParentId(folderName, noteSubFolder.getId());
-                            if (!noteSubFolder.exists()) {
+                            if (!noteSubFolder.isFetched()) {
                                 qWarning() << "Failed to create subfolder: " << folderName <<
                                               "when attempting to create path: " << relativeFilePath;
                                 subFolderCreationFailed = true;
@@ -6725,8 +6728,11 @@ void MainWindow::noteTextEditCustomContextMenuRequested(
     const QTextBlock &currentTextBlock =
         noteTextEdit->cursorForPosition(pos).block();
     const int userState = currentTextBlock.userState();
+    const bool isCodeSpan = ui->noteTextEdit->highlighter()->isPosInACodeSpan(currentTextBlock.blockNumber(),
+                                                                              noteTextEdit->cursorForPosition(pos).positionInBlock());
+
     copyCodeBlockAction->setEnabled(
-        MarkdownHighlighter::isCodeBlock(userState));
+        MarkdownHighlighter::isCodeBlock(userState) || isCodeSpan);
 
     menu->addSeparator();
 
@@ -6839,7 +6845,15 @@ void MainWindow::noteTextEditCustomContextMenuRequested(
         } else if (selectedItem == copyCodeBlockAction) {
             // copy the text from a copy block around currentTextBlock to the
             // clipboard
-            Utils::Gui::copyCodeBlockText(currentTextBlock);
+            if (isCodeSpan) {
+                const auto codeSpanRange = ui->noteTextEdit->highlighter()->getSpanRange(MarkdownHighlighter::RangeType::CodeSpan,
+                                                                                         currentTextBlock.blockNumber(),
+                                                                                         noteTextEdit->cursorForPosition(pos).positionInBlock());
+                QApplication::clipboard()->setText(currentTextBlock.text().mid(codeSpanRange.first + 1,
+                                                                               codeSpanRange.second - codeSpanRange.first - 1));
+            } else {
+                Utils::Gui::copyCodeBlockText(currentTextBlock);
+            }
         }
     }
 }
@@ -7355,7 +7369,7 @@ void MainWindow::gotoNoteBookmark(int slot) {
     NoteHistoryItem item = noteBookmarks[slot];
 
     // check if the note (still) exists
-    if (item.getNote().exists()) {
+    if (item.getNote().isFetched()) {
         ui->noteTextEdit->setFocus();
         setCurrentNoteFromHistoryItem(item);
 
@@ -8008,6 +8022,7 @@ void MainWindow::reloadTagTree() {
         QIcon::fromTheme(QStringLiteral("edit-copy"),
                          QIcon(QStringLiteral(
                              ":icons/breeze-qownnotes/16x16/edit-copy.svg"))));
+
     // this time, the tags come first
     buildTagTreeForParentItem();
     // and get sorted
@@ -8296,7 +8311,7 @@ QTreeWidgetItem *MainWindow::addTagToTagTreeWidget(QTreeWidgetItem *parent,
     const QString name = tag._name;
     auto hideCount = QSettings().value("tagsPanelHideNoteCount", false).toBool();
 
-    QVector<int> linkedNoteIds;
+    int count = 0;
     if (!hideCount) {
         const QVector<int> tagIdListToCount = Tag::isTaggingShowNotesRecursively() ?
                     Tag::fetchTagIdsRecursivelyByParentId(tagId) : QVector<int>{tag._id};
@@ -8307,7 +8322,6 @@ QTreeWidgetItem *MainWindow::addTagToTagTreeWidget(QTreeWidgetItem *parent,
                 NoteSubFolder::isNoteSubfoldersPanelShowNotesRecursively();
 
         if (selectedSubFolderItems.count() > 1) {
-            linkedNoteIds.reserve(tagIdListToCount.size());
             for (const int tagIdToCount : tagIdListToCount) {
                 for (QTreeWidgetItem *folderItem : selectedSubFolderItems) {
                     int id = folderItem->data(0, Qt::UserRole).toInt();
@@ -8317,29 +8331,22 @@ QTreeWidgetItem *MainWindow::addTagToTagTreeWidget(QTreeWidgetItem *parent,
                         continue;
                     }
 
-                    linkedNoteIds << Tag::fetchAllLinkedNoteIdsForFolder(
-                                         tagIdToCount,
-                                         folder, showNotesFromAllSubFolders,
-                                         isShowNotesRecursively);
+                    count = Tag::countLinkedNoteFileNamesForNoteSubFolder(
+                                tagIdToCount, folder,
+                                showNotesFromAllSubFolders, isShowNotesRecursively);
                 }
             }
         } else {
-            linkedNoteIds.reserve(tagIdListToCount.size());
             for (const int tagToCount : tagIdListToCount) {
-                linkedNoteIds << Tag::fetchAllLinkedNoteIds(
+                count =  Tag::countLinkedNoteFileNames(
                                      tagToCount,
                                      showNotesFromAllSubFolders,
                                      isShowNotesRecursively);
             }
         }
-
-        // remove duplicate note ids
-        linkedNoteIds.erase(
-                    std::unique(linkedNoteIds.begin(), linkedNoteIds.end()),
-                    linkedNoteIds.end());
     }
 
-    const int linkCount = linkedNoteIds.count();
+    const int linkCount = count;
     const QString toolTip = tr("show all notes tagged with '%1' (%2)")
                                 .arg(name, QString::number(linkCount));
     auto *item = new QTreeWidgetItem();
@@ -8830,7 +8837,7 @@ void MainWindow::reloadCurrentNoteTags() {
     ui->newNoteTagButton->setToolTip(
         currentNoteOnly ? tr("Add a tag to the current note")
                         : tr("Add a tag to the selected notes"));
-    QVector<TagHeader> tagList;
+    QVector<Tag> tagList;
 
     ui->multiSelectActionFrame->setVisible(!currentNoteOnly);
     ui->noteEditorFrame->setVisible(currentNoteOnly);
@@ -8865,20 +8872,20 @@ void MainWindow::reloadCurrentNoteTags() {
     _lastNoteSelectionWasMultiple = !currentNoteOnly;
 
     // add all new remove-tag buttons
-    for (const TagHeader &tag : Utils::asConst(tagList)) {
+    for (const Tag &tag : Utils::asConst(tagList)) {
         QPushButton *button = new QPushButton(
-            Utils::Misc::shorten(tag._name, 25), ui->noteTagButtonFrame);
+            Utils::Misc::shorten(tag.getName(), 25), ui->noteTagButtonFrame);
         button->setIcon(QIcon::fromTheme(
             QStringLiteral("tag-delete"),
             QIcon(QStringLiteral(
                 ":icons/breeze-qownnotes/16x16/xml-attribute-delete.svg"))));
         button->setToolTip(
             currentNoteOnly
-                ? tr("Remove tag '%1' from the current note").arg(tag._name)
+                ? tr("Remove tag '%1' from the current note").arg(tag.getName())
                 : tr("Remove tag '%1' from the selected notes")
-                      .arg(tag._name));
+                      .arg(tag.getName()));
         button->setObjectName(QStringLiteral("removeNoteTag") +
-                              QString::number(tag._id));
+                              QString::number(tag.getId()));
 
         QObject::connect(button, &QPushButton::clicked, this,
                          &MainWindow::removeNoteTagClicked);
@@ -8906,7 +8913,7 @@ void MainWindow::reloadCurrentNoteTags() {
 void MainWindow::highlightCurrentNoteTagsInTagTree() {
     const int selectedNotesCount = getSelectedNotesCount();
     const bool currentNoteOnly = selectedNotesCount <= 1;
-    QVector<TagHeader> tagList;
+    QVector<Tag> tagList;
 
     if (currentNoteOnly) {
         tagList = Tag::fetchAllOfNote(currentNote);
@@ -8920,9 +8927,9 @@ void MainWindow::highlightCurrentNoteTagsInTagTree() {
 
     Utils::Gui::resetBoldStateOfAllTreeWidgetItems(ui->tagTreeWidget);
 
-    for (const TagHeader &tag : Utils::asConst(tagList)) {
+    for (const Tag &tag : Utils::asConst(tagList)) {
         QTreeWidgetItem *item = Utils::Gui::getTreeWidgetItemWithUserData(
-            ui->tagTreeWidget, tag._id);
+            ui->tagTreeWidget, tag.getId());
 
         if (item != nullptr) {
             // set tag item in tag tree widget to bold if note has tag
@@ -9643,7 +9650,7 @@ void MainWindow::moveSelectedNotesToNoteSubFolder(
             }
 
             // fetch the tags to tag the note after moving it
-            const QVector<TagHeader> tags = Tag::fetchAllOfNote(note);
+            const QVector<Tag> tags = Tag::fetchAllOfNote(note);
 
             if (note.getId() == currentNote.getId()) {
                 // unset the current note
@@ -9660,8 +9667,8 @@ void MainWindow::moveSelectedNotesToNoteSubFolder(
                 note.setNoteSubFolder(noteSubFolder);
 
                 // tag the note again
-                for (const TagHeader &tagHeader : tags) {
-                    Tag::fetch(tagHeader._id).linkToNote(note);
+                for (const Tag &tag : tags) {
+                    tag.linkToNote(note);
 //                    tag.linkToNote(note);
                 }
 
@@ -9744,7 +9751,7 @@ void MainWindow::copySelectedNotesToNoteSubFolder(
             }
 
             // fetch the tags to tag the note after copying it
-            const QVector<TagHeader> tags = Tag::fetchAllOfNote(note);
+            const QVector<Tag> tags = Tag::fetchAllOfNote(note);
 
             // copy note
             const bool result = note.copyToPath(noteSubFolder.fullPath());
@@ -9756,9 +9763,8 @@ void MainWindow::copySelectedNotesToNoteSubFolder(
                 note.setNoteSubFolder(noteSubFolder);
 
                 // tag the note again
-                for (const TagHeader &tag : tags) {
-                    Tag::fetch(tag._id).linkToNote(note);
-//                    tag.linkToNote(note);
+                for (const Tag &tag : tags) {
+                    tag.linkToNote(note);
                 }
 
                 // re-link images
@@ -9791,33 +9797,6 @@ void MainWindow::copySelectedNotesToNoteSubFolder(
                 .arg(noteSubFolder.getName()),
             5000);
     }
-}
-
-/**
- * Returns true if one of the selected notes has a linked tag
- *
- * @return
- */
-bool MainWindow::selectedNotesHaveTags() {
-    const auto items = ui->noteTreeWidget->selectedItems();
-    for (QTreeWidgetItem *item : items) {
-        if (item->data(0, Qt::UserRole + 1) != NoteType) {
-            continue;
-        }
-
-        const int noteId = item->data(0, Qt::UserRole).toInt();
-        const Note note = Note::fetch(noteId);
-
-        if (!note.isFetched()) {
-            continue;
-        }
-
-        if (Tag::countAllOfNote(note) > 0) {
-            return true;
-        }
-    }
-
-    return false;
 }
 
 /**
@@ -10357,13 +10336,17 @@ void MainWindow::openCurrentNoteInTab() {
 void MainWindow::on_noteTreeWidget_customContextMenuRequested(
     const QPoint pos) {
     auto *item = ui->noteTreeWidget->itemAt(pos);
-    const QPoint globalPos = ui->noteTreeWidget->mapToGlobal(pos);
-    const int type = item == nullptr ?
-         0 : item->data(0, Qt::UserRole + 1).toInt();
 
     // if the user clicks at empty space, this is null and if it isn't handled
     // QON crashes
-    if (item == nullptr || type == FolderType) {
+    if (item == nullptr) {
+        return;
+    }
+
+    const QPoint globalPos = ui->noteTreeWidget->mapToGlobal(pos);
+    const int type = item->data(0, Qt::UserRole + 1).toInt();
+
+    if (type == FolderType) {
         openNoteSubFolderContextMenu(globalPos, ui->noteTreeWidget);
     } else if (type == NoteType) {
         openNotesContextMenu(globalPos);
@@ -10711,21 +10694,23 @@ void MainWindow::on_noteSubFolderTreeWidget_currentItemChanged(
         filterNotes();
     }
 
-    reloadTagTree();
+    if (isTagsEnabled()) {
+        reloadTagTree();
+    }
 }
 
 void MainWindow::on_noteSubFolderTreeWidget_itemSelectionChanged() {
     const auto items = ui->noteSubFolderTreeWidget->selectedItems();
     // if no items selected or only one selected
     if (ui->noteSubFolderTreeWidget->selectedItems().count() <= 1) {
-        if (items.count() == 1) {
-            // on_noteSubFolderTreeWidget_currentItemChanged(items.first(),
-            // Q_NULLPTR);
-        }
         return;
     }
+
     filterNotes();
-    reloadTagTree();
+
+    if (isTagsEnabled()) {
+        reloadTagTree();
+    }
 }
 
 void MainWindow::clearTagFilteringColumn() {
@@ -10806,8 +10791,14 @@ void MainWindow::openNoteSubFolderContextMenu(const QPoint globalPos,
     QMenu menu;
     QAction *newNoteAction = menu.addAction(tr("New note"));
     QAction *newAction = menu.addAction(tr("New subfolder"));
-    QAction *renameAction = menu.addAction(tr("Rename subfolder"));
-    QAction *removeAction = menu.addAction(tr("Remove selected folders"));
+    QAction *renameAction(nullptr);
+    QAction *removeAction(nullptr);
+
+    if (NoteFolder::currentNoteFolder().getActiveNoteSubFolder().isFetched()) {
+        renameAction = menu.addAction(tr("Rename subfolder"));
+        removeAction = menu.addAction(tr("Remove selected folders"));
+    }
+
     QAction *showInFileManagerAction =
         menu.addAction(tr("Show folder in file manager"));
     menu.addAction(ui->action_Reload_note_folder);
@@ -10995,8 +10986,7 @@ void MainWindow::on_actionToggle_text_case_triggered() {
  */
 void MainWindow::on_actionMarkdown_cheatsheet_triggered() {
     QDesktopServices::openUrl(
-        QUrl("https://github.com/pbek/QOwnNotes/blob/develop/src/demonotes"
-             "/Markdown%20Cheatsheet.md"));
+        QUrl("https://www.qownnotes.org/getting-started/markdown.html"));
 }
 
 /**
@@ -11134,7 +11124,7 @@ void MainWindow::on_actionShow_menu_bar_triggered(bool checked) {
  */
 void MainWindow::on_actionSplit_note_at_cursor_position_triggered() {
     QString name = currentNote.getName();
-    const QVector<TagHeader> tags = Tag::fetchAllOfNote(currentNote);
+    const QVector<Tag> tags = Tag::fetchAllOfNote(currentNote);
 
     QOwnNotesMarkdownTextEdit *textEdit = activeNoteTextEdit();
     QTextCursor c = textEdit->textCursor();
@@ -11166,8 +11156,8 @@ void MainWindow::on_actionSplit_note_at_cursor_position_triggered() {
     textEdit->insertPlainText(selectedText);
 
     // link the tags of the old note to the new note
-    for (const TagHeader &tag : tags) {
-        Tag::fetch(tag._id).linkToNote(currentNote);
+    for (const Tag &tag : tags) {
+        tag.linkToNote(currentNote);
     }
 }
 
@@ -12184,6 +12174,13 @@ void MainWindow::automaticScriptUpdateCheck() {
         }
     });
 #endif
+}
+
+void MainWindow::updateJumpToActionsAvailability()
+{
+    ui->actionJump_to_note_list_panel->setEnabled(ui->notesListFrame->isVisible());
+    ui->actionJump_to_note_subfolder_panel->setEnabled(ui->noteSubFolderFrame->isVisible());
+    ui->actionJump_to_tags_panel->setEnabled(ui->tagFrame->isVisible());
 }
 
 void MainWindow::noteTextEditResize(QResizeEvent *event) {

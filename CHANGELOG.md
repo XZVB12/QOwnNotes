@@ -1,8 +1,84 @@
 # QOwnNotes Changelog
 
+## 20.12.4
+- the scripting engine was fixed for Windows 10
+  (for [#1979](https://github.com/pbek/QOwnNotes/issues/1979))
+
+## 20.12.3
+- the Windows releases of QOwnNotes are now built with Qt 5.15.2
+  (for [#1976](https://github.com/pbek/QOwnNotes/issues/1976))
+- added more Chinese Simplified, Russian translation (thank you unchase,
+  ReverseDmitry, iclementine)
+
+## 20.12.2
+- the macOS, Snap and AppImage releases of QOwnNotes are now built with Qt 5.15.2
+  (for [#1972](https://github.com/pbek/QOwnNotes/issues/1972))
+- the setting `Editor/removeTrainingSpaces` with a typo was migrated to `Editor/removeTrailingSpaces`
+
+## 20.12.1
+- the `fileCreated` date will now also be set for new notes before the note folder
+  is reloaded (for [#117](https://github.com/qownnotes/scripts/issues/117))
+
+## 20.12.0
+- you can now also copy in-line code blocks in the note text edit with the context menu
+  (for [#1967](https://github.com/pbek/QOwnNotes/issues/1967), thank you @fnkabit)
+- improved spellcheck auto-detection performance (for [#1969](https://github.com/pbek/QOwnNotes/pull/1969), thank you @Waqar144)
+- added more Persian, Urdu (Pakistan), Portuguese, Brazilian translation (thank you amirkbrpr, Farhan1985, danilosf)
+
+## 20.11.11
+- the todo list CalDAV sync can now handle UTC dates from for example macOS Reminders or
+  [OpenTasks](https://opentasks.app/) (for [#1966](https://github.com/pbek/QOwnNotes/issues/1966))
+- the disk database integrity check error handling was improved
+- added more translation (thank you rawfreeamy, MGuerra, gbabin, waqar144)
+
+## 20.11.10
+- the note tagging was improved (for [#1960](https://github.com/pbek/QOwnNotes/pull/1960), thank you @Waqar144)
+    - the tag tree reloads are much faster now, even with huge trees with 3000+ note tag links
+    - the tag tree is now not reloaded if the tag panel is not visible
+- there now is a button to check the disk database integrity in the *General settings*,
+  which will also fix some problems
+- added more translation (thank you Farhan1985, rawfreeamy, filipedias321,
+  Tommy903, amirkbrpr, silviact, rakekniven)
+
+## 20.11.9
+- the rename/remove subfolder context menu option are now not shown if no subfolder
+  was clicked in the subfolder panel (for [#1957](https://github.com/pbek/QOwnNotes/pull/1957), thank you @fnkabit)
+
+## 20.11.8
+- the note language auto-detection performance was improved
+  (for [#1954](https://github.com/pbek/QOwnNotes/pull/1954), thank you @Waqar144)
+- the falsely shown note subfolder menu when clicking on an empty space in the
+  note list is now disabled (for [#1955](https://github.com/pbek/QOwnNotes/pull/1955))
+
+## 20.11.7
+- there now are new scripting commands `script.noteTextEditSetCursorPosition()`
+  and `script.noteTextEditCursorPosition()` to set the text cursor in the note
+  text edit to a certain position and to get the current position
+  (for [#1950](https://github.com/pbek/QOwnNotes/issues/1950))
+    - for more information please take a look at the
+      [scripting documentation](https://www.qownnotes.org/scripting/methods-and-objects.html#set-the-text-cursor-in-the-note-text-edit-to-a-certain-position)
+- added more Greek translation (thank you Gregory.K)
+
+## 20.11.6
+- the setting of an empty note folder name is now prevented
+  (for [#1949](https://github.com/pbek/QOwnNotes/pull/1949), thank you @fnkabit)
+
+## 20.11.5
+- the html heading code highlighting was fixed (for [#1933](https://github.com/pbek/QOwnNotes/issues/1933), thank you @fnkabit)
+- added more Spanish translation (thank you polkillas)
+
+## 20.11.4
+- the different *Jump to* actions in the *Windows menu* are now disabled if the panels
+  they jump to are disabled (for [#1941](https://github.com/pbek/QOwnNotes/issues/1941), thank you @fnkabit)
+- the link to the `Markdown cheatsheet` to the new [Markdown](https://www.qownnotes.org/getting-started/markdown.html)
+  documentation was updated
+
 ## 20.11.3
 - fixed a bug where after deselecting notes from a multiple selection, the last selected
   note was not the current node (for [#1939](https://github.com/pbek/QOwnNotes/issues/1939), thank you @fnkabit)
+- QOwnNotes is now available for **Ubuntu 21.04 Hirsute Hippo** via our PPA at Ubuntu Launchpad
+    - please visit the [Ubuntu installation page](https://www.qownnotes.org/installation/ubuntu.html)
+      for instructions
 - added more Bengali and Spanish translation (thank you Basudeb_Dhaka, richarson)
 
 ## 20.11.2

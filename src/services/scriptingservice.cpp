@@ -149,6 +149,8 @@ void ScriptingService::initComponent(const Script &script) {
         }
     } else {
         qWarning() << "script errors: " << component->errors();
+        bool urlEmpty = component->errors().at(0).url().isEmpty();
+        if (urlEmpty) script.remove();
     }
 }
 
@@ -288,12 +290,12 @@ void ScriptingService::initComponents() {
     clearCustomStyleSheets();
     _scriptComponents.clear();
     _settingsVariables.clear();
-    QList<Script> scripts = Script::fetchAll();
 
-    Q_FOREACH (Script script, scripts) {
-        if (script.isEnabled()) {
-            initComponent(script);
-        }
+    // fetch enabled only
+    const QList<Script> scripts = Script::fetchAll(true);
+
+    for (const Script& script : scripts) {
+        initComponent(script);
     }
 }
 
@@ -1233,6 +1235,58 @@ void ScriptingService::noteTextEditSetSelection(int start, int end) {
 }
 
 /**
+ * Sets the text cursor in the note text edit to a certain position
+ * 0 would be the beginning of the note
+ * special case: -1 would be the end of the note
+ *
+ * @param position
+ */
+void ScriptingService::noteTextEditSetCursorPosition(int position) {
+    MetricsService::instance()->sendVisitIfEnabled(
+        QStringLiteral("scripting/") % QString(__func__));
+
+#ifndef INTEGRATION_TESTS
+    MainWindow *mainWindow = MainWindow::instance();
+    if (mainWindow != Q_NULLPTR) {
+        QOwnNotesMarkdownTextEdit *textEdit = mainWindow->activeNoteTextEdit();
+        position = std::min(position, textEdit->toPlainText().count());
+        QTextCursor c = textEdit->textCursor();
+
+        if (position < 0) {
+            c.movePosition(QTextCursor::End);
+        } else {
+            c.setPosition(position);
+        }
+
+        textEdit->setTextCursor(c);
+    }
+#else
+    Q_UNUSED(position)
+#endif
+}
+
+/**
+ * Returns the current position of the text cursor in the note text edit
+ * 0 would be the beginning of the note
+ */
+int ScriptingService::noteTextEditCursorPosition() {
+    MetricsService::instance()->sendVisitIfEnabled(
+        QStringLiteral("scripting/") % QString(__func__));
+
+#ifndef INTEGRATION_TESTS
+    MainWindow *mainWindow = MainWindow::instance();
+    if (mainWindow != Q_NULLPTR) {
+        QOwnNotesMarkdownTextEdit *textEdit = mainWindow->activeNoteTextEdit();
+        QTextCursor c = textEdit->textCursor();
+
+        return c.position();
+    }
+#endif
+
+    return 0;
+}
+
+/**
  * Returns the start position of the current selection in the note text edit
  */
 int ScriptingService::noteTextEditSelectionStart() {
@@ -1667,7 +1721,7 @@ bool ScriptingService::noteExistsByFileName(const QString &fileName,
         return false;
     }
 
-    return note.exists();
+    return note.isFetched();
 }
 
 /**
