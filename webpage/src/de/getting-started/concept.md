@@ -33,11 +33,12 @@ graph TB
 
 ## QOwnNotes
 
-- QOwnNotes **speichert Notizen** direkt in Ihrem **Notizordner als Markdown-Dateien**
-- Es kann direkt mit Ihrem Nextcloud / ownCloud-Server kommunizieren, um Notizen auszutauschen
-- Sie können auch über die [QOwnNotesApi Nextcloud-App](#qownnotesapi-nextcloud-app) auf Ihren Notizverlauf und Papierkorb auf Ihrem Nextcloud / ownCloud-Server zugreifen
+- QOwnNotes **speichert Notizen** in Ihren **Notizordner als Markdown-Dateien**
+- Es kann mit Ihrem Nextcloud / ownCloud-Server **kommunizieren, um Notizen** öffentlich mit anderen Personen zu teilen
+- Sie können auch **über die [QOwnNotesApi Nextcloud-App](#qownnotesapi-nextcloud-app) auf Ihren Notizverlauf und Papierkorb** auf Ihrem Nextcloud / ownCloud-Server zugreifen
 - Auf Todo-Listen auf Ihrem Nextcloud / ownCloud-Server kann über QOwnNotes zugegriffen werden
-- QOwnNotes **synchronisiert Ihre Notizen und Medien- / Anhangsdateien nicht**. Die Dateisynchronisierung ist ein hartes Geschäft. Es gibt bereits gute Lösungen dafür (siehe [Nextcloud Desktop Sync Client](#nextcloud-desktop-sync-client)).
+- **QOwnNotes synchronisiert Ihre Notizen** und Medien- / Anhangsdateien nicht!
+    - Die Dateisynchronisierung ist ein komplexes Unterfangen. Es gibt bereits großartige Dateisynchronisierungslösungen (siehe [Nextcloud Desktop Sync Client](#nextcloud-desktop-sync-client)).
 
 
 ## Markdown-Notizdateien
@@ -72,8 +73,12 @@ Um online mit Ihren Notizen zu arbeiten, können Sie Server wie [Nextcloud](http
 
 Sie können Ihren eigenen Server hosten oder gehostete Lösungen verwenden.
 
+Es gibt eine [von der Community gepflegte Liste der Nextcloud-Anbieter](https://github.com/nextcloud/providers#providers) sowie eine [Liste der Geräte mit Nextcloud](https://nextcloud.com/devices/).
+
+[Portknox](https://portknox.net) hat gemeldet, dass [QOwnNotesAPI installiert ist](https://portknox.net/en/app_listing).
+
 ::: tip
-Natürlich können auch andere Lösungen wie **Dropbox**, **Syncthing**, **Seafile** oder BitTorrent Sync verwendet werden, um Ihre Notizen und andere Dateien zu hosten
+Natürlich können auch andere Lösungen wie **Dropbox**, **Syncthing**, **Seafile** oder BitTorrent Sync verwendet werden, um Ihre Notizen und andere Dateien zu hosten.
 :::
 
 ## QOwnNotesAPI Nextcloud app

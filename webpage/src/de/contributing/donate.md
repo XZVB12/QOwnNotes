@@ -36,15 +36,15 @@ Sie können **Bitcoin Cash** an diese Bitcoin Cash-Adresse spenden:
 qpk3m6putywwad9sycz9hny5azs7dz67x5jrqmcelq
 ```
 
-## Etherium
+## Ethereum
 
-Sie können **Etherium ETH** an diese Etherium ETH-Adresse spenden:
+Sie können **Ethereum ETH** an diese Ethereum ETH-Adresse spenden:
 
 ```
 0x992aD2066640C5bF175c7c5649a41827dF6f87C9
 ```
 
-Sie können **Ethereum ETC** an diese Ethereum ETC-Adresse spenden:
+Sie können **Ethereum ETH** an diese Ethereum ETH-Adresse spenden:
 
 ```
 0xcC809a58637372EaC340E53767649cdc5C53cA0D

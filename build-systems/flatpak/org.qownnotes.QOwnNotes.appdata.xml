@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2014-2020 Patrizio Bekerle <patrizio@bekerle.com> -->
+<!-- Copyright 2014-2021 Patrizio Bekerle <patrizio@bekerle.com> -->
 <component type="desktop-application">
   <id>org.qownnotes.QOwnNotes</id>
   <metadata_license>FSFAP</metadata_license>
@@ -9,7 +9,7 @@
 
   <description>
     <p>
-      QOwnNotes is the open source (GPL) plain-text file markdown note taking for GNU/Linux, Mac OS X and Windows by Patrizio Bekerle, that (optionally) works together with the notes application of ownCloud or Nextcloud.
+      QOwnNotes is the open source (GPL) plain-text file markdown note taking for GNU/Linux, macOS and Windows by Patrizio Bekerle, that (optionally) works together with the notes application of ownCloud or Nextcloud.
     </p>
   </description>
 

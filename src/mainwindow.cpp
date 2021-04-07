@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2020 Patrizio Bekerle -- <patrizio@bekerle.com>
+ * Copyright (c) 2014-2021 Patrizio Bekerle -- <patrizio@bekerle.com>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -26,14 +26,15 @@
 #include <dialogs/sharedialog.h>
 #include <dialogs/tabledialog.h>
 #include <dialogs/tagadddialog.h>
+#include <diff_match_patch.h>
 #include <entities/notefolder.h>
 #include <entities/notesubfolder.h>
 #include <entities/tag.h>
 #include <entities/trashitem.h>
 #include <helpers/clientproxy.h>
 #include <helpers/fakevimproxy.h>
-#include <helpers/toolbarcontainer.h>
 #include <helpers/flowlayout.h>
+#include <helpers/toolbarcontainer.h>
 #include <services/cryptoservice.h>
 #include <services/scriptingservice.h>
 #include <utils/git.h>
@@ -42,6 +43,7 @@
 #include <utils/schema.h>
 #include <widgets/logwidget.h>
 #include <widgets/notetreewidgetitem.h>
+
 #include <QAbstractEventDispatcher>
 #include <QActionGroup>
 #include <QClipboard>
@@ -91,19 +93,19 @@
 
 #include "build_number.h"
 #include "dialogs/aboutdialog.h"
+#include "dialogs/commandbar.h"
 #include "dialogs/issueassistantdialog.h"
 #include "dialogs/linkdialog.h"
 #include "dialogs/notediffdialog.h"
-#include "dialogs/orphanedattachmentsdialog.h"
-#include "dialogs/orphanedimagesdialog.h"
 #include "dialogs/passworddialog.h"
 #include "dialogs/settingsdialog.h"
+#include "dialogs/storedattachmentsdialog.h"
+#include "dialogs/storedimagesdialog.h"
 #include "dialogs/tododialog.h"
 #include "entities/calendaritem.h"
 #include "helpers/qownnotesmarkdownhighlighter.h"
-#include <diff_match_patch.h>
-#include "libraries/fakevim/fakevim/fakevimhandler.h"
 #include "libraries/fakevim/fakevim/fakevimactions.h"
+#include "libraries/fakevim/fakevim/fakevimhandler.h"
 #include "libraries/sonnet/src/core/speller.h"
 #include "release.h"
 #include "services/databaseservice.h"
@@ -515,8 +517,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     _actionDialog = Q_NULLPTR;
     _todoDialog = Q_NULLPTR;
-    _orphanedImagesDialog = Q_NULLPTR;
-    _orphanedAttachmentsDialog = Q_NULLPTR;
+    _storedImagesDialog = Q_NULLPTR;
+    _storedAttachmentsDialog = Q_NULLPTR;
     _issueAssistantDialog = Q_NULLPTR;
 
     // track cursor position changes for the line number label
@@ -561,6 +563,8 @@ MainWindow::MainWindow(QWidget *parent)
             &MainWindow::on_action_Quit_triggered);
 
     automaticScriptUpdateCheck();
+
+    _commandBar = new CommandBar(this);
 }
 
 /**
@@ -591,8 +595,12 @@ void MainWindow::initGlobalKeyboardShortcuts() {
         connect(hotKey, &QHotkey::activated, this, [this, action]() {
             qDebug() << "Global shortcut action triggered: " << action->objectName();
 
-            // bring application window to the front
-            showWindow();
+            // Don't call showWindow() for the "Show/Hide application" action
+            // because it will call it itself
+            if (action->objectName() != "actionShow_Hide_application") {
+                // bring application window to the front
+                showWindow();
+            }
 
             action->trigger();
         });
@@ -1203,6 +1211,8 @@ void MainWindow::updateWorkspaceLists(bool rebuild) {
         initWorkspaceComboBox();
 
         ui->menuWorkspaces->clear();
+
+        _workspaceNameUuidMap.clear();
     }
 
     const QSignalBlocker blocker(_workspaceComboBox);
@@ -1227,6 +1237,8 @@ void MainWindow::updateWorkspaceLists(bool rebuild) {
                                         QStringLiteral("/name"))
                                  .toString();
         const QString objectName = QStringLiteral("restoreWorkspace-") + uuid;
+
+        _workspaceNameUuidMap.insert(name, uuid);
 
         _workspaceComboBox->addItem(name, uuid);
 
@@ -2184,7 +2196,7 @@ bool MainWindow::addNoteToNoteTreeWidget(const Note &note,
 
     // add a note item to the tree
     auto *noteItem = new QTreeWidgetItem();
-    setTreeWidgetItemToolTipForNote(noteItem, note);
+    Utils::Gui::setTreeWidgetItemToolTipForNote(noteItem, note);
     noteItem->setText(0, name);
     noteItem->setData(0, Qt::UserRole, note.getId());
     noteItem->setData(0, Qt::UserRole + 1, NoteType);
@@ -2286,35 +2298,6 @@ QTreeWidgetItem *MainWindow::addNoteSubFolderToTreeWidget(
     }
 
     return item;
-}
-
-/**
- * Sets the tree widget tooltip for a note
- */
-void MainWindow::setTreeWidgetItemToolTipForNote(
-    QTreeWidgetItem *item, const Note &note,
-    QDateTime *overrideFileLastModified) {
-    if (item == nullptr) {
-        return;
-    }
-
-    QDateTime modified = note.getFileLastModified();
-    QDateTime *fileLastModified = (overrideFileLastModified != nullptr)
-                                      ? overrideFileLastModified
-                                      : &modified;
-
-    QString toolTipText =
-        tr("<strong>%1</strong><br />last modified: %2")
-            .arg(note.getFileName(), fileLastModified->toString());
-
-    NoteSubFolder noteSubFolder = note.getNoteSubFolder();
-    if (noteSubFolder.isFetched()) {
-        toolTipText += tr("<br />path: %1").arg(noteSubFolder.relativePath());
-    }
-
-    item->setToolTip(0, toolTipText);
-
-    // TODO: handle item widget too
 }
 
 /**
@@ -3703,14 +3686,14 @@ void MainWindow::setCurrentNoteFromNoteId(const int noteId) {
  * Reloads the current note by id
  * This is useful when the path or filename of the current note changed
  */
-void MainWindow::reloadCurrentNoteByNoteId() {
+void MainWindow::reloadCurrentNoteByNoteId(bool updateNoteText) {
     // get current cursor position
     auto cursor = activeNoteTextEdit()->textCursor();
     const int pos = cursor.position();
 
     // update the current note
     currentNote = Note::fetch(currentNote.getId());
-    setCurrentNote(std::move(currentNote), false);
+    setCurrentNote(std::move(currentNote), updateNoteText);
 
     // restore old cursor position
     cursor.setPosition(pos);
@@ -5582,8 +5565,8 @@ void MainWindow::handleNoteTextChanged() {
     Q_UNUSED(blocker)
 
     // update the note list tooltip of the note
-    setTreeWidgetItemToolTipForNote(ui->noteTreeWidget->currentItem(),
-                                    currentNote, &currentNoteLastEdited);
+    Utils::Gui::setTreeWidgetItemToolTipForNote(
+        ui->noteTreeWidget->currentItem(), currentNote, &currentNoteLastEdited);
 }
 
 void MainWindow::on_action_Quit_triggered() {
@@ -5637,6 +5620,10 @@ void MainWindow::filterNotes(bool searchForText) {
     if (searchForText) {
         // let's highlight the text from the search line edit
         searchForSearchLineTextInNoteTextEdit();
+
+        // prevent that the last occurrence of the search term is found
+        // first, instead the first occurrence should be found first
+        ui->noteTextEdit->searchWidget()->doSearchDown();
     }
 }
 
@@ -6949,7 +6936,10 @@ QTextDocument *MainWindow::getDocumentForPreviewExport() {
         Utils::Misc::useInternalExportStylingForPreview(), decrypt);
     html = Utils::Misc::parseTaskList(html, false);
 
-    auto doc = ui->noteTextView->document()->clone();
+    // Windows 10 has troubles with the QTextDocument from the QTextBrowser
+    // see: https://github.com/pbek/QOwnNotes/issues/2015
+//    auto doc = ui->noteTextView->document()->clone();
+    auto doc = new QTextDocument(this);
     doc->setHtml(html);
 
     return doc;
@@ -7747,6 +7737,11 @@ void MainWindow::insertHtmlAsMarkdownIntoCurrentNote(QString html) {
 
 void MainWindow::resetBrokenTagNotesLinkFlag() {
     if (_brokenTagNoteLinksRemoved) _brokenTagNoteLinksRemoved = false;
+}
+
+QString MainWindow::getWorkspaceUuid(const QString &workspaceName)
+{
+    return _workspaceNameUuidMap.value(workspaceName, "");
 }
 
 /**
@@ -8590,6 +8585,34 @@ void MainWindow::linkTagNameToCurrentNote(const QString &tagName,
 
     // turn off the workaround again
     directoryWatcherWorkaround(false, true);
+}
+
+void MainWindow::changeEvent(QEvent *event)
+{
+    if (event->type() == QEvent::WindowStateChange) {
+        QString windowStateString;
+        switch(windowState()) {
+        case Qt::WindowMinimized:
+            windowStateString = "minimized";
+            break;
+        case Qt::WindowMaximized:
+            windowStateString = "maximized";
+            break;
+        case Qt::WindowFullScreen:
+            windowStateString = "fullscreen";
+            break;
+        case Qt::WindowActive:
+            windowStateString = "active";
+            break;
+        default:
+            windowStateString = "nostate";
+            break;
+        }
+
+        ScriptingService::instance()->callWindowStateChangeHook(windowStateString);
+    }
+
+    QMainWindow::changeEvent(event);
 }
 
 /**
@@ -9866,6 +9889,11 @@ void MainWindow::regenerateNotePreview() {
 void MainWindow::on_actionAutocomplete_triggered() {
     QOwnNotesMarkdownTextEdit *textEdit = activeNoteTextEdit();
 
+    // attempt to toggle a checkbox at the cursor position
+    if (Utils::Gui::toggleCheckBoxAtCursor(textEdit)) {
+        return;
+    }
+
     // try to open a link at the cursor position
     if (textEdit->openLinkAtCursorPosition()) {
         showStatusBarMessage(
@@ -10294,12 +10322,6 @@ void MainWindow::on_noteTreeWidget_currentItemChanged(
 
         return;
     }
-
-    qDebug() << __func__;
-
-    // let's highlight the text from the search line edit and do a "in note
-    // search"
-    searchForSearchLineTextInNoteTextEdit();
 }
 
 void MainWindow::openCurrentNoteInTab() {
@@ -11303,12 +11325,12 @@ void MainWindow::on_actionImport_notes_from_Evernote_triggered() {
 }
 
 /**
- * Shows a dialog to delete orphaned images
+ * Shows a dialog to manage stored images
  */
-void MainWindow::on_actionDelete_orphaned_images_triggered() {
-    delete (_orphanedImagesDialog);
-    _orphanedImagesDialog = new OrphanedImagesDialog(this);
-    _orphanedImagesDialog->show();
+void MainWindow::on_actionManage_stored_images_triggered() {
+    delete (_storedImagesDialog);
+    _storedImagesDialog = new StoredImagesDialog(this);
+    _storedImagesDialog->show();
 }
 
 /**
@@ -11487,7 +11509,7 @@ void MainWindow::setCurrentWorkspace(const QString &uuid) {
     settings.setValue(QStringLiteral("currentWorkspace"), uuid);
 
     // restore the new workspace
-    restoreCurrentWorkspace();
+    QTimer::singleShot(0, this, SLOT(restoreCurrentWorkspace()));
 
     // update the menu and combo box (but don't rebuild it)
     updateWorkspaceLists(false);
@@ -11721,10 +11743,32 @@ void MainWindow::on_actionShow_all_panels_triggered() {
     filterNotes();
 }
 
+static void loadAllActions(QMenu* menu, QVector<QPair<QString, QAction*>>& outActions) {
+    if (!menu) {
+        return;
+    }
+
+    const auto menuActions = menu->actions();
+    QVector<QPair<QString, QAction*>> actions;
+    actions.reserve(menuActions.size());
+
+    for (auto action : menuActions) {
+        if (auto submenu = action->menu()) {
+            loadAllActions(submenu, outActions);
+        } else {
+            if (!action->text().isEmpty() && !action->objectName().isEmpty() &&
+                action->isVisible()) {
+                outActions.append({menu->title(), action});
+            }
+        }
+    }
+}
+
 /**
  * Opens the find action dialog
  */
 void MainWindow::on_actionFind_action_triggered() {
+#if 0
     if (_actionDialog == Q_NULLPTR) {
         _actionDialog = new ActionDialog(ui->menuBar, this);
     } else {
@@ -11734,6 +11778,20 @@ void MainWindow::on_actionFind_action_triggered() {
     _actionDialog->show();
     _actionDialog->activateWindow();
     _actionDialog->raise();
+#endif
+    auto menuBar = this->menuBar();
+    const auto menus = menuBar->actions();
+
+    QVector<QPair<QString, QAction*>> actions;
+    for (auto subMenu : menus) {
+        if (auto menu = subMenu->menu()) {
+            loadAllActions(menu, actions);
+        }
+    }
+
+    _commandBar->updateBar(actions);
+    _commandBar->show();
+    _commandBar->setFocus();
 }
 
 /**
@@ -12267,7 +12325,19 @@ void MainWindow::on_noteTreeWidget_itemSelectionChanged() {
     if (ui->noteTreeWidget->selectedItems().size() == 1) {
         int noteId = ui->noteTreeWidget->selectedItems()[0]->data(0, Qt::UserRole).toInt();
         Note note = Note::fetch(noteId);
+        bool currentNoteChanged = currentNote.getId() != noteId;
         setCurrentNote(std::move(note), true, false);
+
+        // let's highlight the text from the search line edit and do a "in note
+        // search" if the current note has changed
+        if (currentNoteChanged) {
+            searchForSearchLineTextInNoteTextEdit();
+
+            // prevent that the last occurrence of the search term is found
+            // first, instead the first occurrence should be found first
+            ui->noteTextEdit->searchWidget()->doSearchDown();
+            ui->noteTextEdit->searchWidget()->updateSearchExtraSelections();
+        }
     }
 
     // we also need to do this in setCurrentNote because of different timings
@@ -12275,12 +12345,12 @@ void MainWindow::on_noteTreeWidget_itemSelectionChanged() {
 }
 
 /**
- * Shows a dialog to delete orphaned attachments
+ * Shows a dialog to delete stored attachments
  */
-void MainWindow::on_actionManage_orphaned_attachments_triggered() {
-    delete (_orphanedAttachmentsDialog);
-    _orphanedAttachmentsDialog = new OrphanedAttachmentsDialog(this);
-    _orphanedAttachmentsDialog->show();
+void MainWindow::on_actionManage_stored_attachments_triggered() {
+    delete (_storedAttachmentsDialog);
+    _storedAttachmentsDialog = new StoredAttachmentsDialog(this);
+    _storedAttachmentsDialog->show();
 }
 
 void MainWindow::on_noteOperationsButton_clicked() {
@@ -12473,10 +12543,10 @@ void MainWindow::on_actionImport_bookmarks_from_server_triggered() {
     ownCloud->fetchBookmarks();
 }
 
-void MainWindow::on_actionRiot_triggered() {
+void MainWindow::on_actionElementMatrix_triggered() {
     QDesktopServices::openUrl(
-        QUrl(QStringLiteral("https://riot.im/app/#/room/"
-                            "!rUzrRvrnrOsLasDdbp:matrix.org?via=matrix.org")));
+        QUrl(QStringLiteral("https://app.element.io/#/room/"
+                            "#qownnotes:matrix.org")));
 }
 
 void MainWindow::on_actionToggle_fullscreen_triggered() {
@@ -12737,6 +12807,7 @@ void MainWindow::on_actionPrevious_note_tab_triggered() {
     }
 
     ui->noteEditTabWidget->setCurrentIndex(index);
+    focusNoteTextEdit();
 }
 
 void MainWindow::on_actionNext_note_tab_triggered() {
@@ -12747,6 +12818,7 @@ void MainWindow::on_actionNext_note_tab_triggered() {
     }
 
     ui->noteEditTabWidget->setCurrentIndex(index);
+    focusNoteTextEdit();
 }
 
 void MainWindow::on_actionClose_current_note_tab_triggered() {

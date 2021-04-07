@@ -109,6 +109,8 @@ class Note {
 
     friend QDebug operator<<(QDebug dbg, const Note &note);
 
+    bool operator==(const Note &note) const;
+
     void createFromFile(QFile &file, int noteSubFolderId = 0,
                         bool withNoteNameHook = false);
 
@@ -379,7 +381,7 @@ class Note {
     unsigned int _sharePermissions;
     bool _hasDirtyData;
 
-    QRegularExpression getEncryptedNoteTextRegularExpression() const;
+    static QRegularExpression getEncryptedNoteTextRegularExpression() ;
     QString getEncryptedNoteText() const;
 
     static const QString getNoteURL(const QString &baseName);

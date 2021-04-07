@@ -300,7 +300,7 @@ void ScriptingService::registerLabel(QString identifier, QString text);
 ```js
 script.registerLabel("html-label", "<strong>Strong</strong> HTML text<br />with three lines<br />and a <a href='https://www.qownnotes.org'>link to a website</a>.");
 
-script.registerLabel("long-label", "an other very long text, an other very long text, an other very long text, an other very long text, an other very long text, an other very long text, an other very long text, an other very long text, an other very long text, an other very long text, an other very long text that will wrap");
+script.registerLabel("long-label", "another very long text, another very long text, another very long text, another very long text, another very long text, another very long text, another very long text, another very long text, another very long text, another very long text, another very long text that will wrap");
 
 script.registerLabel("counter-label");
 ```
@@ -358,6 +358,16 @@ script.createNote("My note headline\n===\n\nMy text");
 
 You may want to take a look at the example
 [custom-actions.qml](https://github.com/pbek/QOwnNotes/blob/develop/docs/scripting/examples/custom-actions.qml).
+
+::: tip
+If you turned off that your note headline determines the note filename then you
+have to rename your note file yourself afterwards, like this:
+
+```js
+var note = script.currentNote();
+note.renameNoteFile('your-filename');
+```
+:::
 
 Accessing the clipboard
 -----------------------

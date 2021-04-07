@@ -12,7 +12,7 @@ U kunt de extensie ook vinden op [ GitHub ](https://github.com/qownnotes/web-com
 
 ## Webclipper
 
-Klik met de rechtermuisknop op een webpagina of geselecteerde tekst om de **webclipper** -functionaliteit te gebruiken. There you can also create a new note with a **screenshot** of the current webpage.
+Klik met de rechtermuisknop op een webpagina of geselecteerde tekst om de **webclipper** -functionaliteit te gebruiken. Daar kun je ook een nieuwe notitie maken met een **screenshot** van de huidige webpagina.
 
 ::: tip
 De webclipper is ook scriptbaar! Bekijk de [websocketRawDataHook](../scripting/hooks.md#websocketrawdatahook) als je wilt bepalen wat je van webpagina's knipt.
@@ -23,6 +23,8 @@ De webclipper is ook scriptbaar! Bekijk de [websocketRawDataHook](../scripting/h
 Standaard toont de browserextensie alle **links van de huidige notitie** in een pop-up wanneer u op het QOwnNotes-pictogram in uw browser klikt. Deze links krijgen een tag `current`.
 
 U kunt ook **uw bladwijzers in notities beheren** met de notitietag `bladwijzers` (wijzigbaar in de instellingen). Deze links kunnen ook tags en een beschrijving hebben die in de browserextensie wordt weergegeven.
+
+Nieuwe bladwijzers worden opgeslagen in een notitie genaamd `Bladwijzers` (ook te wijzigen in de instellingen).
 
 ::: tip
 U kunt ook uw browserbladwijzers importeren in QOwnNotes met de webpartner-browserextensie!

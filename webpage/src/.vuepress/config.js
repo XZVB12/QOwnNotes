@@ -8,7 +8,7 @@ const contactNavItems = [
   { text: 'Ask for feature', link: 'https://github.com/pbek/QOwnNotes/issues#feature' },
   { text: 'Report bug', link: 'https://github.com/pbek/QOwnNotes/issues#bug' },
   { text: 'Telegram Channel', link: 'https://t.me/QOwnNotes' },
-  { text: 'Matrix/Riot.im Chat', link: 'https://riot.im/app/#/room/!rUzrRvrnrOsLasDdbp:matrix.org?via=matrix.org' },
+  { text: 'Matrix/Element.io Room', link: 'https://app.element.io/#/room/#qownnotes:matrix.org' },
   { text: 'Gitter Chat', link: 'https://gitter.im/qownnotes/qownnotes' },
   { text: 'IRC Channel', link: 'https://kiwiirc.com/client/irc.freenode.net/#qownnotes' },
   { text: 'IRC Log', link: 'https://quodlibet.duckdns.org/irc/qownnotes/latest.log.html' },
@@ -17,6 +17,7 @@ const contactNavItems = [
 const gettingStartedNavItems = [
   'getting-started/overview',
   'getting-started/concept',
+  'getting-started/demo',
   'getting-started/markdown',
   'getting-started/importing-notes',
   'getting-started/cli-parameters',
@@ -99,6 +100,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '128x128', href: '/favicon.png' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css' }],
     ['link', { rel: 'alternate', title: 'QOwnNotes Releases RSS', type: 'application/rss+xml', href: 'https://feeds.feedburner.com/QOwnNotesReleases' }],
@@ -119,10 +121,26 @@ module.exports = {
       lang: 'de-DE',
       title: 'QOwnNotes',
     },
+    '/fr/': {
+      lang: 'fr-FR',
+      title: 'QOwnNotes',
+          },
+    '/es/': {
+      lang: 'es-ES',
+      title: 'QOwnNotes',
+          },
+    '/fa/': {
+      lang: 'fa-IR',
+      title: 'QOwnNotes',
+    },
     '/nl/': {
       lang: 'nl-NL',
       title: 'QOwnNotes',
-    }
+    },
+    '/hu/': {
+      lang: 'hu-HU',
+      title: 'QOwnNotes',
+    },
   },
 
   /**
@@ -140,6 +158,7 @@ module.exports = {
     editLinkText: 'Help us improve this page!',
     lastUpdated: false,
     logo: '/favicon.png',
+    activeHeaderLinks: false,
     locales: {
       '/': {
         // text for the language dropdown
@@ -218,7 +237,10 @@ module.exports = {
         selectText: 'Sprachen',
         label: 'Deutsch',
         editLinkText: 'Hilf uns diese Seite zu verbessern!',
-        algolia: {},
+        algolia: {
+          apiKey: '35f878f4b712d5ab6a659eb0a6c71576',
+          indexName: 'qownnotes'
+        },
         nav: [
           {
             text: 'Loslegen',
@@ -270,11 +292,250 @@ module.exports = {
           }
         ]
       },
+      '/es/': {
+        selectText: 'Idiomas',
+        label: 'Español',
+        editLinkText: '¡Ayúdanos a mejorar este sitio!',
+        algolia: {
+          apiKey: '35f878f4b712d5ab6a659eb0a6c71576',
+          indexName: 'qownnotes'
+        },
+        nav: [
+          {
+            text: 'Empezando',
+            link: utils.getNavItemForLanguage(gettingStartedNavItem, 'es'),
+          },
+          {
+            text: 'Instalación',
+            link: utils.getNavItemForLanguage(installationNavItem, 'es'),
+          },
+          {
+            text: 'Registro de cambios',
+            link: changelogNavItem,
+            collapsable: true,
+          },
+          {
+            text: 'Contacto',
+            ariaLabel: 'Contact Menu',
+            items: contactNavItems
+          },
+          {
+            text: 'Donar',
+            link: utils.getNavItemForLanguage(donateNavItem, 'es'),
+          }
+        ],
+        sidebar: [
+          {
+            title: 'Empezando',
+            children: utils.getNavItemsForLanguage(gettingStartedNavItems, "es")
+          },
+          {
+            title: 'Instalación',
+            children: utils.getNavItemsForLanguage(installationNavItems, "es")
+          },
+          {
+            title: 'Editor',
+            children: utils.getNavItemsForLanguage(editorNavItems, "es")
+          },
+          {
+            title: 'Guiones',
+            children: utils.getNavItemsForLanguage(scriptingNavItems, "es")
+          },
+          {
+            title: 'Contribuir',
+            children: utils.getNavItemsForLanguage(contributingNavItems, "es")
+          },
+          {
+            title: 'FAQ',
+            children: utils.getNavItemsForLanguage(faqNavItems, "es")
+          }
+        ]
+      },
+      '/hu/': {
+        selectText: 'Nyelvek',
+        label: 'Magyar',
+        editLinkText: 'Segítsen javítani ezt az oldalt!',
+        algolia: {
+          apiKey: '35f878f4b712d5ab6a659eb0a6c71576',
+          indexName: 'qownnotes'
+        },
+        nav: [
+          {
+            text: 'Az első lépések',
+            link: utils.getNavItemForLanguage(gettingStartedNavItem, 'hu'),
+          },
+          {
+            text: 'Telepítés',
+            link: utils.getNavItemForLanguage(installationNavItem, 'hu'),
+          },
+          {
+            text: 'Változások',
+            link: changelogNavItem,
+            collapsable: true,
+          },
+          {
+            text: 'Kapcsolat',
+            ariaLabel: 'Contact Menu',
+            items: contactNavItems
+          },
+          {
+            text: 'Adomány',
+            link: utils.getNavItemForLanguage(donateNavItem, 'hu'),
+          }
+        ],
+        sidebar: [
+          {
+            title: 'Az első lépések',
+            children: utils.getNavItemsForLanguage(gettingStartedNavItems, "hu")
+          },
+          {
+            title: 'Telepítés',
+            children: utils.getNavItemsForLanguage(installationNavItems, "hu")
+          },
+          {
+            title: 'Szerkesztő',
+            children: utils.getNavItemsForLanguage(editorNavItems, "hu")
+          },
+          {
+            title: 'Szkriptek',
+            children: utils.getNavItemsForLanguage(scriptingNavItems, "hu")
+          },
+          {
+            title: 'Adomány',
+            children: utils.getNavItemsForLanguage(contributingNavItems, "hu")
+          },
+          {
+            title: 'FAQ',
+            children: utils.getNavItemsForLanguage(faqNavItems, "hu")
+          }
+        ]
+      },
+       '/fr/': {
+        selectText: 'Langues',
+        label: 'Français',
+        editLinkText: 'Aidez-nous à améliorer ce site!',
+         algolia: {
+           apiKey: '35f878f4b712d5ab6a659eb0a6c71576',
+           indexName: 'qownnotes'
+         },
+        nav: [
+          {
+            text: 'Commencer',
+            link: utils.getNavItemForLanguage(gettingStartedNavItem, 'fr'),
+          },
+          {
+            text: 'Installation',
+            link: utils.getNavItemForLanguage(installationNavItem, 'fr'),
+          },
+          {
+            text: 'Changelog',
+            link: changelogNavItem,
+            collapsable: true,
+          },
+          {
+            text: 'Contact',
+            ariaLabel: 'Contact Menu',
+            items: contactNavItems
+          },
+          {
+            text: 'Faire un don',
+            link: utils.getNavItemForLanguage(donateNavItem, 'fr'),
+          }
+        ],
+        sidebar: [
+          {
+            title: 'Commencer',
+            children: utils.getNavItemsForLanguage(gettingStartedNavItems, "fr")
+          },
+          {
+            title: 'Installation',
+            children: utils.getNavItemsForLanguage(installationNavItems, "fr")
+          },
+          {
+            title: 'Éditeur',
+            children: utils.getNavItemsForLanguage(editorNavItems, "fr")
+          },
+          {
+            title: 'Les scripts',
+            children: utils.getNavItemsForLanguage(scriptingNavItems, "fr")
+          },
+          {
+            title: 'Contribuer',
+            children: utils.getNavItemsForLanguage(contributingNavItems, "fr")
+          },
+          {
+            title: 'FAQ',
+            children: utils.getNavItemsForLanguage(faqNavItems, "fr")
+          }
+        ]
+      },
+      '/fa/': {
+        selectText: 'زبان ها',
+        label: 'فارسی',
+        editLinkText: 'در اصلاح این صفحه ما را یاری کنید!',
+        algolia: {
+          apiKey: '35f878f4b712d5ab6a659eb0a6c71576',
+          indexName: 'qownnotes'
+        },
+        nav: [
+          {
+            text: 'شروع',
+            link: utils.getNavItemForLanguage(gettingStartedNavItem, 'fa'),
+          },
+          {
+            text: 'نصب',
+            link: utils.getNavItemForLanguage(installationNavItem, 'fa'),
+          },
+          {
+            text: 'گزارش تغییرات',
+            link: changelogNavItem,
+            collapsable: true,
+          },
+          {
+            text: 'تماس',
+            ariaLabel: 'Contact Menu',
+            items: contactNavItems
+          },
+          {
+            text: 'کمک مالی',
+            link: utils.getNavItemForLanguage(donateNavItem, 'fa'),
+          }
+        ],
+        sidebar: [
+          {
+            title: 'شروع',
+            children: utils.getNavItemsForLanguage(gettingStartedNavItems, 'fa')
+          },
+          {
+            title: 'نصب و راه اندازی',
+            children: utils.getNavItemsForLanguage(installationNavItems, 'fa')
+          },
+          {
+            title: 'ویرایشگر',
+            children: utils.getNavItemsForLanguage(editorNavItems, 'fa')
+          },
+          {
+            title: 'اسکریپت نویسی',
+            children: utils.getNavItemsForLanguage(scriptingNavItems, 'fa')
+          },
+          {
+            title: 'مشارکت',
+            children: utils.getNavItemsForLanguage(contributingNavItems, 'fa')
+          },
+          {
+            title: 'سؤالات متداول',
+            children: utils.getNavItemsForLanguage(faqNavItems, 'fa')
+          }
+        ]
+      },
       '/nl/': {
         selectText: 'Talen',
-        label: 'Nederlands (in uitvoering)',
+        label: 'Nederlands',
         editLinkText: 'Help ons deze pagina te verbeteren!',
-        algolia: {},
+        algolia: {
+          apiKey: '35f878f4b712d5ab6a659eb0a6c71576',
+          indexName: 'qownnotes'
+        },
         nav: [
           {
             text: 'Aan de slag',
@@ -328,7 +589,6 @@ module.exports = {
       }
     }
   },
-
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/plugin/
    */
@@ -379,7 +639,7 @@ module.exports = {
       {
         feed_options: {
           title: 'QOwnNotes Blog',
-          description: "News about QOwnNotes, the open source markdown note taking application for Linux, Mac OS X and Windows, that works together with Nextcloud Notes",
+          description: "News about QOwnNotes, the open source markdown note taking application for Linux, macOS and Windows, that works together with Nextcloud Notes",
         },
         canonical_base: 'https://www.qownnotes.org',
         sort: entries => _.reverse( _.sortBy( entries, 'date' ) ),

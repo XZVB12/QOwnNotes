@@ -132,12 +132,12 @@ set(SOURCE_FILES
     dialogs/serverbookmarksimportdialog.cpp
     dialogs/serverbookmarksimportdialog.h
     dialogs/serverbookmarksimportdialog.ui
-    dialogs/orphanedimagesdialog.cpp
-    dialogs/orphanedimagesdialog.h
-    dialogs/orphanedimagesdialog.ui
-    dialogs/orphanedattachmentsdialog.cpp
-    dialogs/orphanedattachmentsdialog.h
-    dialogs/orphanedattachmentsdialog.ui
+    dialogs/storedimagesdialog.cpp
+    dialogs/storedimagesdialog.h
+    dialogs/storedimagesdialog.ui
+        dialogs/storedattachmentsdialog.cpp
+        dialogs/storedattachmentsdialog.h
+    dialogs/storedattachmentsdialog.ui
     dialogs/scriptrepositorydialog.cpp
     dialogs/scriptrepositorydialog.h
     dialogs/scriptrepositorydialog.ui
@@ -159,11 +159,15 @@ set(SOURCE_FILES
     dialogs/imagedialog.cpp
     dialogs/imagedialog.h
     dialogs/imagedialog.ui
+    dialogs/commandbar.cpp
+    dialogs/commandbar.h
     dialogs/attachmentdialog.cpp
     dialogs/attachmentdialog.h
     dialogs/attachmentdialog.ui
     dialogs/filedialog.cpp
     dialogs/filedialog.h
+    models/commandmodel.cpp
+    models/commandmodel.h
     entities/calendaritem.cpp
     entities/calendaritem.h
     entities/note.cpp
@@ -275,6 +279,7 @@ set(SOURCE_FILES
     libraries/sonnet/src/core/textbreaks_p.h
     libraries/sonnet/src/core/tokenizer.cpp
     libraries/sonnet/src/core/tokenizer_p.h
+    libraries/fuzzy/kfuzzymatcher.cpp
 
     threads/scriptthread.cpp
     threads/scriptthread.h

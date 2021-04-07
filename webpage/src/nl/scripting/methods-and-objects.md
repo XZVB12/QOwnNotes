@@ -284,13 +284,11 @@ void ScriptingService :: registerLabel (QString-ID, QString-tekst);
 
 ### Voorbeeld
 ```js
-script.registerLabel ("html-label", "<strong>Sterke</strong> HTML-tekst <br /> met drie regels <br /> en een <a href='https://www.qownnotes.org'> link naar een website </a>.");
+script.registerLabel("html-label", "<strong>Strong</strong> HTML text<br />with three lines<br />and a <a href='https://www.qownnotes.org'>link to a website</a>.");
 
-script.registerLabel ("long-label",
+script.registerLabel("long-label", "another very long text, another very long text, another very long text, another very long text, another very long text, another very long text, another very long text, another very long text, another very long text, another very long text, another very long text that will wrap");
 
-"een andere zeer lange tekst, een andere zeer lange tekst, een andere zeer lange tekst, een andere zeer lange tekst, een andere zeer lange tekst, een andere zeer lange tekst, een andere zeer lange tekst, een andere zeer lange tekst, een andere zeer lange tekst, een andere zeer lange tekst, een andere zeer lange tekst die");
-
-script.registerLabel ("counter-label");
+script.registerLabel("counter-label");
 ```
 
 De labels zijn zichtbaar in de scriptdock-widget.
@@ -342,6 +340,15 @@ script.createNote("My note headline\n===\n\nMy text");
 
 Misschien wilt u het voorbeeld eens bekijken [custom-actions.qml](https://github.com/pbek/QOwnNotes/blob/develop/docs/scripting/examples/custom-actions.qml).
 
+::: tip
+Als je hebt uitgeschakeld dat de kop van de notitie de bestandsnaam van de notitie bepaalt, moet je de naam van je notitiebestand achteraf zelf wijzigen, als volgt:
+
+```js
+var note = script.currentNote();
+note.renameNoteFile('your-filename');
+```
+:::
+
 Toegang tot het klembord
 -----------------------
 
@@ -361,7 +368,7 @@ var clipboardText = script.clipboard();
 var clipboardHtml = script.clipboard(true);
 ```
 
-Misschien wilt u het voorbeeld eens bekijken [custom-actions.qml](https://github.com/pbek/QOwnNotes/blob/develop/docs/scripting/examples/custom-actions.qml).
+You may want to take a look at the example [custom-actions.qml](https://github.com/pbek/QOwnNotes/blob/develop/docs/scripting/examples/custom-actions.qml).
 
 Schrijf tekst naar de tekst van de notitie
 --------------------------------
@@ -382,7 +389,7 @@ void ScriptingService :: noteTextEditWrite (QString-tekst);
 script.noteTextEditWrite ("Mijn aangepaste tekst");
 ```
 
-Misschien wilt u de aangepaste actie `transformTextRot13` bekijken in het voorbeeld [custom-actions.qml](https://github.com/pbek/QOwnNotes/blob/develop/docs/scripting/examples/custom-actions.qml).
+Misschien wilt u de aangepaste actie `transformTextRot13` in voorbeeld [custom-actions.qml](https://github.com/pbek/QOwnNotes/blob/develop/docs/scripting/examples/custom-actions.qml) bekijken.
 
 U kunt dit samen met `noteTextEditSelectAll` gebruiken om de hele tekst van de huidige notitie te overschrijven.
 
@@ -431,8 +438,8 @@ Selecteer de huidige regel in de tekstbewerking van de notitie
 ### Methodeaanroep en parameters
 ```cpp
 /**
- * Selects the current line in the note text edit
- */
+  * Selecteert de huidige regel in de notitietekst
+  */
 void ScriptingService::noteTextEditSelectCurrentLine();
 ```
 
@@ -752,7 +759,7 @@ NoteApi * ScriptingService::fetchNoteByFileName (QString bestandsnaam,
 
 ### Voorbeeld
 ```js
-// fetch note by file name
+// haal notitie op met bestandsnaam
 script.fetchNoteByFileName("my note.md");
 ```
 
@@ -1260,7 +1267,7 @@ QString ScriptingService :: dirSeparator ();
 
 ### Voorbeeld
 ```js
-// retourneert "\" in Windows
+// will return "\" on Windows
 script.log(script.dirSeparator());
 ```
 

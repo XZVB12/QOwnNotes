@@ -4,7 +4,13 @@
 #
 #-------------------------------------------------
 
-QT       += core gui widgets sql svg network xml xmlpatterns printsupport qml websockets concurrent
+QT       += core gui widgets sql svg network xml printsupport qml websockets concurrent
+
+lessThan(QT_MAJOR_VERSION, 6) {
+    QT += xmlpatterns
+} else {
+    QT += core5compat
+}
 
 # quick is enabled for more scripting options
 # Windows and macOS seem to ignore that
@@ -153,8 +159,8 @@ SOURCES += main.cpp\
     dialogs/sharedialog.cpp \
     widgets/fontcolorwidget.cpp \
     dialogs/evernoteimportdialog.cpp \
-    dialogs/orphanedimagesdialog.cpp \
-    dialogs/orphanedattachmentsdialog.cpp \
+    dialogs/storedimagesdialog.cpp \
+    dialogs/storedattachmentsdialog.cpp \
     dialogs/actiondialog.cpp \
     dialogs/tabledialog.cpp \
     libraries/qtcsv/src/sources/reader.cpp \
@@ -173,7 +179,10 @@ SOURCES += main.cpp\
     widgets/layoutwidget.cpp \
     dialogs/serverbookmarksimportdialog.cpp \
     dialogs/websockettokendialog.cpp \
-    dialogs/imagedialog.cpp
+    dialogs/imagedialog.cpp \
+    dialogs/commandbar.cpp \
+    models/commandmodel.cpp \
+    libraries/fuzzy/kfuzzymatcher.cpp
 
 HEADERS  += mainwindow.h \
     build_number.h \
@@ -244,8 +253,8 @@ HEADERS  += mainwindow.h \
     dialogs/sharedialog.h \
     widgets/fontcolorwidget.h \
     dialogs/evernoteimportdialog.h \
-    dialogs/orphanedimagesdialog.h \
-    dialogs/orphanedattachmentsdialog.h \
+    dialogs/storedimagesdialog.h \
+    dialogs/storedattachmentsdialog.h \
     dialogs/actiondialog.h \
     dialogs/tabledialog.h \
     libraries/qtcsv/src/include/qtcsv_global.h \
@@ -268,7 +277,10 @@ HEADERS  += mainwindow.h \
     widgets/layoutwidget.h \
     dialogs/serverbookmarksimportdialog.h \
     dialogs/websockettokendialog.h \
-    dialogs/imagedialog.h
+    dialogs/imagedialog.h \
+    dialogs/commandbar.h \
+    models/commandmodel.h \
+    libraries/fuzzy/kfuzzymatcher.h
 
 FORMS    += mainwindow.ui \
     dialogs/attachmentdialog.ui \
@@ -290,8 +302,8 @@ FORMS    += mainwindow.ui \
     dialogs/sharedialog.ui \
     widgets/fontcolorwidget.ui \
     dialogs/evernoteimportdialog.ui \
-    dialogs/orphanedimagesdialog.ui \
-    dialogs/orphanedattachmentsdialog.ui \
+    dialogs/storedimagesdialog.ui \
+    dialogs/storedattachmentsdialog.ui \
     dialogs/actiondialog.ui \
     dialogs/tabledialog.ui \
     dialogs/notedialog.ui \

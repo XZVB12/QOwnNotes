@@ -1,5 +1,243 @@
 # QOwnNotes Changelog
 
+## 21.3.9
+- added the **new editor color schema** *Serious*
+  (for [#2085](https://github.com/pbek/QOwnNotes/issues/2085), thank you @marcoXbresciani)
+- a possible crash with multiple selected images/attachments are inserted into 
+  the current note in the stored images/attachments dialogs was fixed
+  (for [#2086](https://github.com/pbek/QOwnNotes/issues/2086))
+- added more German, Persian translation (thank you rakekniven, amirkbrpr)
+
+## 21.3.8
+- a leading html comment block in a note will now be ignored in the automatic note
+  filename generation (for [#2084](https://github.com/pbek/QOwnNotes/issues/2084))
+- more improvements to the new *Stored images dialog* have been made
+  (for [#2073](https://github.com/pbek/QOwnNotes/issues/2073))
+    - added a an *Open image* context menu entry
+    - added some tooltip texts
+- more improvements to the new *Stored attachments dialog* have been made
+  (for [#2073](https://github.com/pbek/QOwnNotes/issues/2073))
+    - added some tooltip texts
+- added more translation (thank you mguerra, whenwesober, rakekniven, gregory.k,
+  rogepix, amirkbrpr)
+
+## 21.3.7
+- some button text in more new *Stored attachments dialog* was updated to match
+  the text in the *Stored images dialog* (for [#2073](https://github.com/pbek/QOwnNotes/issues/2073))
+- more improvements to the new *Stored images dialog* have been made
+  (for [#2073](https://github.com/pbek/QOwnNotes/issues/2073))
+    - there now is an *Open image* button to open the current image externally
+    - there now is an *Open folder* button to open the folder of the current image
+- added more Dutch, German, Persian translation (thank you rawfreeamy, rakekniven, amirkbrpr)
+
+## 21.3.6
+- more improvements to the new *Stored images dialog* have been made
+  (for [#2073](https://github.com/pbek/QOwnNotes/issues/2073))
+    - there now is a context menu in the note list
+    - fixed a typo in the file list context menu
+    - small margin adaptions were made in the UI
+- instead of the *Orphaned attachments dialog* there now is the new
+  *Stored attachments dialog* which also allows managing non-orphaned attachments
+  (for [#2073](https://github.com/pbek/QOwnNotes/issues/2073))
+    - you are now also able to search for attachments by name
+    - you are now able to rename attachment files with the context menu or by
+      pressing <kbd>F2</kbd>
+    - there now is a context menu for the attachment file list
+    - the file size of the attachments will now also be shown in the tooltip of
+      the file list
+    - you can now also double-click on an item in the attachment list to insert
+      it into the current note
+    - there now is a *Refresh* button to reload the attachment file list
+    - the filepath of the attachment file is now truncated if there is not enough
+      space in the dialog, but you are still able to select and copy the full path
+    - if notes are using the current attachment a list of those notes will be shown
+    - you can double-click on an item in the note list or use the context menu
+      to open the note in a new tab
+- the new *Stored images dialog* and *Stored attachments dialog* were moved one
+  level up in the *Edit menu* because of their added functionality
+  (for [#2073](https://github.com/pbek/QOwnNotes/issues/2073))
+- added more translation (thank you gregory.k, afischer211, amirkbrpr)
+
+## 21.3.5
+- the warning `fromIccProfile: failed minimal tag size sanity` is now ignored in
+  the *Log panel* (for [#2078](https://github.com/pbek/QOwnNotes/issues/2078))
+- more improvements to the new *Stored images dialog* have been made
+  (for [#2073](https://github.com/pbek/QOwnNotes/issues/2073))
+    - you are now able to to decide to also update the image file names in
+      all notes after renaming an image
+    - the image file list is now sorted alphabetically
+    - there now is an informative tooltip for each note in the note list
+    - when double-clicking on an item in the note list the note will now be
+      opened in a new tab
+    - various issues with duplicate notes and refreshing were fixed
+- added more translation (thank you rawfreeamy, amirkbrpr, rakekniven,
+  gregory.k, mlaarebi)
+
+## 21.3.4
+- the filename-clipping of the basename of inserted images was increased to
+  200 characters (for [#2073](https://github.com/pbek/QOwnNotes/issues/2073))
+- more improvements to the new *Stored images dialog* have been made
+  (for [#2073](https://github.com/pbek/QOwnNotes/issues/2073))
+    - there now is a *Refresh* button to reload the image file list
+    - you can now also double-click on an item in the image list to insert it
+      into the current note
+    - you can now double-click on an item in the note list to open the note
+    - a context menu was added for the image file list
+    - you are now able to rename image files with the context menu or by pressing <kbd>F2</kbd>
+- added more translation (thank you fitoschido, rawfreeamy, filipedias321,
+  amirkbrpr, rakekniven, unchase, mlaarebi)
+
+## 21.3.3
+- added a note about creating an app password in the *Nextcloud / ownCloud settings*
+- if you now insert an image or attachment directly from a file the original
+  file name will be used if the file doesn't exist in the media/attachments
+  folder (for [#2073](https://github.com/pbek/QOwnNotes/issues/2073))
+    - previously a random string was added to the basename to make it unique
+    - if the file already exists a number will be added to the basename of the
+      file (like `my-image-1.jpg`) and increased until a filename is available
+- instead of the *Orphaned images dialog* there now is the new *Stored images dialog*
+  which also allows managing non-orphaned images (for [#2073](https://github.com/pbek/QOwnNotes/issues/2073))
+    - you are now also able to search for images by name
+    - the file size of the images will now also be shown in the tooltip of the file list
+    - if notes are using the current image a list of those notes will be shown
+- added more translation (thank you mlaarebi, rawfreeamy, mguerra, rakekniven,
+  amirkbrpr, gregory.k)
+
+## 21.3.2
+- now the misleading `[Botan Error]  Invalid CBC padding` and `Invalid version or not a cyphertext`
+  warnings while checking if a note is encrypted are ignored in the *Log panel*
+- now a sha256sum checksum file is generated for the AppImage version of QOwnNotes,
+  which is part of the release (for [#2070](https://github.com/pbek/QOwnNotes/issues/2070))
+- added more translation (thank you rawfreeamy, mguerra, amirkbrpr)
+
+## 21.3.1
+- the status messages in the Nextcloud / ownCloud settings are now translatable
+- there now is a new QOwnNotesAPI release 21.3.0 for ownCloud in the ownCloud marketplace
+  that added a workaround for the failing username detection in ownCloud 10.3+
+  (for [#1725](https://github.com/pbek/QOwnNotes/issues/1725))
+- added more translation (thank you carmenc, rawfreeamy)
+
+## 21.3.0
+- added more Chinese Simplified translation (thank you warfast)
+
+## 21.2.5
+- fixed a problem with exporting notes as PDF or printing them for installations
+  of QOwnNotes previous from version 21.2.0 (for [#2062](https://github.com/pbek/QOwnNotes/issues/2062))
+
+## 21.2.4
+- fixed an issue with showing the application window with a global shortcut for the
+  `Show/Hide application` action (for [#2061](https://github.com/pbek/QOwnNotes/issues/2061))
+
+## 21.2.3
+- the toggling of a checkbox at the cursor position has now a higher priority at the
+  <kbd>Ctrl + Space</kbd> shortcut (for [#2048](https://github.com/pbek/QOwnNotes/issues/2048))
+- the restoring of workspaces after a window resize was improved
+  (for [#2056](https://github.com/pbek/QOwnNotes/pull/2056), thank you @fnkabit)
+
+## 21.2.2
+- when setting your initial note folder and no Nextcloud or ownCloud folders are found
+  now a `Notes` folder is suggested in your home directory (for [#2054](https://github.com/pbek/QOwnNotes/issues/2054))
+- added more translation (thank you amirkbrpr, lelaw, rawfreeamy)
+
+## 21.2.1
+- you now can also toggle a checkbox at the cursor position with <kbd>Ctrl + Space</kbd>
+  in the note text edit (for [#2048](https://github.com/pbek/QOwnNotes/issues/2048))
+- added more translation (thank you psardinha, amirkbrpr, anastazja.k1, mguerra,
+  rawfreeamy, gregory.k, evildeepblue)
+
+## 21.2.0
+- fixed a lot of Qt 5.15 deprecation warnings (for [#1304](https://github.com/pbek/QOwnNotes/issues/1304))
+- the **Find action** dialog was further improved (for [#2036](https://github.com/pbek/QOwnNotes/pull/2036), thank you @Waqar144)
+- added more translation (thank you rawfreeamy, amirkbrpr, agnieszka_de_en_pl,
+  rakekniven, evildeepblue)
+
+## 21.1.8
+- Windows 10 pdf export issues are now fixed (for [#2015](https://github.com/pbek/QOwnNotes/issues/2015))
+- added more translation (thank you amirkbrpr, zmni, afischer211, rawfreeamy, mguerra, gregory.k)
+- two new translations were integrated into the webpage (for [#1859](https://github.com/pbek/QOwnNotes/issues/1859))
+  - [QOwnNotes webpage in Hungarian](www.qownnotes.org/hu)
+  - [QOwnNotes webpage in Persian](www.qownnotes.org/fa)
+
+## 21.1.7
+- fixed line wraps in code blocks in the preview (for [#2017](https://github.com/pbek/QOwnNotes/issues/2017))
+- added more French, Dutch, German, Hungarian, Persian translation (thank you rawfreeamy, amirkbrpr, rakekniven)
+
+## 21.1.6
+- there now is a new and slick *Action dialog* with fuzzy filtering replacing the old dialog
+  (for [#2018](https://github.com/pbek/QOwnNotes/pull/2018), thank you @Waqar144)
+  - you can reach the dialog with the shortcut <kbd>Ctrl</kbd> + <kbd>⇧</kbd> + <kbd>A</kbd>
+- the links and names of the messenger `Riot` got renamed to `Element` since the project was rebranded
+  - you can reach the [QOwnNotes Matrix room](https://app.element.io/#/room/#qownnotes:matrix.org)
+    via its new link
+
+## 21.1.5
+- the `Use softwrap in note editor and preview` setting now also works for code blocks in
+  the preview, the pdf export and for printing (for [#2017](https://github.com/pbek/QOwnNotes/issues/2017))
+
+## 21.1.4
+- the `Return` key will now be handled the same as the `Enter` key in the note text edit
+  for things like automatically creating list items (for [#2013](https://github.com/pbek/QOwnNotes/issues/2013), thank you @fnkabit)
+- added more translation (thank you amirkbrpr, afischer211, rawfreeamy, amyd.lang,
+  rakekniven, mguerra, gregory.k)
+
+## 21.1.3
+- there now are new scripting commands `mainWindow.getWorkspaceUuidList()`,
+  `mainWindow.getWorkspaceUuid()` and `mainWindow.setCurrentWorkspace()` to
+  access workspaces and a new hook `windowStateChangedHook` to notice window
+  state changes (for [#2007](https://github.com/pbek/QOwnNotes/issues/2007), thank you @fnkabit)
+  - for more information please take a look at the
+    [MainWindow scripting documentation](https://www.qownnotes.org/scripting/classes.html#mainwindow)
+    and the [Hook scripting documentation](https://www.qownnotes.org/scripting/hooks.html#windowstatechangedhook)
+  - there also is a new script `Dynamic Workspace` in the script repository that
+    you can use to toggle workspaces when you maximize the window
+
+## 21.1.2
+- now the extra-selections of the search results in the note text are also
+  highlighted when searching for notes in the note search panel
+  (for [#1981](https://github.com/pbek/QOwnNotes/issues/1981))
+- now the main heading in the experimental note list preview is shown if the main
+  headings is allowed to be different than the note name in the current note folder  
+  (for [#2004](https://github.com/pbek/QOwnNotes/issues/2004))
+
+## 21.1.1
+- now the first occurrence of the search term is found first in the note text,
+  when searching for notes in the note search panel (instead of the the last
+  occurrence) (for [#1981](https://github.com/pbek/QOwnNotes/issues/1981))
+- added repositories for **openSUSE Leap 15.3**
+  - please visit the [openSUSE installation page](https://www.qownnotes.org/installation/opensuse.html)
+    for instructions
+- added more translation (thank you amirkbrpr, afischer211, rawfreeamy, zmni, martastan, silviact)
+
+## 21.1.0
+- if you switch between previous and next note tabs now the note text edit is focused
+  (for [#2001](https://github.com/pbek/QOwnNotes/issues/2001))
+  - the cursor position in the notes is remembered when switching to another tab
+    and restored when you come back to the tab
+- added more translation (thank you rawfreeamy, amirkbrpr, mguerra, martastan, cberetta, unchase)
+
+## 20.12.9
+- the in-note search performance was improved
+  (for [#1985](https://github.com/pbek/QOwnNotes/issues/1985), thank you @Waqar144)
+
+## 20.12.8
+- fixed an issue with decrypting notes after encrypting for the first time, but
+  never saving them (for [#1992](https://github.com/pbek/QOwnNotes/issues/1992))
+
+## 20.12.7
+- now storing notes in different cases is also prohibited to prevent more problems on 
+  case-insensitive filesystems, like NTFS (for [#1988](https://github.com/pbek/QOwnNotes/issues/1988))
+- added more Slovenian, Ukrainian, Urdu (Pakistan), Polish, Sinhala translation
+  (thank you radovanm, nelkobud, farhan1985, martastan, helabasa)
+
+## 20.12.6
+- different cases in note names for different notes are now prohibited to prevent problems
+  on case-insensitive filesystems, like NTFS (for [#1988](https://github.com/pbek/QOwnNotes/issues/1988))
+
+## 20.12.5
+- if you are searching for text in the note list now for the search term is also
+  searched again inside the notes when you click on other notes in the the note list
+  (for [#1980](https://github.com/pbek/QOwnNotes/issues/1980))
+
 ## 20.12.4
 - the scripting engine was fixed for Windows 10
   (for [#1979](https://github.com/pbek/QOwnNotes/issues/1979))
@@ -2020,7 +2258,7 @@
       that way) if the text of an encrypted note was changed
         - also the tooltip of the note in the note list will be updated
 - media files are now only copied if the destination path is a note folder when
-  copying or moving notes to an other note folder (for [#1294](https://github.com/pbek/QOwnNotes/issues/1294))
+  copying or moving notes to another note folder (for [#1294](https://github.com/pbek/QOwnNotes/issues/1294))
 - fixed the Nextcloud tooltip texts in the buttons on the *Nextcloud / ownCloud settings page*
 - added more Greek, Dutch, Hungarian, Catalan, Indonesian, Russian, German translation
   (thank you athrouss, Fabijenna, MGuerra, zmni, mikhail-khokhlov, rakekniven)

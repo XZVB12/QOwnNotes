@@ -426,8 +426,8 @@ bool DatabaseService::setupTables() {
     queryMemory.exec(
         QStringLiteral("CREATE TABLE IF NOT EXISTS note ("
                        "id INTEGER PRIMARY KEY,"
-                       "name VARCHAR(255),"
-                       "file_name VARCHAR(255),"
+                       "name VARCHAR(255) COLLATE NOCASE,"
+                       "file_name VARCHAR(255) COLLATE NOCASE,"
                        "file_size INT64 DEFAULT 0,"
                        "note_sub_folder_id int,"
                        "note_text TEXT,"
@@ -849,6 +849,16 @@ bool DatabaseService::setupTables() {
         settings.remove(QStringLiteral("Editor/removeTrainingSpaces"));
 
         version = 35;
+    }
+
+    if (version < 36) {
+        // remove possibly corrupted printer dialog settings from
+        // https://github.com/pbek/QOwnNotes/commit/ef0475692a4baf6f0b30bb200c0ee10157e7c2a6
+        // so they can be generated new
+        settings.remove(QStringLiteral("Printer/NotePrinting"));
+        settings.remove(QStringLiteral("Printer/NotePDFExport"));
+
+        version = 36;
     }
 
     if (version != oldVersion) {

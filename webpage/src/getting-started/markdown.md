@@ -16,7 +16,7 @@ Use headings to structure your texts.
 ```
 
 ::: tip
-The **Navigation panel** shows shows the structure of your headings. 
+The **Navigation panel** shows the structure of your headings. 
 :::
 
 Alternatively, for H1 and H2, an underline-ish style:
@@ -190,6 +190,39 @@ There also is some syntax highlighting with code blocks in QOwnNotes.
 cd Notes
 ```
 ~~~
+Currently supported languages (and code block identifiers) are:
+* BASh scripting, `bash`
+* C, `c`
+* C++, `cpp`
+* C++, `cxx`
+* C++, `c++`
+* C#, `c#`
+* CMake, `cmake`
+* C#, `csharp`
+* CSS, `css`
+* Go, `go`
+* HTML, `html`
+* INI, `ini`
+* Java, `java`
+* JavaScript, `javascript`
+* JavaScript, `js`
+* JSON, `json`
+* Makefile, `make`
+* PHP, `php`
+* Python, `py`
+* Python, `python`
+* QML, `qml`
+* Rust, `rust`
+* Shell scripting, `sh`
+* SQL, `sql`
+* TypeScript, `ts`
+* TypeScript, `typescript`
+* V, `v`
+* Vex, `vex`
+* XML, `xml`
+* YAML, `yml`
+* YAML, `yaml`
+
 
 ## Tables
 
@@ -288,6 +321,10 @@ Comments are not shown in the preview.
 
 <!-- HTML comments are also hidden -->
 ```
+
+::: tip
+A leading html comment block in a note will also be ignored in the automatic note filename generation.
+:::
 
 ## Checkbox lists
 

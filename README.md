@@ -16,7 +16,7 @@
 
 [![Build Status GitHub Actions](https://github.com/pbek/QOwnNotes/workflows/build-test/badge.svg?branch=develop)](https://github.com/pbek/QOwnNotes/actions)
 [![Build Status Windows](https://ci.appveyor.com/api/projects/status/github/pbek/QOwnNotes)](https://ci.appveyor.com/project/pbek/qownnotes)
-[![Snap Status](https://build.snapcraft.io/badge/pbek/QOwnNotes.svg)](https://build.snapcraft.io/user/pbek/QOwnNotes)
+[![Snap Status](https://snapcraft.io/qownnotes/badge.svg)](https://snapcraft.io/qownnotes)
 [![Coverage Status](https://coveralls.io/repos/pbek/QOwnNotes/badge.svg?branch=develop&service=github)](https://coveralls.io/github/pbek/QOwnNotes?branch=develop)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/pbek/QOwnNotes.svg)](http://isitmaintained.com/project/pbek/QOwnNotes "Percentage of issues still open")
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/qownnotes/localized.svg)](https://crowdin.com/project/qownnotes)
@@ -25,7 +25,7 @@
 
 [QOwnNotes](https://www.qownnotes.org) is the **open source notepad** with
 [**markdown support**](https://github.com/pbek/QOwnNotes/blob/develop/src/demonotes/Markdown%20Cheatsheet.md)
-and **todo list manager** for **GNU/Linux**, **Mac OS X** and **Windows**,
+and **todo list manager** for **GNU/Linux**, **macOS** and **Windows**,
 that works together with [**Nextcloud Notes**](https://github.com/Nextcloud/notes)
 and [**ownCloud Notes**](https://github.com/owncloud/notes).
 

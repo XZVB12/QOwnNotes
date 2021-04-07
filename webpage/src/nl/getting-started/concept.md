@@ -33,11 +33,12 @@ graph TB
 
 ## QOwnNotes
 
-- QOwnNotes **slaat notities** rechtstreeks op in uw **notitiemap als markdown-bestanden**
-- Het kan rechtstreeks met uw Nextcloud / ownCloud-server praten om notities te delen
-- Je hebt ook toegang tot je notitiegeschiedenis en prullenbak op je Nextcloud / ownCloud-server via de [QOwnNotesApi Nextcloud-app](#qownnotesapi-nextcloud-app)
+- QOwnNotes **slaat notities** op in uw **notitiemap als markdown-bestanden**
+- Het kan met uw Nextcloud / ownCloud-server **praten om openbaar notities te delen** met andere mensen
+- Je hebt ook **toegang tot je notitiegeschiedenis en prullenbak** op je Nextcloud / ownCloud-server via de [QOwnNotesApi Nextcloud-app](#qownnotesapi-nextcloud-app)
 - Todo-lijsten op uw Nextcloud / ownCloud-server zijn toegankelijk vanuit QOwnNotes
-- QOwnNotes **synchroniseert niet** uw notities en media / bijlagebestanden, het synchroniseren van bestanden is een moeilijke zaak, er zijn al goede oplossingen voor (zie [Nextcloud desktop sync client](#nextcloud-desktop-sync-client))
+- **QOwnNotes synchroniseert uw notities niet** en media- / bijlagebestanden!
+    - Bestandssynchronisatie is een complexe onderneming, er zijn al geweldige oplossingen voor het synchroniseren van bestanden beschikbaar (zie [Nextcloud desktop-synchronisatieclient](#nextcloud-desktop-sync-client))
 
 
 ## Markdown-notitiebestanden
@@ -72,8 +73,13 @@ Om online met uw notities te werken, kunt u servers zoals [Nextcloud](https://ne
 
 U kunt uw eigen server hosten of gehoste oplossingen gebruiken.
 
+Er is een [door de community onderhouden lijst met Nextcloud-providers](https://github.com/nextcloud/providers#providers), evenals een [lijst met apparaten met Nextcloud](https://nextcloud.com/devices/).
+
+[Portknox](https://portknox.net) heeft gemeld dat ze [QOwnNotesAPI hebben geïnstalleerd](https://portknox.net/en/app_listing).
+
 ::: tip
-Natuurlijk kunnen ook andere oplossingen, zoals **Dropbox**, **Syncthing**, **Seafile** of BitTorrent Sync worden gebruikt om uw notities en andere bestanden te hosten
+Natuurlijk kunnen ook andere oplossingen, zoals **Dropbox**, **Syncthing**, **Seafile** of BitTorrent Sync worden gebruikt om uw notities en andere bestanden te hosten.
+:::
 
 ## QOwnNotesAPI Nextcloud app
 

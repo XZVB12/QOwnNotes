@@ -398,7 +398,6 @@ QStringList Note::getMediaFileList() {
     QRegularExpression re(QStringLiteral(R"(!\[.*?\]\(.*media/(.+?)\))"));
     QRegularExpressionMatchIterator i = re.globalMatch(_noteText);
 
-    // remove all found images from the orphaned files list
     while (i.hasNext()) {
         QRegularExpressionMatch match = i.next();
         const QString fileName = match.captured(1);
@@ -453,7 +452,6 @@ QStringList Note::getAttachmentsFileList() const {
         QStringLiteral(R"(\[.*?\]\(.*attachments/(.+?)\))"));
     QRegularExpressionMatchIterator i = re.globalMatch(text);
 
-    // remove all found attachments from the orphaned files list
     while (i.hasNext()) {
         QRegularExpressionMatch match = i.next();
         const QString fileName = match.captured(1);
@@ -1497,8 +1495,25 @@ bool Note::modifyNoteTextFileNameFromQMLHook() {
  * @return (bool) true if filename was changed
  */
 bool Note::handleNoteTextFileName() {
+    QString noteText = _noteText;
+
+    // remove frontmatter from start of markdown text
+    if (noteText.startsWith(QLatin1String("---"))) {
+        noteText.remove(
+            QRegularExpression(QStringLiteral(R"(^---\n.+?\n---\n)"),
+                               QRegularExpression::DotMatchesEverythingOption));
+    }
+
+    // remove html comment from start of markdown text
+    if (noteText.startsWith(QLatin1String("<!--"))) {
+        noteText.remove(
+            QRegularExpression(QStringLiteral(R"(^<!--.+?-->\n)"),
+                               QRegularExpression::DotMatchesEverythingOption));
+    }
+
     // split the text into a string list
-    const QStringList noteTextLines = getNoteTextLines();
+    const QStringList noteTextLines = noteText.trimmed().split(
+        QRegularExpression(QStringLiteral(R"((\r\n)|(\n\r)|\r|\n)")));
     const int noteTextLinesCount = noteTextLines.count();
 
     // do nothing if there is no text
@@ -1510,27 +1525,6 @@ bool Note::handleNoteTextFileName() {
     // do nothing if the first line is empty
     if (name.isEmpty()) {
         return false;
-    }
-
-    // check if we have a frontmatter
-    if (name == QStringLiteral("---") && noteTextLinesCount > 1) {
-        bool foundEnd = false;
-
-        for (int i = 1; i < noteTextLinesCount; i++) {
-            const QString &line = noteTextLines.at(i).trimmed();
-
-            if (foundEnd) {
-                if (!line.isEmpty()) {
-                    // set the name to the first non-empty line after the
-                    // frontmatter
-                    name = line;
-                    break;
-                }
-            } else if (line == QStringLiteral("---")) {
-                // we found the end of the frontmatter
-                foundEnd = true;
-            }
-        }
     }
 
     // remove a leading "# " for markdown headlines
@@ -1548,19 +1542,23 @@ bool Note::handleNoteTextFileName() {
         qDebug() << __func__ << " - 'name' was changed: " << name;
         QString fileName = generateNoteFileNameFromName(name);
 
-        int nameCount = 0;
-        const QString nameBase = name;
+        // only try to find a new name if the filename in lowercase has changed
+        // to prevent troubles on case-insensitive filesystems like NTFS
+        if (fileName.toLower() != this->_fileName.toLower()) {
+            int nameCount = 0;
+            const QString nameBase = name;
 
-        // check if note with this filename already exists
-        while (Note::fetchByFileName(fileName).isFetched()) {
-            // find new filename for the note
-            name =
-                nameBase + QStringLiteral(" ") + QString::number(++nameCount);
-            fileName = generateNoteFileNameFromName(name);
-            qDebug() << __func__ << " - 'override fileName': " << fileName;
+            // check if note with this filename already exists
+            while (Note::fetchByFileName(fileName).isFetched()) {
+                // find new filename for the note
+                name = nameBase + QStringLiteral(" ") +
+                       QString::number(++nameCount);
+                fileName = generateNoteFileNameFromName(name);
+                qDebug() << __func__ << " - 'override fileName': " << fileName;
 
-            if (nameCount > 1000) {
-                break;
+                if (nameCount > 1000) {
+                    break;
+                }
             }
         }
 
@@ -2457,8 +2455,7 @@ QString Note::textToMarkdownHtml(QString str, const QString &notesPath,
     }
 
     const bool darkModeColors =
-        !forExport ? settings.value(QStringLiteral("darkModeColors")).toBool()
-                   : false;
+        !forExport && settings.value(QStringLiteral("darkModeColors")).toBool();
 
     const QString codeForegroundColor =
         darkModeColors ? QStringLiteral("#ffffff") : QStringLiteral("#000000");
@@ -2468,7 +2465,8 @@ QString Note::textToMarkdownHtml(QString str, const QString &notesPath,
     // do some more code formatting
     // the "pre" styles are for the full-width code block background color
     codeStyleSheet += QString(
-                          "pre { display: block; background-color: %1 } "
+                          "pre { display: block; background-color: %1;"
+                          " white-space: pre-wrap } "
                           "code { padding: 3px; overflow: auto;"
                           " line-height: 1.45em; background-color: %1;"
                           " border-radius: 5px; color: %2; }")
@@ -2771,13 +2769,14 @@ QString Note::encryptNoteText() {
  * @return
  */
 QStringList Note::getNoteTextLines() const {
-    return _noteText.split(QRegExp(QStringLiteral(R"((\r\n)|(\n\r)|\r|\n)")));
+    return _noteText.split(QRegularExpression(
+        QStringLiteral(R"((\r\n)|(\n\r)|\r|\n)")));
 }
 
 /**
  * Returns the regular expression to match encrypted text
  */
-QRegularExpression Note::getEncryptedNoteTextRegularExpression() const {
+QRegularExpression Note::getEncryptedNoteTextRegularExpression() {
     // match the encrypted string
     QRegularExpression re(QRegularExpression::escape(
                               QStringLiteral(NOTE_TEXT_ENCRYPTION_PRE_STRING)) +
@@ -2829,7 +2828,7 @@ bool Note::canDecryptNoteText() const {
 
     // check if a hook changed the text
     if (decryptedNoteText.isEmpty()) {
-            // decrypt the note text with Botan
+        // decrypt the note text with Botan
         BotanWrapper botanWrapper;
         botanWrapper.setPassword(_cryptoPassword);
         botanWrapper.setSalt(QStringLiteral(BOTAN_SALT));
@@ -2870,7 +2869,7 @@ QString Note::fetchDecryptedNoteText() const {
     // changed, but not stored yet
     // in that case we want to return the already decrypted text, because that
     // text is the most current one
-    if (_hasDirtyData) {
+    if (_hasDirtyData && !_decryptedNoteText.isEmpty()) {
         return _decryptedNoteText;
     }
 
@@ -3159,7 +3158,7 @@ QString Note::fileUrlInCurrentNoteFolderToRelativePath(const QUrl &url) {
     QString path = url.toLocalFile();
     qDebug() << __func__ << " - 'path': " << path;
 
-    // translates the "a path/../an other path" to "an other path"
+    // translates the "a path/../another path" to "another path"
     // needed for Note::fetchByRelativeFilePath!
     const QFileInfo fileInfo(path);
 #ifdef Q_OS_WIN32
@@ -3318,7 +3317,8 @@ QString Note::getInsertMediaMarkdown(QFile *file, bool addNewLine,
 
         // find a random name for the new file
         const QString newFileName =
-            Utils::Misc::makeFileNameRandom(file->fileName(), suffix);
+            Utils::Misc::findAvailableFileName(file->fileName(),
+                                               mediaDir.path(), suffix);
 
         const QString newFilePath =
             mediaDir.path() + QDir::separator() + newFileName;
@@ -3403,7 +3403,7 @@ QString Note::getInsertAttachmentMarkdown(QFile *file, QString fileName,
 
         // find a random name for the new file
         const QString newFileName =
-            Utils::Misc::makeFileNameRandom(file->fileName());
+            Utils::Misc::findAvailableFileName(file->fileName(), dir.path());
 
         const QString newFilePath =
             dir.path() + QDir::separator() + newFileName;
@@ -3648,9 +3648,11 @@ QString Note::getNotePreviewText(bool asHtml, int lines) const {
     noteText.replace(QRegularExpression(QStringLiteral("\r\n")),
                      QStringLiteral("\n"));
 
-    // remove headlines
-    noteText.remove(QRegularExpression(QStringLiteral("^.+\n=+\n+")));
-    noteText.remove(QRegularExpression(QStringLiteral("^# .+\n+")));
+    if (!allowDifferentFileName()) {
+        // remove headlines
+        noteText.remove(QRegularExpression(QStringLiteral("^.+\n=+\n+")));
+        noteText.remove(QRegularExpression(QStringLiteral("^# .+\n+")));
+    }
 
     // remove multiple line breaks
     noteText.replace(QRegularExpression(QStringLiteral("\n\n+")),
@@ -3807,4 +3809,9 @@ QDebug operator<<(QDebug dbg, const Note &note) {
                   << noteSubFolder.relativePath() << " <hasDirtyData>"
                   << note._hasDirtyData;
     return dbg.space();
+}
+
+bool Note::operator==(const Note &note) const {
+    return _id == note.getId() && _fileName == note.getFileName() &&
+           _noteSubFolderId == note.getNoteSubFolderId();
 }

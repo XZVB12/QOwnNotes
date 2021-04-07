@@ -333,18 +333,15 @@ Deze hook wordt aangeroepen wanneer gegevens worden verzonden vanuit de QOwnNote
 
 ### Methodeaanroep en parameters
 ```js
-/ **
+/**
   * @param requestType kan "pagina" of "selectie" zijn
   * @param pageUrl de url van de webpagina waar het verzoek is gedaan
   * @param page Titel de paginatitel van de webpagina waar het verzoek is gedaan
   * @param rawData de gegevens die zijn verzonden, html voor requestType "page" of platte tekst voor requestType "selection"
   * @param screenshotDataUrl de data-url van de screenshot als de webpagina waar het verzoek is gedaan
   * @return waar als gegevens werden afgehandeld door een haak
-  * /
-bool ScriptingService :: callHandleWebsocketRawDataHook (
-     const QString & amp; requestType, const QString & amp; pageUrl,
-     const QString & amp; pageTitle, const QString & amp; rawData,
-     const QString & amp; screenshotDataUrl);
+  */
+function callHandleWebsocketRawDataHook(requestType, pageUrl, pageTitle, rawData, screenshotDataUrl);
 ```
 
 Misschien wilt u de voorbeelden eens bekijken [websocket-raw-data-new-note.qml](https://github.com/pbek/QOwnNotes/blob/develop/docs/scripting/examples/websocket-raw-data-new-note.qml) en [websocket-raw-data-selection-in-note.qml](https://github.com/pbek/QOwnNotes/blob/develop/docs/scripting/examples/websocket-raw-data-selection-in-note.qml).
@@ -367,4 +364,20 @@ Deze hook wordt aangeroepen wanneer een scriptthread van [startDetachedProcess](
   * /
 functie onDetachedProcessCallback (callbackIdentifier, resultSet, cmd, thread);
 ```
+
 Misschien wilt u het voorbeeld eens bekijken [callback-example.qml](https://github.com/pbek/QOwnNotes/blob/develop/docs/scripting/examples/callback.qml).
+
+windowStateChangedHook
+--------------
+
+### Methodeaanroep en parameters
+```js
+/**
+  * Deze functie wordt aangeroepen nadat een WindowStateChange-gebeurtenis is geactiveerd
+  *
+  * @param {QString} windowState - de nieuwe vensterstatus, parameterwaarde kan "geminimaliseerd", "gemaximaliseerd", "volledig scherm", "actief" of "nostate" zijn
+  */
+functie windowStateChangedHook (windowState);
+```
+
+Misschien wilt u het voorbeeld eens bekijken [window-state-changed.qml](https://github.com/pbek/QOwnNotes/blob/develop/docs/scripting/examples/window-state-changed.qml).

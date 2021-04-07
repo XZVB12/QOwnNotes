@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2020 Patrizio Bekerle -- <patrizio@bekerle.com>
+ * Copyright (c) 2014-2021 Patrizio Bekerle -- <patrizio@bekerle.com>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -496,13 +496,23 @@ QString Utils::Misc::defaultNotesPath() {
         path.append(".test");
 #endif
 
+        // check if ownCloud path is found
         QDir dir(path);
         if (!dir.exists()) {
+            // set Nextcloud path if ownCloud wasn't found
             path = QDir::homePath() % Utils::Misc::dirSeparator() %
                    QStringLiteral("Nextcloud");
         }
+
+        // check if Nextcloud path is found
+        dir = QDir(path);
+        if (!dir.exists()) {
+            // set home directory path if Nextcloud wasn't found
+            path = QDir::homePath();
+        }
     }
 
+    // add "Notes" to the base path
     path += Utils::Misc::dirSeparator() % QStringLiteral("Notes");
 
     // remove the snap path for Snapcraft builds
@@ -1102,34 +1112,33 @@ void writeStreamElement<QString>(QDataStream &os, const QString s) {
     os << s;
 }
 
+/**
+ * Save printer settings to a stream
+ */
 QDataStream &Utils::Misc::dataStreamWrite(QDataStream &os,
                                           const QPrinter &printer) {
     writeStreamElement(os, printer.printerName());
-    writeStreamElement(os, printer.pageSize());
+    writeStreamElement(os, printer.pageLayout().pageSize().id());
     writeStreamElement(os, printer.collateCopies());
     writeStreamElement(os, printer.colorMode());
     writeStreamElement(os, printer.copyCount());
     writeStreamElement(os, printer.creator());
     writeStreamElement(os, printer.docName());
-    writeStreamElement(os, printer.doubleSidedPrinting());
     writeStreamElement(os, printer.duplex());
     writeStreamElement(os, printer.fontEmbeddingEnabled());
     writeStreamElement(os, printer.fullPage());
-    writeStreamElement(os, printer.orientation());
+    writeStreamElement(os, printer.pageLayout().orientation());
     writeStreamElement(os, printer.outputFileName());
     writeStreamElement(os, printer.outputFormat());
     writeStreamElement(os, printer.pageOrder());
-    writeStreamElement(os, printer.paperSize());
     writeStreamElement(os, printer.paperSource());
     writeStreamElement(os, printer.printProgram());
     writeStreamElement(os, printer.printRange());
     writeStreamElement(os, printer.printerName());
     writeStreamElement(os, printer.resolution());
-    writeStreamElement(os, printer.winPageSize());
 
-    qreal left, top, right, bottom;
-    printer.getPageMargins(&left, &top, &right, &bottom, QPrinter::Millimeter);
-    os << left << top << right << bottom;
+    auto margins = printer.pageLayout().margins(QPageLayout::Unit::Millimeter);
+    os << margins.left() << margins.top() << margins.right() << margins.bottom();
 
     Q_ASSERT_X(
         os.status() == QDataStream::Ok, __FUNCTION__,
@@ -1155,34 +1164,40 @@ QString readStreamElement<QString>(QDataStream &is) {
     return s;
 }
 
+/**
+ * Load printer settings from a stream
+ */
 QDataStream &Utils::Misc::dataStreamRead(QDataStream &is, QPrinter &printer) {
     printer.setPrinterName(readStreamElement<QString>(is));
-    printer.setPageSize(readStreamElement<QPrinter::PaperSize>(is));
+
+    QPageSize pageSize(readStreamElement<QPageSize::PageSizeId>(is));
+    auto pageLayout = printer.pageLayout();
+    pageLayout.setPageSize(pageSize);
+    printer.setPageLayout(pageLayout);
+
     printer.setCollateCopies(readStreamElement<bool>(is));
     printer.setColorMode(readStreamElement<QPrinter::ColorMode>(is));
     printer.setCopyCount(readStreamElement<int>(is));
     printer.setCreator(readStreamElement<QString>(is));
     printer.setDocName(readStreamElement<QString>(is));
-    printer.setDoubleSidedPrinting(readStreamElement<bool>(is));
     printer.setDuplex(readStreamElement<QPrinter::DuplexMode>(is));
     printer.setFontEmbeddingEnabled(readStreamElement<bool>(is));
     printer.setFullPage(readStreamElement<bool>(is));
-    printer.setOrientation(readStreamElement<QPrinter::Orientation>(is));
+    printer.setPageOrientation(readStreamElement<QPageLayout::Orientation>(is));
     printer.setOutputFileName(readStreamElement<QString>(is));
     printer.setOutputFormat(readStreamElement<QPrinter::OutputFormat>(is));
     printer.setPageOrder(readStreamElement<QPrinter::PageOrder>(is));
-    printer.setPaperSize(readStreamElement<QPrinter::PaperSize>(is));
     printer.setPaperSource(readStreamElement<QPrinter::PaperSource>(is));
     printer.setPrintProgram(readStreamElement<QString>(is));
     printer.setPrintRange(readStreamElement<QPrinter::PrintRange>(is));
     printer.setPrinterName(readStreamElement<QString>(is));
     printer.setResolution(readStreamElement<int>(is));
-    printer.setWinPageSize(readStreamElement<int>(is));
 
     qreal left, top, right, bottom;
     is >> left >> top >> right >> bottom;
 
-    printer.setPageMargins(left, top, right, bottom, QPrinter::Millimeter);
+    QMarginsF margins(left, top, right, bottom);
+    printer.setPageMargins(margins, QPageLayout::Unit::Millimeter);
 
     Q_ASSERT_X(
         is.status() == QDataStream::Ok, __FUNCTION__,
@@ -2088,6 +2103,42 @@ QString Utils::Misc::makeFileNameRandom(const QString &fileName,
 }
 
 /**
+ * Returns a non-existing filename (like "my-image.jpg") in directoryPath
+ * If the filename is already taken a number will be appended (like "my-image-1.jpg")
+ */
+QString Utils::Misc::findAvailableFileName(const QString &fileName,
+                                           const QString &directoryPath,
+                                           const QString &overrideSuffix) {
+    const QFileInfo fileInfo(fileName);
+    QString baseName = fileInfo.baseName();
+    baseName.truncate(200);
+    const QString newSuffix = fileInfo.suffix();
+    QString newBaseName = baseName;
+    QString newFileName = newBaseName + QStringLiteral(".") + newSuffix;
+    QString newFilePath = directoryPath + QDir::separator() + newFileName;
+    QFile file(newFilePath);
+    int nameCount = 0;
+
+    // check if file with this filename already exists
+    while (file.exists()) {
+        // find new filename for the file
+        newBaseName = baseName + QStringLiteral("-") +
+               QString::number(++nameCount);
+        newFileName = newBaseName + QStringLiteral(".") + newSuffix;
+        newFilePath = directoryPath + QDir::separator() + newFileName;
+        file.setFileName(newFilePath);
+        qDebug() << __func__ << " - 'override fileName': " << newFileName;
+
+        if (nameCount > 1000) {
+            newFileName = makeFileNameRandom(fileName, overrideSuffix);
+            break;
+        }
+    }
+
+    return newFileName;
+}
+
+/**
  * Strips all trailing spaces from str and returns the stripped text
  *
  * @param str
@@ -2114,4 +2165,92 @@ bool Utils::Misc::fileExists(const QString& path) {
     const QFile file(path);
     const QFileInfo fileInfo(file);
     return file.exists() && fileInfo.isFile() && fileInfo.isReadable();
+}
+
+static QString removeReducedCJKAccMark(const QString &label, int pos)
+{
+    if (pos > 0 && pos + 1 < label.length()
+            && label[pos - 1] == QLatin1Char('(') && label[pos + 1] == QLatin1Char(')')
+            && label[pos].isLetterOrNumber()) {
+        // Check if at start or end, ignoring non-alphanumerics.
+        int len = label.length();
+        int p1 = pos - 2;
+        while (p1 >= 0 && !label[p1].isLetterOrNumber()) {
+            --p1;
+        }
+        ++p1;
+        int p2 = pos + 2;
+        while (p2 < len && !label[p2].isLetterOrNumber()) {
+            ++p2;
+        }
+        --p2;
+
+        if (p1 == 0) {
+            return label.left(pos - 1) + label.mid(p2 + 1);
+        } else if (p2 + 1 == len) {
+            return label.left(p1) + label.mid(pos + 2);
+        }
+    }
+    return label;
+}
+
+/**
+ * @brief Removes accelarator markers from a label
+ *
+ * Taken from KDE's Ki18n library
+ */
+QString Utils::Misc::removeAcceleratorMarker(const QString &label_)
+{
+    QString label = label_;
+
+    int p = 0;
+    bool accmarkRemoved = false;
+    while (true) {
+        p = label.indexOf(QLatin1Char('&'), p);
+        if (p < 0 || p + 1 == label.length()) {
+            break;
+        }
+
+        if (label[p + 1].isLetterOrNumber()) {
+            // Valid accelerator.
+            label = QString(label.left(p) + label.mid(p + 1));
+
+            // May have been an accelerator in CJK-style "(&X)"
+            // at the start or end of text.
+            label = removeReducedCJKAccMark(label, p);
+
+            accmarkRemoved = true;
+        } else if (label[p + 1] == QLatin1Char('&')) {
+            // Escaped accelerator marker.
+            label = QString(label.left(p) + label.mid(p + 1));
+        }
+
+        ++p;
+    }
+
+    // If no marker was removed, and there are CJK characters in the label,
+    // also try to remove reduced CJK marker -- something may have removed
+    // ampersand beforehand.
+    if (!accmarkRemoved) {
+        bool hasCJK = false;
+        for (const QChar c : asConst(label)) {
+            if (c.unicode() >= 0x2e00) { // rough, but should be sufficient
+                hasCJK = true;
+                break;
+            }
+        }
+        if (hasCJK) {
+            p = 0;
+            while (true) {
+                p = label.indexOf(QLatin1Char('('), p);
+                if (p < 0) {
+                    break;
+                }
+                label = removeReducedCJKAccMark(label, p + 1);
+                ++p;
+            }
+        }
+    }
+
+    return label;
 }
